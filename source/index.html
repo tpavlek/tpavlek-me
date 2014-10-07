@@ -26,8 +26,16 @@ use:
     </article>
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav>
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
+    <nav class="post-controls">
+        {% if page.pagination.previous_page %}
+        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 right">
+            Newer Posts
+        </a>
+        {% endif %}
+        {% if page.pagination.next_page %}
+        <a href="{{ site.url }}{{ page.pagination.next_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 left">
+            Older Posts
+        </a>
+        {% endif %}
     </nav>
 {% endif %}

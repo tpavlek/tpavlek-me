@@ -19,7 +19,7 @@ html { height: 100%; }
 body {
     line-height: 1.6em;
     font-size: 13px;
-    height: calc(100% - 62px);
+    height: 100%;
 }
 
 h1,
@@ -32,39 +32,40 @@ label {
     color: #033649;
 }
 
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    height: 62px;
-}
-
-.home-menu.pure-menu-open {
-    background: #007C41;
-}
-
-.pure-menu.pure-menu-open.pure-menu-fixed {
-    border-bottom: none;
-    /* The z-index puts it above the scrolling effect below */
-    z-index: 4;
-}
-
 .pure-menu.pure-menu-open.sidebar {
-    background: #2D9C67;
+    background: #245687;
     border: none;
-    width:250px;
+    width:20rem;
     float:left;
-    padding:15px 0 50px 0;
-    height: calc(100% - 57px);
+    padding:0 0 50px 0;
+    height: 100%;
     color: whitesmoke;
     line-height: 1.8em;
+    display:block;
+    position:fixed;
+}
+
+.sidebar p {
+    padding: 20px;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4 {
+    color:whitesmoke;
+    padding-left:0.5em;
 }
 .pure-menu.pure-menu-open.sidebar li {
     padding: 0 25px 0 45px;
 }
+
+.pure-menu.pure-menu-open.sidebar li a {
+    font-size:150%;
+}
 .pure-menu.pure-menu-open.sidebar li:hover {
     padding: 0 25px 0 45px;
-    background: #39CC86;
+    background: #497EB3;
     cursor: pointer;
 }
 
@@ -77,10 +78,10 @@ label {
 .sidebar hr {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(2,102,54,0), rgba(2,102,54,0.75), rgba(2,102,54,0));
-    background-image:    -moz-linear-gradient(left, rgba(2,102,54,0), rgba(2,102,54,0.75), rgba(2,102,54,0));
-    background-image:     -ms-linear-gradient(left, rgba(2,102,54,0), rgba(2,102,54,0.75), rgba(2,102,54,0));
-    background-image:      -o-linear-gradient(left, rgba(2,102,54,0), rgba(2,102,54,0.75), rgba(2,102,54,0));
+    background-image: -webkit-linear-gradient(left, rgba(36, 86, 135), rgba(36, 86, 135.75), rgba(36, 86, 135));
+    background-image:    -moz-linear-gradient(left, rgba(36, 86, 135), rgba(36, 86, 135.75), rgba(36, 86, 135));
+    background-image:     -ms-linear-gradient(left, rgba(36, 86, 135), rgba(36, 86, 135.75), rgba(36, 86, 135));
+    background-image:      -o-linear-gradient(left, rgba(36, 86, 135), rgba(36, 86, 135.75), rgba(36, 86, 135));
 }
 
 .pure-menu.sidebar a {
@@ -92,51 +93,62 @@ label {
     background: none;
 }
 
-.home-menu .pure-menu-heading {
-    color: whitesmoke;
-    font-weight:bold;
-    font-size:150%;
-    float:left;
-}
-
-.home-menu ul {
-    float: right;
-}
-
-.home-menu li a {
-    color:whitesmoke;
-    font-size:120%;
-}
-
-.home-menu li.pure-menu-selected a {
-    color: #EBE30C;
-}
-
-.home-menu li a:hover {
-    background: none;
+.pure-menu.sidebar img {
+    max-width: 100%;
 }
 
 /* We wrap everything so that it's offset by menu height */
 .wrap {
-    margin-top: 62px;
     min-height: 100%;
     position:relative;
     padding-bottom:57px;
+    background-color: rgb(199, 113, 22);
 }
 
 .sidebar-bg {
-    background-image: linear-gradient( #2D9C67 100%, #2D9C67 100%);
-    background-size: 250px 1px;
+    background-image: linear-gradient( #245687 100%, #245687 100%);
+    background-size: 320px 1px;
     background-repeat: repeat-y;
 }
 
 .content-wrapper {
     height: calc(100% - 57px);
+    margin-left: 21rem;
     padding: 1em;
-    background-image: url('/img/bg/crossword.png');
+    padding-top: 0;
+    padding-left: 0;
     background-repeat: repeat;
     background-position: top left;
     overflow: hidden;
+}
+
+article {
+    background: floralwhite;
+    display:block;
+    padding:1em;
+    margin-top:1em;
+}
+
+.drop-shadow-z-1 {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.drop-shadow-z-2 {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.drop-shadow-z-3 {  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24); }
+
+nav.post-controls {
+    margin-top:1em;
+}
+
+nav .left {
+    float: left;
+}
+
+nav .right {
+    float:right;
 }
 
 .is-centered {

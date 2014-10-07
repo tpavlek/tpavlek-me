@@ -8,11 +8,31 @@
         <link href="{{ site.url }}/css/grids-responsive.min.css" rel="stylesheet" type="text/css" />
         <link href="{{ site.url }}/css/forms.css" rel="stylesheet" type="text/css" />
         <link href="{{ site.url }}/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="{{ site.url }}/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-    <div class="wrap">
+    <div class="wrap sidebar-bg">
+        <div class="pure-menu pure-menu-open sidebar">
+            <img src="{{ site.url }}/img/crayon-portrait.png" />
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.subtitle }}</p>
+            <ul>
+                <li>
+                    <a href="{{ site.url}}/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="{{ site.url }}/blog">Archive</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/troypavlek">Twitter: @troypavlek</a>
+                </li>
+                <li>
+                    <a href="http://github.com/tpavlek">Github: tpavlek</a>
+                </li>
+            </ul>
+        </div>
         <div class="content-wrapper">
-
+            {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
         </div>
         <div class="footer l-box is-centered">
             &copy; Troy Pavlek 2014
