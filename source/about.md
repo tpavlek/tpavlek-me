@@ -3,6 +3,6 @@ layout: default
 title: About
 
 ---
-# About the Author or Blog
+# About Me
 
-Here is a little information about the author or the blog.
+I'm a pretty coal d00d.

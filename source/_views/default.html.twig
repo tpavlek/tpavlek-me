@@ -4,6 +4,7 @@
         <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ site.url }}/css/prism.css" rel="stylesheet" type="text/css" />
         <link href="{{ site.url }}/css/pure.min.css" rel="stylesheet" type="text/css" />
         <link href="{{ site.url }}/css/grids-responsive.min.css" rel="stylesheet" type="text/css" />
         <link href="{{ site.url }}/css/forms.css" rel="stylesheet" type="text/css" />
@@ -33,6 +34,20 @@
         </div>
         <div class="content-wrapper">
             {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
+                {% if page.pagination.previous_page or page.pagination.next_page %}
+                <nav class="post-controls">
+                    {% if page.pagination.previous_page %}
+                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 right">
+                        Newer Posts
+                    </a>
+                    {% endif %}
+                    {% if page.pagination.next_page %}
+                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 left">
+                        Older Posts
+                    </a>
+                    {% endif %}
+                </nav>
+            {% endif %}
         </div>
         <div class="footer l-box is-centered">
             &copy; Troy Pavlek 2014
@@ -42,6 +57,7 @@
 
     {% block scripts %}
     {% endblock %}
+    <script src="{{ site.url }}/js/prism.js"></script>
 
     {% if site.google_analytics_tracking_id %}
 

@@ -8,24 +8,14 @@
         <div>
             {{ page.blocks.content|raw }}
         </div>
-        {% if page.categories %}
-            <p class="categories">
-            Categories:
-            {% for category in page.categories %}
-            <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
         {% if page.tags %}
             <p class="tags">
-            Tags:
+                Tags
             {% for tag in page.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="tag tag-{{ tag }}">{{ tag }}</a>
             {% endfor %}
             </p>
         {% endif %}
-
-
     </article>
         {% if page.previous_post or page.next_post %}
         <nav class="post-controls">
