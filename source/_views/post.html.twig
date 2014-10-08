@@ -21,12 +21,18 @@
         <nav class="post-controls">
             {% if page.next_post %}
             <a class="right pure-button pure-button-lightblue drop-shadow-z-2" href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}">
-                Next: <span class="title">{{ page.next_post.title }}</span>
+                Next:
+                <span class="title">
+                    {{ page.next_post.title|length > 30 ? page.next_post.title|slice(0, 30) ~ '...' : page.next_post.title }}
+                </span>
             </a>
             {% endif %}
             {% if page.previous_post %}
             <a class="left pure-button pure-button-lightblue drop-shadow-z-2" href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}">
-                Prev: <span class="title">{{ page.previous_post.title }}</span>
+                Prev:
+                <span class="title">
+                    {{ page.previous_post.title|length > 30 ? page.previous_post.title|slice(0, 30) ~ '...' : page.previous_post.title }}
+                </span>
             </a>
             {% endif %}
         </nav>

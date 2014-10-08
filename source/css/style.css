@@ -129,6 +129,11 @@ article {
     margin-top:1em;
 }
 
+article img {
+    max-width: 100%;
+    max-height: 50vh;
+}
+
 .drop-shadow-z-1 {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
 }
@@ -152,6 +157,11 @@ nav .right { float:right; }
 .tag-starcraft { background-color: #033649; }
 .tag-sc2ctl { background-color: #3D62B3; }
 .tag-bitching { background-color: #C4433B; }
+.tag-review { background-color: #66227D; }
+.tag-php { background-color: #8892BF; }
+.tag-ruby { background-color: #F7658F; }
+.tag-programming { background-color: #177D05; }
+.tag-crayons { background-color: #E67A0E; }
 
 .is-centered {
     text-align: center;

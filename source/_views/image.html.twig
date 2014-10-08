@@ -1,0 +1,12 @@
+{% if caption is defined %}
+    <table>
+        <tr>
+            <td><img src="{{page.imgpath}}{{name}}" /></td>
+        </tr>
+        <tr>
+            <td><em>{{ caption }}</em></td>
+        </tr>
+    </table>
+    {% else %}
+        <img src="{{page.imgpath}}{{name}}" {% if inline is defined %} style="display:inline;" {% endif %}/>
+{% endif %}
