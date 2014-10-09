@@ -31,6 +31,24 @@
     </head>
     <body>
     <div class="wrap sidebar-bg">
+        <div class="content-wrapper">
+            {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
+            {% if page.pagination.previous_page or page.pagination.next_page %}
+                <nav class="post-controls">
+                    {% if page.pagination.previous_page %}
+                        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 right">
+                            Newer Posts
+                        </a>
+                    {% endif %}
+                    {% if page.pagination.next_page %}
+                        <a href="{{ site.url }}{{ page.pagination.next_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 left">
+                            Older Posts
+                        </a>
+                    {% endif %}
+                </nav>
+            {% endif %}
+        </div>
+
         <div class="pure-menu pure-menu-open sidebar">
             <img src="{{ site.url }}/img/crayon-portrait.png" />
             <h1>{{ site.title }}</h1>
@@ -50,27 +68,7 @@
                 </li>
             </ul>
         </div>
-        <div class="content-wrapper">
-            {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
-                {% if page.pagination.previous_page or page.pagination.next_page %}
-                <nav class="post-controls">
-                    {% if page.pagination.previous_page %}
-                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 right">
-                        Newer Posts
-                    </a>
-                    {% endif %}
-                    {% if page.pagination.next_page %}
-                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}" class="pure-button pure-button-lightblue drop-shadow-z-2 left">
-                        Older Posts
-                    </a>
-                    {% endif %}
-                </nav>
-            {% endif %}
-        </div>
-        <div class="footer l-box is-centered">
-            &copy; Troy Pavlek 2014
-        </div>
-
+        <div class="footer l-box is-centered">&copy; Troy Pavlek 2014</div>
     </div>
 
     {% block scripts %}
