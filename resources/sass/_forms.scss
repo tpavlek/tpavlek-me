@@ -1,0 +1,99 @@
+$good-color: rgb(76, 201, 71);
+
+.pure-button {
+    text-transform: uppercase;
+    font-size: 115%;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.pure-form {
+  font-family: 'Merriweather Sans', sans-serif;
+  .pure-control-group { margin-top: 0.5em; margin-bottom: 0.5em; }
+  .form-label { color: grey; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+  legend { font-weight: bold; text-transform:uppercase; font-size: 150%; margin-top: 0.5em; }
+  label{ font-family: 'Merriweather Sans', sans-serif; font-size: 110% }
+
+  input[type=text],
+  input[type=password],
+  input[type=number],
+  input[type=tel],
+  input[type=email],
+  select,
+  textarea {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 !important;
+    border: 1px solid #a0a6af;
+    box-shadow: 0 1px 0 #fff;
+    font-size: 1em !important;
+    line-height: 30px;
+    padding-left: 15px;
+    transition: none;
+    margin-bottom: 1em;
+    min-width: 300px;
+  }
+
+  select {
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    width: 300px;
+  }
+
+  /* Fixes an issue where buttons would be misplaced by 2 pixels */
+  .pure-controls a {
+    position:relative;
+    top: 2px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  ::-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  :-ms-input-placeholder {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  input:-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
+
+.select2-arrow {
+    background: none !important;
+    border-left: none !important;
+}
+
+option {
+    text-transform: none;
+}
+
+.pure-button-good { background: $good-color; }
+.pure-button-cancel { background: #949494; color:white; }
+.pure-button-cancel:hover { background: rgb(202, 60, 60); color:white;}
+.pure-button-bad { background: rgb(202, 60, 60); }
+.pure-button-secondary { background: rgb(95, 198, 218); }
+.pure-button-twitter { background: #9AE4E8; color:black !important; }
+.pure-button-gplus { background: #D34836; color:white; }
+.pure-button-facebook { background: #3D62B3; color: white; }
+.pure-button-orange { background: rgb(223, 117, 20); }
+.pure-button-brown { background: #7C4316; color:white;}
+.pure-button-small { font-size: 79%; margin: 0; }
+.pure-button-large { font-size:125%; }
+.pure-button-xlarge { font-size: 150%; }
+.pure-button-massive { font-size: 200%; }
