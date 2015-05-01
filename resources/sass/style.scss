@@ -1,6 +1,5 @@
 @import "forms";
 
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,400italic);
 
 $primary-color: #245687;
@@ -13,13 +12,13 @@ $background-color: rgb(199, 113, 22);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Changes font for pure grids */
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 html { height: 100%; }
