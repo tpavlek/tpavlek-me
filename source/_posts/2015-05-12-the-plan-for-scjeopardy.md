@@ -1,5 +1,7 @@
 ---
 title: "The Plan for Starcraft Jeopardy"
+tags:
+  - starcraft
 ---
 
 *This post will go over some thoughts in general on my project [Starcraft Jeopardy](https://sc2ctl.com/jeopardy). If you're
