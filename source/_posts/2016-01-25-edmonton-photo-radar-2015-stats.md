@@ -83,7 +83,7 @@ The Office of Traffic Safety informed me that that data is released to EPS on a 
 locations of Photo Radar vans on the Photo Radar page here: http://www.edmonton.ca/transportation/traffic_safety/photo-radar.aspx, but
 there is currently no breakdown available for number of tickets based on the location the ticket was issued.
 
-That piece of data would be interested for determining whether lower-difference tickets are issued in lower-speed areas, with a greater
+That piece of data would be interesting for determining whether lower-difference tickets are issued in lower-speed areas, with a greater
 focus on enforcement in those areas, or if Photo Radar on high speed roads is trending downwards in terms of the threshold
 for issuing tickets.
 
