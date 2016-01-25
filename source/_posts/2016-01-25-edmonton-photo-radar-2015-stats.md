@@ -91,3 +91,14 @@ I encourage all of you to generate your own opinions about this data and feel fr
 I hope this helps us all to argue our perspectives from a point of knowledge.
 
 If you have any questions or something you think should be added here, feel free to reach out on [Twitter: @troypavlek](https://twitter.com/troypavlek)
+
+### Update 1
+
+[/u/Planner_Hammish](https://www.reddit.com/r/Edmonton/comments/42neqg/edmonton_photo_radar_statistics_from_2014_on_the/czbpst0) 
+on Reddit brings up a really good point about the huge jump in tickets issued between 2012 and 2014. One look at [the report shown at
+the September 8, 2014 Audit Committee](/pdf/2016-01-25-edmonton-photo-radar-2015-stats/audit-review.pdf) (PDF Warning) shows
+that by the end of 2012, the photo radar program was $47 million over budget (the budget was $6.6 million).
+
+The document kindly notes, however:
+
+> "the program cost overruns were fully covered by program revenues, so there was no draw from the tax levy"
