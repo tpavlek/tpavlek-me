@@ -30,14 +30,19 @@ body {
 }
 
 blockquote {
-  font-size: 130%;
-  font-style: italic;
+
   margin: 0;
   border-left: 5px solid darkslategrey;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+blockquote:not(.regular-quote) {
+  font-size: 130%;
+  font-style: italic;
+
 }
 
 blockquote:before {
@@ -51,6 +56,12 @@ h5,
 h6,
 label {
     color: $heading-color;
+}
+
+.embed {
+  iframe {
+    margin: 0 auto;
+  }
 }
 
 .home-menu.pure-menu-open {
