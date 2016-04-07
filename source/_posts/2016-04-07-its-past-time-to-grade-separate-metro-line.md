@@ -54,3 +54,8 @@ make our city a national joke while we're at it.
 
 I don't know about you, but I'd like to be proud of Edmonton. Let's not half-ass this. We've done enough of that.
 
+<hr />
+
+*If you're interested in more content like this, check out [**Basket of YEGs**](https://basketofyegs.com) a local podcast about municipal
+politics that I host each week. Subscribe to the newsletter and always get updates when new episodes come out!*
+
