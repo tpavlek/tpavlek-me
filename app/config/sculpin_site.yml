@@ -2,5 +2,5 @@
 # via `site.*`. So for example, {{ site.title }} can be used
 # in a template to get the contents of the `title` key.
 title: Troy Pavlek
-subtitle: PHP Developer, Starcraft Enthusiast, Crayon Connoisseur
+subtitle: PHP Developer, Civics Junkie, Starcraft Enthusiast, Crayon Connoisseur
 google_analytics_tracking_id: "UA-56297933-1"
