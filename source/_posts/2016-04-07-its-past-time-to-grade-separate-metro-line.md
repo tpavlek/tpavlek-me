@@ -42,7 +42,7 @@ Cost: **$95MM**
 
 NAIT Station out of Service: **Minimum 12 Months**
 
-<img src="/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevated.png" />
+<img src="/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/underground.png" />
 
 # The time for grade separation is now
 
