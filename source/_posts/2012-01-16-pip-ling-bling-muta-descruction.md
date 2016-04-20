@@ -45,7 +45,7 @@ I've lost that force it's not the end of the world. I usually go up to 2 or 3 fa
 producing marine tank. On metalopolis recently I love building a supply depot wall, that forces lings and banelings to 
 either run around and take a few extra tank shots, or crash into it and waste precious banelings.
 
-{% include 'image.html.twig' with {'name': '/wall.png'} %}
+{% include 'image.html.twig' with {'name': '/wall.png', 'caption': 'Gotta wall it off' } %}
 
 I feel this wall with tanks behind it gives me a sense of control. The lings surely wouldn't be stupid enough to just 
 run in and fight the tanks, especially behind a wall. Surely I'll win. Tanks have splash damage. Right? Right?

@@ -70,4 +70,4 @@ I'll hear back from Microsoft, they said, in a maximum of a couple weeks. I'm ca
 I have the project work background and the capability of testing my code enough to overshadow the fact that I'm a first-year. 
 Here's hoping.
 
-**UPDATE: **They didn't offer me a second-round interview.
+**UPDATE**: They didn't offer me a second-round interview.

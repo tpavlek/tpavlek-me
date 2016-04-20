@@ -1,6 +1,6 @@
 ---
 title: What Fringe needs to do to avoid cancellation
-imgpath: "/img/posts/2011-02-19-fringe-avoid-cancellation"
+imgpath: "/img/posts/2011-02-19-fringe-avoid-cancellation/"
 tags:
     - misc
     - tv

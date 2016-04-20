@@ -16,6 +16,8 @@ do cocaine._ I mean, seriously, just look at that guy, he's a friggin' rockstar 
 As such it is only fitting that I bless him with the wonders that is my crayon art, and in an act of fanboyism, write him a love-haiku:
 
 
-_A warlock trapped with
-Tiger's blood thick on my lips
-Thousand suns. WINNING._
+<p style="font-style:italic;">
+    A warlock trapped with <br />
+    Tiger's blood thick on my lips <br />
+    Thousand suns. WINNING.<br />
+</p>

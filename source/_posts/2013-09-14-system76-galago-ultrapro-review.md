@@ -73,8 +73,6 @@ After more than three days with no response I realize that they wasted all of my
 
 Of course I'd love to love this system, and I tell them as such. But due to _their_&nbsp;lack of preparation, I was unable to get a proper keyboard on my system in _thirty days_, and if the second one turns out to be shit then I'm completely out of luck and stuck with this system. I asked if they could extend my returns period in light of this delay until after I evaluated the new keyboard, and then decide if I wanted to return the system and&nbsp;_received&nbsp;no response at all, but instructions for returning my system appeared in my inbox._
 
-_
-_
 Now, my system is returned and I'm out ~$140 in shipping costs. Needless to say I'm unhappy and will not be buying, nor recommending System76 to anyone.
 
 **<u>Overall</u>**
@@ -83,4 +81,4 @@ _Avoid_. Avoid, avoid, avoid.
 
 This machine is badly designed and badly supported. It's absolutely disgusting that they chose this Clevo chasis for the machine, when it's obviously so badly designed and so unusable, especially under Linux. The only reasoning I can see for them using this is greedily wanting to boast about being the "industry first" to have Iris Pro in a machine. If that's the case, then I'm even more disgusted with System76 as a company. I got penalized for being an early adopter of this machine. Please learn from my mistakes and stay far, far away.
 
-**EDIT: **(Sept 23rd) - my refund was processed. Apparently 25.25 in import duties were deducted. I'm not sure if I want to bother trying to reclaim those - getting taxes back from a foreign country seems like a lot of work, and 25$ isn't very many billable hours.
+**EDIT (Sept 23rd)**: - my refund was processed. Apparently 25.25 in import duties were deducted. I'm not sure if I want to bother trying to reclaim those - getting taxes back from a foreign country seems like a lot of work, and 25$ isn't very many billable hours.

@@ -6,6 +6,7 @@ tags:
     - php
 ---
 {%include 'image.html.twig' with {'name': '/horse-fan.jpg', 'inline': 'true'} %}
+
 The last few weeks have been a non-stop mad-dash to get the rewrite of my site done (over at 
 <a href="http://depotwarehouse.net/">http://depotwarehouse.net</a>). The primary goal behind the rewrite was to make the 
 PHP completely modular, object-oriented and -- dare I say this about anything to do with PHP -- properly written. 

@@ -21,7 +21,7 @@ Another one of the prizes went to Zoku, who requested, verbatim: "a marine poopi
 The Terran in me was happy to oblige this request - my roomate informed me that I was too gratuitous in the 
 depiction - I disagree, thought it was just right.
 
-{% include 'image.html.twig' with {'name': '/drop-in.jpg'} %}
+{% include 'image.html.twig' with {'name': '/drop-in.jpg', 'caption': 'Drops are a good unit' } %}
 
 Expect to see the same for BETA 2, once winners have received their prizes! It's a lot of fun! If you want to keep up 
 with events like these (and maybe even win your own crayon drawing), 

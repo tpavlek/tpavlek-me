@@ -5,7 +5,9 @@ tags:
     - starcraft
 ---
 
-{%include 'image.html.twig' with {'name': '/stream.jpg', 'inline': 'true'} %} Today my new computer came, and after a good four hours of loathsome troubleshooting and assembly time, I finally got 
+{%include 'image.html.twig' with {'name': '/stream.jpg', 'inline': 'true'} %} 
+
+Today my new computer came, and after a good four hours of loathsome troubleshooting and assembly time, I finally got 
 the goshdarn thing working; that meant one single thing. Starcraft II ladder streaming time. My first session started at 
 8:40PM, and as I usually try to go to bed by midnight every night the session was cut short at a mere two hours. 
 After doing so, one thing is abundantly clear: I _love doing this_. Yes, Starcraft is a great game, but tonight I 
