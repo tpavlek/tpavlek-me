@@ -67,6 +67,14 @@ of the little guy making it. Dedicated producers putting out lower-league tourna
 the big leagues, suddenly turned into this huge, well-funded production playing host to some of the biggest names like Parting and Jaedong. Their success
 is not being coveted, niches like 2v2 tournaments [are being explored](http://www.reddit.com/r/starcraft/comments/34s1d8/500_2v2_tournament_open_to_all_of_community/)
 and more adventurous tournament formats is always a good thing.
+* **Consistent Streamers**. People like [Lowko](http://www.twitch.tv/lowkotv), [Fenner](http://www.twitch.tv/fenn3r), and [Neuro](http://www.twitch.tv/neurostarcraft)
+consistently provide regular, enjoyable and high-quality content. They cater to many demographics, from showcasing high-level play, teaching others and
+just being interesting personalities, which is incredibly important. Another great in this category is [SirRobin](http://twitch.tv/sirrobin) who
+every sunday dedicates the day to coaching lower-level players in his Squire School.
+* **SCVRush**. They've been around for years, they've gone through all the trials and tribulations of dealing with new technology, new management,
+a shifting community and, every developers bane, maintaining a Ruby on Rails application. Too often we forget that, if Blizzard's targets are achieved (a stretch, I know)
+then 80% of all players are Platinum and below. Allowing those lower level players to experience the joy of competition is paramount to keeping the game
+fun for everyone.
 * **Quick, bite-sized Gameplay content**. [CoreEJK](http://www.reddit.com/user/CoreEJK/submitted/) produces a large sum of high-quality, unique
 micro GIFs, there's always a spattering of them on Reddit. And of course we can't forget the Daily Sodium Intake (which isn't daily, but it's frequent!)
 * **Breaking Out**. While it's not every week, it occurs roughly bi-annually - as quick as it is humanly able to be made by [feardragon64](https://twitter.com/feardragon64).

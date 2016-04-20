@@ -5,7 +5,7 @@ image: "/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevate
 ---
 
 Although we're [told it will be running full-speed this spring](http://www.cbc.ca/news/canada/edmonton/edmonton-metro-line-lrt-could-be-at-full-speed-this-spring-1.3504236),
-an unfortunate fact that we all, at some point, have to come to terms with is that our current is a bit of a joke - one that
+an unfortunate fact that we all, at some point, have to come to terms with is that our current Metro Line is a bit of a joke - one that
 [Tristin Hopper things should be called Herpes Al-Qaeda](http://news.nationalpost.com/full-comment/tristin-hopper-the-600-million-edmonton-train-that-snarls-traffic-slows-down-transit-times-and-increases-emissions).
 
 And while the signalling system that Thales under-delivered is causing the line to run slowly on line-of-sight, the biggest
@@ -42,7 +42,7 @@ Cost: **$95MM**
 
 NAIT Station out of Service: **Minimum 12 Months**
 
-<img src="/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevated.png" />
+<img src="/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/underground.png" />
 
 # The time for grade separation is now
 
@@ -53,4 +53,9 @@ make a mediocre system that doesn't encourage ridership (Google Transit currentl
 make our city a national joke while we're at it.
 
 I don't know about you, but I'd like to be proud of Edmonton. Let's not half-ass this. We've done enough of that.
+
+<hr />
+
+*If you're interested in more content like this, check out [**Basket of YEGs**](https://basketofyegs.com) a local podcast about municipal
+politics that I host each week. Subscribe to the newsletter and always get updates when new episodes come out!*
 
