@@ -23,26 +23,12 @@
 
         <!-- Styles -->
         <link href="/css/all.css" rel="stylesheet" type="text/css" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
     <div class="wrap sidebar-bg">
-        <div class="content-wrapper">
-            {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
-            {% if page.pagination.previous_page or page.pagination.next_page %}
-                <nav class="post-controls">
-                    {% if page.pagination.previous_page %}
-                        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}" class="pure-button pure-button-brown right">
-                            Newer Posts
-                        </a>
-                    {% endif %}
-                    {% if page.pagination.next_page %}
-                        <a href="{{ site.url }}{{ page.pagination.next_page.url }}" class="pure-button pure-button-brown left">
-                            Older Posts
-                        </a>
-                    {% endif %}
-                </nav>
-            {% endif %}
-        </div>
+        {% block body_content %} {% endblock %}
+
 
         <div class="pure-menu pure-menu-open sidebar">
             <img src="{{ site.url }}/img/cropped-profile.jpg" />
@@ -53,14 +39,11 @@
                     <a href="{{ site.url}}/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="{{ site.url }}/blog">Archive</a>
+                    <a href="{{ site.url }}/blog">Blog</a>
                 </li>
                 <li>
-                    <a href="https://yegvotes.info">YEGVotes</a>
-                </li>
-                <!--<li>
                     <a href="{{ site.url }}/projects">Projects</a>
-                </li>-->
+                </li>
                 <li>
                     <a href="https://twitter.com/troypavlek">Twitter: @troypavlek</a>
                 </li>

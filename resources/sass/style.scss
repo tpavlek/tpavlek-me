@@ -170,6 +170,11 @@ label {
     overflow: hidden;
 }
 
+.content-wrapper.unwrapped {
+  padding: 0;
+  margin-left: 20rem;
+}
+
 $article-background: floralwhite;
 
 article {
@@ -288,3 +293,93 @@ table {
         font-size: 13px;
     }
 }
+
+.project {
+  @extend article;
+  padding: 0;
+}
+
+.project.yegvotes {
+  background-image: url("/img/projects/yegvotes-info.png");
+}
+
+.project.basketofyegs {
+  background-image: url("/img/projects/basketofyegs.png");
+}
+
+.project.jeopardy {
+  background-image: url("/img/projects/jeopardy.png");
+}
+
+.project.ladderheroes {
+  background-image: url("/img/projects/ladderheroes.png");
+}
+
+.project.sodoge {
+  background-image: url("/img/projects/sodoge.png");
+}
+
+.project.sc2ctl {
+  background-image: url("/img/projects/sc2ctl.png");
+}
+
+.project.highyield {
+  background-image: url("/img/projects/highyield.png");
+}
+
+.project {
+  width: 100%;
+
+  background-size: cover;
+  position:relative;
+
+  .project-description:after {
+    content  : "";
+    position : absolute;
+    z-index  : 8;
+    top   : 0;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to bottom, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.8) 70%);
+    width    : 100%;
+    height   : 100%;
+  }
+
+  .project-description {
+    z-index: 1;
+
+
+    text-align: center;
+    padding-top: 1em;
+
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+
+    .text {
+      position:absolute;
+      bottom: 0;
+      z-index: 10;
+      left: 0;
+      right: 0;
+    }
+
+    a, a:visited {
+      color: inherit;
+    }
+
+    h2 { margin: 0; color: white;}
+
+    p {
+      padding: 1em;
+      opacity: 1;
+      font-weight: bold;
+      color: ghostwhite;
+    }
+  }
+
+  height: 40em;
+}
+
+@import "sc2ctl";
