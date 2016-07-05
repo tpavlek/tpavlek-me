@@ -1,6 +1,6 @@
 @import "forms";
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,400italic);
+@import url(//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,400italic);
 
 $primary-color: #245687;
 $heading-color: #033649;
@@ -19,6 +19,10 @@ $background-color: rgb(199, 113, 22);
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: 'Raleway', sans-serif;
+}
+
+.content-wrapper pre code * {
+  font-family: Inconsolata, Menlo, Courier, monospace;
 }
 
 html { height: 100%; }
