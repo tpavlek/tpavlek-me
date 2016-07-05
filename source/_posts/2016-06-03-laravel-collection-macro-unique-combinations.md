@@ -22,7 +22,7 @@ Now, with the new macro, my code looks more like
 
 ```.language-php
 collect($locations)
-    ->combinations($businessNames, ['location', 'businessName'])
+    ->combinations(collect($businessNames), ['location', 'businessName'])
     ->map(function ($tuple) {
         return func($tuple['location'], $tuple['businessName']);
     });
