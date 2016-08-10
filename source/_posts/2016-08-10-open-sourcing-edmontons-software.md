@@ -100,6 +100,6 @@ The only thing holding us back a high level lack of knowledge and political will
 innumerable. The only thing we have to lose is our reputation of choosing the most incompetent vendors to build our critical infrastructure.
 
 We can continue to build our systems in proprietary silos just like it was still 1998. Or we can step up, recognize the massively
-different technological landscape and jump of our Metro Line train driving at 30km/h straight to irrelevance. 
+different technological landscape and jump off our Metro Line train driving at 30km/h straight to irrelevance. 
 
 The choice is ours.
