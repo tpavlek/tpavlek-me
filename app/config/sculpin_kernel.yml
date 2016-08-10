@@ -2,3 +2,4 @@ sculpin_content_types:
     posts:
         permalink: blog/:year/:month/:day/:filename/
         layout: post.html.twig
+        publish_drafts: false
