@@ -58,7 +58,7 @@ although slightly more conservative in their implementation. But what does this 
   source code freely available for inspection and modification by anyone in the world. 
   
 Consider a baker. An open source baker
-will bake you a cake with beautiful frosting, and provide you with the full recipe so you can make it yourself, or make a new icing design to modify the cake
+will bake you a cake with beautiful frosting, and provide you with the full recipe so you can make it yourself, or make a new icing design to modify the cake.
 A closed-source baker will bring you a cake, and if you ever want another or if you want modifications to the cake, you have to pay the baker to provide it.
 If a closed-source baker dies, you might never find someone who can bake a cake exactly the same. If a closed source baker puts sub-standard ingredients into
 his cake, you'd never know it until you bite in. With the open source baker, you could have your friends who are experts in the kitchen inspect the recipe.
@@ -81,7 +81,7 @@ upfront cost vs their small town population? Well, they could benefit from our i
 essentially zero cost. Then when they make small improvements, those improvements would get filtered up into our app as well. When developers
 like myself see problems or deficiencies - or really just something cool we want - in the app, then we'd add it. For free. Simple as that.
 
-For the unitiated, this is *not* and unreasonable thing to expect. Open Source software is pervasive, actively-developed, and everywhere.
+For the unitiated, this is *not* an unreasonable thing to expect. Open Source software is pervasive, actively-developed, and everywhere.
 Millions of developers every day are contributing their professional work to open source projects for free. The majority of **the entire internet**
 runs on an operating system called Linux, which is completely free and Open Source. In fact, the city of Edmonton has a meetup group
 called [BetaCityYEG](https://betacity.ca/) whose entire *purpose* is to use technology to make the city better, which is something they do
