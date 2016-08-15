@@ -24,7 +24,7 @@ consider the perspectives of the councillors themselves? Do you listen to their 
 For some, the answer might be yes. But often, especially in internet comment sections the answer is no.
 
 Elise Stolte at the Edmonton Journal, recently made [a video, outlining how easy it is to get your five minutes in front of council at committee](http://edmontonjournal.com/news/local-news/don-iveson-hopes-shuffling-the-deck-at-city-hall-will-pay-off-big) - 
-a level of engagement that is absolutely important to effectively governing. What does this have in common with my above points?
+a level of engagement that is absolutely important to effectively govern. What does this have in common with my above points?
 Well, humans have an exceptional ability to empathize the other people we see. When we feel close with others, we're more
 comfortable communicating. And that's just the point of an effective, high-quality camera. When we can **see** the councillors
 debate, their mannerisms, their level of comfort we're far more able to empathize with their difficulty in making many of the
