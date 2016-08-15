@@ -13,12 +13,35 @@ the bias shouldn't matter.
 I love PHP, to the point where I'm often made fun of. It's more than a gentle longing for a programmer's language of
 choice, or a carpenter's fondness for his favourite hammer - it's almost fetishized. Writing PHP makes me happy,
 incredibly so. Even though in my head I say "class dot method" when I'm writing "class-&gt;method" that somehow makes
-it more fun. The disconnect between what's happening in my head and what my hands are doing, what they're _instinctively
-_doing just seems to make the whole thing more exciting. I could gripe all day about the common problems with PHP: $needle, $haystack. Inconsistent naming of functions. Admittedly still weak implementation of many OOP concepts. But if I did, I'd only be making a show, because I don't hate these things, nor do I want to complain about them. They're the character of PHP, and it's the character of PHP that I love. I had groupwork for class last term, a smallish to medium sized application that would be fairly simple: implement a berkely db querying system that runs on the command line. Most of my classmates ran for python. Several to Java. A couple to perl. I went to PHP. There's a dirty feeling writing desktop PHP applications. It's scandalous. People disapprove. I loved it.
+it more fun. The disconnect between what's happening in my head and what my hands are doing, what they're _instinctively_ 
+doing just seems to make the whole thing more exciting. I could gripe all day about the common problems with PHP: $needle, $haystack. 
+Inconsistent naming of functions. Admittedly still weak implementation of many OOP concepts. 
+But if I did, I'd only be making a show, because I don't hate these things, nor do I want to complain about them. 
+They're the character of PHP, and it's the character of PHP that I love. I had groupwork for class last term, a smallish to 
+medium sized application that would be fairly simple: implement a berkely db querying system that runs on the command line. 
+Most of my classmates ran for python. Several to Java. A couple to perl. I went to PHP. There's a dirty feeling writing desktop PHP applications. 
+It's scandalous. People disapprove. I loved it.
 
-If you're wondering why I'm spending so much time clarifying my love for PHP, it's because of what comes next. I want to make it abundantly clear what a monumental decision it was to dump PHP, throw my years of work to the sidelines and switch to ruby on rails. The inkling had been in the back of my mind for well over a year. Ruby is the (node.js and all the new javascript backends notwithstanding) startup culture language du jour. All the buzz is around rails and the 0 to application in no time flat that many are able to achieve with it. Couple that with a modern everything-is-an-object language, with syntactic sugar to enable programmer joy and it sounds like an idealist heaven. I'd played with irb a few nights, trying to implement pseudocode algorithms (python), and see what cool shortcuts I could take with the language. It was fun, I enjoyed it, but then it fell to the backburner. I had work to do. I had projects to build. My PHP work demanded me attention, and my attention I gave.
+If you're wondering why I'm spending so much time clarifying my love for PHP, it's because of what comes next. I want to 
+make it abundantly clear what a monumental decision it was to dump PHP, throw my years of work to the sidelines and switch 
+to ruby on rails. The inkling had been in the back of my mind for well over a year. Ruby is the (node.js and all the new 
+javascript backends notwithstanding) startup culture language du jour. All the buzz is around rails and the 0 to application 
+in no time flat that many are able to achieve with it. Couple that with a modern everything-is-an-object language, with 
+syntactic sugar to enable programmer joy and it sounds like an idealist heaven. I'd played with irb a few nights, trying to 
+implement pseudocode algorithms (python), and see what cool shortcuts I could take with the language. It was fun, I enjoyed it, 
+but then it fell to the backburner. I had work to do. I had projects to build. My PHP work demanded me attention, and my attention I gave.
 
-The crucial turning point happened about a month ago now: I was at CUTC Infect, and undergraduate technology conference in Vancouver. The morning keynote was from Zach Holman, at Github, and he was an absolutely fantastic speaker. He talked a bit about startup culture at github, cracked quite a few jokes, stressed the importance of positive reinforcement and then professed his fondness of ruby. Rather ironically, he talked about how he felt when he was writing ruby and rails applications - the tools just melted into the background. He focused on problems and on solutions, not on the keystrokes and clicks and files standing between him and the implementation. I was in awe, and excited about it. This guy, who writes pretty damn fantastic code was talking about a programming utopia that I longed to be in. He stressed the unimportance of technology, how Github uses outdated versions of rails because their version works, so honestly it doesn't matter that they haven't upgraded, as long as they're still making solutions. I asked him for clarification on this point after the presentation, how can you determine what is a technology you want to learn and benefit from, and what is the drivel that you have to filter out to keep from constantly shooting at a moving target. He was a little stumped at this, he said he kind of just knew, that perhaps after using a certain tool or set of tools for long enough you begin to understand what you actually need and you look for things to fill that need.
+The crucial turning point happened about a month ago now: I was at CUTC Infect, and undergraduate technology conference in 
+Vancouver. The morning keynote was from Zach Holman, at Github, and he was an absolutely fantastic speaker. He talked a 
+bit about startup culture at github, cracked quite a few jokes, stressed the importance of positive reinforcement and then 
+professed his fondness of ruby. Rather ironically, he talked about how he felt when he was writing ruby and rails applications - 
+the tools just melted into the background. He focused on problems and on solutions, not on the keystrokes and clicks and files 
+standing between him and the implementation. I was in awe, and excited about it. This guy, who writes pretty damn fantastic 
+code was talking about a programming utopia that I longed to be in. He stressed the unimportance of technology, how Github uses 
+outdated versions of rails because their version works, so honestly it doesn't matter that they haven't upgraded, as long as 
+they're still making solutions. I asked him for clarification on this point after the presentation, how can you determine 
+what is a technology you want to learn and benefit from, and what is the drivel that you have to filter out to keep from 
+constantly shooting at a moving target. He was a little stumped at this, he said he kind of just knew, that perhaps after using a certain tool or set of tools for long enough you begin to understand what you actually need and you look for things to fill that need.
 
 Clearly, I had a need. I loved to program, and I hate setting up my environment for programming. I hate worrying about servers, and IDEs and config files. I just like to write code that solves problems. I needed my tools to fade to the background. I needed ruby.
 

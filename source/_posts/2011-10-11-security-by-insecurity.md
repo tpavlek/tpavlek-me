@@ -18,7 +18,7 @@ gone down the shitter.
 I'll explain. It should be noted that all my evidence is completely anecdotal but here's what happened: the registration 
 process on my old site involved you authenticating with Google's openid server and you do the whole login process with them. 
 However, I was lazy in the initial setup, and instead of doing registration/login properly, after you authenticate with 
-google it passed a GET variable (&amp;login=1) with the email of the user in GET also. This told the server to login 
+google it passed a GET variable (&login=1) with the email of the user in GET also. This told the server to login 
 the user account associated with that email. Yes, that meant you could just authenticate as any user (including me, the 
 admin) just by knowing their email. Needless to say it was a giant security hole: but here's the interesting thing. 
 Not once in that time did a spammer or any sort of bot show up on my site and post.

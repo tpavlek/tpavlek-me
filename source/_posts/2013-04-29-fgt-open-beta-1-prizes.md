@@ -24,6 +24,4 @@ depiction - I disagree, thought it was just right.
 {% include 'image.html.twig' with {'name': '/drop-in.jpg', 'caption': 'Drops are a good unit' } %}
 
 Expect to see the same for BETA 2, once winners have received their prizes! It's a lot of fun! If you want to keep up 
-with events like these (and maybe even win your own crayon drawing), 
-[subscribe to the FGT newsletter](http://depotwarehouse.us6.list-manage2.com/subscribe?u=6c89d66d36138c2e12a9a0845&amp;id=18051d2fb1)
- and we'll send you and email when a new event is going on, so you can try your hand at winning your very own prize.
+with events like these (and maybe even win your own crayon drawing), consider following me on [Twitter](https://twitter.com/troypavlek)

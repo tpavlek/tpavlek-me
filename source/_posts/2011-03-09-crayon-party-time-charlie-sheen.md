@@ -4,6 +4,7 @@ imgpath: "/img/posts/2011-03-09-crayon-party-time-charlie-sheen"
 tags:
     - misc
     - crayons
+draft: true
 ---
 
 {% include 'image.html.twig' with {'name': '/sheen.jpg'} %}

@@ -5,7 +5,7 @@ tags:
 ---
 
 _This post deals with details of the tournament recently hosted on [http://fgtstarcraft.com](http://fgtstarcraft.com/). 
-For relevant information you can check out the [old bracket](http://fgtstarcraft.com/index.php?page=viewTournament.php&amp;tourn_id=3)
+For relevant information you can check out the [old bracket](http://fgtstarcraft.com/index.php?page=viewTournament.php&tourn_id=3)
 or the [reddit discussion thread](http://www.reddit.com/r/starcraft/comments/180t5d/im_an_aspiring_webdeveloper_whos_been_working_on/)._
 
 Well, that was fun. For those that didn't tune in or realize, [FGT]starcraft recently held our beta tournament (beta as 

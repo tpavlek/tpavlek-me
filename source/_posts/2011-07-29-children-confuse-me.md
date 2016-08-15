@@ -3,6 +3,7 @@ title: Children Confuse Me
 imgpath: "/img/posts/2011-07-29-children-confuse-me"
 tags:
     - misc
+draft: true
 ---
 
 I'm confused more than I thought was humanly possible.

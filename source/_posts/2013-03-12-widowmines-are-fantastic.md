@@ -21,7 +21,7 @@ Even further on that point, unquestionably my favourite new maps is Neo Planet S
 ago I saw Neo Planet S and turned to my roomate: "If this map was on ladder, I would literally jizz myself". Now it is 
 on ladder, and it's everything I've dreamed of and more. The best thing about Neo Planet S is that there are no Xel'Naga's. 
 The second game of HoTS I played was on this map (you can check out the replay 
-[here](http://fgtstarcraft.com/index.php?page=viewTopic.php&amp;tid=115)) and even though I played badly focusing on 
+[here](http://fgtstarcraft.com/index.php?page=viewTopic.php&tid=115)) and even though I played badly focusing on 
 new units and what to build and what to do, I still felt a good deal more in control of the game without Xel'Nagas. 
 The map didn't dictate where I should scout, _I_ dictated where I should scout. And if I don't want to scout, that's fine, 
 it's a choice to keep my units at home for defense, one I can easily justify. Not putting a unit at the Xel'Naga when 
@@ -86,6 +86,4 @@ that I love this map?).
 I haven't been this excited about Starcraft 2 for a long time - I hope this isn't just a "it's new" feeling. I hope this 
 sticks, because if this is how I'm going to feel about playing HoTS, I am _excited_ for the upcoming season.
 
-_Thanks for reading, if you liked what you saw here at all consider subscribing to my 
-[twitch channel](http://twitch.tv/ebonwumon) where I stream relatively often or checking out the 
-[FGTstarcraft clan site I developed](http://fgtstarcraft.com/). I also exist on [Twitter](http://twitter.com/troypavlek)_
+_Thanks for reading, if you liked what you saw here at all consider following me on [Twitter](http://twitter.com/troypavlek)_
