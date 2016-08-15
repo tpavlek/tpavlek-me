@@ -43,4 +43,4 @@ and a little more belligerence.
 
 A lot of belligerence.
 
-{% include 'image.html.twig' with {name:"iveson-fabio.jpg",caption: "Hyper-sexualization of our mayor is not appropriate"} %}
+{% include 'image.html.twig' with {name:"iveson-fabio.jpg",caption: "Hyper-sexualization of our mayor is not appropriate, we can finally see him in high-resolution"} %}
