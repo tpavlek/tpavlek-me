@@ -6,7 +6,7 @@ image: "/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevate
 
 Although we're [told it will be running full-speed this spring](http://www.cbc.ca/news/canada/edmonton/edmonton-metro-line-lrt-could-be-at-full-speed-this-spring-1.3504236),
 an unfortunate fact that we all, at some point, have to come to terms with is that our current Metro Line is a bit of a joke - one that
-[Tristin Hopper things should be called Herpes Al-Qaeda](http://news.nationalpost.com/full-comment/tristin-hopper-the-600-million-edmonton-train-that-snarls-traffic-slows-down-transit-times-and-increases-emissions).
+[Tristin Hopper thinks should be called Herpes Al-Qaeda](http://news.nationalpost.com/full-comment/tristin-hopper-the-600-million-edmonton-train-that-snarls-traffic-slows-down-transit-times-and-increases-emissions).
 
 And while the signalling system that Thales under-delivered is causing the line to run slowly on line-of-sight, the biggest
 failing of the line is the massive, congestion-causing misstep of running through the intersection near Kingsway that has
@@ -36,7 +36,7 @@ NAIT Station out of Service: **6-12 months**
 
 <img src="/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevated.png" />
 
-## Option 2 - Underground
+## Option 2 - UndergroundT
 
 Cost: **$95MM**
 
