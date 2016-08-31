@@ -1,5 +1,5 @@
 ---
-title: "The Metro Line is a primary example of the antithesis of Open Government"
+title: "The Metro Line project: the antithesis of Open Government"
 date: "2016-08-31"
 imgpath: "/img/posts/2016-08-31-metro-line-is-black-box-governance/"
 ---
