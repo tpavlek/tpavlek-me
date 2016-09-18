@@ -38,7 +38,7 @@ that it would *not* get done in the timelines. Thales **proposed a more aggresiv
 It was a mismanaged software project put forward by a firm that overpromised and can't-even-deliver.
 
 And what does the public get? This black box of "it didn't work before but maybe it will later". *What* didn't work? 
-Where are the architechture designs and documents? What are the acceptance tests? What disparate communication 
+Where are the architecture designs and documents? What are the acceptance tests? What disparate communication 
 protocols are they using and why don't they work together? Why has this caused every departure sign in the
 city to be unoperational for over a year?
 
