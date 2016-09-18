@@ -69,6 +69,8 @@ Of course wherever pedestrians are crossing and parking exists, extending the cu
     <img src="{{page.imgpath}}/extended-curb.png" />
 </div>
 
+St. Albert is even testing installing [fluorescent crosswalks](http://www.stalbertgazette.com/Citytestsfluorescentcrosswalk-20150829)!
+
 As well, there's another very obvious option which is if the stopping distance at 60 km/h is too high, then perhaps it's time
 to consider reducing the speed limit. This option, however, is probably not the best case solution for Edmonton. I've talked
 a lot about reducing pedestrian deaths because that's the target of this campaign - but Vision Zero isn't about pedestrians,
