@@ -2,6 +2,9 @@
 title: "It's past time to grade-separate Edmonton's Metro Line LRT"
 date: "2016-04-07"
 image: "/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/elevated.png"
+imgpath: "/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/"
+img: "elevated.png"
+description: "The Metro Line is an expensive failure, causing frustrating, downtime and traffic congestion. It's time to separate the grades, and let traffic flow again"
 ---
 
 Although we're [told it will be running full-speed this spring](http://www.cbc.ca/news/canada/edmonton/edmonton-metro-line-lrt-could-be-at-full-speed-this-spring-1.3504236),

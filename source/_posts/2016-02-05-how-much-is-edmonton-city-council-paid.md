@@ -1,6 +1,9 @@
 ---
 title: "How much is Edmonton City Council Paid?"
 date: "2016-02-05"
+imgpath: "/img/posts/2016-02-05-council-compensation/"
+img: "council-money.jpg"
+description: "Councillor compensation totals $141,156.45/year and Mayoral compensation totals $263,672.79/year"
 ---
 
 Much ado has been said about [Minister Sohi's $46k transition allowance that he accepted](http://globalnews.ca/news/2498495/minister-accepted-46k-severance-package-from-edmonton-city-hall/)

@@ -2,6 +2,8 @@
 title: "Who are those pretty faces? It's Edmonton City council!"
 date: "2016-08-15"
 imgpath: "/img/posts/2016-08-15-edmonton-city-council-camera-upgraded/"
+img: "iveson-fabio.jpg"
+description: "Edmonton City Council upgraded their live-streaming camera to a new, higher quality one after a long, sometimes satirical campaign."
 ---
 
 For the engaged political citizens of Edmonton, this was a frequent, nightmare inducing image (taken directly from the 

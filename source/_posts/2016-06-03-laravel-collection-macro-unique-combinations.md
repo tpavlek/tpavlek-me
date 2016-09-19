@@ -1,6 +1,7 @@
 ---
 title: "Laravel Collection Macro: Find all Unique Combinations of Two Collections"
 date: "2016-07-05"
+description: "This Laravel collection macro can easily get the combination of two collections so you don't need a nested foreach loop"
 ---
 
 In rafactoring some old code at work, a frequent idiomatic batch of code was something like what follows:

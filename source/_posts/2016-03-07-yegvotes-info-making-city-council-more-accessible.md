@@ -2,6 +2,9 @@
 title: "YEGvotes.info, Making Edmonton's City Council more accessible"
 date: "2016-03-07"
 image: "/img/posts/2016-03-07-yegvotes-info-making-city-council-more-accessible/new-yegvotes.png"
+imgpath: "/img/posts/2016-03-07-yegvotes-info-making-city-council-more-accessible/"
+img: "new-yegvotes.png"
+description: "YEGVotes.info has been updated for more usefulness and accessibility. The changes focus on making it more clear, at first glance, what matters"
 ---
 
 It's been about four months since I [launched YEGVotes.info](https://www.reddit.com/r/Edmonton/comments/3s6ysz/yegvotesinfo_a_website_using_edmontons_open_data/), a

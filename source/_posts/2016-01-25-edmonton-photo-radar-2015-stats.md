@@ -1,6 +1,9 @@
 ---
 title: "Edmonton Photo Radar statistics for 2015"
 date: "2016-01-25"
+imgpath: "/img/posts/2016-01-25-edmonton-photo-radar-2015-stats/"
+img: "2016-2018-budget.png"
+description "From 2014 on, the percentage of tickets issued for 6-10km/h over jumped by around 300%. This post details some of the statistics for Edmonton's Photo Radar program"
 ---
 
 With nomination day for the Ward 12 by-election under way today (you can follow updates and get candidate information for the 

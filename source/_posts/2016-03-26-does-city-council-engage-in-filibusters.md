@@ -2,6 +2,9 @@
 title: "Is Edmonton's City Council friendly to filibuster-style politics?"
 date: "2016-03-26"
 image: "/img/posts/2016-03-26-does-city-council-engage-in-filibusters/vote.png"
+imgpath: "/img/posts/2016-03-26-does-city-council-engage-in-filibusters/"
+img: "vote.png"
+description: "Edmonton's City Council tries to avoid delaying the third reading of a Bylaw when they know it is going to pass eventually, saving themselves and taxpayers time and money"
 ---
 
 We hear a lot about US-style politics and [many of the scummy tactics employed](https://youtu.be/rHFOwlMCdto?t=10m49s) that are par for the course. It can bleed

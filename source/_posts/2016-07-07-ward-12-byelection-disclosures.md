@@ -1,6 +1,7 @@
 ---
 title: "How much did the Ward 12 By-Election cost?"
 date: "2016-07-07"
+description: "The Ward 12 by-election cost $506,903. Troy Pavlek breaks down some of the highlights from the front-running candidates"
 ---
 
 Well, [the campaign disclosures are in](http://www.edmonton.ca/city_government/municipal_elections/71817.aspx) and you can

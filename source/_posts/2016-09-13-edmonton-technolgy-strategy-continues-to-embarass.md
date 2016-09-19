@@ -2,6 +2,8 @@
 title: "Bulky, useless, overpriced and unwanted. City of Edmonton releases another app."
 date: "2016-09-13"
 imgpath: "/img/posts/2016-09-13-edmonton-technology-strategy-continues-to-embarass/"
+img: "improved-bridge.jpg"
+description: "The recently released Smart Travel app from the City of Edmonton is an out-of-touch, tone-deaf waste of $250,000 that could have been put to much better use for Vision Zero initiatives"
 ---
 
 I'm a software developer. I like technology. Often I like technology when technology really isn't required,

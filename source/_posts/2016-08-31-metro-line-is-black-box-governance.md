@@ -2,6 +2,8 @@
 title: "The Metro Line project: the antithesis of Open Government"
 date: "2016-08-31"
 imgpath: "/img/posts/2016-08-31-metro-line-is-black-box-governance/"
+img: "fixed-vs-moving-block.jpg"
+description: "In order for municipal governments to be effective, they MUST share nitty-gritty details about all projects, not just the successful and easy ones."
 ---
 
 *This post was adapted from a comment I posted on the [Edmonton Journal Article](http://edmontonjournal.com/news/local-news/update-on-the-metro-line-at-executive-committee) that got
