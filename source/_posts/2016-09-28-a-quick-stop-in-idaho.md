@@ -2,12 +2,12 @@
 title: "A Quick Stop in Idaho: Should Edmonton cyclists be able to yield through stop signs?"
 date: "2016-09-28"
 imgpath: "/img/posts/2016-09-28-a-quick-stop-in-idaho/"
-img: "headsup.jpg"
-description: ""
+img: "bike-box.jpg"
+description: "The Idaho Stop allows cyclists to approach a stop sign, yield to all pedestrians and traffic in the intersection and then proceed through when it is safe and they have the right of way, without coming to a complete stop. So, anecdotally, what all cyclists already do anyway. And it's good policy."
 ---
 
-This afternoon Urban Planning committee heard, and voted unanimously on, the proposal to implement a minimum grid of
-high-quality cycling infrastructure in downtown Edmonton to be built by next summer. Of course, the motion still has
+This afternoon Urban Planning committee heard, and voted unanimously in favour of, [the proposal to implement a minimum grid of
+high-quality cycling infrastructure in downtown Edmonton](/pdf/2016-09-28-a-quick-stop-in-idaho/stantec-report.pdf) to be built by next summer. Of course, the motion still has
 to go up to council proper for approval, but it solidly seems like the votes are there.
 
 This, however, was not the most exciting piece of news for me. That came through Ben Henderson's subsequent motion (with
@@ -40,7 +40,8 @@ to be made every block.
 
 ### The Idaho Stop allows for better flow of traffic. 
 Bicycles no longer have to tie up 4-way stop traffic as they slowly move through an intersection
-after coming to a complete stop.
+after coming to a complete stop. This improves flow in all four directions, as the slow start-up time of the bicycle delays
+all traffic wishing to enter the intersection.
 
 ### The Idaho Stop makes traffic more predictable. 
 A huge source of conflict between cyclists and drivers on the road is unpredictability.
@@ -65,11 +66,21 @@ stop signs: a cyclist can yield through safely and when cycling, conservation of
 comes to a complete stop, it takes much longer for that cyclist to return up to their travel speed again, impeding all traffic behind him or
 her significantly.
 
-Consider teh following video produced in Oregon when they were debating passing an Idaho Stop law:
+Consider the following video produced in Oregon when they were debating passing an Idaho Stop law:
 
 <div style="text-align:center;">
     <iframe src="https://player.vimeo.com/video/4140910" width="640" height="368" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
+What about red lights? This is where most people tend to lose it, but consider for a moment: traffic planning already understands
+that clearing cyclists ahead of traffic before it proceeds through an intersection is an advantageous and positive strategy.
+It reduces conflicts and collisions in intersections. So, would it not make sense for a cyclist to come to a complete stop
+at a red light and, if safe, clear the way so traffic behind them can proceed. We're already planning on installing bike-phased signals in
+intersections downtown - cyclists treating red lights as stop signs is another logical extension of that, without additional infrastructure.
+
+We've already installed Bike Boxes to accomplish a similar goal.
+
+{% include 'image.html.twig' with { "name":"bike-box.jpg","caption":"I'm confident many drivers that see cyclists cut in front of them in Bike Boxes think a law is being broken" } %}
 
 Yes, Idaho Stopping is *unfair*, it doesn't treat all modes *equally*. But it plays to the strengths of each mode of
 transportation, and I can see it becoming a valuable part of ensuring that **all modes** get where they're going quickly and
