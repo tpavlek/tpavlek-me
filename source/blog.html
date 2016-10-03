@@ -7,22 +7,21 @@ use:
 
 ---
 {% set year = '0' %}
-<h2>Posts Archive</h2>
-{% for post in page.pagination.items %}
-    {% set this_year %}{{ post.date | date("Y") }}{% endset %}
-    {% if year != this_year %}
-      {% set month = '0' %}
-      {% set year = this_year %}
-    {% endif %}
-    {% set this_month %}{{ post.date | date("F") }}{% endset %}
-    {% if month != this_month %}
-      {% set month = this_month %}
-        </article>
-        <article class="someclass">
-      <h3>{{ month }} {{ year }}</h3>
-    {% endif %}
-    <div>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </div>
-{% endfor %}
-</article>
+
+<div class="blog-archive">
+<h1 class="page-title">THE BLOG</h1>
+
+    {% for post in page.pagination.items %}
+        {% if loop.index == 1 %}
+            {% include 'hero-post.html.twig' with {"post":post} %}
+        {% elseif loop.index == 2 %}
+            {% include 'sidekick-post.html.twig' with {"post":post} %}
+        {% elseif loop.index == 3 %}
+            {% include 'sidekick-post.html.twig' with {"post":post} %}
+            {% include 'links-post.html.twig' %}
+            <h1 class="page-title">The Archive</h1>
+        {% else %}
+            {% include 'archive-post.html.twig' with {"post":post} %}
+        {% endif %}
+    {% endfor %}
+</div>

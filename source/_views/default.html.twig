@@ -28,8 +28,30 @@
         {% endblock %}
     </head>
     <body>
+        <div class="wrap">
+            <nav class="main-nav">
+                <ul>
+                    <li>
+                        <a href="#">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#">Get A Sign</a>
+                    </li>
+                    <li class="secondary-action">
+                        <a href="#">Volunteer</a>
+                    </li>
+                    <li class="primary-action">
+                        <a href="#">Donate</a>
+                    </li>
+                </ul>
+            </nav>
+            {% block body_content %} {% endblock %}
+
+        </div>
+        <!--<div class="footer padding-normal is-centered">&copy; Troy Pavlek</div>-->
+
+        <!--
     <div class="wrap sidebar-bg">
-        {% block body_content %} {% endblock %}
 
 
         <div class="pure-menu pure-menu-open sidebar">
@@ -43,6 +65,7 @@
                 <!--<li>
                     <a href="{{ site.url }}/why">Ward 11 Campaign</a>
                 </li>-->
+        <!--
                 <li>
                     <a href="{{ site.url }}/blog">Blog</a>
                 </li>
@@ -60,8 +83,7 @@
                 </li>
             </ul>
         </div>
-        <div class="footer l-box is-centered">&copy; Troy Pavlek</div>
-    </div>
+        -->
 
     {% block scripts %}
     {% endblock %}
