@@ -42,6 +42,16 @@ nav.main-nav {
   font-size: 1.5em;
   margin-right: 10%;
 
+  .home-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9em;
+    img {
+      width: 100%;
+    }
+  }
+
   li {
     display: inline-block;
     color: $foreground-color-primary;
@@ -92,6 +102,7 @@ nav.main-nav {
     color: $foreground-color-primary;
     font-size: 2em;
   }
+  z-index: 5;
 }
 
 .date {
@@ -101,6 +112,7 @@ nav.main-nav {
 }
 
 .summary-block {
+  display: block;
   @extend article;
   @extend .half-pill;
   padding: 0;
@@ -158,6 +170,31 @@ nav.main-nav {
   }
 
   height: 20rem;
+}
+
+.splash.logo {
+  position: absolute;
+  right: 5em;
+  top: 12em;
+  width: 35%;
+
+  img {
+    width: 100%;
+  }
+  z-index: 2;
+}
+
+.splash.profile {
+  position:absolute;
+  bottom: 0;
+  right: 35%;
+  width: 40%;
+  max-height: 100%;
+  z-index: 1;
+
+  img {
+    width: 100%;
+  }
 }
 
 .blog-archive {
