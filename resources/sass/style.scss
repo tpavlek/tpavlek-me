@@ -2,7 +2,8 @@
 
 @import "buttons";
 
-* { box-sizing: border-box; color: $foreground-color-primary; }
+* { box-sizing: border-box;}
+h1, h2 { color: $foreground-color-primary }
 
 body {
   background-color: $primary-background-color;
@@ -241,6 +242,33 @@ nav.main-nav {
     @extend .padding-normal;
     width: 70%;
     font-size: 90%;
+  }
+}
+
+article.post {
+  margin: 3rem;
+
+  .post-content {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: left;
+    color: black;
+    line-height: 2em;
+  }
+
+  background: $foreground-color-primary;
+
+
+  .summary-block {
+    width: 100%;
+    border-radius: 0;
+
+    .summary-description, .summary-description::after {
+      border-radius: 0;
+    }
   }
 }
 
