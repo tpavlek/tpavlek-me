@@ -1,10 +1,12 @@
-<a href="{{ post.url }}">
-    <div class="hero-post">
+<a href="{{ post.url }}"class="hero-post">
+    {% if post.img %}
         <div class="img" style="background-image: url('{{ post.imgpath }}{{ post.img }}');"></div>
-        <div class="text padding-xl">
-            <h1 class="title">{{ post.title }}</h1>
-            <h2 class="date">{{ post.date|date("F jS, Y") }}</h2>
-        </div>
+    {% else %}
+        <div class="img default">BLOG</div>
+    {% endif %}
+    <div class="text padding-xl">
+        <h1 class="title">{{ post.title }}</h1>
+        <h2 class="date">{{ post.date|date("F jS, Y") }}</h2>
     </div>
 </a>
 

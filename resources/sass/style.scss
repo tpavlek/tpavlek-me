@@ -232,7 +232,7 @@ nav.main-nav {
   background: $secondary-background-color;
   margin: 0 auto;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   .img {
     width: 60%;
     height:100%;
@@ -249,8 +249,6 @@ nav.main-nav {
       font-size: 120%;
     }
   }
-  h1 { display: inline-block; }
-  h2 { display: inline-block; }
 
   width: 100%;
   height: 30rem;
@@ -279,6 +277,49 @@ nav.main-nav {
 }
 
 .links-post {
+  h1, h2, h3 { margin-bottom: 0; }
+  a {
+    color: $foreground-color-primary;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    width: 100%;
+  }
+}
+
+figure {
+  padding: 1em;
+  text-align: center;
+  border: 4px solid $foreground-color-tertiary;
+  border-radius: 15px;
+
+  img {
+    max-width: 100%;
+    overflow: hidden;
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+  }
+}
+
+figure:hover {
+  img {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+}
+
+figcaption {
+  font-size: 90%;
+  color: $foreground-color-secondary;
+}
+
+.links-post {
   @extend .padding-normal;
   h2, h3 { color: $secondary-background-color; }
   color: $secondary-background-color !important;
@@ -291,10 +332,34 @@ nav.main-nav {
   .img { width: 30%; }
   .text {
     h1.title { margin-top: 0; width: 100%; }
+    .title::first-line {
+      font-size: 100%;
+    }
     @extend .padding-normal;
     width: 70%;
     font-size: 90%;
   }
+}
+
+.img.default {
+  background-image: url('/img/campaign-logo/speech-regular.png');
+  background-repeat: no-repeat;
+  background-size: auto 9rem;
+  padding-left: 12rem;
+  line-height: 10rem;
+  color: $foreground-color-primary;
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.hero-post .img.default {
+  line-height: 30rem;
+  background-image: url('/img/campaign-logo/speech-regular.png');
+  background-repeat: no-repeat;
+  background-size: auto 15rem;
+  padding-left: 17rem;
+  background-position-y: center;
+  font-size: 10em;
 }
 
 article.post {
@@ -322,6 +387,10 @@ article.post {
       border-radius: 0;
     }
   }
+}
+
+.post-controls {
+  text-align: center;
 }
 
 .project {
@@ -368,6 +437,30 @@ article.post {
   }
 
   height: 40em;
+}
+
+blockquote {
+  color: $foreground-color-secondary;
+  font-weight: bold;
+  position: relative;
+  background-image: url('/img/campaign-logo/speech-regular.png');
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  min-height: 4rem;
+  min-height: 4rem;
+  display: table;
+  vertical-align: middle;
+}
+
+blockquote::before {
+
+}
+
+blockquote p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 7rem;
+  padding-right: 4rem;
 }
 
 /* This is the class used for the footer */

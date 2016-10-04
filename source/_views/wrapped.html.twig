@@ -5,14 +5,16 @@
     {% block content_wrapper %}{% block content %} {% endblock %}{% endblock %}
     {% if page.pagination.previous_page or page.pagination.next_page %}
         <nav class="post-controls">
+            {% if page.pagination.next_page %}
+                <a href="{{ page.pagination.next_page.url }}" class="button left">
+                    <i class="fa fa-arrow-left"></i>
+                    Older Posts
+                </a>
+            {% endif %}
             {% if page.pagination.previous_page %}
                 <a href="{{ page.pagination.previous_page.url }}" class="button right">
                     Newer Posts
-                </a>
-            {% endif %}
-            {% if page.pagination.next_page %}
-                <a href="{{ page.pagination.next_page.url }}" class="button left">
-                    Older Posts
+                    <i class="fa fa-arrow-right"></i>
                 </a>
             {% endif %}
         </nav>

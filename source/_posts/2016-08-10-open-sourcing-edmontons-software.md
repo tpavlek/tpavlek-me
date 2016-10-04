@@ -1,7 +1,7 @@
 ---
 title: "Embracing openness, instead of just paying lip-service: Why the City of Edmonton needs to adopt an Open Source strategy"
 date: "2016-08-10"
-imgpath: "/img/posts/2016-08-10-open-sourcing-edmonton-software/opencity.png"
+imgpath: "/img/posts/2016-08-10-open-sourcing-edmonton-software/"
 img: "opencity.png"
 description: "Open Source software is taking over governments and the civil service around the world. So why should Edmonton adopt an Open Source strategy?"
 ---

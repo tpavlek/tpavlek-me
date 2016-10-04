@@ -1,12 +1,8 @@
 {% if caption is defined %}
-    <table {% if inline is defined %} style="display: inline;" {% endif %}>
-        <tr>
-            <td style="text-align: center"><img src="{{page.imgpath}}{{name}}" /></td>
-        </tr>
-        <tr>
-            <td><em>{{ caption }}</em></td>
-        </tr>
-    </table>
+    <figure {% if inline is defined %} style="display: inline;" {% endif %}>
+        <img src="{{page.imgpath}}{{name}}" />
+        <figcaption>{{ caption }}</figcaption>
+    </figure>
     {% else %}
         <img src="{{page.imgpath}}{{name}}" {% if inline is defined %} style="display:inline;" {% endif %}/>
 {% endif %}
