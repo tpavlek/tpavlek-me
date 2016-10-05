@@ -1,9 +1,12 @@
 @import "vars";
-
 @import "buttons";
 
-* { box-sizing: border-box;}
+* { box-sizing: border-box; font-family: 'Lato', sans-serif; }
+.content-wrapper pre code * {
+  font-family: Inconsolata, Menlo, Courier, monospace;
+}
 h1, h2 { color: $foreground-color-primary }
+h1 { font-weight: 900; }
 
 body {
   background-color: $primary-background-color;
@@ -100,8 +103,14 @@ nav.main-nav {
     font-size: 2.5em;
   }
 
-  h2.blog-header {
-    padding-left: 2rem;
+  .blog-header {
+    background-image: url('/img/campaign-logo/speech-regular.png');
+    background-repeat: no-repeat;
+    background-size: auto 4rem;
+    background-position-y: center;
+    background-position-x: 1rem;
+
+    padding-left: 6rem;
     color: $foreground-color-primary;
     font-size: 2em;
   }
@@ -445,20 +454,15 @@ blockquote {
   position: relative;
   background-image: url('/img/campaign-logo/speech-regular.png');
   background-repeat: no-repeat;
+  background-position-y: center;
   background-size: 4rem;
   min-height: 4rem;
-  min-height: 4rem;
-  display: table;
-  vertical-align: middle;
-}
-
-blockquote::before {
-
+  display: flex;
+  flex-flow: row wrap;
 }
 
 blockquote p {
-  display: table-cell;
-  vertical-align: middle;
+  width: 100%;
   padding-left: 7rem;
   padding-right: 4rem;
 }
