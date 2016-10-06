@@ -1,6 +1,7 @@
 ---
 title: "HoTS Day 1: Widowmines are fantastic"
-imgpath: "/img/posts/2013-03-12-widowmines-are-fantastic"
+imgpath: "/img/posts/2013-03-12-widowmines-are-fantastic/"
+img: 'mutasdie.png'
 tags:
     - starcraft
 ---
@@ -46,7 +47,7 @@ muta flocks flying in. In fact on that very same game in Neo Planet S, I scouted
 an engineering bay, many marines or any thors.
 
 {% include 'image.html.twig' with {
-    'name': '/mutasenter.png',
+    'name': 'mutasenter.png',
     'caption': 'So many turrets'
 } %}
 
@@ -54,7 +55,7 @@ I thought I was screwed, but I looked at myself having about six widowmines and 
 new unit can do".
 
 {% include 'image.html.twig' with {
-    'name': '/mutasdie.png',
+    'name': 'mutasdie.png',
     'caption': 'See ya'
 } %}
 
@@ -76,7 +77,7 @@ always intend to do as it's good practice, but never had enough negative reinfor
 sure widowmines will provide this negative reinforcement. A lot).
 
 {% include 'image.html.twig' with {
-    'name': '/widowmarine.png'
+    'name': 'widowmarine.png'
 } %}
 
 That's how one terran completely stomped me on ladder 

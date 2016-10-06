@@ -4,6 +4,9 @@ date: "2016-08-10"
 imgpath: "/img/posts/2016-08-10-open-sourcing-edmonton-software/"
 img: "opencity.png"
 description: "Open Source software is taking over governments and the civil service around the world. So why should Edmonton adopt an Open Source strategy?"
+tags:
+    - "open-city"
+    - software
 ---
 
 What does it mean to be an open city?
@@ -84,7 +87,7 @@ upfront cost vs their small town population? Well, they could benefit from our i
 essentially zero cost. Then when they make small improvements, those improvements would get filtered up into our app as well. When developers
 like myself see problems or deficiencies - or really just something cool we want - in the app, then we'd add it. For free. Simple as that.
 
-For the unitiated, this is *not* an unreasonable thing to expect. Open Source software is pervasive, actively-developed, and everywhere.
+For the uninitiated, this is *not* an unreasonable thing to expect. Open Source software is pervasive, actively-developed, and everywhere.
 Millions of developers every day are contributing their professional work to open source projects for free. The majority of **the entire internet**
 runs on an operating system called Linux, which is completely free and Open Source. In fact, the city of Edmonton has a meetup group
 called [BetaCityYEG](https://betacity.ca/) whose entire *purpose* is to use technology to make the city better, which is something they do

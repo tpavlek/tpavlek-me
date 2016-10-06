@@ -4,7 +4,6 @@ date: 2014-07-10
 tags:
     - starcraft
     - sc2ctl
-    - bitching
 ---
 
 Recently TotalBiscuit referenced in one of his TeamLiquid posts that he was extremely disappointed and turned off of America 

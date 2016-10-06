@@ -1,9 +1,13 @@
 ---
 title: "Laravel Packages, PSR-4 and Me"
+imgpath: "/img/posts/2014-10-31-laravel-packages-and-psr4/"
+img: 'code.png'
 tags:
     - laravel
     - php
     - programming
+    - software
+   
 ---
 **tl;dr**: I'm telling a story, jump to the bottom of this post if you're from Google and your PSR-4-autoloaded package isn't loading it's configuration properly in Laravel ~4.2
 

@@ -5,8 +5,8 @@
 .content-wrapper pre code * {
   font-family: Inconsolata, Menlo, Courier, monospace;
 }
-h1, h2 { color: $foreground-color-primary }
-h1 { font-weight: 900; }
+h1, h2 { color: $foreground-color-primary; }
+h1 { font-size: 3em; font-weight: 900; }
 
 body {
   background-color: $primary-background-color;
@@ -16,10 +16,18 @@ a {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  outline: 0;
+}
+
+a:active, a:hover, a:focus {
+  outline: 0;
 }
 
 .is-centered {
   text-align: center;
+}
+
+.is-centered:not(h1) {
   margin: 0 auto;
 }
 
@@ -43,7 +51,7 @@ a {
 nav.main-nav {
   text-align: right;
   font-size: 1.5em;
-  margin-right: 10%;
+  margin-right: 3rem;
   z-index: 10;
 
   .home-nav {
@@ -112,7 +120,12 @@ nav.main-nav {
 
     padding-left: 6rem;
     color: $foreground-color-primary;
-    font-size: 2em;
+    font-size: 1.5em;
+
+    h1 {
+      margin-top:1rem;
+      margin-bottom: 1rem;
+    }
   }
   z-index: 5;
 }
@@ -123,6 +136,14 @@ nav.main-nav {
   color: $foreground-color-secondary;
 }
 
+.policy-block {
+  height: 40rem;
+  background: $tertiary-background-color;
+
+  .post-content {
+    color: $foreground-color-primary;
+  }
+}
 .summary-block {
   display: block;
   @extend article;
@@ -219,6 +240,35 @@ nav.main-nav {
     max-width: 100%;
     max-height: 100%;
   }
+}
+
+.splash.policy-links {
+  margin-top: 3rem;
+  margin-left:6rem;
+}
+
+.policy-link {
+  background-image: url('/img/campaign-logo/speech-tertiary.png');
+  background-position-y: center;
+  background-size: 3rem;
+  background-repeat: no-repeat;
+  padding-left: 5rem;
+  display: block;
+
+  font-size: 3em;
+  font-weight: 900;
+  color: $foreground-color-primary;
+  margin-bottom:1rem;
+}
+
+.policy-link:hover {
+  background-image: url('/img/campaign-logo/speech-regular.png');
+  color: $foreground-color-secondary;
+
+}
+
+.title {
+  font-size: 2em;
 }
 
 .blog-archive {
@@ -340,7 +390,7 @@ figcaption {
   height: 10rem;
   .img { width: 30%; }
   .text {
-    h1.title { margin-top: 0; width: 100%; }
+    h1.title { font-size: 2em; margin-top: 0; width: 100%; }
     .title::first-line {
       font-size: 100%;
     }
@@ -371,19 +421,33 @@ figcaption {
   font-size: 10em;
 }
 
+.post-content {
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: left;
+  color: black;
+  line-height: 2em;
+}
+
+.post-content a:not(.button):hover {
+  border-bottom: 3px solid slategray;
+}
+
+.footer a {
+  border-bottom: 2px solid transparent;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid slategrey;
+}
+
 article.post {
   margin: 3rem;
 
-  .post-content {
-    font-size: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-align: left;
-    color: black;
-    line-height: 2em;
-  }
+
 
   background: $foreground-color-primary;
 
@@ -402,8 +466,13 @@ article.post {
   text-align: center;
 }
 
+.projects {
+  @extend .is-centered;
+  margin-bottom: 3rem !important;
+}
 .project {
   @extend article;
+  @extend .is-centered;
 }
 
 .project.yegvotes {
@@ -470,14 +539,32 @@ blockquote p {
 /* This is the class used for the footer */
 .footer {
   box-sizing: border-box;
-  background: #111;
-  color: $foreground-color-primary;
-  bottom:0;
-  position:absolute;
+  background: #231f20;
+  color: #c0bcbc;
   width:100%;
+
+  padding: 6rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 1.8em;
+  font-weight: 200;
+
+  .description {
+    max-width: 35rem;
+    padding-right: 3rem;
+  }
+
+  .contact, .navigation {
+    padding-right: 3rem;
+    a {
+      font-weight: 200;
+      display: block;
+    }
+  }
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1500px), screen and (max-height:900px) {
   .blog-sidebar {
     position: initial;
     flex-flow: row wrap;

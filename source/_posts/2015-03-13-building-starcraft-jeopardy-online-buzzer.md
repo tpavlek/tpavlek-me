@@ -5,6 +5,7 @@ tags:
     - jeopardy
     - php
     - programming
+    - software
 ---
 
 *This is part of a series of posts covering the building of an online Jeopardy system for use with my project

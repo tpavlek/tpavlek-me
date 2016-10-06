@@ -1,12 +1,13 @@
 ---
 title: FGT Open Beta 1 Prizes 
-imgpath: "/img/posts/2013-04-29-fgt-open-beta-1-prizes"
+imgpath: "/img/posts/2013-04-29-fgt-open-beta-1-prizes/"
+img: 'infestor-time.jpg'
 tags:
     - starcraft
     - crayons
 ---
 {% include 'image.html.twig' with {
-    'name': '/infestor-time.jpg', 
+    'name': 'infestor-time.jpg', 
     'caption': 'Requested by FXOSirRobin who took third place in the tournament. He asked for a crossover of Adventure Time and SC2. We delivered.' 
 } %}
 
@@ -21,7 +22,7 @@ Another one of the prizes went to Zoku, who requested, verbatim: "a marine poopi
 The Terran in me was happy to oblige this request - my roomate informed me that I was too gratuitous in the 
 depiction - I disagree, thought it was just right.
 
-{% include 'image.html.twig' with {'name': '/drop-in.jpg', 'caption': 'Drops are a good unit' } %}
+{% include 'image.html.twig' with {'name': 'drop-in.jpg', 'caption': 'Drops are a good unit' } %}
 
 Expect to see the same for BETA 2, once winners have received their prizes! It's a lot of fun! If you want to keep up 
 with events like these (and maybe even win your own crayon drawing), consider following me on [Twitter](https://twitter.com/troypavlek)

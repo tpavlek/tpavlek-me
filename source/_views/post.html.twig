@@ -3,8 +3,8 @@
 
     <div class="is-centered">
         <h1>Share this post on:</h1>
-        <a href="#" class="button"><i class="fa fa-facebook-square"></i> Facebook</a>
-        <a href="#" class="button"><i class="fa fa-twitter-square"></i> Twitter</a>
+        <a href="http://www.facebook.com/share.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" class="button"><i class="fa fa-facebook-square"></i> Facebook</a>
+        <a href="http://twitter.com/intent/tweet?status={{ page.title }} {{ site.url }}{{ page.url }} via @troypavlek" class="button"><i class="fa fa-twitter-square"></i> Twitter</a>
     </div>
 
     <article class="is-centered post">
@@ -35,14 +35,14 @@
             {% if page.next_post %}
             <a class="right button" href="{{ page.next_post.url }}" title="{{ page.next_post.title }}">
                 <i class="fa fa-arrow-left"></i>
-                <span class="title">
+                <span>
                     {{ page.next_post.title|length > 30 ? page.next_post.title|slice(0, 30) ~ '...' : page.next_post.title }}
                 </span>
             </a>
             {% endif %}
             {% if page.previous_post %}
             <a class="left button" href="{{ page.previous_post.url }}" title="{{ page.previous_post.title }}">
-                <span class="title">
+                <span>
                     {{ page.previous_post.title|length > 30 ? page.previous_post.title|slice(0, 30) ~ '...' : page.previous_post.title }}
                 </span>
                 <i class="fa fa-arrow-right"></i>

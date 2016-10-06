@@ -2,7 +2,6 @@
 title: System76 Galago UltraPro Review
 tags:
     - review
-    - bitching
 ---
 
 I've been a long-time Linux user, and a couple years ago I bought the Lemur Ultrathin from System76. It was an amazing machine, very portable very usable, and I loved it. Unfortunately a couple of months ago it lost its ability to power on - it was just around this time that System76 announced it's first real successor, the Galago UltraPro. On paper, it looks like a dream machine: clocking in at only $995 for the base model, it's got a Haswell i7 and Iris Pro Graphics, along with a 1080p screen. Unfortunately, on practice the machine just really isn't very good. I returned it.

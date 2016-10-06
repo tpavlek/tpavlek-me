@@ -1,6 +1,7 @@
 ---
 title: Hiybbprqag shirt
-imgpath: "/img/posts/2011-03-12-hiybbprqag-shirt"
+imgpath: "/img/posts/2011-03-12-hiybbprqag-shirt/"
+img: 'backside.jpg'
 tags:
     - misc
 draft: true
@@ -19,11 +20,11 @@ had a small google fanboy orgasm in my room.
 Needless to say, a hiybbprqag shirt would be many levels of epic, so that's what I got. Pictures are as follows:
 
 {% include 'image.html.twig' with {
-    'name': '/frontside.jpg', 
+    'name': 'frontside.jpg', 
     'caption': 'Frontside. The scanned code reads "hiybbprqag"'
 } %}
 
 {% include 'image.html.twig' with {
-    'name': '/backside.jpg', 
+    'name': 'backside.jpg', 
     'caption': 'Backside'
 } %}

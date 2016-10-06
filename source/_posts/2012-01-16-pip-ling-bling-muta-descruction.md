@@ -1,6 +1,7 @@
 ---
 title: "Problems in Platinum: Ling/Bling/Muta destruction in TvZ"
-imgpath: "/img/posts/2012-01-16-pip-ling-bling-muta-descruction"
+imgpath: "/img/posts/2012-01-16-pip-ling-bling-muta-descruction/"
+img: 'roast.png'
 tags:
     - starcraft
 ---
@@ -14,13 +15,13 @@ of about 35 games a few days) my MMR seems to finally have caught up with me and
 ranking plummeted, and now I'm at a very close risk of dropping out of the Top 50, and I'm also woefully unable to even 
 spend my bonus pool, which has accumulated up to over 80. Of particular issue is my TvZ, specifically mid-game muta/ling/bling.
 
-{% include 'image.html.twig' with {'name': '/rank.png', 'caption': 'Such average, wow.'} %}
+{% include 'image.html.twig' with {'name': 'rank.png', 'caption': 'Such average, wow.'} %}
 
 The opening I'm usually most comfortable with against zerg is a reactor-hellion expand, and it usually works pretty well. 
 My opponents are often unprepared, or on maps like metalopolis, even with spine crawler preparation they have issues 
 fending off the 4-8 early hellions that usually end up killing a significant amount of drones.
 
-{% include 'image.html.twig' with {'name': '/roast.png', 'caption': 'Roast drone bbq'} %}
+{% include 'image.html.twig' with {'name': 'roast.png', 'caption': 'Roast drone bbq'} %}
 
 This usually puts me in a 2-base worker lead of about 6 harvesters, which at this point in a game vs. a zerg, I feel 
 like it's a good thing. My macro in the early game can slip slightly while micro-ing hellions, but nothing too significant. 
@@ -45,7 +46,7 @@ I've lost that force it's not the end of the world. I usually go up to 2 or 3 fa
 producing marine tank. On metalopolis recently I love building a supply depot wall, that forces lings and banelings to 
 either run around and take a few extra tank shots, or crash into it and waste precious banelings.
 
-{% include 'image.html.twig' with {'name': '/wall.png', 'caption': 'Gotta wall it off' } %}
+{% include 'image.html.twig' with {'name': 'wall.png', 'caption': 'Gotta wall it off' } %}
 
 I feel this wall with tanks behind it gives me a sense of control. The lings surely wouldn't be stupid enough to just 
 run in and fight the tanks, especially behind a wall. Surely I'll win. Tanks have splash damage. Right? Right?

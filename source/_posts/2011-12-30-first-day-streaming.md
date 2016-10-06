@@ -1,6 +1,7 @@
 ---
 title: "First day streaming: why starcraft is only half as good without it"
-imgpath: "/img/posts/2011-12-30-first-day-streaming"
+imgpath: "/img/posts/2011-12-30-first-day-streaming/"
+img: 'stream.jpg'
 tags:
     - starcraft
 ---

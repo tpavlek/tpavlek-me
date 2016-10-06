@@ -1,11 +1,12 @@
 ---
 title: System76 Lemur Ultrathin Review
-imgpath: "/img/posts/2011-02-11-system76-lemur-ultrathin-review"
+imgpath: "/img/posts/2011-02-11-system76-lemur-ultrathin-review/"
+img: 'header.jpg'
 tags:
     - review
 ---
 
-{% include 'image.html.twig' with {'name': '/header.jpg'} %}
+{% include 'image.html.twig' with {'name': 'header.jpg'} %}
 
 I've had my Lemur for just under 24 hours now, and because when I was initially making the buying decision there was a 
 definite lack of reviews, I thought I'd post my preliminary results.
@@ -130,14 +131,14 @@ drawings of FOSS mascots, you might be disappointed with this purchase.
 
 **UPDATE:** By request, here are a few more images:
 
-{% include 'image.html.twig' with {'name': '/1.jpg'} %}
+{% include 'image.html.twig' with {'name': '1.jpg'} %}
 
-{% include 'image.html.twig' with {'name': '/2.jpg'} %}
+{% include 'image.html.twig' with {'name': '2.jpg'} %}
 
-{% include 'image.html.twig' with {'name': '/3.jpg'} %}
+{% include 'image.html.twig' with {'name': '3.jpg'} %}
 
-{% include 'image.html.twig' with {'name': '/4.jpg'} %}
+{% include 'image.html.twig' with {'name': '4.jpg'} %}
 
-{% include 'image.html.twig' with {'name': '/5.jpg'} %}
+{% include 'image.html.twig' with {'name': '5.jpg'} %}
 
-{% include 'image.html.twig' with {'name': '/6.jpg'} %}
+{% include 'image.html.twig' with {'name': '6.jpg'} %}

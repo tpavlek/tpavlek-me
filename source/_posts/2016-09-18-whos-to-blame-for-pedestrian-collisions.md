@@ -4,6 +4,8 @@ date: "2016-09-18"
 imgpath: "/img/posts/2016-09-18-whos-to-blame-for-pedestrian-collisions/"
 img: "headsup.jpg"
 description: "A city of Edmonton insight survey recently suggested that pedestrians should wear reflective tape on their bodies to avoid getting struck by cars. This does not align with the principles of Vision Zero, and is a contraction to many of the stated goals."
+tags: 
+    - "vision-zero"
 ---
 
 {% include 'image.html.twig' with {"name":"headsup.jpg","caption":"An ad the City of Edmonton is running by the Insight Community for Feedback"} %}

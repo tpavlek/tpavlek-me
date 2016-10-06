@@ -1,6 +1,7 @@
 ---
 title: Children Confuse Me
-imgpath: "/img/posts/2011-07-29-children-confuse-me"
+imgpath: "/img/posts/2011-07-29-children-confuse-me/"
+img: 'initial-explanation.png'
 tags:
     - misc
 draft: true

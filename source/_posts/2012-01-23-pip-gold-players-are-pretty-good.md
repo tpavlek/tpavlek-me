@@ -1,6 +1,7 @@
 ---
 title: "Problems in Platinum: Gold Players are Pretty Good"
-imgpath: "/img/posts/2012-01-23-pip-gold-players-are-pretty-good"
+imgpath: "/img/posts/2012-01-23-pip-gold-players-are-pretty-good/"
+img: 'banshee-harass.png'
 tags:
     - starcraft
 ---
@@ -20,7 +21,7 @@ I understand what I'm seeing. I understand how to react to a 4-gate, a 1-gate ex
 everything. It's a comfort level that I enjoy a great deal. This week, at the recommendation of a friend who stole a build 
 from Kas, I tried out a new TvP build. It involves going cloaked banshee into double orbital production. It is _fantastic_.
 
-{% include 'image.html.twig' with {'name': '/banshee-harass.png' } %}
+{% include 'image.html.twig' with {'name': 'banshee-harass.png' } %}
 
 The primary goal of the banshee harass is simply just to keep him in my base while I'm building 2 orbital commands and 
 no units. If I kill an ass-ton of probes, that's a bonus. I do feel a bit of empathy for him, though, I can understand 
@@ -44,7 +45,7 @@ unless he's 6-pooling, so the opponent has to come up with something creative, e
 latter. When a Terran goes something regular like a 1/1/1, I win. I just crush the push with a ton of bio, if I have 
 enough of an advantage I just move out and kill him with marines. Usually I'll wait for my tanks to get out then move in.
 
-{% include 'image.html.twig' with {'name': '/bio.png' } %}
+{% include 'image.html.twig' with {'name': 'bio.png' } %}
 
 When the opponent goes bio also, however, I tend to lose. That wasn't the only reason I lost the above game, I should 
 have scouted that he was one-basing when I was already on three and just thrown up six or so bunkers and stomped his 

@@ -4,6 +4,7 @@ tags:
     - programming
     - ruby
     - php
+    - software
 ---
 
 I'm a PHP developer, through and through. We should get that out in the open and disclosed right off the bat, because that

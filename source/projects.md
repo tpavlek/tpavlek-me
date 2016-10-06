@@ -3,10 +3,9 @@ layout: wrapped
 title: My Work
 ---
 
+<h1 style="font-size: 4em; text-align:center;">My Work</h1>
+
 <div class="projects">
-    <article>
-        <h1 style="text-align:center;">My Work</h1>
-    </article>
     
     <div class="project yegvotes">
         <div class="project-description">

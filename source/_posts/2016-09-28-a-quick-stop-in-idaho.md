@@ -4,6 +4,9 @@ date: "2016-09-28"
 imgpath: "/img/posts/2016-09-28-a-quick-stop-in-idaho/"
 img: "bike-box.jpg"
 description: "The Idaho Stop allows cyclists to approach a stop sign, yield to all pedestrians and traffic in the intersection and then proceed through when it is safe and they have the right of way, without coming to a complete stop. So, anecdotally, what all cyclists already do anyway. And it's good policy."
+tags: 
+    - "vision-zero"
+    - "cycling"
 ---
 
 This afternoon Urban Planning committee heard, and voted unanimously in favour of, [the proposal to implement a minimum grid of

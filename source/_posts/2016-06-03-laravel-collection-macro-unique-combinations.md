@@ -4,6 +4,9 @@ date: "2016-07-05"
 description: "This Laravel collection macro can easily get the combination of two collections so you don't need a nested foreach loop"
 imgpath: "/img/posts/2016-07-05-laravel-collection-macro-unique-combinations/"
 img: "code.png"
+tags:
+    - software
+    - laravel
 ---
 
 In rafactoring some old code at work, a frequent idiomatic batch of code was something like what follows:
