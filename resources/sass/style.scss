@@ -54,6 +54,14 @@ nav.main-nav {
   font-size: 1.5em;
   margin-right: 3rem;
   z-index: 10;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  ul {
+    margin: 0;
+  }
 
   .home-nav {
     position: absolute;
@@ -106,7 +114,10 @@ nav.main-nav {
   flex-flow: column wrap;
   top:0;
   left: 0;
-  min-height: 100%;
+
+  .summary-block {
+    height: 15rem;
+  }
 
   .fa-comment {
     font-size: 2.5em;
@@ -115,7 +126,7 @@ nav.main-nav {
   .blog-header {
     background-image: url('/img/campaign-logo/speech-regular.png');
     background-repeat: no-repeat;
-    background-size: auto 4rem;
+    background-size: auto 3rem;
     background-position-y: center;
     background-position-x: 1rem;
 
@@ -126,6 +137,7 @@ nav.main-nav {
     h1 {
       margin-top:1rem;
       margin-bottom: 1rem;
+      font-size: 2em;
     }
   }
   z-index: 5;
@@ -138,11 +150,16 @@ nav.main-nav {
 }
 
 .policy-block {
+  @extend .padding-normal;
   height: 40rem;
   background: $tertiary-background-color;
 
   .post-content {
     color: $foreground-color-primary;
+  }
+
+  h1 {
+    margin-bottom: 0;
   }
 }
 .summary-block {
@@ -214,7 +231,7 @@ nav.main-nav {
 .splash-container {
   display: flex;
   flex-flow: row;
-  max-height: 100vh;
+  max-height: 90vh;
 }
 
 .splash.logo {
@@ -223,6 +240,8 @@ nav.main-nav {
   max-height: 100%;
   width: 35%;
   flex: 1 0 0;
+  position: relative;
+  top: 10rem;
 
   img {
     max-width: 100%;
