@@ -13,6 +13,14 @@ body {
   background-color: $primary-background-color;
 }
 
+.content-wrapper {
+  padding-top: 6rem;
+}
+
+.content-wrapper.unwrapped {
+  padding-top: 0;
+}
+
 a {
   color: inherit;
   font-weight: bold;
@@ -49,6 +57,21 @@ a:active, a:hover, a:focus {
   border-bottom-right-radius: 20px;
 }
 
+.home-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9em;
+  text-align: right;
+  font-size: 1.5em;
+  margin-right: 3rem;
+  z-index: 10;
+  padding: 1em;
+  img {
+    width: 100%;
+  }
+}
+
 nav.main-nav {
   text-align: right;
   font-size: 1.5em;
@@ -63,15 +86,7 @@ nav.main-nav {
     margin: 0;
   }
 
-  .home-nav {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 9em;
-    img {
-      width: 100%;
-    }
-  }
+
 
   li {
     display: inline-block;
@@ -231,7 +246,7 @@ nav.main-nav {
 .splash-container {
   display: flex;
   flex-flow: row;
-  max-height: 90vh;
+  max-height: 89vh;
 }
 
 .splash.logo {

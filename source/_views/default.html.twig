@@ -32,10 +32,10 @@
     </head>
     <body>
         <div class="wrap">
+            {% if not page.exclude_home_nav %}
+                <a href="/" class="home-nav"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
+            {% endif %}
             <nav class="main-nav">
-                {% if not page.exclude_home_nav %}
-                    <a href="/" class="home-nav"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
-                {% endif %}
                 <ul>
                     <li>
                         <a href="#">Subscribe</a>

@@ -11,5 +11,8 @@
     "gulp-minify": "0.0.3",
     "gulp-sass": "^2.1.1",
     "node-gyp": "^3.2.1"
+  },
+  "dependencies": {
+    "jump.js": "^1.0.1"
   }
 }
