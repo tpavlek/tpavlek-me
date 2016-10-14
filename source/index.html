@@ -1,17 +1,18 @@
 ---
 layout: unwrapped
 title: Home
-generator: pagination
 exclude_home_nav: true
-pagination:
-max_per_page: 3
 use:
 - posts
 ---
 
 <div class="splash-container">
     <div class="splash profile">
-        <img src="/img/campaign-logo/troy-n-addie.png"/>
+        <picture>
+            <source media="(min-width: 1500px)" srcset="/img/campaign-logo/troy-n-addie-lg.png">
+            <source media="(min-width: 1000px)"  srcset="/img/campaign-logo/troy-n-addie-md.png">
+            <img src="/img/campaign-logo/troy-n-addie-sm.png">
+        </picture>
     </div>
 
     <div class="splash logo">
@@ -37,7 +38,7 @@ use:
     </a>
 
 
-    {% for post in page.pagination.items %}
+    {% for post in data.posts|slice(0,3) %}
     <a href="{{post.url}}" class="summary-block" style="background-image:url('{{post.imgpath}}{{post.img}}')">
         <div class="summary-description">
             <div class="text">
@@ -90,11 +91,7 @@ use:
         <p>
             Any questions or feedback? I want to talk with <strong>you</strong>.
         </p>
-        <div class="is-centered">
-            <a href="https://twitter.com/troypavlek" class="button"><i class="fa fa-twitter-square"></i> @troypavlek</a>
-            <a href="/fb" class="button"><i class="fa fa-facebook-square"></i> Facebook</a>
-            <a href="mailto:troy@tpavlek.me" class="button"><i class="fa fa-envelope"></i> troy@tpavlek.me</a>
-        </div>
+        {% include 'contact.html.twig' %}
 
 
     </div>

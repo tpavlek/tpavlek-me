@@ -22,21 +22,38 @@ use:
         </blockquote>
         
         <p>
-            This is very important it's the most important it has the best important.
+            Vision Zero proposes that humans <em>will fail</em>, therefore the traffic system should expect failure,
+            and ensure that human error is not fatal. Vision Zero proposes that traffic safety be implemented through
+            roadway design changes.
         </p>
         
         <p>
-            Let me just say with all my words how important and full of words this is
+            Vision Zero is a laudable goal, one that I am 100% behind. However, the City of Edmonton, despite officially
+            setting Vision Zero as their goal, is still stuck in the old ways of thinking. 
+            <a href="/blog/2016/09/18/whos-to-blame-for-pedestrian-collisions">Ad campaigns blame vulnerable users for
+            getting hurt</a> and instead of spending on roadway improvements that are proven to work, we spend on 
+            <a href="http://localhost:8000/blog/2016/09/13/edmonton-technolgy-strategy-continues-to-embarass">superfluous
+            apps that no one wanted</a>.
         </p>
-        
         <p>
-            wow
+            It's time to get serious about Vision Zero. Obviously, we cannot improve the entire system in a day, but we
+            can start by <em>acknowledging where we're lacking, instead of ignoring it</em>. When collisions occur, especially
+            if vulnerable users are included, first and foremost city releases should include what roadway design failed
+            to allow the situation to occur. Next, we need to act proactively prevent those design issues from causing
+            harm in other places on our roadway system, <strong>before</strong> we have a death or injury there.
         </p>
-        
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mollis turpis. Integer hendrerit purus vel dictum lobortis. Vestibulum ullamcorper dictum metus, nec imperdiet neque posuere quis. Nam pulvinar ac ligula in accumsan. Donec sit amet urna lorem. Mauris convallis dolor sit amet rutrum pulvinar. Donec nec sagittis turpis. Donec sagittis augue et molestie egestas. Nullam dignissim nec purus sit amet dapibus. Aenean id nisl ante. Maecenas sodales dui sed erat ultricies aliquam. Donec convallis urna quis libero lacinia aliquet. In hac habitasse platea dictumst. Nullam suscipit nisl vitae sem luctus, id tempus lorem feugiat. Phasellus euismod dui a accumsan scelerisque.
+            When we improve the road for all users, we make it a better place to be for all users, <em>cars included</em>.
+            Collisions are a massive burden on our public system, from the inconvenience of road closures, to the police response time,
+            to the public health dollars required to care for the injured. Reducing collisions isn't just a moral imperative,
+            it's fiscally responsible.
         </p>
-        
+        <p>
+            Let's make Vision Zero a reality.
+        </p>
+        <p>
+            Elect Troy Pavlek to Edmonton City Council in Ward 11.
+        </p>
     </div>
 </article>
 
