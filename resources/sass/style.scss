@@ -84,6 +84,7 @@ nav.main-nav {
 
   ul {
     margin: 0;
+    padding: 0;
   }
 
 
@@ -166,7 +167,6 @@ nav.main-nav {
 
 .policy-block {
   @extend .padding-normal;
-  height: 40rem;
   background: $tertiary-background-color;
 
   .post-content {
@@ -253,7 +253,6 @@ nav.main-nav {
   padding-top: 3rem;
   padding-right: 3rem;
   max-height: 100%;
-  width: 35%;
   flex: 1 0 0;
   position: relative;
   top: 10rem;
@@ -613,6 +612,72 @@ blockquote p {
       margin: 0 auto;
       margin-bottom: 2rem;
       width: 30rem;
+    }
+  }
+
+  nav.main-nav {
+    position: initial;
+  }
+
+  .splash-container {
+    max-height: 79vh;
+  }
+
+  .splash.profile {
+    flex: 1 0 0;
+  }
+
+  .splash.logo {
+    position: initial;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  nav.main-nav {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .splash.profile {
+    display: none;
+  }
+
+  .splash.logo {
+    padding-right: 0;
+    text-align: center;
+    img {
+      max-height: 15rem;
+    }
+
+    .policy-links {
+      text-align: left;
+    }
+  }
+
+  .splash-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+  h1 { font-size: 200%; }
+
+
+  .splash.logo .policy-links { margin-left: 0; }
+  .footer {
+    padding: 1rem;
+    text-align: center;
+
+    .description, .navigation, .contact{
+      padding: 0;
+    }
+
+    .navigation, .contact{
+      width: 50%;
     }
   }
 }
