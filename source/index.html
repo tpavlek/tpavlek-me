@@ -4,21 +4,21 @@ title: Home
 generator: pagination
 exclude_home_nav: true
 pagination:
-    max_per_page: 3
+max_per_page: 3
 use:
-    - posts
+- posts
 ---
 
 <div class="splash-container">
     <div class="splash profile">
-        <img src="/img/campaign-logo/troy-n-addie.png" />
+        <img src="/img/campaign-logo/troy-n-addie.png"/>
     </div>
 
     <div class="splash logo">
-        <img src="/img/campaign-logo/full-logo-inverted.png" />
+        <img src="/img/campaign-logo/full-logo-inverted.png"/>
 
         <div class="splash policy-links">
-            <a href="/open-city" class="policy-link" >Open City</a>
+            <a href="/open-city" class="policy-link">Open City</a>
 
             <a href="/vision-zero" class="policy-link">Vision Zero</a>
             <a href="/efficient-effective-solutions" class="policy-link">Efficient, Effective Solutions</a>
@@ -42,7 +42,9 @@ use:
         <div class="summary-description">
             <div class="text">
                 <h2>{{ post.title }}</h2>
-                <h4 class="date"><small>{{ post.date|date("F jS") }}</small></h4>
+                <h4 class="date">
+                    <small>{{ post.date|date("F jS") }}</small>
+                </h4>
             </div>
         </div>
     </a>
@@ -50,15 +52,51 @@ use:
 </div>
 
 <div class="policy-block">
-    <h1 style="text-align:center">Hi! I'm Troy. Let's talk. &nbsp; <a href="#lets-talk"><i class="fa fa-chevron-circle-down"></i></a></h1>
+    <h1 style="text-align:center">Hi! I'm Troy. Let's talk. &nbsp; <a href="#lets-talk"><i
+            class="fa fa-chevron-circle-down"></i></a></h1>
     <a id="lets-talk"></a>
     <div class="post-content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam mi nec felis condimentum ullamcorper. In hac habitasse platea dictumst. Donec dapibus nec ligula in laoreet. Ut euismod congue nunc sed pellentesque. Pellentesque consequat orci et dolor suscipit, sed lobortis urna tincidunt. Mauris vitae ligula a sem scelerisque tempor a non orci. Etiam nec lorem pulvinar, convallis ex id, tempor magna.
+            Most of my professional experience comes from my role as a software developer. In software, there exist some
+            well-accepted principles for writing great software within a budget: <em>break down problems into their
+            smallest
+            solveable pieces</em> and <em>don't repeat yourself</em>
         </p>
+
         <p>
-            Morbi libero nisl, cursus placerat dictum consectetur, aliquet eget neque. Cras ut ultricies mi. Nulla sed justo velit. Morbi aliquam vestibulum facilisis. Ut porttitor erat risus, sit amet venenatis felis suscipit id. Donec mattis nisi nec vehicula egestas. Curabitur eget enim vitae ipsum hendrerit efficitur vel quis mi. Cras vitae congue felis.
+            I believe these same concepts can be applied directly to Edmonton City's Council, which is why I am running
+            for a seat in Ward 11.
         </p>
+
+        <p>
+            You'll often hear that compromises need to be made to reduce taxes by cutting "extra" services that aren't
+            required. I think we can make Edmonton a great place to live by reducing the tax burden <em>and</em>
+            offering
+            a slate of great services. We need to make the right investments: across nearly all industries, service is
+            up and costs are down due to the increase in technology and automation. We need to better leverage
+            technology
+            to free up employee time to do work that software cannot easily take care of. We need to make the city
+            open-first,
+            so that citizens and journalists can help in the process of improvement, without burdening resources with
+            FOIP
+            requests. We need to use transportation dollars more effectively: reducing collisions will save more money
+            than the infrastructure changes cost.
+        </p>
+
+        <p>
+            We need a new voice on City Council. I look forward to convincing you that I can be that voice.
+        </p>
+
+        <p>
+            Any questions or feedback? I want to talk with <strong>you</strong>.
+        </p>
+        <div class="is-centered">
+            <a href="https://twitter.com/troypavlek" class="button"><i class="fa fa-twitter-square"></i> @troypavlek</a>
+            <a href="/fb" class="button"><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a href="mailto:troy@tpavlek.me" class="button"><i class="fa fa-envelope"></i> troy@tpavlek.me</a>
+        </div>
+
+
     </div>
 
 </div>
