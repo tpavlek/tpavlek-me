@@ -10,19 +10,46 @@ use:
 <article class="is-centered post">
     <div class="post-content">
         <p>
-            This is very important it's the most important it has the best important.
+            Have you ever wondered <em>why</em> council is making some decision? Have you questioned why photo radar is
+            deployed in a particular location? Why bike lanes were chosen for downtown, instead of somewhere else?
         </p>
-        
         <p>
-            Let me just say with all my words how important and full of words this is
+            City Council makes informed decisions based on data to shape the future of the City of Edmonton. But how can
+            you hold them to account if they have more data than you? Without being able to see all the information your
+            councillor used and being able to come to your own conclusions, the relationship will forever be imbalanced
+            because feedback you give might be invalidated by certain data, that you could never know about.
         </p>
-        
         <p>
-            wow
+            This is where <strong>open data</strong> comes in. Simply put, Open data is information that the City owns, released freely
+            in a usable format for anyone to work with, remix, and report on. Currently, our city's data is "closed-first".
+            That means when the City collects a certain piece of data, it is by default secret and the open data team has to
+            work to make the data become available. This means that by the time data is opened up, it can often become much
+            less relevant - important decisions have already passed. The closed-first mindset also applies to our software
+            which <a href="/blog/2016/08/10/open-sourcing-edmontons-software">I argue should be Open Source</a>.
         </p>
-        
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mollis turpis. Integer hendrerit purus vel dictum lobortis. Vestibulum ullamcorper dictum metus, nec imperdiet neque posuere quis. Nam pulvinar ac ligula in accumsan. Donec sit amet urna lorem. Mauris convallis dolor sit amet rutrum pulvinar. Donec nec sagittis turpis. Donec sagittis augue et molestie egestas. Nullam dignissim nec purus sit amet dapibus. Aenean id nisl ante. Maecenas sodales dui sed erat ultricies aliquam. Donec convallis urna quis libero lacinia aliquet. In hac habitasse platea dictumst. Nullam suscipit nisl vitae sem luctus, id tempus lorem feugiat. Phasellus euismod dui a accumsan scelerisque.
+            Let's flip this on its head! Let's make the City of Edmonton "open-first". When data is collected, it is planned
+            to go immediately into the open data catalogue for usage by citizens, city staff and journalists. If there are
+            privacy implications, those are noted and the data goes into a review/redacting process <em>immediately</em>
+            so the parts that can be released, are released quickly.
+        </p>
+        <p>
+            Short of just sharing data and making the city more transparent, there are also significant cost savings associated
+            with this change. In 2016, more than <strong>2/3 of all FOIP requests were routine disclosures</strong>. That's
+            data that the City "routinely" releases - what if all of these could become self-serve? Not to mention inter-departmental
+            communication at the City of Edmonton. Instead of requesting other departments build PDFs and spreadsheets
+            summarizing data, at significant staff expense, data can be found in the open data catalogue in many different
+            easily usable format.
+        </p>
+        <p>
+            How can we expect the public to engage in a meaningful way with city processes when our <em>modus operandi</em>
+            is to keep data secret from that very same public.
+        </p>
+        <p>
+            Let's target a <strong>truly open city</strong>, not just apply an openness band-aid to a closed city.
+        </p>
+        <p>
+            Elect Troy Pavlek to Edmonton City Council in Ward 11.
         </p>
         
     </div>
