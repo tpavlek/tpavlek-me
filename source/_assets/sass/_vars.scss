@@ -1,0 +1,14 @@
+@mixin box-sizing( $type: border-box ) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing: $type;
+  -o-box-sizing: $type;
+  -ms-box-sizing: $type;
+  box-sizing: $type;
+}
+
+$foreground-color-primary: white;
+$foreground-color-secondary: #d0aa48;
+$foreground-color-tertiary: #d1870e;
+$primary-background-color: #325770;
+$secondary-background-color: #1d4561;
+$tertiary-background-color: #2c3e4c;

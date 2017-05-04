@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+  border: darken(#d0aa48, 20%);
+  background-color: #d0aa48;
+
+
+  tr:nth-child(2n -1) {
+    background: lighten(#d0aa48, 20%);
+  }
+
+  thead tr {
+    background-color: inherit !important;
+  }
+
+  th,td {
+    padding: 10px;
+  }
+}

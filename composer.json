@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tightenco/jigsaw": "^1.0",
+        "nesbot/carbon": "^1.22"
+    }
+}

@@ -1,0 +1,30 @@
+@import "vars";
+
+.button {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 115%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  padding: 0.75rem 3rem;
+  line-height: normal;
+  display: inline-block;
+}
+
+.button-lg {
+  font-size: 200%;
+}
+
+.button.xlarge {
+  font-size:250%;
+}
+
+.button {
+  background: $foreground-color-secondary;
+}
