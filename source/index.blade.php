@@ -1,8 +1,8 @@
 ---
-extends: "_layouts.unwrapped"
-title: Edmonton Ward 11 Councillor Candidate - Troy Pavlek
 exclude_home_nav: true
 ---
+@extends('_layouts.unwrapped')
+@section('title', 'Edmonton Ward 11 Councillor Candidate - Troy Pavlek')
 
 <div class="splash-container">
     <div class="splash profile">

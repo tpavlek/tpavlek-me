@@ -38,6 +38,12 @@
     <nav class="main-nav">
         <ul>
             <li>
+                <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> </a>
+            </li>
+            <li>
                 <a href="/subscribe">Subscribe</a>
             </li>
             <!--<li>
@@ -77,7 +83,7 @@
     <div class="contact">
         <h3>Contact</h3>
         <a href="https://twitter.com/troypavlek">Twitter</a>
-        <a href="#">Facebook</a>
+        <a href="https://facebook.com/TroyPavlekWard11">Facebook</a>
         <a href="mailto:troy@tpavlek.me">Email</a>
         <a href="https://github.com/tpavlek">GitHub</a>
         <a href="/rss.xml">Blog RSS</a>

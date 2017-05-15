@@ -3,3 +3,5 @@
 /node_modules/
 /vendor/
 .idea/
+output_dev/
+output_prod/
