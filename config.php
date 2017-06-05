@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://tpavlek.me',
     'production' => false,
     'author' => 'Troy Pavlek',
     'email' => 'troy@tpavlek.me',

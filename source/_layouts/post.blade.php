@@ -1,5 +1,7 @@
 @extends('_layouts.wrapped')
 
+@section('title', $page->title)
+
 @section('content')
 
     <article class="is-centered post">
@@ -52,9 +54,9 @@
         <meta property="og:image" content="{{$page->baseUrl}}/img/logo.png"/>
     @endif
 
-
-    <meta property="og:url" content="{{ $page->baseUrl }}{{ $page->url }}/"/>
     <meta property="og:type" content="article"/>
+    <meta property="fb:admins" content="669489023205771,551604144"/>
+    <meta property="fb:app_id" content="691298577729703"/>
 @stop
 
 

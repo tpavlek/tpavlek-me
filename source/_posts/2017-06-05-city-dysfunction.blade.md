@@ -1,7 +1,7 @@
 ---
 title: "City Dysfunction: When admin doesn't do their job, and council won't hold them accountable"
 date: "2017-06-05"
-imgpath: "/img/posts/2017-06-05/"
+imgpath: "/img/posts/2017-06-05-city-dysfunction/"
 img: "speed-limit-splash.jpg"
 description: "Despite the City of Edmonton having a policy on community speed reduction, it remains impossible to lower speeds in communities."
 tags: 
@@ -81,7 +81,7 @@ Take the memo circulated to city councillors in December of 2016 (emphasis mine)
 This is a document filled with straight-up unabashed lies. It calls itself an amendment to the existing procedure but, as we'll see later,
 the Branch Manager of Transportation Operations confirms such a procedure does not exist.
 
-The revised city procedure due in first quarter of 2017 turned out to be a [simple flowchart devoid of details](/pdf/2016-06-05/council-memo.png)(pdf), that was not
+The revised city procedure due in first quarter of 2017 turned out to be a [simple flowchart devoid of details](/pdf/2017-06-05-city-dysfunction/new-cmtp-flowchart.pdf)(pdf), that was not
 a procedure at all. The "actual procedure" will be coming "sometime in 2018".
 
 It says information will be provided to the requester, but after being able to confirm that the information exists, all 
