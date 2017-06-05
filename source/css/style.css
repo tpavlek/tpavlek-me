@@ -420,8 +420,6 @@ nav.main-nav li.primary-action {
   position: absolute;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-flow: column wrap;
   top: 0;
   left: 0;
@@ -491,6 +489,7 @@ nav.main-nav li.primary-action {
   top: 0;
   left: 0;
   pointer-events: none;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 70%);
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 70%);
   width: 100%;
   height: 100%;
@@ -538,16 +537,12 @@ nav.main-nav li.primary-action {
 .splash-container {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row;
 }
 
 .splash.logo {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-flow: column;
   padding-right: 3rem;
   position: relative;
@@ -608,8 +603,6 @@ nav.main-nav li.primary-action {
   padding-right: 5rem;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-pack: center;
   justify-content: center;
@@ -627,8 +620,6 @@ nav.main-nav li.primary-action {
   margin: 0 auto;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
   overflow: hidden;
   width: 100%;
@@ -809,6 +800,7 @@ figcaption {
   border: 0;
   height: 1px;
   background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
@@ -902,8 +894,6 @@ blockquote {
   min-height: 4rem;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
 }
 
@@ -922,8 +912,6 @@ blockquote p {
   padding: 6rem;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-pack: center;
   justify-content: center;
@@ -948,8 +936,6 @@ blockquote p {
 @media screen and (max-width: 1500px), screen and (max-height: 900px) {
   .blog-sidebar {
     position: initial;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     flex-flow: row wrap;
     width: 100%;
   }
@@ -1034,8 +1020,6 @@ blockquote p {
     padding-right: 1rem;
   }
   .hero-post {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-flow: column;
     height: auto;
   }
@@ -1121,6 +1105,7 @@ blockquote p {
     top: 20%;
   }
   .summary-block .summary-description::after, .project .summary-description::after, .project .project-description::after {
+    background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 30%);
     background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 30%);
   }
 }

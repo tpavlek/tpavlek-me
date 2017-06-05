@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$json = json_decode(file_get_contents('source/slsn.geojson'));
+$json = json_decode(file_get_contents('slsn.geojson'));
 
 $localRoads = collect($json->features)
     ->filter(function ($feature) {
@@ -19,7 +19,7 @@ $json->features = $localRoads;
 
 file_put_contents('source/local_roads.geojson', json_encode($json));
 
-$json = json_decode(file_get_contents('source/slsn.geojson'));
+$json = json_decode(file_get_contents('slsn.geojson'));
 
 $localRoads = collect($json->features)
     ->filter(function ($feature) {

@@ -1,6 +1,6 @@
 ---
 title: "32 Candidates, but only the winner running again: Was the Ward 12 by-election opportunistic?"
-date: "2017-03-22"
+date: "2017-05-26"
 imgpath: "/img/posts/2017-03-07-campaign-launch-speech/"
 img: "launch.jpg"
 description: "Troy Pavlek launches his Edmonton City Council campaign with a speech that highlights Open Government, Vision Zero and data-driven policy-making"
@@ -30,9 +30,9 @@ that he would absolutely be running again in the next general election.
 But, like the 31 candidates who also went home unsuccessful last year, he has not yet filed his intention to run in the 
 election this October.
 
-With seven months before we go to the polls, many would say that it's still far too early for everyone to declare. However,
+With five months before we go to the polls, many would say that it's still far too early for everyone to declare. However,
 there is an important consideration not many are aware of: a candidate *must* file notice of intent to run with the city
-before they may collect *any* campaign donations, or identify themselves as a candidate. Thus far, 47 candidates [have filed](https://www.edmonton.ca/city_government/municipal_elections/notice-of-intent.aspx)
+before they may collect *any* campaign donations, or identify themselves as a candidate. Thus far, 55 candidates [have filed](https://www.edmonton.ca/city_government/municipal_elections/notice-of-intent.aspx)
 city-wide.
 
 Moe Banga is running as an incumbent -- reached out via email
