@@ -27,7 +27,7 @@ If you work for the City of Edmonton and report to city council, it seems that t
     </p>
 </div>
 
-In October of 2016, the City Council passed [Speed Reduction Policy C566](https://www.edmonton.ca/transportation/PoliciesDirectives/C566.pdf), which
+In October of 2012, the City Council passed [Speed Reduction Policy C566](https://www.edmonton.ca/transportation/PoliciesDirectives/C566.pdf), which
 states that with 67% support from the neighbourhood, a community can lower their speed limit to 40km/h.
 
 Unfortunately, the City of Edmonton has no *procedures* associated with this policy - what that means is that speed limits
@@ -117,6 +117,6 @@ What does one do when council will not hold the city responsible for following c
 
 I don't know that there's really an answer. One of the two groups needs to be removed.
 
-WhatWhat am I going to do? I'll continue to do my best, and I'll see you at the polls in October.
+What am I going to do? I'll continue to do my best, and I'll see you at the polls in October.
 
 @include('_partials.signup', [ 'signup_extra' => "He'll work to hold administration accountable, when a policy is set, that policy damn well better get enacted" ])

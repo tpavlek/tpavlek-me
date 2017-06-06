@@ -10,6 +10,8 @@ return [
         return $collection->filter(function ($post) use ($tag) { return in_array($tag, ($post->tags) ? $post->tags : []); });
     },
 
+    'google_analytics_tracking_id' => "UA-56297933-1",
+
     'collections' => [
         'posts' => [
             'path' => 'blog/{filename}',
