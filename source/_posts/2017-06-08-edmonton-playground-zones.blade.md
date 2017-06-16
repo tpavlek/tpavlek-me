@@ -13,7 +13,7 @@ tags:
 In something a bit different, I take you on a walk around my neighbourhood of Hazeldean and discuss the value of
 playground zones in Edmonton.
 
-@include('_partials.youtube', ['url' => 'https://www.youtube.com/embed/Me1Lw9cRbKk' ])
+@include('_partials.youtube', ['video_id' => 'Me1Lw9cRbKk' ])
 
 That was a darn good cookie 🍪.
 

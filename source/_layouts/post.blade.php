@@ -55,7 +55,8 @@
     @endif
 
     <meta property="og:type" content="article"/>
-    <meta property="fb:admins" content="669489023205771,551604144"/>
+    <meta property="fb:admins" content="669489023205771" />
+    <meta property="fb:admins" content="551604144"/>
     <meta property="fb:app_id" content="691298577729703"/>
 @stop
 
