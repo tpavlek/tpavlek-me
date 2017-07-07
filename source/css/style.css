@@ -334,7 +334,7 @@ a:active, a:hover, a:focus {
   margin: 0 auto;
 }
 
-.padding-normal, nav.main-nav a, .policy-block, .sidekick-post .text, .links-post .text, .links-post, .archive-post .text {
+.padding-normal, .policy-block, .sidekick-post .text, .links-post .text, .links-post, .archive-post .text {
   padding: 1rem;
 }
 
@@ -351,106 +351,40 @@ a:active, a:hover, a:focus {
   border-bottom-right-radius: 20px;
 }
 
-.home-nav {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 9em;
-  text-align: right;
-  font-size: 1.5em;
-  margin-right: 3rem;
-  z-index: 10;
-  padding: 1em;
-}
-
-.home-nav img {
-  width: 100%;
-}
-
 nav.main-nav {
-  text-align: right;
-  font-size: 1.5em;
-  margin-right: 3rem;
-  z-index: 10;
-  padding: 1em;
-  position: absolute;
-  top: 0;
-  right: 0;
+  background-color: #2c3e4c;
 }
 
-nav.main-nav ul {
-  margin: 0;
-  padding: 0;
+.brand-logo, .brand-logo img {
+  height: 100%;
 }
 
-nav.main-nav li {
-  display: inline-block;
-  color: white;
-  margin-right: 1rem;
-  text-transform: uppercase;
+nav .brand-logo {
+  padding: 0.5rem;
 }
 
-nav.main-nav li:hover {
-  color: #325770;
-  background-color: white;
-  border-radius: 10px;
-}
-
-nav.main-nav a {
-  display: block;
-}
-
-nav.main-nav a:visited {
-  text-decoration: none;
-}
-
-nav.main-nav .secondary-action, nav.main-nav li.primary-action {
-  border: 2px solid white;
-  border-radius: 10px;
-}
-
-nav.main-nav li.primary-action {
-  color: #325770;
-  background-color: white;
-}
-
-.blog-sidebar {
+.blog-bar {
   background: rgba(21, 71, 120, 0.5);
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.blog-bar .summary-block, .blog-bar .project {
+  margin: 0 auto;
+  margin-bottom: 2rem;
   width: 30rem;
-  position: absolute;
+}
+
+.flex {
   display: -webkit-box;
   display: flex;
-  flex-flow: column wrap;
-  top: 0;
-  left: 0;
-  z-index: 5;
 }
 
-.blog-sidebar .summary-block, .blog-sidebar .project {
-  height: 15rem;
-}
-
-.blog-sidebar .fa-comment {
-  font-size: 2.5em;
-}
-
-.blog-header {
-  background-image: url("/img/campaign-logo/speech-regular.png");
-  background-repeat: no-repeat;
-  background-size: auto 3rem;
-  background-position-y: center;
-  background-position-x: 1rem;
-  color: white;
-  font-size: 1.5em;
-  margin-bottom: 1rem;
-}
-
-.blog-header h1 {
-  display: inline;
-  margin-top: 1rem;
-  font-size: 2em;
-  position: relative;
-  left: 6rem;
+.row-wrap {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
 }
 
 .date {
@@ -479,7 +413,7 @@ nav.main-nav li.primary-action {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 20rem;
+  height: 15rem;
 }
 
 .summary-block .summary-description:after, .project .summary-description:after, .project .project-description:after {
@@ -489,7 +423,6 @@ nav.main-nav li.primary-action {
   top: 0;
   left: 0;
   pointer-events: none;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 70%);
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 70%);
   width: 100%;
   height: 100%;
@@ -535,40 +468,16 @@ nav.main-nav li.primary-action {
 }
 
 .splash-container {
-  display: -webkit-box;
-  display: flex;
-  flex-flow: row;
+  max-height: 50vh;
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
 }
 
-.splash.logo {
-  display: -webkit-box;
-  display: flex;
-  flex-flow: column;
-  padding-right: 3rem;
-  position: relative;
-  top: 10rem;
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  z-index: 2;
-}
-
-.splash.logo img {
-  max-height: 25vh;
+.splash-container img {
+  height: auto;
   max-width: 100%;
-}
-
-.splash.profile {
-  text-align: right;
-  height: 85vh;
-  min-width: 60%;
-  z-index: 1;
-  -webkit-box-flex: 2;
-  flex-grow: 2;
-}
-
-.splash.profile img {
-  height: 100%;
-  max-width: 100%;
+  max-height: 100%;
 }
 
 .splash.policy-links {
@@ -595,7 +504,9 @@ nav.main-nav li.primary-action {
 }
 
 .title {
-  font-size: 2em;
+  display: block;
+  color: white;
+  font-size: 1.5em;
 }
 
 .blog-archive {
@@ -603,6 +514,8 @@ nav.main-nav li.primary-action {
   padding-right: 5rem;
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-pack: center;
   justify-content: center;
@@ -620,6 +533,8 @@ nav.main-nav li.primary-action {
   margin: 0 auto;
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
   overflow: hidden;
   width: 100%;
@@ -746,7 +661,7 @@ figcaption {
   font-size: 90%;
 }
 
-.archive-post .text h1.title {
+.archive-post .text .title {
   font-size: 2em;
   margin-top: 0;
   width: 100%;
@@ -800,7 +715,6 @@ figcaption {
   border: 0;
   height: 1px;
   background: #333;
-  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
@@ -894,6 +808,8 @@ blockquote {
   min-height: 4rem;
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
 }
 
@@ -912,6 +828,8 @@ blockquote p {
   padding: 6rem;
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-pack: center;
   justify-content: center;
@@ -934,16 +852,6 @@ blockquote p {
 }
 
 @media screen and (max-width: 1500px), screen and (max-height: 900px) {
-  .blog-sidebar {
-    position: initial;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-  .blog-sidebar .summary-block, .blog-sidebar .project {
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    width: 30rem;
-  }
   .blog-header {
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -1020,6 +928,8 @@ blockquote p {
     padding-right: 1rem;
   }
   .hero-post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-flow: column;
     height: auto;
   }
@@ -1105,7 +1015,6 @@ blockquote p {
     top: 20%;
   }
   .summary-block .summary-description::after, .project .summary-description::after, .project .project-description::after {
-    background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 30%);
     background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 30%);
   }
 }

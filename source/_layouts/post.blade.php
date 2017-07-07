@@ -9,8 +9,8 @@
 
             <div class="summary-description">
                 <div class="text">
-                    <h1>{{ $page->title }}</h1>
-                    <h3 class="date">{{ (new \Carbon\Carbon($page->date))->format("F jS, Y") }}</h3>
+                    <span class="title">{{ $page->title }}</span>
+                    <span class="date">{{ (new \Carbon\Carbon($page->date))->format("F jS, Y") }}</span>
                 </div>
             </div>
 

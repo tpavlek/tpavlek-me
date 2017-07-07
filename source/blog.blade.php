@@ -6,6 +6,8 @@ pagination:
     perPage: 10
 ---
 
+@section('content')
+
 <div class="blog-archive">
     <h1 class="page-title" style="visibility: hidden;">THE BLOG</h1>
     @foreach($pagination->items as $post)
@@ -37,3 +39,5 @@ pagination:
         @endif
     </nav>
 </div>
+
+@stop

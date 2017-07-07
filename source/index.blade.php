@@ -4,53 +4,44 @@ exclude_home_nav: true
 @extends('_layouts.unwrapped')
 @section('title', "Let's talk")
 
-<div class="splash-container">
-    <div class="splash profile">
-        <picture>
-            <source media="(min-width: 1500px)" srcset="/img/campaign-logo/troy-profile-lg.png">
-            <source media="(min-width: 1000px)" srcset="/img/campaign-logo/troy-profile-md.png">
-            <img src="/img/campaign-logo/troy-profile-sm.png">
-        </picture>
+@section('content')
+
+    <div class="row" style="margin-bottom: 0;">
+        <div class="col s12 xl8 center splash-container">
+            <img src="/img/splash-banner.png" />
+        </div>
+        <div class="col s12 xl4 splash-container">
+            <div class="splash policy-links center">
+                <a href="/platform" class="policy-link">Platform</a>
+                <a href="/faq" class="policy-link">FAQ</a>
+                <!--
+                <a href="/open-city" class="policy-link">Open City</a>
+                <a href="/vision-zero" class="policy-link">Vision Zero</a>
+                <a href="/photo-radar-reform" class="policy-link">Photo Radar Reform</a>
+                -->
+            </div>
+        </div>
     </div>
 
-    <div class="splash logo">
-        <div>
-            <img src="/img/campaign-logo/full-logo-inverted.png"/>
-        </div>
-
-
-        <div class="splash policy-links">
-            <a href="/open-city" class="policy-link">Open City</a>
-            <a href="/vision-zero" class="policy-link">Vision Zero</a>
-            <a href="/efficient-effective-solutions" class="policy-link">Efficient, Effective Solutions</a>
-            <a href="/photo-radar-reform" class="policy-link">Photo Radar Reform</a>
-        </div>
-
-    </div>
-
-
-</div>
-
-<div class="blog-sidebar">
+<div class="blog-bar">
     <a href="/blog" class="blog-header">
         <h1>
-            BLOG
+            Recent Updates
         </h1>
     </a>
 
-
-    @foreach ($posts->slice(0,3) as $post)
-        <a href="{{$post->getUrl()}}" class="summary-block" style="background-image:url('{{$post->imgpath}}{{$post->img}}')">
-            <div class="summary-description">
-                <div class="text">
-                    <h2>{{ $post->title }}</h2>
-                    <h4 class="date">
-                        <small>{{ $post->date }}</small>
-                    </h4>
+    <div class="flex row-wrap">
+        @foreach ($posts->slice(0,3) as $post)
+            <a href="{{$post->getUrl()}}" class="summary-block" style="background-image:url('{{$post->imgpath}}{{$post->img}}')">
+                <div class="summary-description">
+                    <div class="text">
+                        <span class="title">{{ $post->title }}</span>
+                        <span class="date">{{ $post->date }}</span>
+                    </div>
                 </div>
-            </div>
-        </a>
-    @endforeach
+            </a>
+        @endforeach
+    </div>
 </div>
 
 <div class="policy-block">
@@ -96,5 +87,7 @@ exclude_home_nav: true
     </div>
 
 </div>
+
+@stop
 
 

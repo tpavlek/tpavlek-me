@@ -64,111 +64,38 @@ a:active, a:hover, a:focus {
 .half-pill {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-
-}
-
-.home-nav {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 9em;
-  text-align: right;
-  font-size: 1.5em;
-  margin-right: 3rem;
-  z-index: 10;
-  padding: 1em;
-  img {
-    width: 100%;
-  }
 }
 
 nav.main-nav {
-  text-align: right;
-  font-size: 1.5em;
-  margin-right: 3rem;
-  z-index: 10;
-  padding: 1em;
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-
-
-  li {
-    display: inline-block;
-    color: $foreground-color-primary;
-    margin-right: 1rem;
-    text-transform: uppercase;
-  }
-
-  li:hover {
-    color: $primary-background-color;
-    background-color: $foreground-color-primary;
-    border-radius: 10px;
-  }
-
-  a {
-    display: block;
-    @extend .padding-normal;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-
-  .secondary-action {
-    border: 2px solid white;
-    border-radius: 10px;
-  }
-
-  li.primary-action {
-    @extend .secondary-action;
-    color: $primary-background-color;
-    background-color: $foreground-color-primary;
-  }
+  background-color: $tertiary-background-color;
 }
 
-.blog-sidebar {
+.brand-logo, .brand-logo img {
+  height: 100%;
+}
+
+nav .brand-logo { padding: 0.5rem; }
+
+.blog-bar {
   background: rgba(21, 71, 120, 0.5);
-  width: 30rem;
-  position:absolute;
-  display: flex;
-  flex-flow: column wrap;
-  top:0;
-  left: 0;
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center;
 
   .summary-block {
-    height: 15rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 30rem;
   }
 
-  .fa-comment {
-    font-size: 2.5em;
-  }
-  z-index: 5;
 }
 
-.blog-header {
-  background-image: url('/img/campaign-logo/speech-regular.png');
-  background-repeat: no-repeat;
-  background-size: auto 3rem;
-  background-position-y: center;
-  background-position-x: 1rem;
+.flex {
+  display: flex;
+}
 
-  color: $foreground-color-primary;
-  font-size: 1.5em;
-  margin-bottom: 1rem;
-
-  h1 {
-    display: inline;
-    margin-top:1rem;
-    font-size: 2em;
-    position:relative;
-    left: 6rem;
-  }
+.row-wrap {
+  flex-flow: row wrap;
 }
 
 .date {
@@ -248,7 +175,7 @@ nav.main-nav {
     }
   }
 
-  height: 20rem;
+  height: 15rem;
 }
 
 .archive-link {
@@ -257,41 +184,18 @@ nav.main-nav {
 }
 
 .splash-container {
-  display: flex;
-  flex-flow: row;
-
-}
-
-
-.splash.logo {
-  display: flex;
-  flex-flow: column;
-  padding-right: 3rem;
-  position: relative;
-  top: 10rem;
-  flex-grow: 1;
-
+  max-height: 50vh;
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
 
   img {
-    max-height: 25vh;
+    height: auto;
     max-width: 100%;
-  }
-
-  z-index: 2;
-}
-
-.splash.profile {
-  text-align: right;
-  height: 85vh;
-  min-width:60%;
-  z-index: 1;
-  flex-grow: 2;
-
-  img {
-    height:100%;
-    max-width: 100%;
+    max-height: 100%;
   }
 }
+
 
 .splash.policy-links {
   padding-top: 3rem;
@@ -318,7 +222,9 @@ nav.main-nav {
 }
 
 .title {
-  font-size: 2em;
+  display: block;
+  color: white;
+  font-size: 1.5em;
 }
 
 .blog-archive {
@@ -459,7 +365,7 @@ figcaption {
   height: 10rem;
   .img { width: 30%; }
   .text {
-    h1.title { font-size: 2em; margin-top: 0; width: 100%; }
+    .title { font-size: 2em; margin-top: 0; width: 100%; }
     .title::first-line {
       font-size: 100%;
     }
@@ -659,17 +565,6 @@ blockquote p {
 }
 
 @media screen and (max-width:1500px), screen and (max-height:900px) {
-  .blog-sidebar {
-    position: initial;
-    flex-flow: row wrap;
-    width: 100%;
-
-    .summary-block {
-      margin: 0 auto;
-      margin-bottom: 2rem;
-      width: 30rem;
-    }
-  }
 
 
   .blog-header {

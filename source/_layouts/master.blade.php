@@ -25,6 +25,13 @@
     <style>
         @import '//fonts.googleapis.com/css?family=Inconsolata:400|Lato:300,400,400i,700,900';
     </style>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/prism.css" rel="stylesheet" type="text/css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -57,31 +64,55 @@
         return t;
     }(document, "script", "twitter-wjs"));</script>
 <div class="wrap">
-    @if (!$page->exclude_home_nav)
-        <a href="/" class="home-nav"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
-    @endif
+
     <nav class="main-nav">
-        <ul>
-            <li>
-                <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> </a>
-            </li>
-            <li>
-                <a href="/subscribe">Subscribe</a>
-            </li>
-            <!--<li>
-                <a href="#">Get A Sign</a>
-            </li>-->
-            <li class="secondary-action">
-                <a href="/subscribe">Volunteer</a>
-            </li>
-            <li class="primary-action">
-                <a href="/donate">Donate</a>
-            </li>
-        </ul>
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> </a>
+                </li>
+                <li>
+                    <a href="/subscribe">Subscribe</a>
+                </li>
+                <!--<li>
+                    <a href="#">Get A Sign</a>
+                </li>-->
+                <li class="secondary-action">
+                    <a href="/subscribe">Volunteer</a>
+                </li>
+                <li class="primary-action">
+                    <a href="/donate">Donate</a>
+                </li>
+            </ul>
+            <ul id="mobile-nav" class="side-nav">
+                <li>
+                    <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                    <a href="/subscribe">Subscribe</a>
+                </li>
+                <!--<li>
+                    <a href="#">Get A Sign</a>
+                </li>-->
+                <li class="secondary-action">
+                    <a href="/subscribe">Volunteer</a>
+                </li>
+                <li class="primary-action">
+                    <a href="/donate">Donate</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
+
     @yield('body_content')
 
 </div>
@@ -128,6 +159,10 @@
 
     ga('create', '{{ $page->google_analytics_tracking_id }}', 'auto');
     ga('send', 'pageview');
+</script>
+
+<script>
+    $(".button-collapse").sideNav();
 </script>
 @endif
 </body>
