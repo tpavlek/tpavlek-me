@@ -9,7 +9,6 @@ pagination:
 @section('content')
 
 <div class="blog-archive">
-    <h1 class="page-title" style="visibility: hidden;">THE BLOG</h1>
     @foreach($pagination->items as $post)
         @if ($loop->index == 0)
             @include('_partials.posts.hero-post', [ "post" => $post])
@@ -24,7 +23,7 @@ pagination:
         @endif
     @endforeach
 
-    <nav class="post-controls">
+    <div class="center">
         @if ($pagination->next)
             <a href="{{ $pagination->next }}" class="button left">
                 <i class="fa fa-arrow-left"></i>
@@ -37,7 +36,7 @@ pagination:
                 <i class="fa fa-arrow-right"></i>
             </a>
         @endif
-    </nav>
+    </div>
 </div>
 
 @stop

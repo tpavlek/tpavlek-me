@@ -118,7 +118,7 @@
 </div>
 <div class="footer">
     <div class="description">
-        <h3>The Campaign to Elect Troy Pavlek to City Council</h3>
+        <span class="title">The Campaign to Elect Troy Pavlek to City Council</span>
         <p>
             Troy Pavlek is a software developer, civic policy enthusiast and resident of Hazeldean in Ward 11.
             When he's not developing software using the open data catalogue or talking about civic issues on his
@@ -127,17 +127,16 @@
         </p>
         &copy; Troy Pavlek
         <br />
-        Design work by Daria Nordell
     </div>
-    <div class="navigation">
-        <h3>Navigation</h3>
+    <div class="footer-column navigation">
+        <span class="title">Navigation</span>
         <a href="/blog">Blog</a>
         <a href="/about">About Troy</a>
         <a href="/projects">My Work</a>
         <a href="https://basketofyegs.com">Basket of YEGs Podcast</a>
     </div>
-    <div class="contact">
-        <h3>Contact</h3>
+    <div class="footer-column contact">
+        <span class="title">Contact</span>
         <a href="https://twitter.com/troypavlek">Twitter</a>
         <a href="https://facebook.com/TroyPavlekWard11">Facebook</a>
         <a href="mailto:troy@tpavlek.me">Email</a>

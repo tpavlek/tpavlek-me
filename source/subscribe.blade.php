@@ -15,18 +15,11 @@
                 <a href="http://eepurl.com/ccFea9" class="button button-lg"><i class="fa fa-envelope"></i> Subscribe to
                     the Mailing List</a>
             </p>
-
-            <p>
-                You can also connect with me on other platforms:
-            <p>
-
-            <div class="is-centered">
-                <a href="https://twitter.com/troypavlek" class="button"><i class="fa fa-twitter-square"></i> @troypavlek
-                </a>
-                <a href="/fb" class="button"><i class="fa fa-facebook-square"></i> Facebook</a>
-                <a href="mailto:troy@tpavlek.me" class="button"><i class="fa fa-envelope"></i> troy@tpavlek.me</a>
-            </div>
         </div>
     </article>
+
+    <div class="center">
+        @include('_partials.contact')
+    </div>
 
 @stop

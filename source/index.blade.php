@@ -6,19 +6,19 @@ exclude_home_nav: true
 
 @section('content')
 
-    <div class="row" style="margin-bottom: 0;">
-        <div class="col s12 xl8 center splash-container">
-            <img src="/img/splash-banner.png" />
-        </div>
-        <div class="col s12 xl4 splash-container">
-            <div class="splash policy-links center">
-                <a href="/platform" class="policy-link">Platform</a>
-                <a href="/faq" class="policy-link">FAQ</a>
-                <!--
-                <a href="/open-city" class="policy-link">Open City</a>
-                <a href="/vision-zero" class="policy-link">Vision Zero</a>
-                <a href="/photo-radar-reform" class="policy-link">Photo Radar Reform</a>
-                -->
+    <div class="row">
+        <div class="col s12 l8 offset-l2 center">
+            <div class="card hero-card">
+                <div class="card-image troy-primary-color">
+                    <img src="/img/splash-banner.png" />
+                </div>
+                <div class="card-content">
+                    <div class="policy-links left-align">
+                        <a href="/open-city" class="policy-link">Open City</a>
+                        <a href="/vision-zero" class="policy-link">Vision Zero</a>
+                        <a href="/photo-radar-reform" class="policy-link">Photo Radar Reform</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

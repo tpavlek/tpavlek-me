@@ -6,8 +6,10 @@
             BLOG
         </div>
     @endif
-    <div class="text">
-        <h1 class="title">{{ $post->title }}</h1>
-        <h2 class="date">{{ ( new \Carbon\Carbon($post->date))->format("F jS, Y") }}</h2>
+    <div class="valign-wrapper text-container">
+        <div class="text">
+            <span class="title">{{ $post->title }}</span>
+            <span class="date">{{ ( new \Carbon\Carbon($post->date))->format("F jS, Y") }}</span>
+        </div>
     </div>
 </a>

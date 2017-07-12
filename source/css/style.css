@@ -307,6 +307,20 @@ body {
   margin: 0;
 }
 
+.troy-primary-color {
+  background-color: #2c3e4c;
+}
+
+.troy-tertiary-color {
+  background-color: #234e74;
+}
+
+.hero-card {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content-wrapper {
   padding-top: 6rem;
 }
@@ -334,7 +348,7 @@ a:active, a:hover, a:focus {
   margin: 0 auto;
 }
 
-.padding-normal, .policy-block, .sidekick-post .text, .links-post .text, .links-post, .archive-post .text {
+.padding-normal, .policy-block, .links-post {
   padding: 1rem;
 }
 
@@ -492,9 +506,9 @@ nav .brand-logo {
   background-repeat: no-repeat;
   padding-left: 5rem;
   display: block;
+  color: #2c3e4c;
   font-size: 3em;
   font-weight: 900;
-  color: white;
   margin-bottom: 1rem;
 }
 
@@ -528,6 +542,37 @@ nav .brand-logo {
   width: 100%;
 }
 
+.card.contact {
+  max-width: 60rem;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card.contact .card-image {
+  max-height: 25rem;
+  overflow: hidden;
+}
+
+.card.contact .card-image img {
+  width: 100%;
+}
+
+.card.contact hr {
+  width: 100%;
+  background-color: lightslategrey;
+  background-image: none;
+}
+
+.card.contact a {
+  color: black;
+  border-bottom: none;
+}
+
+.card.contact .card-title {
+  font-weight: bold;
+}
+
 .hero-post, .sidekick-post, .links-post, .archive-post {
   background: #1d4561;
   margin: 0 auto;
@@ -542,6 +587,11 @@ nav .brand-logo {
   margin-bottom: 3rem;
 }
 
+.hero-post .text-container, .sidekick-post .text-container, .links-post .text-container, .archive-post .text-container {
+  padding: 1rem;
+  width: 40%;
+}
+
 .hero-post .img, .sidekick-post .img, .links-post .img, .archive-post .img {
   width: 60%;
   height: 100%;
@@ -553,9 +603,13 @@ nav .brand-logo {
 
 .hero-post .text, .sidekick-post .text, .links-post .text, .archive-post .text {
   text-align: left;
-  width: 40%;
+  width: 100%;
   font-size: 1.2em;
   line-height: 2.8em;
+}
+
+.hero-post .text .title, .sidekick-post .text .title, .links-post .text .title, .archive-post .text .title {
+  font-size: 2em;
 }
 
 .hero-post .text .title::first-line, .sidekick-post .text .title::first-line, .links-post .text .title::first-line, .archive-post .text .title::first-line {
@@ -570,8 +624,11 @@ nav .brand-logo {
   width: 30%;
 }
 
-.sidekick-post .text, .links-post .text {
+.sidekick-post .text-container, .links-post .text-container {
   width: 69%;
+}
+
+.sidekick-post .text, .links-post .text {
   font-size: 0.8em;
 }
 
@@ -581,6 +638,10 @@ nav .brand-logo {
 
 .sidekick-post .img, .links-post .img {
   width: 30%;
+}
+
+.sidekick-post .date, .archive-post .date {
+  font-size: 1.5em;
 }
 
 .links-post {
@@ -656,8 +717,11 @@ figcaption {
   width: 30%;
 }
 
-.archive-post .text {
+.archive-post .text-container {
   width: 70%;
+}
+
+.archive-post .text {
   font-size: 90%;
 }
 
@@ -811,6 +875,9 @@ blockquote {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-flow: row wrap;
+  margin: 1rem 2rem;
+  padding-left: 0;
+  border-left: 0;
 }
 
 blockquote p {
@@ -842,11 +909,11 @@ blockquote p {
   padding-right: 3rem;
 }
 
-.footer .contact, .footer .navigation {
+.footer .footer-column {
   padding-right: 3rem;
 }
 
-.footer .contact a, .footer .navigation a {
+.footer .footer-column a {
   font-weight: 200;
   display: block;
 }
@@ -949,7 +1016,7 @@ blockquote p {
   h1 {
     font-size: 200%;
   }
-  h2.date {
+  .date {
     font-size: 1em;
   }
   .home-nav {
@@ -964,7 +1031,7 @@ blockquote p {
   .home-nav img {
     width: 50%;
   }
-  .hero-post h1.title, .sidekick-post h1.title, .archive-post h1.title {
+  .hero-post .title, .sidekick-post .title, .archive-post .title {
     font-size: 1.5em;
     line-height: 1.5em;
   }
@@ -996,10 +1063,10 @@ blockquote p {
     padding: 1rem;
     text-align: center;
   }
-  .footer .description, .footer .navigation, .footer .contact {
+  .footer .description, .footer .footer-column {
     padding: 0;
   }
-  .footer .navigation, .footer .contact {
+  .footer .footer-column {
     width: 50%;
   }
   blockquote {

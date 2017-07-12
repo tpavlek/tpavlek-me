@@ -4,7 +4,7 @@
     @else
         <div class="img default">BLOG</div>
     @endif
-    <div class="valign-wrapper">
+    <div class="valign-wrapper text-container">
         <div class="text">
             <span class="title">{{ $post->title }}</span>
             <span class="date">{{ (new \Carbon\Carbon($post->date))->format("F jS, Y") }}</span>

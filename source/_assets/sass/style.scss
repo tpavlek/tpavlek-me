@@ -3,6 +3,8 @@
 @import "sc2ctl";
 @import "tables";
 
+$troy-primary-color: #2c3e4c;
+
 * { box-sizing: border-box; font-family: 'Lato', sans-serif; }
 .content-wrapper pre code * {
   font-family: Inconsolata, Menlo, Courier, monospace;
@@ -20,6 +22,20 @@ h1 { font-size: 3em; font-weight: 900; }
 body {
   background-color: $primary-background-color;
   margin: 0;
+}
+
+.troy-primary-color {
+  background-color: $troy-primary-color;
+}
+
+.troy-tertiary-color {
+  background-color: #234e74
+}
+
+.hero-card {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-wrapper {
@@ -210,9 +226,10 @@ nav .brand-logo { padding: 0.5rem; }
   padding-left: 5rem;
   display: block;
 
+  color: $troy-primary-color;
+
   font-size: 3em;
   font-weight: 900;
-  color: $foreground-color-primary;
   margin-bottom:1rem;
 }
 
@@ -243,12 +260,52 @@ nav .brand-logo { padding: 0.5rem; }
   }
 }
 
+.card.contact {
+
+  max-width: 60rem;
+  font-size: 20px;
+  margin-left:auto;
+  margin-right: auto;
+
+  .card-image {
+    max-height:25rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  hr {
+    width: 100%;
+    background-color: lightslategrey;
+    background-image: none;
+  }
+
+  a {
+    color: black;
+    border-bottom: none;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+}
+
+
+
 .hero-post, .sidekick-post, .links-post, .archive-post {
   background: $secondary-background-color;
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   overflow: hidden;
+
+  .text-container {
+    padding: 1rem;
+    width: 40%;
+  }
+
   .img {
     width: 60%;
     height:100%;
@@ -259,9 +316,13 @@ nav .brand-logo { padding: 0.5rem; }
   }
   .text {
     text-align: left;
-    width: 40%;
+    width: 100%;
     font-size: 1.2em;
     line-height: 2.8em;
+
+    .title {
+      font-size: 2em;
+    }
 
     .title::first-line {
       font-size: 120%;
@@ -286,9 +347,11 @@ nav .brand-logo { padding: 0.5rem; }
 
   width: 30%;
 
-  .text {
-    @extend .padding-normal;
+  .text-container {
     width: 69%;
+  }
+
+  .text {
     font-size: 0.8em;
 
     .title::first-line {
@@ -298,6 +361,12 @@ nav .brand-logo { padding: 0.5rem; }
 
   .img {
     width: 30%;
+  }
+}
+
+.sidekick-post, .archive-post {
+  .date {
+    font-size: 1.5em;
   }
 }
 
@@ -364,13 +433,16 @@ figcaption {
 .archive-post {
   height: 10rem;
   .img { width: 30%; }
+
+  .text-container {
+    width: 70%;
+  }
   .text {
     .title { font-size: 2em; margin-top: 0; width: 100%; }
     .title::first-line {
       font-size: 100%;
     }
-    @extend .padding-normal;
-    width: 70%;
+
     font-size: 90%;
   }
 }
@@ -528,6 +600,10 @@ blockquote {
   min-height: 4rem;
   display: flex;
   flex-flow: row wrap;
+
+  margin: 1rem 2rem;
+  padding-left: 0;
+  border-left: 0;
 }
 
 blockquote p {
@@ -555,7 +631,7 @@ blockquote p {
     padding-right: 3rem;
   }
 
-  .contact, .navigation {
+  .footer-column {
     padding-right: 3rem;
     a {
       font-weight: 200;
@@ -684,7 +760,7 @@ blockquote p {
 
 @media screen and (max-width: 500px) {
   h1 { font-size: 200%; }
-  h2.date { font-size: 1em; }
+  .date { font-size: 1em; }
 
   .home-nav {
     position: initial;
@@ -701,7 +777,7 @@ blockquote p {
   }
 
   .hero-post, .sidekick-post, .archive-post {
-    h1.title {
+    .title {
       font-size: 1.5em;
       line-height: 1.5em;
     }
@@ -734,11 +810,11 @@ blockquote p {
     padding: 1rem;
     text-align: center;
 
-    .description, .navigation, .contact{
+    .description, .footer-column {
       padding: 0;
     }
 
-    .navigation, .contact{
+    .footer-column {
       width: 50%;
     }
   }
