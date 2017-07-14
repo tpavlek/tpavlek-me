@@ -573,6 +573,14 @@ nav .brand-logo {
   font-weight: bold;
 }
 
+.post .title {
+  font-size: 3em;
+}
+
+.post .date {
+  font-size: 1.5em;
+}
+
 .hero-post, .sidekick-post, .links-post, .archive-post {
   background: #1d4561;
   margin: 0 auto;
@@ -723,12 +731,6 @@ figcaption {
 
 .archive-post .text {
   font-size: 90%;
-}
-
-.archive-post .text .title {
-  font-size: 2em;
-  margin-top: 0;
-  width: 100%;
 }
 
 .archive-post .text .title::first-line {
@@ -945,7 +947,7 @@ blockquote p {
   .hero-post .img {
     width: 40%;
   }
-  .hero-post .text {
+  .hero-post .text-container {
     width: 60%;
   }
   .sidekick-post {
