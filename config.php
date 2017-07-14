@@ -18,6 +18,12 @@ return [
             'extends' => '_layouts.post',
             'section' => 'post_content',
             'sort' => '-date',
+        ],
+        'questions' => [
+            'path' => 'question/{filename}',
+            'extends' => '_layouts.question',
+            'section' => 'question_content',
+            'sort' => '-date'
         ]
     ],
 ];
