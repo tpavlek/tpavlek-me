@@ -322,7 +322,7 @@ body {
 }
 
 .content-wrapper {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 .content-wrapper.unwrapped {
@@ -454,7 +454,7 @@ nav .brand-logo {
 
 .summary-block .summary-description .text, .project .summary-description .text, .project .project-description .text {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   z-index: 10;
   left: 0;
   right: 0;
@@ -474,6 +474,10 @@ nav .brand-logo {
   opacity: 1;
   font-weight: bold;
   color: ghostwhite;
+}
+
+header.summary-block, header.project {
+  height: 25rem;
 }
 
 .archive-link {
