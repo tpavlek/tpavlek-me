@@ -329,16 +329,16 @@ header.summary-block {
   .text {
     text-align: left;
     width: 100%;
-    font-size: 1.2em;
-    line-height: 2.8em;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+  }
 
-    .title {
-      font-size: 2em;
-    }
+  .title {
+    font-size: 2rem;
+  }
 
-    .title::first-line {
-      font-size: 120%;
-    }
+  .title::first-line {
+    font-size: 120%;
   }
 
   width: 100%;
@@ -496,6 +496,11 @@ figcaption {
     color: black;
   }
 
+  h3 {
+    color: $foreground-color-secondary;
+    font-size: 30px;
+  }
+
   hr {
     width: 30%;
     border: 0;
@@ -506,12 +511,18 @@ figcaption {
 }
 
 
-.post-content a:not(.button) {
+.post-content a:not(.button,.archive-post) {
   border-bottom: 2px dashed slategrey;
 }
 
-.post-content a:not(.button):hover {
+.post-content a:not(.button,.archive-post):hover {
   border-bottom: 3px solid slategray;
+}
+
+.post-content .blog-archive {
+  padding: 0;
+  margin-left: -5rem;
+  margin-right: -5rem;
 }
 
 .footer a {
@@ -653,7 +664,6 @@ blockquote p {
 
 @media screen and (max-width:1500px), screen and (max-height:900px) {
 
-
   .blog-header {
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -705,13 +715,15 @@ blockquote p {
 
 @media screen and (max-width: 1000px) {
 
+  .post-content .blog-archive {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .img.default {
     padding-left: 0;
   }
 
-  h1 {
-    font-size: 2em;
-  }
   nav.main-nav {
     margin: 0;
     font-size: 1em;
@@ -759,7 +771,7 @@ blockquote p {
       width: 100%;
       height: 15rem;
     }
-    .text { width: 100%;}
+    .text-container { width: 100%;}
 
     .img.default {
       line-height: 100%;
@@ -771,7 +783,7 @@ blockquote p {
 
 @media screen and (max-width: 500px) {
   h1 { font-size: 200%; }
-  .date { font-size: 1em; }
+  .date, .archive-post .date { font-size: 1.5rem; }
 
   .home-nav {
     position: initial;
@@ -789,7 +801,7 @@ blockquote p {
 
   .hero-post, .sidekick-post, .archive-post {
     .title {
-      font-size: 1.5em;
+      font-size: 1.5rem;
       line-height: 1.5em;
     }
   }
@@ -810,7 +822,7 @@ blockquote p {
       height: 10rem;
       width:100%;
     }
-    .text {
+    .text-container {
       width: 100%;
     }
   }

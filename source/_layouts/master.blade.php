@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title', 'Troy Pavlek - City Councillor Candidate for Ward 11') - Troy Pavlek - City Councillor Candidate for Ward 11</title>
+    <title>@yield('title', "Let's Talk") - Troy Pavlek - Edmonton City Council Candidate for Ward 11</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

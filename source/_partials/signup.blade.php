@@ -48,6 +48,15 @@
 
     <div style="display:flex; align-items: center;">
         <a class="twitter-follow-button" href="https://twitter.com/troypavlek" data-size="large">Follow @troypavlek</a>
+
+        <div style="flex-grow:1;">
+            <a class="button" href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> Facebook</a>
+        </div>
+
+    </div>
+
+    <div style="display:flex; align-items: center;">
+
     </div>
 
 </div>

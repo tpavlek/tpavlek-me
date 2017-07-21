@@ -12,7 +12,7 @@
             <hr />
             <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter-square"></i> @troypavlek</a>
             <hr />
-            <a href="/fb"><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a href="https://facebook.com/troypavlek"><i class="fa fa-facebook-square"></i> Facebook</a>
         </div>
     </div>
 

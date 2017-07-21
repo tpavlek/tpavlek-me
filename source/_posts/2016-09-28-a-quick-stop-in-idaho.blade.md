@@ -1,5 +1,6 @@
 ---
 title: "A Quick Stop in Idaho: Should Edmonton cyclists be able to yield through stop signs?"
+slug: "a-quick-stop-in-idaho"
 date: "2016-09-28"
 imgpath: "/img/posts/2016-09-28-a-quick-stop-in-idaho/"
 img: "bike-box.jpg"
