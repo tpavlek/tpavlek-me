@@ -43,7 +43,7 @@ There is a need for such cycle connections to use our existing roadway infrastru
 so "filler routes" through existing neighbourhoods must be utilized to provide necessary connections for bicycle travel.
 
 This simple change to improve the quality of mature neighbourhood streets for people cycling gives us access to a vast
-network of *decent* bicycle routes. Note that these routes are *decent*. They don't replace higher quality infrastructure
+network of *decent* bicycle routes. Note that these routes are *decent*. They don't replace higher quality, AAA (all-ages and abilities) infrastructure
 like bike boulevards or protected lanes. However, just like with transit, we have a last-mile problem for bicycles. River valley and ravine trails
 can transport you quite far in the city, but they don't connect *directly* to most destinations. Giving us overnight access to
 a wealth of *decent* last-mile routes makes choosing to cycle a much more attractive option.

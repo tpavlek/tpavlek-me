@@ -628,6 +628,14 @@ header.summary-block, header.project {
   font-size: 120%;
 }
 
+.links-post h2 {
+  font-size: 2rem;
+}
+
+.links-post .title {
+  font-size: 1.2rem;
+}
+
 .sidekick-post {
   height: 20rem;
 }
