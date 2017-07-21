@@ -53,4 +53,4 @@ and the motion passed with an amendment asking what _departments_ are responsibl
 ---
 
 That's all for this week! If you think these updates are useful, please give me a [follow on Twitter](https://twitter.com/troypavlek)
-or a [like on Facebook](https://facebook.com/TroyPavlekWard11) and let me know.
+or a [follow on Facebook](https://facebook.com/troypavlek) and let me know.

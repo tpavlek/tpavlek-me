@@ -47,7 +47,6 @@
     </p>
 
     <div style="display:flex; align-items: center;">
-        <div class="fb-like" data-href="https://facebook.com/TroyPavlekWard11" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
         <a class="twitter-follow-button" href="https://twitter.com/troypavlek" data-size="large">Follow @troypavlek</a>
     </div>
 

@@ -74,7 +74,7 @@
                     <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> </a>
+                    <a href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> </a>
                 </li>
                 <li>
                     <a href="/subscribe">Subscribe</a>
@@ -94,7 +94,7 @@
                     <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
                 <li>
-                    <a href="https://facebook.com/troypavlekward11"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> Facebook</a>
                 </li>
                 <li>
                     <a href="/subscribe">Subscribe</a>
@@ -138,7 +138,7 @@
     <div class="footer-column contact">
         <span class="title">Contact</span>
         <a href="https://twitter.com/troypavlek">Twitter</a>
-        <a href="https://facebook.com/TroyPavlekWard11">Facebook</a>
+        <a href="https://facebook.com/troypavlek">Facebook</a>
         <a href="mailto:troy@tpavlek.me">Email</a>
         <a href="https://github.com/tpavlek">GitHub</a>
         <a href="/rss.xml">Blog RSS</a>

@@ -56,4 +56,4 @@ Administration began consultation on their plan to add bag searches and metal de
 build a wall in council chambers. You can [read about](/blog/2017/02/16/keep-metal-detectors-bag-searches-out-of-city-hall) why I think this should absolutely not happen.
 
 That's all for this week! If you think these updates are useful, please give me a [follow on Twitter](https://twitter.com/troypavlek)
-or a [like on Facebook](https://facebook.com/TroyPavlekWard11) and let me know.
+or a [follow on Facebook](https://facebook.com/troypavlek) and let me know.
