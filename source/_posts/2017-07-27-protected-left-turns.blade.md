@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Protected Left Turn Phases"
 date: "2017-07-27"
-imgpath: "/img/posts/2017-07-27"
-img: ""
-description: ""
+imgpath: "/img/posts/2017-07-27-protected-left-turns/"
+img: "left-turn-phase.jpg"
+description: "Protected left turn phases can substantially increase the safety of intersections, at the cost of a little bit of convenience"
 tags: 
     - "vision-zero"
 ---
@@ -15,13 +15,15 @@ For a whole light cycle.
 
 Might as well get out and walk home.
 
+@include('_partials.youtube', [ 'video_id' => 'j2VUVA7VIas' ])
+
 While door-knocking recently a resident brought that up as his primary concern - it was frustrating to him for another reason:
 at midnight, when he's driving home, if there are no cars waiting to turn, the left-turn phase is skipped entirely, so he
 always has to wait with empty roads for his chance to turn.
 
 I empathize with him, but in all honesty, I believe the current solution is better than the alternative.
 
-// PUT IN PHOTO OF THE INTERSECTION
+@include('_partials.image', [ 'name' => 'intersection.jpg', 'caption' => 'A view of the intersection' ])
 
 On December 17, 2010, a protected left-turn phase was installed on the intersection at 99st and 63ave. This was in response to
 several years of collisions.
