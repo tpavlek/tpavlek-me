@@ -1,14 +1,11 @@
 ---
-title: "Mature Neighbourhoods can become bicycle routes with legal Idaho stops"
-date: "2017-07-21"
-imgpath: "/img/posts/2017-07-21-idaho-stops-mature-neighbourhoods/"
-img: "stop-yield.jpg"
-description: "\"Use the side-streets\" could be a decent interim last-mile policy, if we eliminate some of the start-stopping"
+title: ""
+date: "2017-07-27"
+imgpath: "/img/posts/2017-07-27"
+img: ""
+description: ""
 tags: 
-    - "idaho-stop"
     - "vision-zero"
-    - "cycling"
-    - "neighbourhood-renewal"
 ---
 
 Anyone commuting via 63 ave has experienced the feeling before. You're in the left-turn lane at 99st, there's about eight or nine cars
@@ -22,7 +19,7 @@ While door-knocking recently a resident brought that up as his primary concern -
 at midnight, when he's driving home, if there are no cars waiting to turn, the left-turn phase is skipped entirely, so he
 always has to wait with empty roads for his chance to turn.
 
-I empathized with him, but told him the solution in place was better than what he was asking for, and I'd be happy to share why.
+I empathize with him, but in all honesty, I believe the current solution is better than the alternative.
 
 // PUT IN PHOTO OF THE INTERSECTION
 
@@ -32,6 +29,21 @@ several years of collisions.
 In the seven years prior to implementation, there were 36 injury and 96 property damage collisions related to left turning vehicles
 at that intersection. That means on average, **left turns at that intersection were causing around nineteen collisions per year**.
 
-Post-implementation
+Post-implementation (2011 through mid-2017) that number dropped to a staggering 4 injury and 18 property damage collisions.
 
+> Simply adding a protected left turn phase at this intersection reduced overall annual collisions by around 80%
 
+This is not an isolated phenomenon - across the 55 locations that have had protected left-turn phases added since 2009,
+there has been a stark drop in the number of left-turn collisions.
+
+I've heard it reasonably argued that the protected phase simply should not apply at night-time. A decent proposal on the surface,
+but the unfortunate reality of our roadway is we have to plan for the least attentive, least-skilled drivers. By keeping
+the signal lights consistent, we don't have the issue of drivers going left on a double-red because "I did it last night".
+
+Simply showing a double red light is not enough to prevent drivers from proceeding, we need to ingrain behaviours and habits.
+We've had more than enough examples from the downtown bike grid proving this.
+
+@include('_partials.youtube', [ 'video_id' => 'M-9aYJ0LrpU' ])
+
+So, yes, it's a little bit inconvenient and can slow down drivers a minute at some intersections. But the benefits make
+these kind of simple upgrades a no-brainer.

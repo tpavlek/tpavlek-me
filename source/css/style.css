@@ -307,6 +307,10 @@ body {
   margin: 0;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .troy-primary-color {
   background-color: #2c3e4c;
 }
