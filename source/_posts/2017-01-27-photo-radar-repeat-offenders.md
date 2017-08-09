@@ -44,7 +44,6 @@ For argument's sake, we'll use the population of Metro Edmonton (around 1.1 mill
 
 Where the data starts to get interesting is when we break down not only by individuals but by the _share_ of total tickets each group received.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
 <div>
     <canvas id="ticket-chart" style="max-width:100%" width=400 height=300></canvas>
 </div>

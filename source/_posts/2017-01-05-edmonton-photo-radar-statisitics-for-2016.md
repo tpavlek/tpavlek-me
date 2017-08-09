@@ -37,7 +37,6 @@ In 2014 we saw a huge jump (about 300%) in tickets issued for 6-10 over. This li
 However, we're now seeing a stabilization of tickets for 6-10 over, but the distribution of tickets is trending closer to the centre.
 Less tickets are issued for higher violation speeds. There has been a consistent increase in tickets issued for 11-15 over, which is charted below.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
 <div>
     <canvas id="ticket-chart" style="max-width:100%" width=400 height=300></canvas>
 </div>

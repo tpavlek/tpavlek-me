@@ -29,7 +29,6 @@ However, I disagreed. In my comments to Executive Committee urging them not to p
 that it was probable that those 20% of respondents could represent a significant proportion, or even a majority, of the people
 who actually *do* participate at council meeting each year.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
 <div>
     <canvas id="participation-chart" style="max-width:100%" width=400 height=150></canvas>
 </div>

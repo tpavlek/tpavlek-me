@@ -28,6 +28,11 @@ strong {
   font-weight: bold;
 }
 
+twitterwidget {
+  margin-left: auto;
+  margin-right:auto;
+}
+
 .troy-primary-color {
   background-color: $troy-primary-color;
 }
@@ -63,6 +68,11 @@ a:active, a:hover, a:focus {
 
 .is-centered {
   text-align: center;
+}
+
+.auto-margins {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .is-centered:not(h1) {
