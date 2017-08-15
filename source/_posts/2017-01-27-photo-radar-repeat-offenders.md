@@ -4,6 +4,7 @@ date: "2017-01-27"
 imgpath: "/img/posts/2017-01-27-photo-radar-repeat-offenders/"
 img: "photo-radar-letter.jpg"
 description: "While there are enough photo radar tickets issued to unique license plates to give one to 30% of Metro Edmonton residents, 30% of all tickets are issued to plates that receive 3 or more per year."
+slug: "photo-radar-repeat-offenders"
 tags: 
     - "photo-radar"
     - "open-data"

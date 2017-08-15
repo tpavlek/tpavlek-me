@@ -43,7 +43,7 @@
     <!--End mc_embed_signup-->
 
     <p>
-        He's also on Facebook and Twitter, probably more often than is healthy.
+        He's also on Facebook and Twitter, and will log on whenever <a href="https://xkcd.com/386/">duty calls</a>.
     </p>
 
     <div style="display:flex; align-items: center;">
