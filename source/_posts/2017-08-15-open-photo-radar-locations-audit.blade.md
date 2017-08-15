@@ -3,7 +3,7 @@ title: "How accurate is Edmonton's posted list of photo radar locations?"
 date: "2017-08-15"
 imgpath: "/img/posts/2017-08-15-open-photo-radar-locations-audit/"
 img: "spider-photo.jpg"
-description: "Actual enforcement data differed 40% from the posted locations, and 26% of locations had 4 or less hours of enforcement"
+description: "Actual enforcement data differed 40% from the posted locations, but also revealed 25% of enforcement is by schools and parks"
 tags: 
     - "photo-radar"
     - "open-city"
@@ -120,28 +120,28 @@ were driven by citizen complaints about speeding.
             <span class="card-title center">Locations where unscheduled enforcement occurred</span>
         </div>
         <div class="card-content left-align">
-            <small><em><span class="green">Green</span> denotes a school/park</em></small>
+            <small><em><span class="green-text">Green</span> denotes a school/park</em></small>
             <ul>
                 <li>Anthony Henday Dr at Whitemud Creek (19.09 hours)</li>
                 <li>156 St between 99 - 98 ave (11.75 hours)</li>
                 <li>Blackburn Dr W btwn Blackett Wynd - 111 St SW (6.51 hours)</li>
-                <li class="green">Ottewell Rd between 95 - 96A Ave (5.5 hours)</li>                                             
-                <li class="green">106 St between 38 - 35 Ave (4.5 hours)</li>
+                <li class="green-text">Ottewell Rd between 95 - 96A Ave (5.5 hours)</li>                                             
+                <li class="green-text">106 St between 38 - 35 Ave (4.5 hours)</li>
                 <li>Summerside Dr SW btn Separd Ct-Summerside Gate (3.67 hours)</li>
                 <li>Anthony Henday Dr at Rabbit Hill Rd (3.5 hours)</li>
                 <li>4 Ave SW between 52 - 50 st (3.5 hours)</li>
                 <li>Ellerslie Rd SW between 85 - 91 St SW (3.43 hours)</li>
-                <li class="green">132 Ave between 91 - 95 st (3.25 hours)</li>
-                <li class="green">40 Ave between 124 - 120 St (3.03 hours)</li>
-                <li class="green">Saddleback Rd between 27 Ave - 112 St (3.03 hours)</li>
+                <li class="green-text">132 Ave between 91 - 95 st (3.25 hours)</li>
+                <li class="green-text">40 Ave between 124 - 120 St (3.03 hours)</li>
+                <li class="green-text">Saddleback Rd between 27 Ave - 112 St (3.03 hours)</li>
                 <li>Groat Rd btwn S of 107 Ave - Victoria Pk Rd (2.75 hours)</li>
                 <li>Ellerslie Rd SW between 95 - 91 St SW (2.53 hours)</li>
                 <li>91 St between 63 - 58 Ave (2.42 hours)</li>
                 <li>76 Ave between 85 - 87 St (2.25 hours)</li>
-                <li class="green">119 St between Fairway Dr - 40 Ave (2.03 hours)</li>
-                <li class="green">106 Ave between Fulton Dr - 65 st (2 hours)</li>
-                <li class="green">179 Ave between 93 - 92 St (2 hours)</li>
-                <li class="green">Saddleback Rd between 25 - 27 Ave (1.55 hours)</li>
+                <li class="green-text">119 St between Fairway Dr - 40 Ave (2.03 hours)</li>
+                <li class="green-text">106 Ave between Fulton Dr - 65 st (2 hours)</li>
+                <li class="green-text">179 Ave between 93 - 92 St (2 hours)</li>
+                <li class="green-text">Saddleback Rd between 25 - 27 Ave (1.55 hours)</li>
                 <li>184 St between 60 - 57 Ave (1.33 hours)</li>
             </ul>
         </div>
@@ -172,7 +172,7 @@ And, if the city is honest when it says science and data are on its side, then i
 
 It's far past time we were allowed to trust, *and verify*.
 
-@include('_partials.signup', [ 'signup_extra' => "Troy has a plan to open the data around the photo radar program and let any citizen audit its internals" ])
+@include('_partials.signup', [ 'signup_extra' => "Troy has [a plan](/photo-radar-reform) to open the data around the photo radar program and let any citizen audit its internals" ])
 
 <hr />
 
@@ -234,15 +234,13 @@ var pie = new Chart(enforcement_share, {
         datasets: [{
                 data: [115.72, 65.84, 57.14, 267.72, 63.07, 60.34, 400],
                 backgroundColor: [
-                            'rgb(173, 22, 5)',
-                            'rgb(173, 77, 5)',
-                            'rgb(173, 119, 5)',
-                            'rgb(6, 104, 16)',
-                            'rgb(151, 152, 153)',
-                            'rgb(174, 177, 178)',
-                            
-                            
-                        ]
+                    'rgb(173, 22, 5)',
+                    'rgb(173, 77, 5)',
+                    'rgb(173, 119, 5)',
+                    'rgb(6, 104, 16)',
+                    'rgb(151, 152, 153)',
+                    'rgb(174, 177, 178)',
+                ]
             }],
     },
 
