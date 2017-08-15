@@ -63,7 +63,8 @@ three percentage points higher than all highway enforcement.
 
 To clarify, I don't propose that this information should absolve the photo radar program of all scrutiny. Quite the opposite, in fact.
 These enforcement numbers are *surprising* to me, because they run counter to the "common knowledge" of how the photo radar program
-operates.
+operates. A typical argument against our photo radar program will often read "I *wouldn't* have a problem if it ever enforced in *school zones*".
+It's interesting to note that opening of the data might reveal that this is already the case.
 
 If, on a week-to-week basis, these same enforcement percentages hold true, then we should *absolutely* be more open about communicating that.
 
@@ -229,16 +230,18 @@ var pie = new Chart(enforcement_share, {
 
     // The data for our dataset
     data: {
-        labels: ["Anthony Henday", "Whitemud", "Yellowhead", "Whyte Ave", "Stony Plain Road", "Schools/Parks"],
+        labels: ["Anthony Henday", "Whitemud", "Yellowhead", "Schools/Parks", "Whyte Ave", "Stony Plain Road", "Other Streets"],
         datasets: [{
-                data: [115.72, 65.84, 57.14, 63.07, 60.34, 267.72],
+                data: [115.72, 65.84, 57.14, 267.72, 63.07, 60.34, 400],
                 backgroundColor: [
                             'rgb(173, 22, 5)',
-                            'rgb(54, 162, 235)',
-                            'rgb(216, 200, 17)',
-                            'rgb(99, 7, 186)',
-                            'rgb(178, 126, 14)',
-                            'rgb(6, 104, 16)'
+                            'rgb(173, 77, 5)',
+                            'rgb(173, 119, 5)',
+                            'rgb(6, 104, 16)',
+                            'rgb(151, 152, 153)',
+                            'rgb(174, 177, 178)',
+                            
+                            
                         ]
             }],
     },
