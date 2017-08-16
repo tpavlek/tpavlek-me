@@ -14,7 +14,7 @@ there has been a significant amount of criticism leveled against the list.
 
 @include('_partials.image', [ 'name' => 'smartass.jpg', 'caption' => 'Those cheeky OTS employees' ])
 
-I chucked and upvoted, but internally I agreed with that Reddit user. I thought the city probably isn't enforcing in all those locations, and they're
+I chuckled and upvoted, but internally I agreed with that Reddit user. I thought the city probably isn't enforcing in all those locations, and they're
 probably enforcing in a bunch of non-listed locations as well.
 
 So I issued a FOIP request, to spot-check the data. What I found actually surprised me, quite a bit.
@@ -139,7 +139,7 @@ were driven by citizen complaints about speeding.
                 <li>91 St between 63 - 58 Ave (2.42 hours)</li>
                 <li>76 Ave between 85 - 87 St (2.25 hours)</li>
                 <li class="green-text">119 St between Fairway Dr - 40 Ave (2.03 hours)</li>
-                <li class="green-text">106 Ave between Fulton Dr - 65 st (2 hours)</li>
+                <li class="green-text">106 Ave between Fulton Dr - 65 st (2 hours)<strong>*</strong></li>
                 <li class="green-text">179 Ave between 93 - 92 St (2 hours)</li>
                 <li class="green-text">Saddleback Rd between 25 - 27 Ave (1.55 hours)</li>
                 <li>184 St between 60 - 57 Ave (1.33 hours)</li>
@@ -147,6 +147,10 @@ were driven by citizen complaints about speeding.
         </div>
     </div>
 </div>
+
+<small>
+    <strong>*</strong> whether this location actually enforces the school/park area is [in dispute](https://twitter.com/shawnbenbow/status/897525132964397056).
+</small>
 
 Interestingly, a couple locations were directly outside churches and had enforcement on Sunday. It could be a co-incidence,
 but I exhaled out through my nose and said "Cool".
@@ -172,7 +176,7 @@ And, if the city is honest when it says science and data are on its side, then i
 
 It's far past time we were allowed to trust, *and verify*.
 
-@include('_partials.signup', [ 'signup_extra' => "Troy has [a plan](/photo-radar-reform) to open the data around the photo radar program and let any citizen audit its internals" ])
+@include('_partials.signup', [ 'signup_extra' => "Troy has a plan to open the data around the photo radar program and let any citizen audit its internals" ])
 
 <hr />
 
