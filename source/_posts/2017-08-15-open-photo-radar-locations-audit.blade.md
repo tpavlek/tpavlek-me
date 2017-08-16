@@ -3,7 +3,7 @@ title: "How accurate is Edmonton's posted list of photo radar locations?"
 date: "2017-08-15"
 imgpath: "/img/posts/2017-08-15-open-photo-radar-locations-audit/"
 img: "spider-photo.jpg"
-description: "Actual enforcement data differed 40% from the posted locations, but also revealed 25% of enforcement is by schools and parks"
+description: "Actual enforcement differed 41 times from the posted list during the week, but also revealed 25% of enforcement is by schools and parks"
 tags: 
     - "photo-radar"
     - "open-city"
@@ -155,8 +155,7 @@ were driven by citizen complaints about speeding.
 Interestingly, a couple locations were directly outside churches and had enforcement on Sunday. It could be a co-incidence,
 but I exhaled out through my nose and said "Cool".
 
-Because we had 106 scheduled locations, and we didn't enforce at 20 of them, and enforced at 21 unscheduled locations,
-that's a nearly **40% variance from the scheduled locations**. 
+We had 106 scheduled locations, and we didn't enforce at 20 of them, and enforced at 21 unscheduled locations.
 
 Additionally, twenty-eight locations had four or less hours of enforcement over the whole week. I have a hard time arguing
 that including those locations is a bad thing because, and this can't be undersold:
