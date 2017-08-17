@@ -1,5 +1,32 @@
+---
+description: "Troy Pavlek is running for a City Council seat in Ward 11. He brings a youthful, technology-aware, and data-focused approach to the problems facing the City of Edmonton."
+---
+
 @extends('_layouts.wrapped')
 @section('title', "Donate to Troy Pavlek's Ward 11 Campaign")
+
+@section("social_meta")
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@troypavlek"/>
+
+    <meta name="twitter:title" content="Donate to Troy Pavlek for Ward 11"/>
+    <meta property="og:title" content="Donate to Troy Pavlek for Ward 11"/>
+
+    @if($page->description)
+        <meta name="twitter:description" content="{{ $page->description }}"/>
+        <meta property="og:description" content="{{ $page->description }}"/>
+    @else
+        <meta name="twitter:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
+        <meta property="og:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
+    @endif
+
+    <meta name="twitter:image" content="{{$page->baseUrl}}/img/splash-banner-bg.jpg"/>
+    <meta property="og:image" content="{{ $page->baseUrl }}/img/splash-banner-bg.jpg"/>
+
+    <meta property="og:type" content="article"/>
+    <meta property="fb:admins" content="551604144"/>
+    <meta property="fb:app_id" content="691298577729703"/>
+@stop
 
 @section('content')
     <h1 style="text-align:center;">Donate to Troy Pavlek's Ward 11 Campaign</h1>
@@ -9,7 +36,7 @@
             <h3>With your help we can bring positive change to City Hall</h3>
 
             <p>
-                Any amount you donate, even as little as $5 goes a long way to helping get the message out!
+                Any amount you donate goes a long way to helping get the message out!
             </p>
 
             <p>
