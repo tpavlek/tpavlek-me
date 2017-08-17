@@ -21,8 +21,8 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
         <meta property="og:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
     @endif
 
-    <meta name="twitter:image" content="{{$page->baseUrl}}/img/splash-banner.png"/>
-    <meta property="og:image" content="{{ $page->baseUrl }}/img/splash-banner.png"/>
+    <meta name="twitter:image" content="{{$page->baseUrl}}/img/splash-banner-bg.jpg"/>
+    <meta property="og:image" content="{{ $page->baseUrl }}/img/splash-banner-bg.jpg"/>
 
     <meta property="og:type" content="article"/>
     <meta property="fb:admins" content="551604144"/>

@@ -13,7 +13,11 @@
             </p>
 
             <p>
-                Donations are processed through PayPal. If you would like to make a cash donation, please get in
+                If it's more convenient for you (and you'd like to help us cut out PayPal fees), you can send an e-transfer to <strong>troy@tpavlek.me</strong>
+            </p>
+
+            <p>
+                Donations below are processed through PayPal. If you would like to make a cash donation, please get in
                 <a href="/contact">contact</a> and someone will come meet you.
             </p>
 
