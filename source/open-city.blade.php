@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <h1 style="text-align:center;">Open City</h1>
+    <h1 class="center">Open City</h1>
 
     <article class="is-centered post">
         <div class="post-content">
@@ -12,6 +12,9 @@
                 is
                 deployed in a particular location? Why bike lanes were chosen for downtown, instead of somewhere else?
             </p>
+
+            @include('_partials.posts.post-embed', [ 'slug' => 'photo-radar-locations-audit' ])
+
             <p>
                 City Council makes informed decisions based on data to shape the future of the City of Edmonton. But how
                 can
@@ -31,9 +34,11 @@
                 implementation
                 has left a bit to be desired. We need to put priority on removing all barriers and getting all our old
                 and new
-                data opened up, as soon as possible. This should also apply to our software, which
-                <a href="/blog/2016/08/10/open-sourcing-edmontons-software">I argue should be Open Source</a>.
+                data opened up, as soon as possible. This should also apply to our software, which I argue should be Open Source.
             </p>
+
+            @include('_partials.posts.post-embed', [ 'slug' => 'open-sourcing-edmontons-software' ])
+
             <p>
                 When data is collected part of the process <em>before</em> collection begins should be considering how
                 this data
@@ -76,6 +81,10 @@
             <p>
                 Elect Troy Pavlek to Edmonton City Council in Ward 11.
             </p>
+
+            <a href="/platform">
+                <div class="policy-link">Platform</div>
+            </a>
 
         </div>
     </article>

@@ -387,6 +387,37 @@ nav.main-nav {
   height: 100%;
 }
 
+.action-svg {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 15rem;
+  padding: 2rem;
+  display: inline-block;
+}
+
+.action {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.action-svg svg {
+  height: 100%;
+  width: 100%;
+}
+
+.action-svg {
+  fill: black;
+  stroke: black;
+}
+
+.action-svg:hover, .action-svg:hover .action {
+  border-color: #d0aa48;
+  color: #d0aa48;
+  fill: #d0aa48;
+  stroke: #d0aa48;
+}
+
 nav .brand-logo {
   padding: 0.5rem;
 }
@@ -640,6 +671,10 @@ header.summary-block, header.project {
 
 .hero-post .title::first-line, .sidekick-post .title::first-line, .links-post .title::first-line, .archive-post .title::first-line {
   font-size: 120%;
+}
+
+.archive-post.page-embed {
+  margin-bottom: 0;
 }
 
 .links-post h2 {

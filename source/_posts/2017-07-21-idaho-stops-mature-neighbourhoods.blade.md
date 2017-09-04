@@ -4,6 +4,7 @@ date: "2017-07-21"
 imgpath: "/img/posts/2017-07-21-idaho-stops-mature-neighbourhoods/"
 img: "stop-yield.jpg"
 description: "\"Use the side-streets\" could be a decent interim last-mile policy, if we eliminate some of the start-stopping"
+slug: "idaho-stops-mature-neighbourhoods"
 tags: 
     - "idaho-stop"
     - "vision-zero"

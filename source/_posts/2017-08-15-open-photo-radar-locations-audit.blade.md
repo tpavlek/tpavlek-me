@@ -4,6 +4,7 @@ date: "2017-08-15"
 imgpath: "/img/posts/2017-08-15-open-photo-radar-locations-audit/"
 img: "spider-photo.jpg"
 description: "Actual enforcement differed 41 times from the posted list during the week, but also revealed 25% of enforcement is by schools and parks"
+slug: "photo-radar-locations-audit"
 tags: 
     - "photo-radar"
     - "open-city"

@@ -1,9 +1,10 @@
 ---
-title: "Who's to blame for pedestrian collisions in Edmonton? Edmonton's Vision Zero in Name Only"
+title: "Who's to blame for pedestrian collisions in Edmonton? Vision Zero in Name Only"
 date: "2016-09-18"
 imgpath: "/img/posts/2016-09-18-whos-to-blame-for-pedestrian-collisions/"
 img: "headsup.jpg"
 description: "A city of Edmonton insight survey recently suggested that pedestrians should wear reflective tape on their bodies to avoid getting struck by cars. This does not align with the principles of Vision Zero, and is a contraction to many of the stated goals."
+slug: "whos-to-blame-for-pedestrian-collisions"
 tags: 
     - "vision-zero"
 ---
