@@ -4,6 +4,7 @@ date: "2016-09-13"
 imgpath: "/img/posts/2016-09-13-edmonton-technology-strategy-continues-to-embarass/"
 img: "improved-bridge.jpg"
 description: "The recently released Smart Travel app from the City of Edmonton is an out-of-touch, tone-deaf waste of $250,000 that could have been put to much better use for Vision Zero initiatives"
+slug: "smart-travel-app"
 tags:
     - software
     - "vision-zero"
@@ -28,7 +29,8 @@ It gives you "verbal notifications of speed limit changes". And approaching scho
 intersections. I'm sure in the next patch it'll add in "verbal notifications that a minute has passed", because
 really, what you want is for someone to try this app and have it *never shut up*.
 
-My favourite feature, hands down is: *Maps of school zones, speed limits, high-collision locations in the City of Edmonton, and traffic safety tips to view when you are not driving.*
+My favourite feature, hands down is: *Maps of school zones, speed limits, high-collision locations in the City of Edmonton,
+and traffic safety tips to view when you are not driving.*
 
 Because when I'm not driving, I like to sit down on my phone and digest incoherently-presented information on a small-screen
 map showing all the school zones in the city. You never know! One day there might be a motion on the floor in the

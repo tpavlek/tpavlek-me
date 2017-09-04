@@ -80,9 +80,9 @@
                 <li>
                     <a href="/subscribe">Subscribe</a>
                 </li>
-                <!--<li>
-                    <a href="#">Get A Sign</a>
-                </li>-->
+                <li>
+                    <a href="/request-a-sign">Get A Sign</a>
+                </li>
                 <li class="secondary-action">
                     <a href="/subscribe">Volunteer</a>
                 </li>
@@ -100,9 +100,9 @@
                 <li>
                     <a href="/subscribe">Subscribe</a>
                 </li>
-                <!--<li>
-                    <a href="#">Get A Sign</a>
-                </li>-->
+                <li>
+                    <a href="/request-a-sign">Get A Sign</a>
+                </li>
                 <li class="secondary-action">
                     <a href="/subscribe">Volunteer</a>
                 </li>

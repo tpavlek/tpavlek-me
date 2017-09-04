@@ -2,7 +2,7 @@
 @section('title', 'Vision Zero')
 @section('content')
 
-<h1 style="text-align:center;">Vision Zero</h1>
+<h1 class="center">Vision Zero</h1>
 
 <article class="is-centered post">
     <div class="post-content">
@@ -26,12 +26,30 @@
         
         <p>
             Vision Zero is a laudable goal, one that I am 100% behind. However, the City of Edmonton, despite officially
-            setting Vision Zero as their goal, is still stuck in the old ways of thinking. 
-            <a href="/blog/2016/09/18/whos-to-blame-for-pedestrian-collisions">Ad campaigns blame vulnerable users for
-            getting hurt</a> and instead of spending on roadway improvements that are proven to work, we spend on 
-            <a href="/blog/2016/09/13/edmonton-technolgy-strategy-continues-to-embarass">superfluous
-            apps that no one wanted</a>.
+            setting Vision Zero as their goal, is still stuck in the old ways of thinking. Ad campaigns blame vulnerable
+            users when they get hurt.
+
         </p>
+
+        @include('_partials.posts.post-embed', [ 'slug' => 'whos-to-blame-for-pedestrian-collisions' ])
+
+        <p>
+            Instead of spending on roadway improvements that are proven to work, we spend on superfluous
+            apps that no one wanted.
+        </p>
+
+        @include('_partials.posts.post-embed', [ 'slug' => 'smart-travel-app' ])
+
+        <p>
+            Vision Zero will require safe spaces for every mode of transportation. That's why you'll always find me staunchly
+            supporting bicycle and walking infrastructure. However, we can't blanket the entire city in separated cycling
+            infrastructure overnight (or even in a single term). We need to update laws and specifically enfranchise people
+            who bike with their own rules and regulations. Vehicular cycling doesn't work. The Traffic Safety act simply
+            omitting bicycles from the language and thinking "everything will be fine" <strong>does not work</strong>.
+        </p>
+
+        @include('_partials.posts.post-embed', [ 'slug' => 'idaho-stops-mature-neighbourhoods' ])
+
         <p>
             It's time to get serious about Vision Zero. Obviously, we cannot improve the entire system in a day, but we
             can start by <em>acknowledging where we're lacking, instead of ignoring it</em>. When collisions occur, especially
@@ -51,6 +69,11 @@
         <p>
             Elect Troy Pavlek to Edmonton City Council in Ward 11.
         </p>
+
+        <a href="/platform">
+            <div class="policy-link">Platform</div>
+        </a>
+
     </div>
 </article>
 

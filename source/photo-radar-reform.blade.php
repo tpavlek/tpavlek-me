@@ -20,13 +20,13 @@
 
             <blockquote>
                 <p>
-                    Photo radar locations should be preceeded 150-300m by a digital speedboard.
+                    Photo radar locations should be preceded 150-300m by a digital speedboard.
                 </p>
             </blockquote>
 
             Commonly one hears about the "cash cow" of photo radar - it's hard not to when one of our major daily papers
             publishes
-            frequent editorials calling it that. That means when someone recieves a photo radar ticket, their go to
+            frequent editorials calling it that. That means when someone receives a photo radar ticket, their go to
             emotion is
             to dismiss it as a cash grab, rather than learn. <strong>We need the system to show, conclusively, that it's
                 not interested
@@ -44,11 +44,23 @@
                 </p>
             </blockquote>
 
-            Without consistent, dilligent auditing by the public we risk abuse of the system. Photo radar locations, the
-            enforcement
-            hours at those locations, and the number of tickets issued should be published into the open data catalogue
-            for anyone
-            to view and use no more than a week after enforcement completes at that location.
+            <p>
+                Without consistent, diligent auditing by the public we risk abuse of the system. Photo radar locations, the
+                enforcement
+                hours at those locations, and the number of tickets issued should be published into the open data catalogue
+                for anyone
+                to view and use no more than a week after enforcement completes at that location.
+            </p>
+
+
+            <p>
+
+                While location data has been released into the open data catalogue <strong>before</strong> enforcement occurs, that is not
+                enough, as it still requires trust from the public. We need after-the-fact data to <em>prove</em> what really happened,
+                in order for audits to begin to rebuild public trust.
+            </p>
+
+            @include('_partials.posts.post-embed', [ 'slug' => 'photo-radar-locations-audit' ])
 
             <blockquote>
                 <p>
@@ -78,6 +90,10 @@
             <p>
                 Elect Troy Pavlek to Edmonton City Council in Ward 11.
             </p>
+
+            <a href="/platform">
+                <div class="policy-link">Platform</div>
+            </a>
         </div>
     </article>
 
