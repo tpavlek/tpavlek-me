@@ -58,7 +58,7 @@
             harm in other places on our roadway system, <strong>before</strong> we have a death or injury there.
         </p>
         <p>
-            When we improve the road for all users, we make it a better place to be for all users, <em>cars included</em>.
+            When we improve the road for all users, we make it a better place to be for all users, <em>drivers of cars included</em>.
             Collisions are a massive burden on our public system, from the inconvenience of road closures, to the police response time,
             to the public health dollars required to care for the injured. Reducing collisions isn't just a moral imperative,
             it's fiscally responsible.
