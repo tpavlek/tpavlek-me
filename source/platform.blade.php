@@ -14,6 +14,16 @@ description: ""
     <h1 class="center">{{ $page->title }}</h1>
 
     <article class="is-centered post">
+        <header class="summary-block" style="background-image: url('{{ $page->imgpath }}{{ "launch.jpg" }}');">
+
+            <div class="summary-description">
+                <div class="text">
+                    <span class="title">{{ $page->title }}</span>
+                    <span class="date">Troy's Vision for Ward 11</span>
+                </div>
+            </div>
+
+        </header>
         <div class="post-content">
             <div class="blog-archive">
                 <a href="/vision-zero" class="archive-post page-embed">

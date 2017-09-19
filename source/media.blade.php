@@ -1,10 +1,10 @@
----
-extends: "_layouts.wrapped"
-title: Troy in the Media
-section: content
----
+@extends('_layouts.wrapped')
+@section('title', 'Troy in the Media')
 
-<h1 style="text-align:center;">Troy in the Media</h1>
+@section('content')
+
+
+    <h1 style="text-align:center;">Troy in the Media</h1>
 
 <article class="is-centered post">
     <div class="post-content">
@@ -47,3 +47,4 @@ section: content
 
     </div>
 </article>
+@stop
