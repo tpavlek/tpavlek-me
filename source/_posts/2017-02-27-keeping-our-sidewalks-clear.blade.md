@@ -4,6 +4,7 @@ date: "2017-02-27"
 imgpath: "/img/posts/2017-02-27-keeping-our-sidewalks-clear/"
 img: "brewery-district.jpg"
 description: "Current council motions start to address obstructions on Edmonton sidewalks, but will it be enough to combat Edmonton's infatuation with putting fire hydrants in the centre of sidewalks?"
+slug: "keeping-our-sidewalks-clear"
 tags: 
     - "vision-zero"
     - "walking"
