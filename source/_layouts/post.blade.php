@@ -19,6 +19,9 @@
             @yield('post_content')
         </div>
     </article>
+
+    @include('_partials.action-bar')
+
     <div class="blog-archive">
         @if ($page->getPrevious())
             <h1>Next Post</h1>
