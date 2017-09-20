@@ -35,6 +35,8 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
         <div class="post-content">
             <h3>With your help we can bring positive change to City Hall</h3>
 
+            @include('_partials.youtube', [ 'video_id' => '1Nx2C_n1k90' ])
+
             <p>
                 Any amount you donate goes a long way to helping get the message out!
             </p>
