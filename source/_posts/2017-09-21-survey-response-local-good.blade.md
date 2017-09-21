@@ -9,7 +9,7 @@ tags:
     - "survey-response"
 ---
 
-*The following is the response I gave to the survey from The Local Good, which was published on their [blog](http://www.thelocalgood.ca/election-2017-questionnaire-response-troy-pavlek-ward-11/).*
+*The following is the response I gave to the survey from The Local Good, which was published on their [blog](http://www.thelocalgood.ca/election-2017-questionnaire-response-troy-pavlek-ward-11/). You can view a full list of my survey responses [here](/survey-responses)*
 
 > What is the biggest challenge your Ward faces? What policy solutions would you seek if elected?
 
