@@ -16,7 +16,7 @@
             </p>
 
             <p>
-                He believes in municipal government should be 100% accountable for their decisions on issues. While
+                He believes municipal government should be 100% accountable for their decisions on issues. While
                 other candidates
                 might tout transparency, Troy is the only candidate who has <a href="https://yegvotes.info">built a
                     website
@@ -24,17 +24,18 @@
             </p>
 
             <p>
+                Troy believes in strong, open discussion about the issues without hiding what's important to him. That's why
+                he has a public platform that doesn't hold back.
+            </p>
+
+            @include('_partials.posts.post-embed', [ 'slug' => 'council-candidates-must-lead' ])
+
+            <p>
                 He believes in communicating any way he can. Whether that's through the typical avenues like emails and
                 websites,
                 or using social media like Facebook or Twitter. He can even communicate in your car on your commute, via
                 his
                 municipal policy podcast <a href="https://basketofyegs.com">Basket of YEGs</a>.
-            </p>
-
-            <p>
-                If you're looking for a candidate to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">give you up
-                    or let you down</a>,
-                Troy is not the candidate for you.
             </p>
 
             <blockquote>
