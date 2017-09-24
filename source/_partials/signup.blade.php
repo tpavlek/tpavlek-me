@@ -18,7 +18,7 @@
 
     @if (isset($signup_extra))
         <p>
-            {{ $signup_extra }}
+            {!! $signup_extra !!}
         </p>
     @endif
     <!-- Begin MailChimp Signup Form -->
