@@ -3,7 +3,7 @@ title: "FAQ: What is your platform for the local economy?"
 date: "2017-09-24"
 imgpath: "/img/posts/2017-09-24-faq-local-economy/"
 img: "money-tree.jpg"
-description: "Troy responds to a lighthearted survey request from the Edmonton Public Library"
+description: "Troy supports Don Iveson's vision for growing a new, innovative local economy"
 tags: 
     - "election-2017"
     - "faq"
