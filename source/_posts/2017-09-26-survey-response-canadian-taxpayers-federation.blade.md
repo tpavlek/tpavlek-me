@@ -34,7 +34,7 @@ also taxpayers. I think bargaining about their labour in bad faith is a signific
 increasing taxes *caused* the infrastructure deficit which again *caused* the frequent tax increases of the past decade.
 
 I'm generally an advocate from learning from our mistakes and making the best decisions in the interests of the city. I don't
-think blindly sticking my head in the sand and *causing* crumbling services because taxes bad is a winning strategy.
+think blindly sticking my head in the sand and *causing* crumbling infrastructure and services because CTF thinks taxes are bad is a winning strategy.
 
 > Will you support a motion to halt spending on public art until the city’s unemployment rate is below the national average?
 
