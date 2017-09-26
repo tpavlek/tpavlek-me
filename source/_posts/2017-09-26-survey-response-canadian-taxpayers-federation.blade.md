@@ -57,3 +57,5 @@ privatization of any particular city service.
 > Will you proactively disclose a list of those who contributed over $250 to your campaign (and the amount) prior to the October 16 vote?
 
 **Yes**.
+
+@include('_partials.signup', [ 'signup_extra' => "For an organization who identifies themselves as \"taxpayers\", the CTF sure doesn't want to be in that group" ])
