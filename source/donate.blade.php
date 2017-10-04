@@ -58,7 +58,7 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
             </form>
 
             <p>
-                <strong>Note:</strong> Due to Alberta legislations, donations may not be anonymous and all donors must
+                <strong>Note:</strong> Due to Alberta legislation, donations may not be anonymous and all donors must
                 reside
                 within the province of Alberta.
             </p>

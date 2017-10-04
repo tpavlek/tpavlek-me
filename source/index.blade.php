@@ -63,7 +63,7 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
                 <div class="summary-description">
                     <div class="text">
                         <span class="title">{{ $post->title }}</span>
-                        <span class="date">{{ $post->date }}</span>
+                        <span class="date">{{ ( new \Carbon\Carbon($post->date))->format("F jS, Y") }}</span>
                     </div>
                 </div>
             </a>
