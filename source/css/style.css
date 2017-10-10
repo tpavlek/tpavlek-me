@@ -850,6 +850,14 @@ figcaption {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+.post-content ul {
+  padding-left: 2em;
+}
+
+.post-content ul li {
+  list-style-type: disc;
+}
+
 .post-content a:not(.button):not(.archive-post) {
   border-bottom: 2px dashed slategrey;
 }

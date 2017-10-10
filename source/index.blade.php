@@ -97,7 +97,7 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
         <p>
             I believe these same concepts can be applied directly to Edmonton City's Council. The way we improve our city is
             not by making one big single "solve the city" policy. Rather, we need to look at the small stuff. That road behind
-            your house. That one bus route. The slow intersection -- you know the one!. When we use data to solve <em>individual</em>
+            your house. That one bus route. The slow intersection -- you know the one! When we use data to solve <em>individual</em>
             problems well, eventually, we'll have made the entire city better through all those small solutions.
         </p>
 
