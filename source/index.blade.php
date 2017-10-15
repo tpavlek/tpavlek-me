@@ -31,9 +31,11 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
 
 @section('content')
 
-    @include('_partials.action-bar')
-
     <div class="row">
+        <div class="col s12 l8 offset-l2 center">
+            <iframe width="896" height="514" src="https://www.youtube.com/embed/akFdnBlga9w" frameborder="0" allowfullscreen></iframe>
+        </div>
+
         <div class="col s12 l8 offset-l2 center">
             <div class="card hero-card">
                 <div class="card-image troy-primary-color">
@@ -46,7 +48,10 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
                 </div>
             </div>
         </div>
+
     </div>
+
+    @include('_partials.action-bar')
 
 
 

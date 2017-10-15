@@ -126,6 +126,8 @@
             podcast, he's writing or thinking about the City of Edmonton in some way. Let him be your passionate
             voice on Edmonton's City Council. Vote Troy Pavlek to Edmonton City Council in Ward 11.
         </p>
+        <a href="/pdf/disclosure.pdf">Campaign Finance Disclosure</a>
+        <br />
         &copy; Troy Pavlek
         <br />
     </div>
