@@ -3,6 +3,7 @@ title: "Self-driving cars will not solve transit"
 date: "2017-09-22"
 imgpath: "/img/posts/2017-09-22-self-driving-cars-will-not-solve-transit/"
 img: "replace-trains.jpg"
+slug: "self-driving-cars-will-not-solve-transit"
 description: "We can't let the excuse of \"self-driving cars are coming\" reduce our commitment to efficient and effective public transit"
 tags: 
     - "election-2017"

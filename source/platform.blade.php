@@ -94,6 +94,23 @@ description: ""
             </p>
 
             <div class="blog-archive">
+                <a href="/transit" class="archive-post page-embed">
+                    <div class="img" style="background-image: url('/img/platform/transit.jpg');"></div>
+                    <div class="valign-wrapper text-container">
+                        <div class="text">
+                            <span class="title">Transit</span>
+                            <span class="date">Let's make our transit system competitive with the private car.</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <p>
+                Our transit system is difficult to use, and expensive. We need to make the system an appealing choice,
+                rather than a punitive one.
+            </p>
+
+            <div class="blog-archive">
                 <a href="/residential-speed-limits" class="archive-post page-embed">
                     <div class="img" style="background-image: url('/img/platform/residential-speed-limits.jpg');"></div>
                     <div class="valign-wrapper text-container">

@@ -2,8 +2,9 @@
 title: "Edmonton Transit Fares are too High"
 date: "2017-10-09"
 imgpath: "/img/posts/2017-10-09-transit-fares-are-too-high/"
-img: "banner.jpg"
-description: ""
+img: "fare-bus.jpg"
+slug: "transit-fares-are-too-high"
+description: "It's time to make transit price-competitive with less efficient modes of transportation"
 tags: 
     - "election-2017"
     - "transit"
@@ -49,12 +50,15 @@ Many will argue that when you factor in the full cost of car ownership, transit 
 reality - that most Edmontonians already own a car. It's a sunk cost for many households. Since many Edmontonians are already spending
 on their vehicles if public transit is more expensive, they'll use their vehicles.
 
+@include('_partials.image', [ 'name' => 'fare-bus.jpg', 'caption' => "The cost of transit fares is too damn high!" ])
+
 We can work on making Edmonton a city where anyone can live comfortably car-free later. Right now, let's work on making Edmonton
 somewhere where our other modes of transportation are at least competitive with the private car.
 
 There are many forms this can take. We need to eliminate the cost of youth using transit, to build good habits before they're
 allowed to drive. We need to at the very least reduce the cost for regular adults, so the choice to use transit does not
-appear punitive to the regular user. And we need to accept credit cards as payment, a decade ago.
+appear punitive to the regular user. And we need to accept credit cards as payment, a decade ago. Let's stop punishing our
+transit users for making sustainable choices.
 
 Let's invest in transit.
 

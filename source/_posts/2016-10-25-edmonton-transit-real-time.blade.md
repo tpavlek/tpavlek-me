@@ -3,6 +3,7 @@ title: "Edmonton Transit: Real Time allows for Real Decisions"
 date: "2016-10-25"
 imgpath: "/img/posts/2016-10-25-edmonton-transit-real-time/"
 img: "ets-bus.jpg"
+slug: "edmonton-transit-real-time"
 description: "Edmonton Transit system has equipped its 928 vehicles with real-time technology at a cost of $18 million. We need to focus on getting more data and analyzing it, to provide data-based transit."
 tags: 
     - "transit"
