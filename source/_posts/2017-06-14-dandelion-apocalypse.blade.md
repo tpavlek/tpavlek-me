@@ -1,5 +1,6 @@
 ---
 title: "Dandelion Apocalypse"
+slug: "dandelion-apocalypse"
 date: "2017-06-14"
 imgpath: "/img/posts/2017-06-14-dandelion-apocalypse/"
 img: "splash.jpg"

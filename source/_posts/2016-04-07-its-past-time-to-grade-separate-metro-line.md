@@ -1,5 +1,6 @@
 ---
 title: "It's past time to grade-separate Edmonton's Metro Line LRT"
+slug: "its-past-time-to-grade-separate-metro-line"
 date: "2016-04-07"
 imgpath: "/img/posts/2016-04-07-its-past-time-to-grade-separate-metro-line/"
 img: "elevated.png"

@@ -1,9 +1,9 @@
 ---
 title: "Adding some Levity to the City Council Race"
+slug: "adding-some-levity"
 date: "2017-10-14"
 imgpath: "/img/posts/2017-10-14-adding-some-levity/"
 img: "sweetie-star.jpg"
-slug: "adding-some-levity"
 description: "Just because City Councillor is an important job doesn't mean the race has to be stuffy and boring"
 tags: 
     - "election-2017"

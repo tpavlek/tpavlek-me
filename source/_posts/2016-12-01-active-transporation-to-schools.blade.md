@@ -1,5 +1,6 @@
 ---
 title: "Enabling Active Transportation to Edmonton Schools"
+slug: "active-transportation-to-schools"
 date: "2016-12-01"
 imgpath: "/img/posts/2016-12-01-active-transportation-to-schools/"
 img: "yegcc.jpg"

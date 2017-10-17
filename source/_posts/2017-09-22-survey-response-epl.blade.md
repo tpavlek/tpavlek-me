@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Edmonton Public Library"
+slug: "survey-response-epl"
 date: "2017-09-22"
 imgpath: "/img/posts/2017-09-22-survey-response-epl/"
 img: "librarycard.jpg"

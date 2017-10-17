@@ -1,5 +1,6 @@
 ---
 title: Walkover League
+slug: "walkover-league"
 date: "2014-07-10"
 tags:
     - starcraft

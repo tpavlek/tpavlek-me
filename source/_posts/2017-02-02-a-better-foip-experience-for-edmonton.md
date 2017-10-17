@@ -1,5 +1,6 @@
 ---
 title: "A Better, More Welcoming FOIP Experience for Edmonton"
+slug: "a-better-foip-experience-for-edmonton"
 date: "2017-02-02"
 imgpath: "/img/posts/2017-02-02-a-better-foip-experience-for-edmonton/"
 img: "woodchuck-foip.jpg"

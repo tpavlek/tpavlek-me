@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Edmonton Literacy Coalition"
+slug: "survey-response-literacy-coalition"
 date: "2017-10-01"
 imgpath: "/img/posts/2017-10-01-survey-response-literacy-coalition/"
 img: "bookshelf.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Ded Gaem? Maybe. Alive Community? Certainly."
+slug: "ded-gaem-alive-community"
 date: "2015-05-04"
 tags:
     - starcraft

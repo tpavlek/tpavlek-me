@@ -1,5 +1,6 @@
 ---
 title: "Protected Left Turn Phases"
+slug: "protected-left-turns"
 date: "2017-07-27"
 imgpath: "/img/posts/2017-07-27-protected-left-turns/"
 img: "left-turn-phase.jpg"

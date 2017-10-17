@@ -1,5 +1,6 @@
 ---
 title: "[FGT] Open Beta 1"
+slug: "fgt-open-beta-1"
 date: "2013-02-07"
 tags:
     - starcraft

@@ -1,5 +1,6 @@
 ---
 title: "Two Minutes to Win it on the Ryan Jespersen Show"
+slug: "two-minutes-to-win-it"
 date: "2017-10-04"
 imgpath: "/img/posts/2017-10-04-two-minutes-to-win-it/"
 img: "banner.jpg"

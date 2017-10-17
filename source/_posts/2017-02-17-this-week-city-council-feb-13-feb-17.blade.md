@@ -1,5 +1,6 @@
 ---
 title: "This Week at Edmonton City Council: February 13-17"
+slug: "this-week-council-feb-13-17"
 date: "2017-02-17"
 imgpath: "/img/posts/2017-02-17-this-week-council-feb-13-17/"
 img: "metro-line-fast.jpg"

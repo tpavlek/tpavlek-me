@@ -1,10 +1,10 @@
 ---
 title: "City Dysfunction: When admin doesn't do their job, and council won't hold them accountable"
+slug: "city-dysfunction"
 date: "2017-06-05"
 imgpath: "/img/posts/2017-06-05-city-dysfunction/"
 img: "speed-limit-splash.jpg"
 description: "Despite the City of Edmonton having a policy on community speed reduction, it remains impossible to lower speeds in communities."
-slug: "city-dysfunction"
 tags: 
     - "vision-zero"
     - "accountability"

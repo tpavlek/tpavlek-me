@@ -1,9 +1,9 @@
 ---
 title: "Edmonton Transit Fares are too High"
+slug: "transit-fares-are-too-high"
 date: "2017-10-09"
 imgpath: "/img/posts/2017-10-09-transit-fares-are-too-high/"
 img: "fare-bus.jpg"
-slug: "transit-fares-are-too-high"
 description: "It's time to make transit price-competitive with less efficient modes of transportation"
 tags: 
     - "election-2017"

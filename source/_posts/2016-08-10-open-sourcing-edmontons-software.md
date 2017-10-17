@@ -1,5 +1,6 @@
 ---
 title: "Embracing openness: Why the City of Edmonton needs an open source strategy"
+slug: "open-sourcing-edmonton-software"
 date: "2016-08-10"
 imgpath: "/img/posts/2016-08-10-open-sourcing-edmonton-software/"
 img: "opencity.png"

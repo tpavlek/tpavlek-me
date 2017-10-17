@@ -1,5 +1,6 @@
 ---
 title: "Valley Line Grade Separation at Bonnie Doon"
+slug: "valley-line-grade-separation-bonnie-doon"
 date: "2017-04-13"
 imgpath: "/img/posts/2017-04-13-valley-line-grade-separation-bonnie-doon/"
 img: "traffic-circle.jpg"

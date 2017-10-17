@@ -678,23 +678,12 @@ article.post {
 blockquote {
   color: $foreground-color-secondary;
   font-weight: bold;
-  position: relative;
-  background-image: url('/img/campaign-logo/speech-regular.png');
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-size: 4rem;
-  min-height: 4rem;
-  display: flex;
-  flex-flow: row wrap;
-
-  margin: 1rem 2rem;
-  padding-left: 0;
-  border-left: 0;
+  border-left: 3px solid $foreground-color-secondary;
 }
 
 blockquote p {
   width: 100%;
-  padding-left: 7rem;
+  padding-left: 2rem;
   padding-right: 4rem;
 }
 

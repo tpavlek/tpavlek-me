@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Professional Arts Coalition"
+slug: "survey-response-professional-arts-coalition"
 date: "2017-09-29"
 imgpath: "/img/posts/2017-09-29-survey-response-professional-arts-coalition/"
 img: "pace.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "The South Campus Arena Project: A Better Type of P3"
+slug: "south-campus-arena-project-a-better-p3"
 date: "2016-11-21"
 imgpath: "/img/posts/2016-11-21-south-campus-arena/"
 img: "arena-rendering.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "How much did the Ward 12 By-Election cost?"
+slug: "ward-12-byelection-disclosures"
 date: "2016-07-07"
 description: "The Ward 12 by-election cost $506,903. Troy Pavlek breaks down some of the highlights from the front-running candidates"
 imgpath: "/img/posts/2016-07-07-ward-12-byelection-disclosures/"

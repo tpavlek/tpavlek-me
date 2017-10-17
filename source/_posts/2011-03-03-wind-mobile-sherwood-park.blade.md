@@ -1,5 +1,6 @@
 ---
 title: "Wind Mobile Review (Sherwood Park)"
+slug: "wind-mobile-sherwood-park"
 imgpath: "/img/posts/2011-03-03-wind-mobile-sherwood-park/"
 img: 'architect.jpg'
 date: "2011-03-03"

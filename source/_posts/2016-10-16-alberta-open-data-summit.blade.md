@@ -1,5 +1,6 @@
 ---
 title: "The Alberta Open Data Summit: Recap and Thoughts"
+slug: "alberta-open-data-summit"
 date: "2016-10-16"
 imgpath: "/img/posts/2016-10-16-alberta-open-data-summit/"
 img: "jeopardy.jpg"

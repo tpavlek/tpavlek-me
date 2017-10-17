@@ -1,5 +1,6 @@
 ---
 title: Starcraft 2 Community Organizer Burnout
+slug: "sc2-community-organizer-burnout"
 date: "2014-11-09"
 tags:
     - starcraft

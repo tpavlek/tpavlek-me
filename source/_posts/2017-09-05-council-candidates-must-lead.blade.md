@@ -1,10 +1,10 @@
 ---
 title: "Council candidates must lead: where's your platform?"
+slug: "council-candidates-must-lead"
 date: "2017-09-05"
 imgpath: "/img/posts/2017-09-05-council-candidates-must-lead/"
 img: "keep-it-secret.jpg"
 description: "Listening to voices is great, but we need to elect candidates willing to lead when no one is holding their hand"
-slug: "council-candidates-must-lead"
 tags: 
     - "election-2017"
     - "council"

@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Social Planning Council"
+slug: "survey-response-social-planning-council"
 date: "2017-09-30"
 imgpath: "/img/posts/2017-09-30-survey-response-social-planning-council/"
 img: "social-planning-council.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Why are playground zones a good idea?"
+slug: "edmonton-playground-zones"
 date: "2017-06-08"
 imgpath: "/img/posts/2017-06-08-edmonton-playground-zones/"
 img: "playground-zones.jpg"

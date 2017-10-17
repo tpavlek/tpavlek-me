@@ -1,5 +1,6 @@
 ---
 title: Microsoft phone interview experience
+slug: "microsoft-phone-interview"
 date: "2013-02-12"
 tags:
     - misc

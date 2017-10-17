@@ -1,5 +1,6 @@
 ---
 title: "Building Starcraft Jeopardy: Creating a real-time online buzzer system"
+slug: "building-starcraft-jeopardy-online-buzzer"
 date: "2015-03-13"
 tags:
     - starcraft

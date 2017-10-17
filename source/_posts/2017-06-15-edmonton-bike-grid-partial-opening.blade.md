@@ -1,5 +1,6 @@
 ---
 title: "Portions of the downtown Edmonton bike grid open"
+slug: "edmonton-bike-grid-partial-opening"
 date: "2017-06-15"
 imgpath: "/img/posts/2017-06-15-edmonton-bike-grid-partial-opening/"
 img: "crossing.jpg"

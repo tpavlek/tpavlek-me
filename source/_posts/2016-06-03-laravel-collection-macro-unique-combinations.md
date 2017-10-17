@@ -1,5 +1,6 @@
 ---
 title: "Laravel Collection Macro: Find all Unique Combinations of Two Collections"
+slug: "laravel-collection-macro-unique-combinations"
 date: "2016-07-05"
 description: "This Laravel collection macro can easily get the combination of two collections so you don't need a nested foreach loop"
 imgpath: "/img/posts/2016-07-05-laravel-collection-macro-unique-combinations/"

@@ -1,5 +1,6 @@
 ---
 title: "2017 Edmonton Property Assessments for Ward 11"
+slug: "edmonton-property-assessments-ward-11-2017"
 date: "2017-01-04"
 imgpath: "/img/posts/2017-01-04-edmonton-property-assessments-ward-11-2017/"
 img: "map.jpg"

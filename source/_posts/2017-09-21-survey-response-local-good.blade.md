@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: The Local Good"
+slug: "survey-response-local-good"
 date: "2017-09-21"
 imgpath: "/img/posts/2017-09-21-survey-response-local-good/"
 img: "localgood.jpg"

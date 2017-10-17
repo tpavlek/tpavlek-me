@@ -1,9 +1,9 @@
 ---
 title: "FAQ: Diversity and Inclusion"
+slug: "faq-diversity-and-inclusion"
 date: "2017-10-15"
 imgpath: "/img/posts/2017-10-15-faq-diversity-and-inclusion/"
 img: "banner.jpg"
-slug: "faq-diversity-and-inclusion"
 description: "Just because City Councillor is an important job doesn't mean the race has to be stuffy and boring"
 tags: 
     - "election-2017"

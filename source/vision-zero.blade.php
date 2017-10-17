@@ -38,7 +38,7 @@
             apps that no one wanted.
         </p>
 
-        @include('_partials.posts.post-embed', [ 'slug' => 'smart-travel-app' ])
+        @include('_partials.posts.post-embed', [ 'slug' => 'edmonton-technology-strategy-continues-to-embarass' ])
 
         <p>
             Vision Zero will require safe spaces for every mode of transportation. That's why you'll always find me staunchly

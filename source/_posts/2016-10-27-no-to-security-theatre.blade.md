@@ -1,5 +1,6 @@
 ---
 title: "Don't let Council succumb to security theatre"
+slug: "no-to-security-theatre"
 date: "2016-10-27"
 imgpath: "/img/posts/2016-10-27-no-to-security-theatre/"
 img: "police.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "First day streaming: why starcraft is only half as good without it"
+slug: "first-day-streaming"
 imgpath: "/img/posts/2011-12-30-first-day-streaming/"
 img: 'stream.jpg'
 date: "2011-12-30"

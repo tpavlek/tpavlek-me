@@ -1,5 +1,6 @@
 ---
 title: "Problems in Platinum: Gold Players are Pretty Good"
+slug: "pip-gold-players-are-pretty-good"
 imgpath: "/img/posts/2012-01-23-pip-gold-players-are-pretty-good/"
 img: 'banshee-harass.png'
 date: "2012-01-23"

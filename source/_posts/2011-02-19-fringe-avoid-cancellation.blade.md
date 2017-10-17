@@ -1,6 +1,6 @@
 ---
-extends: "_layouts.post"
 title: What Fringe needs to do to avoid cancellation
+slug: "fringe-avoid-cancellation"
 imgpath: "/img/posts/2011-02-19-fringe-avoid-cancellation/"
 img: 'obs.png'
 date: "2011-02-19"

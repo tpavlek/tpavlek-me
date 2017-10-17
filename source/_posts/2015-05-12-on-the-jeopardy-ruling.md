@@ -1,5 +1,6 @@
 ---
 title: "On the Jeopardy Ruling from Episode 8"
+slug: "on-the-jeopardy-ruling"
 date: "2015-05-12"
 tags:
     - starcraft

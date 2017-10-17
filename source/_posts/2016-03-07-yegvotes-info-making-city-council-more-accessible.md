@@ -1,5 +1,6 @@
 ---
 title: "YEGvotes.info, Making Edmonton's City Council more accessible"
+slug: "yegvotes-info-making-city-council-more-accessible"
 date: "2016-03-07"
 imgpath: "/img/posts/2016-03-07-yegvotes-info-making-city-council-more-accessible/"
 img: "new-yegvotes.png"

@@ -1,5 +1,6 @@
 ---
 title: "Campaign Launch Speech"
+slug: "campaign-launch-speech"
 date: "2017-03-07"
 imgpath: "/img/posts/2017-03-07-campaign-launch-speech/"
 img: "launch.jpg"

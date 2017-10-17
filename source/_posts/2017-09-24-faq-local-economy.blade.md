@@ -1,5 +1,6 @@
 ---
 title: "FAQ: What is your platform for the local economy?"
+slug: "faq-local-economy"
 date: "2017-09-24"
 imgpath: "/img/posts/2017-09-24-faq-local-economy/"
 img: "money-tree.jpg"

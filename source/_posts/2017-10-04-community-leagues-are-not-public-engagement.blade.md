@@ -1,5 +1,6 @@
 ---
 title: "Deferring to Community Leagues is not Public Engagement"
+slug: "community-leagues-are-not-public-engagement"
 date: "2017-10-04 01:00:00"
 imgpath: "/img/posts/2017-10-04-community-leagues-are-not-public-engagement/"
 img: "gotta-go-fast.jpg"

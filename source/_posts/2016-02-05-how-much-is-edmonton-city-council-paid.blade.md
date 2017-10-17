@@ -1,5 +1,6 @@
 ---
 title: "How much is Edmonton City Council Paid?"
+slug: "how-much-is-edmonton-city-council-paid"
 date: "2016-02-05"
 imgpath: "/img/posts/2016-02-05-council-compensation/"
 img: "council-money.jpg"

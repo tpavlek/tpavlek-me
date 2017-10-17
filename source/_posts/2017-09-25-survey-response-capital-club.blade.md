@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Edmonton Capital Club"
+slug: "survey-response-capital-club"
 date: "2017-09-25"
 imgpath: "/img/posts/2017-09-25-survey-response-capital-club/"
 img: "high-level-rainbow.jpg"

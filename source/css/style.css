@@ -946,25 +946,12 @@ article.post .summary-block .summary-description, .post.summary-block .summary-b
 blockquote {
   color: #d0aa48;
   font-weight: bold;
-  position: relative;
-  background-image: url("/img/campaign-logo/speech-regular.png");
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-size: 4rem;
-  min-height: 4rem;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-flow: row wrap;
-  margin: 1rem 2rem;
-  padding-left: 0;
-  border-left: 0;
+  border-left: 3px solid #d0aa48;
 }
 
 blockquote p {
   width: 100%;
-  padding-left: 7rem;
+  padding-left: 2rem;
   padding-right: 4rem;
 }
 

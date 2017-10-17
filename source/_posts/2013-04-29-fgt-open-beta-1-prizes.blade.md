@@ -1,5 +1,6 @@
 ---
-title: FGT Open Beta 1 Prizes 
+title: FGT Open Beta 1 Prizes
+slug: "fgt-open-beta-1-prizes"
 imgpath: "/img/posts/2013-04-29-fgt-open-beta-1-prizes/"
 img: 'infestor-time.jpg'
 date: "2013-04-29"

@@ -1,5 +1,6 @@
 ---
 title: "Edmonton Journal Coverage on my Photo Radar Position"
+slug: "edmonton-journal-photo-radar-coverage"
 date: "2017-01-07"
 imgpath: "/img/posts/2017-01-07-edmonton-journal-photo-radar-coverage/"
 img: "troy-speedboard.jpg"

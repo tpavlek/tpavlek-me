@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Pyriscience"
+slug: "survey-response-pyriscience"
 date: "2017-09-27"
 imgpath: "/img/posts/2017-09-27-survey-response-pyriscience/"
 img: "stop-carding.jpg"

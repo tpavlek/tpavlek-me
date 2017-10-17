@@ -1,5 +1,6 @@
 ---
 title: "Council security proposal would cause significant damage to democratic participation"
+slug: "balance-security-concerns"
 date: "2017-03-20"
 imgpath: "/img/posts/2017-03-20-balance-security-concerns/"
 img: "iveson-popo.jpg"

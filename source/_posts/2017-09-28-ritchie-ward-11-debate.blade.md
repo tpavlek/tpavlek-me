@@ -1,5 +1,6 @@
 ---
 title: "Ritchie Ward 11 Debate"
+slug: "ritchie-ward-11-debate"
 date: "2017-09-28"
 imgpath: "/img/posts/2017-09-28-ritchie-ward-11-debate/"
 img: "crowd-shot.jpg"

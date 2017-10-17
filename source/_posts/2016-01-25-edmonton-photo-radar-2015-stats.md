@@ -1,5 +1,6 @@
 ---
 title: "Edmonton Photo Radar statistics for 2015"
+slug: "edmonton-photo-radar-2015-stats"
 date: "2016-01-25"
 imgpath: "/img/posts/2016-01-25-edmonton-photo-radar-2015-stats/"
 img: "2016-2018-budget.png"

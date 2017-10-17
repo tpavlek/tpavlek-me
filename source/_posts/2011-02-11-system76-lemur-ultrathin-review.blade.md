@@ -1,5 +1,6 @@
 ---
 title: System76 Lemur Ultrathin Review
+slug: "system76-lemur-ultrathin-review"
 imgpath: "/img/posts/2011-02-11-system76-lemur-ultrathin-review/"
 img: 'header.jpg'
 date: "2011-02-11"

@@ -1,5 +1,6 @@
 ---
 title: "Problems in Platinum: Ling/Bling/Muta destruction in TvZ"
+slug: "pip-ling-bling-muta-descruction"
 imgpath: "/img/posts/2012-01-16-pip-ling-bling-muta-descruction/"
 img: 'roast.png'
 date: "2012-01-16"

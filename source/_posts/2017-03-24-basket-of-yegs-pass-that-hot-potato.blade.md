@@ -1,5 +1,6 @@
 ---
 title: "Basket of YEGs: Pass that hot potato"
+slug: "basket-of-yegs-pass-that-hot-potato"
 date: "2017-03-24"
 imgpath: "/img/"
 img: "basket-of-yegs.png"

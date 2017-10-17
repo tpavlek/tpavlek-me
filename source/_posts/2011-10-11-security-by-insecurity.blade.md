@@ -1,5 +1,6 @@
 ---
 title: "New Theory: Security by Insecurity"
+slug: "security-by-insecurity"
 imgpath: "/img/posts/2011-10-11-security-by-insecurity/"
 img: 'horse-fan.jpg'
 date: "2011-10-11"

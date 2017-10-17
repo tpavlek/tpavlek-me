@@ -1,5 +1,6 @@
 ---
 title: "Bundle Up and Keep Idling Cars out of Our Winter Events"
+slug: "keep-cars-out-of-winter-events"
 date: "2016-12-13"
 imgpath: "/img/posts/2016-12-13-keep-cars-out-of-winter-events/"
 img: "pano.jpg"

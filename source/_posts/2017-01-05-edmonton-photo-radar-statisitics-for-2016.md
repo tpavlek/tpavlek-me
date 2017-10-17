@@ -1,10 +1,11 @@
 ---
 title: "Edmonton Photo Radar Statistics for 2016"
+slug: "edmonton-photo-radar-stats-2016"
 date: "2017-01-05"
 imgpath: "/img/posts/2017-01-05-edmonton-photo-radar-stats-2016/"
 img: "truck-in-front-of-speedboard.jpg"
 description: "In 2016 a a total of 297,145 photo radar tickets were issued to Edmontonians. Troy Pavlek breaks down the infractions, and budgetary implications."
-slug: "photo-radar-stats-2016"
+
 tags: 
     - "photo-radar"
     - "open-data"

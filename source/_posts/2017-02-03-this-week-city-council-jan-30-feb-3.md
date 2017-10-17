@@ -1,5 +1,6 @@
 ---
 title: "This Week at Edmonton City Council: January 30-February 3"
+slug: "this-week-council-jan-30-feb-3"
 date: "2017-02-03"
 imgpath: "/img/posts/2017-02-03-this-week-council-jan-30-feb-3/"
 img: "overlay.png"

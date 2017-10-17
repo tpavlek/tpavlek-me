@@ -1,5 +1,6 @@
 ---
 title: "Is Edmonton's City Council friendly to filibuster-style politics?"
+slug: "does-city-council-engage-in-filibusters"
 date: "2016-03-26"
 imgpath: "/img/posts/2016-03-26-does-city-council-engage-in-filibusters/"
 img: "vote.png"

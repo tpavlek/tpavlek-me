@@ -1,5 +1,6 @@
 ---
 title: "Keep metal detectors and bag searches out of City Hall"
+slug: "keep-metal-detectors-bag-searches-out-of-city-hall"
 date: "2017-02-16"
 imgpath: "/img/posts/2017-02-16-keep-metal-detectors-bag-searches-out-of-city-hall/"
 img: "and-make-them-pay-for-it.jpg"

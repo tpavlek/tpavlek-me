@@ -1,5 +1,6 @@
 ---
 title: "The Metro Line project: the antithesis of Open Government"
+slug: "metro-line-is-black-box-governance"
 date: "2016-08-31"
 imgpath: "/img/posts/2016-08-31-metro-line-is-black-box-governance/"
 img: "fixed-vs-moving-block.jpg"

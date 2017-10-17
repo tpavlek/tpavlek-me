@@ -1,10 +1,10 @@
 ---
 title: "How accurate is Edmonton's posted list of photo radar locations?"
+slug: "photo-radar-locations-audit"
 date: "2017-08-15"
 imgpath: "/img/posts/2017-08-15-open-photo-radar-locations-audit/"
 img: "spider-photo.jpg"
 description: "Actual enforcement differed 41 times from the posted list during the week, but also revealed 25% of enforcement is by schools and parks"
-slug: "photo-radar-locations-audit"
 tags: 
     - "photo-radar"
     - "open-city"
@@ -182,7 +182,7 @@ It's far past time we were allowed to trust, *and verify*.
 
 @include('_partials.posts.post-embed', [ 'slug' => 'photo-radar-repeat-offenders' ])
 
-@include('_partials.posts.post-embed', [ 'slug' => 'photo-radar-stats-2016' ])
+@include('_partials.posts.post-embed', [ 'slug' => 'edmonton-photo-radar-stats-2016' ])
 
 <script>
 

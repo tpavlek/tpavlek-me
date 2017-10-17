@@ -1,5 +1,6 @@
 ---
 title: "Laravel Packages, PSR-4 and Me"
+slug: "laravel-packages-and-psr4"
 date: "2014-10-31"
 imgpath: "/img/posts/2014-10-31-laravel-packages-and-psr4/"
 img: 'code.png'

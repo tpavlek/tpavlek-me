@@ -1,5 +1,6 @@
 ---
 title: "The Plan for Starcraft Jeopardy"
+slug: "the-plan-for-scjeopardy"
 date: "2015-05-12"
 tags:
   - starcraft

@@ -1,5 +1,6 @@
 ---
 title: "Federal Budget 2017: City Council will no longer receive 1/3 of their income tax-free"
+slug: "city-council-non-taxable-income-eliminated"
 date: "2017-03-22"
 imgpath: "/img/posts/2016-02-05-council-compensation/"
 img: "council-money.jpg"

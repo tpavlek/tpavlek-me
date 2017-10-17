@@ -1,5 +1,6 @@
 ---
 title: "HoTS Day 1: Widowmines are fantastic"
+slug: "widowmines-are-fantastic"
 imgpath: "/img/posts/2013-03-12-widowmines-are-fantastic/"
 img: 'mutasdie.png'
 date: "2013-03-12"

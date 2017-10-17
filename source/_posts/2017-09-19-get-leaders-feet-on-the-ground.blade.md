@@ -1,5 +1,6 @@
 ---
 title: "We need our city leaders with their feet on the ground"
+slug: "get-leaders-feet-on-the-ground"
 date: "2017-09-19"
 imgpath: "/img/posts/2017-09-19-get-leaders-feet-on-the-ground/"
 img: "crosswalk.jpg"

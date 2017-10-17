@@ -1,5 +1,6 @@
 ---
 title: "Tools shouldn't get in the way - why I dumped Ruby on Rails to stick with PHP"
+slug: "tools-shouldnt-get-in-the-way"
 date: "2013-06-05"
 tags:
     - programming

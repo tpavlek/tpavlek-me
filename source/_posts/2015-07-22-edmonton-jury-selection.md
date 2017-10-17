@@ -1,5 +1,6 @@
 ---
 title: "Edmonton's Jury Selection: An exercise in wasting public time"
+slug: "edmonton-jury-selection"
 date: "2015-07-22"
 ---
 

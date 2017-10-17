@@ -1,5 +1,6 @@
 ---
 title: "An Edmonton Infill Heritage Moment"
+slug: "edmonton-infill-heritage-moment"
 date: "2017-10-05"
 imgpath: "/img/posts/2017-10-05-edmonton-infill-heritage-moment/"
 img: "banner.jpg"

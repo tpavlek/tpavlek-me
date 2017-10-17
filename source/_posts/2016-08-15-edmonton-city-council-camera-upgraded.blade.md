@@ -1,5 +1,6 @@
 ---
 title: "Who are those pretty faces? It's Edmonton City council!"
+slug: "edmonton-city-council-camera-upgraded"
 date: "2016-08-15"
 imgpath: "/img/posts/2016-08-15-edmonton-city-council-camera-upgraded/"
 img: "iveson-fabio.jpg"

@@ -1,5 +1,6 @@
 ---
 title: System76 Galago UltraPro Review
+slug: "system76-galago-ultrapro-review"
 date: "2013-09-14"
 tags:
     - review

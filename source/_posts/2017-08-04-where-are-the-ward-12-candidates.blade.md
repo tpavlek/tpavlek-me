@@ -1,5 +1,6 @@
 ---
 title: "32 Candidates, but only the winner running again: What happened to the Ward 12 candidates?"
+slug: "where-are-the-ward-12-candidates"
 date: "2017-08-04"
 imgpath: "/img/posts/2017-08-04-where-are-the-ward-12-candidates/"
 img: "clown-car.jpg"

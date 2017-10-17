@@ -1,9 +1,9 @@
 ---
 title: "I lost the election. It wasn't close."
+slug: "i-lost-the-election"
 date: "2017-10-17"
 imgpath: "/img/posts/2017-10-17-election-loss/"
 img: "banner.jpg"
-slug: "i-lost-the-election"
 description: "I was a fringe candidate, yelling about things that the electorate disagreed with. And they didn't vote for me."
 tags: 
     - "election-2017"
@@ -59,5 +59,5 @@ be happy to forget. Perhaps my showing in this election is like that.
 
 For now, I suppose the best thing I can do is simply own it.
 
-My name is Troy Pavlek, and I'm an unelectable fringe candidate.
+My name is Troy Pavlek, and I was an unelectable fringe candidate in the 2017 municipal election.
 

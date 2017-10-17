@@ -1,5 +1,6 @@
 ---
 title: "How to quickly get more readers on your blog and make money online!"
+slug: "how-to-get-more-readers"
 imgpath: "/img/posts/2011-02-21-how-to-get-more-readers/"
 img: 'gawker.png'
 date: "2011-02-21"

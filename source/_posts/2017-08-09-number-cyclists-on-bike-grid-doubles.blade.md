@@ -1,5 +1,6 @@
 ---
 title: "After the downtown bike grid was installed, bicycle trips increased 92%"
+slug: "number-cyclists-on-bike-grid-doubles"
 date: "2017-08-09"
 imgpath: "/img/posts/2017-08-09-number-cyclists-on-bike-grid-doubles/"
 img: "102ave.jpg"

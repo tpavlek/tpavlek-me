@@ -1,5 +1,6 @@
 ---
 title: "Survey Response: Canadian Taxpayer's Federation"
+slug: "survey-response-canadian-taxpayers-federation"
 date: "2017-09-26"
 imgpath: "/img/posts/2017-09-26-survey-response-canadian-taxpayers-federation/"
 img: "scrooge.jpg"
