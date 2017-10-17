@@ -26,4 +26,4 @@ depiction - I disagree, thought it was just right.
 @include('_partials.image', ['name' => 'drop-in.jpg', 'caption' => 'Drops are a good unit' ])
 
 Expect to see the same for BETA 2, once winners have received their prizes! It's a lot of fun! If you want to keep up 
-with events like these (and maybe even win your own crayon drawing), consider following me on [Twitter](https://twitter.com/troypavlek)
+with events like these (and maybe even win your own crayon drawing), consider following me on [Twitter]({{ $page->twitter_url }})

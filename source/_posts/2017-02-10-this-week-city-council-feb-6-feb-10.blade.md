@@ -52,5 +52,5 @@ and the motion passed with an amendment asking what _departments_ are responsibl
 
 ---
 
-That's all for this week! If you think these updates are useful, please give me a [follow on Twitter](https://twitter.com/troypavlek)
-or a [follow on Facebook](https://facebook.com/troypavlek) and let me know.
+That's all for this week! If you think these updates are useful, please give me a [follow on Twitter]({{ $page->twitter_url }})
+or a [follow on Facebook]({{ $page->facebook_url }}) and let me know.

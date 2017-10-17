@@ -55,5 +55,5 @@ on Facebook talking about Edmonton's LRT strategy.
 Administration began consultation on their plan to add bag searches and metal detectors to council meetings, as well as
 build a wall in council chambers. You can [read about](/blog/2017/02/16/keep-metal-detectors-bag-searches-out-of-city-hall) why I think this should absolutely not happen.
 
-That's all for this week! If you think these updates are useful, please give me a [follow on Twitter](https://twitter.com/troypavlek)
-or a [follow on Facebook](https://facebook.com/troypavlek) and let me know.
+That's all for this week! If you think these updates are useful, please give me a [follow on Twitter]({{ $page->twitter_url }})
+or a [follow on Facebook]({{ $page->facebook_url}}) and let me know.

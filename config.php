@@ -5,6 +5,9 @@ return [
     'production' => false,
     'author' => 'Troy Pavlek',
     'email' => 'troy@tpavlek.me',
+    'description' => "Software developer, podcast host, and unelectable fringe candidate in the 2017 election",
+    'facebook_url' => 'https://facebook.com/troydoesstuff',
+    'twitter_url' => 'https://twitter.com/troypavlek',
 
     'tagged' => function($page, \Illuminate\Support\Collection $collection, $tag) {
         return $collection->filter(function ($post) use ($tag) { return in_array($tag, ($post->tags) ? $post->tags : []); });
@@ -18,12 +21,6 @@ return [
             'extends' => '_layouts.post',
             'section' => 'post_content',
             'sort' => '-date',
-        ],
-        'questions' => [
-            'path' => 'question/{filename}',
-            'extends' => '_layouts.question',
-            'section' => 'question_content',
-            'sort' => '-date'
         ]
     ],
 ];

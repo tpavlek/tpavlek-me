@@ -51,6 +51,6 @@ amount, or will they effectively have their pay reduced due to this new federal 
 </style>
 
 <div class="embed">
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/troypavlek">@troypavlek</a> I&#39;ve just heard it doesn&#39;t take effect until 2019 so lots of time to form that independent committee to get recommendations.</p>&mdash; Andrew Knack (@AndrewKnack) <a href="https://twitter.com/AndrewKnack/status/844728868523016192">March 23, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="{{ $page->twitter_url }}">@troypavlek</a> I&#39;ve just heard it doesn&#39;t take effect until 2019 so lots of time to form that independent committee to get recommendations.</p>&mdash; Andrew Knack (@AndrewKnack) <a href="https://twitter.com/AndrewKnack/status/844728868523016192">March 23, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>

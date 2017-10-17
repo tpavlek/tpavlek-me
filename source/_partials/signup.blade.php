@@ -10,7 +10,7 @@
     }
 </style>
 <div class="signup-box">
-    <h3>Troy Pavlek is running to be your next City Councillor</h3>
+    <h3>Troy Pavlek ran as an unelectable fringe candidate in the 2017 Edmonton municipal election</h3>
 
     <p>
         Keep up-to-date with the latest information by signing up to the mailing list.
@@ -47,10 +47,10 @@
     </p>
 
     <div style="display:flex; align-items: center;">
-        <a class="twitter-follow-button" href="https://twitter.com/troypavlek" data-size="large">Follow @troypavlek</a>
+        <a class="twitter-follow-button" href="{{ $page->twitter_url }}" data-size="large">Follow @troypavlek</a>
 
         <div style="flex-grow:1;">
-            <a class="button" href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> Facebook</a>
+            <a class="button" href="{{ $page->facebook_url }}"><i class="fa fa-facebook"></i> Facebook</a>
         </div>
 
     </div>

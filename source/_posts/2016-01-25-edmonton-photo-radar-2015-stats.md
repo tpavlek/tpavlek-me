@@ -95,7 +95,7 @@ for issuing tickets.
 I encourage all of you to generate your own opinions about this data and feel free to share those up with your Councillors.
 I hope this helps us all to argue our perspectives from a point of knowledge.
 
-If you have any questions or something you think should be added here, feel free to reach out on [Twitter: @troypavlek](https://twitter.com/troypavlek)
+If you have any questions or something you think should be added here, feel free to reach out on [Twitter: @troypavlek]({{ $page->twitter_url }})
 
 ### Update 1
 

@@ -20,8 +20,6 @@
         </div>
     </article>
 
-    @include('_partials.action-bar')
-
     <div class="blog-archive">
         @if ($page->getPrevious())
             <h1>Next Post</h1>
@@ -41,13 +39,8 @@
     <meta name="twitter:title" content="{{ $page->title }}"/>
     <meta property="og:title" content="{{ $page->title }}"/>
 
-    @if($page->description)
-        <meta name="twitter:description" content="{{ $page->description }}"/>
-        <meta property="og:description" content="{{ $page->description }}"/>
-    @else
-        <meta name="twitter:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
-        <meta property="og:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
-    @endif
+    <meta name="twitter:description" content="{{ $page->description }}"/>
+    <meta property="og:description" content="{{ $page->description }}"/>
 
     @if($page->img)
         <meta name="twitter:image" content="{{ $page->baseUrl }}{{ $page->imgpath }}{{ $page->img }}"/>

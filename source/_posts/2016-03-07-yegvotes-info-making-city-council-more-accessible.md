@@ -87,7 +87,7 @@ topics of each meeting.
 </div>
 
 What are your thoughts? Do these improvements help? What would you like to see next on the site to make it useful to you?
-Feel free to reach out via email: <a href="mailto:troy@tpavlek.me">troy@tpavlek.me</a> or on Twitter [@troypavlek](https://twitter.com/troypavlek).
+Feel free to reach out via email: <a href="mailto:troy@tpavlek.me">troy@tpavlek.me</a> or on Twitter [@troypavlek]({{ $page->twitter_url }}).
 
 As well, if you're interested, I've been doing a local podcast focusing on municipal politics called [Basket of YEGs](https://basketofyegs.com)!
 In the most recent episode, I [sat down with Irfan Chaudhry to recap and get a behind-the-scenes look at his Ward 12 Campaign](http://basketofyegs.com/episode/2016/03/02/irfan-chaudhry-campaign-and-future-plans/).

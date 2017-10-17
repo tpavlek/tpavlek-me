@@ -15,7 +15,7 @@ tags:
 
 ### Show Notes
 
-You can follow [@troypavlek](https://twitter.com/troypavlek), [Adam Millie](https://twitter.com/yegmillie), 
+You can follow [@troypavlek]({{ $page->twitter_url }}), [Adam Millie](https://twitter.com/yegmillie),
 [Jeff Samsonow](https://twitter.com/jeffsamsonow) and [Edmonton Quotient](https://twitter.com/yegquotient) on Twitter.
 
 Your mandatory homework for this Episode is watching [Roman Mars' TED Talk on flag design](https://www.ted.com/talks/roman_mars_why_city_flags_may_be_the_worst_designed_thing_you_ve_never_noticed).

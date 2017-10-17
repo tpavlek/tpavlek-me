@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title', "Let's Talk") - Troy Pavlek - Edmonton City Council Candidate for Ward 11</title>
+    <title>Troy Pavlek: @yield('title', "I lose elections")</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -72,42 +72,18 @@
             <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li>
-                    <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i></a>
+                    <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                    <a href="/subscribe">Subscribe</a>
-                </li>
-                <li>
-                    <a href="/request-a-sign">Get A Sign</a>
-                </li>
-                <li class="secondary-action">
-                    <a href="/subscribe">Volunteer</a>
-                </li>
-                <li class="primary-action">
-                    <a href="/donate">Donate</a>
+                    <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook"></i> </a>
                 </li>
             </ul>
             <ul id="mobile-nav" class="side-nav">
                 <li>
-                    <a href="https://twitter.com/troypavlek"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
                 <li>
-                    <a href="https://facebook.com/troypavlek"><i class="fa fa-facebook"></i> Facebook</a>
-                </li>
-                <li>
-                    <a href="/subscribe">Subscribe</a>
-                </li>
-                <li>
-                    <a href="/request-a-sign">Get A Sign</a>
-                </li>
-                <li class="secondary-action">
-                    <a href="/subscribe">Volunteer</a>
-                </li>
-                <li class="primary-action">
-                    <a href="/donate">Donate</a>
+                    <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook"></i> Facebook</a>
                 </li>
             </ul>
         </div>
@@ -119,15 +95,10 @@
 </div>
 <div class="footer">
     <div class="description">
-        <span class="title">The Campaign to Elect Troy Pavlek to City Council</span>
+        <span class="title">Troy Pavlek</span>
         <p>
-            Troy Pavlek is a software developer, civic policy enthusiast and resident of Hazeldean in Ward 11.
-            When he's not developing software using the open data catalogue or talking about civic issues on his
-            podcast, he's writing or thinking about the City of Edmonton in some way. Let him be your passionate
-            voice on Edmonton's City Council. Vote Troy Pavlek to Edmonton City Council in Ward 11.
+            I make stuff and lose elections
         </p>
-        <a href="/pdf/disclosure.pdf">Campaign Finance Disclosure</a>
-        <br />
         &copy; Troy Pavlek
         <br />
     </div>
@@ -137,11 +108,12 @@
         <a href="/about">About Troy</a>
         <a href="/projects">My Work</a>
         <a href="https://basketofyegs.com">Basket of YEGs Podcast</a>
+        <a href="/media">In the Media</a>
     </div>
     <div class="footer-column contact">
         <span class="title">Contact</span>
-        <a href="https://twitter.com/troypavlek">Twitter</a>
-        <a href="https://facebook.com/troypavlek">Facebook</a>
+        <a href="{{ $page->twitter_url }}">Twitter</a>
+        <a href="{{ $page->facebook_url }}">Facebook</a>
         <a href="mailto:troy@tpavlek.me">Email</a>
         <a href="https://github.com/tpavlek">GitHub</a>
         <a href="/rss.xml">Blog RSS</a>
