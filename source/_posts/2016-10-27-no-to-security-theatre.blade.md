@@ -7,6 +7,7 @@ img: "police.jpg"
 description: "Edmonton city council wants to build a wall between them and the public, and put metal detectors and bag searches at the door. We have to say no to this needless ask."
 tags: 
     - "city-council"
+    - "security"
 ---
 
 Elise Stolte [broke the news](http://edmontonjournal.com/news/local-news/edmonton-councillors-ok-metal-detectors-bag-searches-glass-wall-for-council-chambers) 
