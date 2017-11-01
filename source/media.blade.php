@@ -9,6 +9,9 @@
 <article class="is-centered post">
     <div class="post-content">
 
+        <h3 id="city-council-security">City Council Security</h3>
+        <p><a href="http://www.metronews.ca/news/edmonton/2017/10/31/public-criticizes-new-safety-measures-at-city-hall.html"><em>Metro</em>: Public criticizes 'obnoxious' new safety measures at city hall</a></p>
+
         <h3 id="freedom-of-information">Freedom of Information</h3>
 
         <p><a href="http://www.cbc.ca/news/canada/edmonton/council-committee-seeks-new-policy-to-deal-with-foip-requests-1.3960660"><em>CBC</em>: Council committee seeks new policy to deal with FOIP requests</a></p>
