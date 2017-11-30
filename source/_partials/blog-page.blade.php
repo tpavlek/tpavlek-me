@@ -1,4 +1,5 @@
 <div class="blog-archive">
+
     @foreach($posts as $post)
         @if ($loop->index == 0)
             @include('_partials.posts.hero-post', [ "post" => $post])
@@ -14,14 +15,14 @@
     @endforeach
 
     <div class="center">
-        @if ($pagination->next)
+        @if ($pagination && $pagination->next)
             <a href="{{ $pagination->next }}" class="button left">
                 <i class="fa fa-arrow-left"></i>
                 Older Posts
             </a>
             &nbsp;
         @endif
-        @if ($pagination->previous)
+        @if ($pagination && $pagination->previous)
             <a href="{{ $pagination->previous }}" class="button right">
                 Newer Posts
                 <i class="fa fa-arrow-right"></i>

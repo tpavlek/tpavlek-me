@@ -5,7 +5,9 @@
 
 $troy-primary-color: #2c3e4c;
 
-* { box-sizing: border-box; font-family: 'Lato', sans-serif; }
+* {
+  font-family: 'Lato', sans-serif;
+}
 .content-wrapper pre code * {
   font-family: Inconsolata, Menlo, Courier, monospace;
 }

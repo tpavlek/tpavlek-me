@@ -26,19 +26,16 @@
         @import '//fonts.googleapis.com/css?family=Inconsolata:400|Lato:300,400,400i,700,900';
     </style>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="/css/app.css" rel="stylesheet" />
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/prism.css" rel="stylesheet" type="text/css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     @yield('social_meta', '')
 </head>
-<body>
+<body class="bg-primary">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -65,7 +62,7 @@
         return t;
     }(document, "script", "twitter-wjs"));</script>
 <div class="wrap">
-
+<!--
     <nav class="main-nav">
         <div class="nav-wrapper">
             <a href="/" class="brand-logo"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
@@ -88,35 +85,42 @@
             </ul>
         </div>
     </nav>
+    -->
 
 
     @yield('body_content')
 
 </div>
-<div class="footer">
-    <div class="description">
-        <span class="title">Troy Pavlek</span>
-        <p>
-            I make stuff and lose elections
-        </p>
-        &copy; Troy Pavlek
-        <br />
-    </div>
-    <div class="footer-column navigation">
-        <span class="title">Navigation</span>
-        <a href="/blog">Blog</a>
-        <a href="/about">About Troy</a>
-        <a href="/projects">My Work</a>
-        <a href="https://basketofyegs.com">Basket of YEGs Podcast</a>
-        <a href="/media">In the Media</a>
-    </div>
-    <div class="footer-column contact">
-        <span class="title">Contact</span>
-        <a href="{{ $page->twitter_url }}">Twitter</a>
-        <a href="{{ $page->facebook_url }}">Facebook</a>
-        <a href="mailto:troy@tpavlek.me">Email</a>
-        <a href="https://github.com/tpavlek">GitHub</a>
-        <a href="/rss.xml">Blog RSS</a>
+<div class="p-8 bg-black-darkest text-center leading-loose">
+    <div class="inline-flex mx-auto">
+        <div class="flex-1 text-left p-8">
+            <span class="text-lg text-white">Troy Pavlek</span>
+            <p class="text-grey-light font-thin whitespace-no-wrap">
+                I make stuff and lose elections
+            </p>
+            <span class="text-grey-light font-thin">&copy; Troy Pavlek</span>
+            <br />
+        </div>
+        <div class="flex-1 text-left p-8">
+            <span class="text-lg text-white">Navigation</span>
+            <p>
+                <a href="/blog" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Blog</a>
+                <a href="/about" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">About Troy</a>
+                <a href="/projects" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">My Work</a>
+                <a href="https://basketofyegs.com" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Basket of YEGs Podcast</a>
+                <a href="/media" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">In the Media</a>
+            </p>
+        </div>
+        <div class="flex-1 text-left p-8">
+            <span class="text-lg text-white">Contact</span>
+            <p class="text-grey-light font-thin no-underline hover:border-b">
+                <a href="{{ $page->twitter_url }}" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Twitter</a>
+                <a href="{{ $page->facebook_url }}" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Facebook</a>
+                <a href="mailto:troy@tpavlek.me" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Email</a>
+                <a href="https://github.com/tpavlek" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">GitHub</a>
+                <a href="/rss.xml" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Blog RSS</a>
+            </p>
+        </div>
     </div>
 
 </div>

@@ -1,14 +1,17 @@
-<a href="{{ $post->getUrl() }}"class="hero-post">
-    @if ($post->img)
-        <div class="img" style="background-image: url('{{ $post->imgpath }}{{ $post->img }}');"></div>
-    @else
-        <div class="img default">BLOG</div>
-    @endif
-    <div class="valign-wrapper text-container">
-        <div class="text">
-            <span class="title">{{ $post->title }}</span>
-            <span class="date">{{ (new \Carbon\Carbon($post->date))->format("F jS, Y") }}</span>
+<div class="w-full p-8 mx-auto">
+    <a href="{{ $post->getUrl() }}" class="block w-full h-72 lg:flex mx-auto bg-tertiary no-underline">
+        @if ($post->img)
+            <div class="flex-1 w-72 lg:h-auto flex-none bg-center bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('{{ $post->imgpath }}{{ $post->img }}');"></div>
+        @else
+            <div class="">BLOG</div>
+        @endif
+        <div class="p-8 flex flex-col items-center justify-center">
+            <div class="leading-loose">
+                <h1 class="text-white">{{ $post->title }}</h1>
+                <h3 class="text-gold">{{ (new \Carbon\Carbon($post->date))->format("F jS, Y") }}</h3>
+            </div>
         </div>
-    </div>
-</a>
+    </a>
+</div>
+
 
