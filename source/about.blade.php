@@ -2,10 +2,10 @@
 @section('title', 'About Troy Pavlek')
 
 @section('content')
-    <h1 style="text-align:center;">About Troy Pavlek</h1>
+    <h1 class="text-center text-white mb-4">About Troy Pavlek</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content max-w-xl text-xl leading-loose mx-auto p-8">
             <p>
                 Hi, I'm Troy Pavlek.
             </p>
@@ -24,9 +24,8 @@
             </p>
 
             @include('_partials.posts.post-embed', [ 'slug' => 'adding-some-levity'])
+
+            @include('_partials.contact')
         </div>
     </article>
-
-    @include('_partials.contact')
-
 @stop

@@ -131,6 +131,7 @@ var colors = {
 
     'primary': '#325770',
     'secondary': '#2c3e4c',
+    'secondary-light': '#465866',
     'tertiary': '#1d4561',
     'gold': '#d0aa48'
 }
@@ -428,6 +429,8 @@ module.exports = {
         'sm': '.125rem',
         default: '.25rem',
         'lg': '.5rem',
+        'xl': '.75rem',
+        '2xl': '1rem',
         'full': '9999px',
     },
 
@@ -469,6 +472,7 @@ module.exports = {
         '48': '12rem',
         '64': '16rem',
         '72': '32rem',
+        '80': '48rem',
         '1/2': '50%',
         '1/3': '33.33333%',
         '2/3': '66.66667%',
@@ -516,6 +520,7 @@ module.exports = {
         '32': '8rem',
         '48': '12rem',
         '64': '16rem',
+        '68': '25rem',
         '72': '32rem',
         'full': '100%',
         'screen': '100vh'
@@ -636,6 +641,7 @@ module.exports = {
         '4': '1rem',
         '6': '1.5rem',
         '8': '2rem',
+        '16': '4rem',
     },
 
 

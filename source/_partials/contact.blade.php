@@ -1,32 +1,32 @@
+<div class="bg-orange-lightest mx-auto max-w-md shadow-lg rounded-lg overflow-hidden">
+    <div class="sm:flex sm:items-center px-6 py-4">
+        <img class="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0" src="/img/cropped-profile.jpg" alt="">
+        <div class="text-center sm:text-left sm:flex-grow">
+            <div class="mb-4">
+                <p class="text-xl leading-tight">Troy Pavlek</p>
+                <p class="text-sm leading-tight text-grey-dark">Contact me</p>
+            </div>
+            <div>
+                <a
+                        class="no-underline ml-2 text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-gold text-gold hover:bg-gold hover:text-white"
+                        href="mailto:troy@tpavlek.me"
+                >
+                    <i class="fa fa-envelope"></i> Email
+                </a>
 
-<div class="card horizontal contact hide-on-small-only">
-    <div class="card-image">
-        <img src="/img/cropped-profile.jpg">
-    </div>
-    <div class="card-stacked">
-        <div class="card-content left-align">
-            <span class="card-title black-text">Get in Touch</span>
-            <a href="mailto:troy@tpavlek.me" ><i class="fa fa-envelope"></i> troy@tpavlek.me</a>
-            <hr />
-            <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter-square"></i> @troypavlek</a>
-            <hr />
-            <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook-square"></i> Facebook</a>
+                <a
+                        class="no-underline ml-2 text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-gold text-gold hover:bg-gold hover:text-white"
+                        href="{{ $page->twitter_url }}"
+                >
+                    <i class="fa fa-twitter-square"></i> @troypavlek
+                </a>
+                <a
+                        class="no-underline ml-2 text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-gold text-gold hover:bg-gold hover:text-white"
+                        href="{{ $page->facebook_url }}"
+                >
+                    <i class="fa fa-facebook-square"></i> Facebook
+                </a>
+            </div>
         </div>
     </div>
-
-</div>
-
-<div class="card contact hide-on-med-and-up">
-    <div class="card-image">
-        <img src="/img/cropped-profile.jpg">
-        <span class="card-title">Get in Touch</span>
-    </div>
-    <div class="card-content left-align">
-        <a href="mailto:troy@tpavlek.me" ><i class="fa fa-envelope"></i> troy@tpavlek.me</a>
-        <hr />
-        <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter-square"></i> @troypavlek</a>
-        <hr />
-        <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook-square"></i> Facebook</a>
-    </div>
-
 </div>

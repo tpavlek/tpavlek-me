@@ -33,9 +33,11 @@
   font-family: 'Lato', sans-serif;
   box-sizing:border-box;
 }
+
 .content-wrapper pre code * {
   font-family: Inconsolata, Menlo, Courier, monospace;
 }
+
 code {
   font-family: Inconsolata, Menlo, Courier, monospace;
   color: #f8f8f2;
@@ -70,3 +72,67 @@ code {
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.button {
+  @apply .inline-block .mx-auto .py-4 .px-8 .bg-secondary .no-underline .text-white .shadow .rounded-sm .text-lg .border-b-4 .border-green-darker;
+}
+
+.button:hover {
+  @apply .bg-secondary-light;
+}
+
+.post-content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-content a {
+  border-bottom: 2px dashed slategrey;
+  color: inherit;
+  @apply .no-underline .font-bold;
+}
+
+.post-content a:hover {
+  border-bottom: 3px solid slategray;
+}
+
+blockquote {
+@apply .text-gold .border-l-4 .border-gold .font-bold;
+}
+
+blockquote p {
+@apply .w-full .pl-8 .pr-16;
+}
+
+.project {
+@apply .my-8 .h-72 .w-full .rounded-r-2xl .shadow .relative .bg-cover .bg-center;
+}
+
+.summary-description:after {
+  content  : "";
+  position : absolute;
+  z-index  : 8;
+  top   : 0;
+  left     : 0;
+  pointer-events   : none;
+  background-image : linear-gradient(to bottom, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.8) 70%);
+  width    : 100%;
+  height   : 100%;
+  border-bottom-right-radius: 20px;
+}
+
+.summary-description {
+  z-index: 1;
+  text-align: center;
+
+  position:absolute;
+  top: 40%;
+  width: 100%;
+  height: 60%;
+
+  a, a:visited {
+    color: inherit;
+  }
+
+  h2 { margin: 0; color: white;}
+}

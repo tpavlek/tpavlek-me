@@ -3,33 +3,35 @@
 @section('title', $page->title)
 
 @section('content')
-
-    <article class="is-centered post">
-        <header class="summary-block" style="background-image: url('{{ $page->imgpath }}{{ $page->img }}');">
-
+    <div class="mx-auto p-8">
+    <article class="bg-white">
+        <header class="summary-block w-full mb-8 h-68 relative bg-cover bg-center" style="background-image: url('{{ $page->imgpath }}{{ $page->img }}');">
             <div class="summary-description">
-                <div class="text">
-                    <span class="title">{{ $page->title }}</span>
-                    <span class="date">{{ (new \Carbon\Carbon($page->date))->format("F jS, Y") }}</span>
+                <div class="leading-normal z-10 absolute pin-b pin-l pin-r pb-2">
+                    <h1 class="text-white text-5xl">{{ $page->title }}</h1>
+                    <h3 class="text-gold text-2xl">{{ (new \Carbon\Carbon($page->date))->format("F jS, Y") }}</h3>
                 </div>
             </div>
 
         </header>
-        <div class="post-content">
+        <div class="post-content max-w-xl mx-auto text-xl leading-loose p-8">
             @yield('post_content')
         </div>
     </article>
 
     <div class="blog-archive">
         @if ($page->getPrevious())
-            <h1>Next Post</h1>
+            <h1 class="text-white my-4">Next Post</h1>
             @include('_partials.posts.archive-post', [ 'post' => $page->getPrevious() ])
         @endif
         @if($page->getNext())
-            <h1>Previous Post</h1>
+            <h1 class="text-white my-4">Previous Post</h1>
             @include('_partials.posts.archive-post', [ 'post' => $page->getNext() ])
         @endif
     </div>
+</div>
+
+
 @stop
 
 @section("social_meta")

@@ -26,14 +26,15 @@ description: ""
     <meta property="og:type" content="article"/>
     <meta property="fb:admins" content="551604144"/>
     <meta property="fb:app_id" content="691298577729703"/>
-@stop
 
 @section('content')
 
     @include('_partials.blog-page', [ 'posts' => $posts->slice(0,4), 'pagination' => null ])
 
-    <div class="center">
-        <a href="/blog" class="button xlarge"><i class="fa fa-archive"></i> Blog Archive</a>
+    <div class="text-center p-2">
+        <a href="/blog" class="inline-block mx-auto py-4 px-8 bg-secondary no-underline text-white hover:bg-secondary-light shadow rounded-sm text-lg border-b-4 border-green-darker">
+            <i class="fa fa-archive"></i> Blog Archive
+        </a>
     </div>
 
 @stop

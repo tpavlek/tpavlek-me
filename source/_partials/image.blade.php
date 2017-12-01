@@ -1,7 +1,7 @@
 @if (isset($caption) && $caption)
-    <figure @if(isset($inline) && $inline) style="display: inline;" @endif>
+    <figure class="bg-orange-lightest p-8 shadow border-2 border-orange-lighter text-center" @if(isset($inline) && $inline) style="display: inline;" @endif>
         <img src="{{ $page->imgpath }}{{$name}}"/>
-        <figcaption>{!! (new Parsedown())->parse($caption) !!}</figcaption>
+        <figcaption class="text-center">{!! (new Parsedown())->parse($caption) !!}</figcaption>
     </figure>
 @else
     <img src="{{$page->imgpath}}{{$name}}" @if(isset($inline) && $inline) style="display:inline;" @endif />

@@ -1055,6 +1055,11 @@ code {
   color: #2c3e4c;
 }
 
+.text-secondary-light,
+.hover\:text-secondary-light:hover {
+  color: #465866;
+}
+
 .text-tertiary,
 .hover\:text-tertiary:hover {
   color: #1d4561;
@@ -1604,6 +1609,11 @@ code {
   background-color: #2c3e4c;
 }
 
+.bg-secondary-light,
+.hover\:bg-secondary-light:hover {
+  background-color: #465866;
+}
+
 .bg-tertiary,
 .hover\:bg-tertiary:hover {
   background-color: #1d4561;
@@ -2138,6 +2148,11 @@ code {
   border-color: #2c3e4c;
 }
 
+.border-secondary-light,
+.hover\:border-secondary-light:hover {
+  border-color: #465866;
+}
+
 .border-tertiary,
 .hover\:border-tertiary:hover {
   border-color: #1d4561;
@@ -2178,6 +2193,14 @@ code {
 
 .rounded-lg {
   border-radius: .5rem;
+}
+
+.rounded-xl {
+  border-radius: .75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-full {
@@ -2264,6 +2287,46 @@ code {
   border-bottom-left-radius: .5rem;
 }
 
+.rounded-t-xl {
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+}
+
+.rounded-r-xl {
+  border-top-right-radius: .75rem;
+  border-bottom-right-radius: .75rem;
+}
+
+.rounded-b-xl {
+  border-bottom-right-radius: .75rem;
+  border-bottom-left-radius: .75rem;
+}
+
+.rounded-l-xl {
+  border-top-left-radius: .75rem;
+  border-bottom-left-radius: .75rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-r-2xl {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.rounded-b-2xl {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.rounded-l-2xl {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
 .rounded-t-full {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
@@ -2346,6 +2409,38 @@ code {
 
 .rounded-bl-lg {
   border-bottom-left-radius: .5rem;
+}
+
+.rounded-tl-xl {
+  border-top-left-radius: .75rem;
+}
+
+.rounded-tr-xl {
+  border-top-right-radius: .75rem;
+}
+
+.rounded-br-xl {
+  border-bottom-right-radius: .75rem;
+}
+
+.rounded-bl-xl {
+  border-bottom-left-radius: .75rem;
+}
+
+.rounded-tl-2xl {
+  border-top-left-radius: 1rem;
+}
+
+.rounded-tr-2xl {
+  border-top-right-radius: 1rem;
+}
+
+.rounded-br-2xl {
+  border-bottom-right-radius: 1rem;
+}
+
+.rounded-bl-2xl {
+  border-bottom-left-radius: 1rem;
 }
 
 .rounded-tl-full {
@@ -2533,6 +2628,10 @@ code {
   width: 32rem;
 }
 
+.w-80 {
+  width: 48rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -2693,6 +2792,10 @@ code {
   height: 16rem;
 }
 
+.h-68 {
+  height: 25rem;
+}
+
 .h-72 {
   height: 32rem;
 }
@@ -2759,6 +2862,10 @@ code {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-16 {
+  padding: 4rem;
 }
 
 .p-px {
@@ -2833,6 +2940,16 @@ code {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-px {
@@ -2955,6 +3072,22 @@ code {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .pt-px {
@@ -3813,6 +3946,102 @@ code {
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+.button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #2c3e4c;
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+  border-radius: .125rem;
+  font-size: 1.125rem;
+  border-bottom-width: 4px;
+  border-color: #0b4228;
+}
+
+.button:hover {
+  background-color: #465866;
+}
+
+.post-content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-content a {
+  border-bottom: 2px dashed slategrey;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.post-content a:hover {
+  border-bottom: 3px solid slategray;
+}
+
+blockquote {
+  color: #d0aa48;
+  border-left-width: 4px;
+  border-color: #d0aa48;
+  font-weight: 700;
+}
+
+blockquote p {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+.project {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 32rem;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.summary-description:after {
+  content: "";
+  position: absolute;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 70%);
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 20px;
+}
+
+.summary-description {
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 60%;
+}
+
+.summary-description a,
+.summary-description a:visited {
+  color: inherit;
+}
+
+.summary-description h2 {
+  margin: 0;
+  color: white;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -4297,6 +4526,11 @@ code {
   .sm\:text-secondary,
   .sm\:hover\:text-secondary:hover {
     color: #2c3e4c;
+  }
+
+  .sm\:text-secondary-light,
+  .sm\:hover\:text-secondary-light:hover {
+    color: #465866;
   }
 
   .sm\:text-tertiary,
@@ -4848,6 +5082,11 @@ code {
     background-color: #2c3e4c;
   }
 
+  .sm\:bg-secondary-light,
+  .sm\:hover\:bg-secondary-light:hover {
+    background-color: #465866;
+  }
+
   .sm\:bg-tertiary,
   .sm\:hover\:bg-tertiary:hover {
     background-color: #1d4561;
@@ -5382,6 +5621,11 @@ code {
     border-color: #2c3e4c;
   }
 
+  .sm\:border-secondary-light,
+  .sm\:hover\:border-secondary-light:hover {
+    border-color: #465866;
+  }
+
   .sm\:border-tertiary,
   .sm\:hover\:border-tertiary:hover {
     border-color: #1d4561;
@@ -5422,6 +5666,14 @@ code {
 
   .sm\:rounded-lg {
     border-radius: .5rem;
+  }
+
+  .sm\:rounded-xl {
+    border-radius: .75rem;
+  }
+
+  .sm\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .sm\:rounded-full {
@@ -5508,6 +5760,46 @@ code {
     border-bottom-left-radius: .5rem;
   }
 
+  .sm\:rounded-t-xl {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+  }
+
+  .sm\:rounded-r-xl {
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+  }
+
+  .sm\:rounded-b-xl {
+    border-bottom-right-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .sm\:rounded-l-xl {
+    border-top-left-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .sm\:rounded-t-2xl {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .sm\:rounded-r-2xl {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .sm\:rounded-b-2xl {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .sm\:rounded-l-2xl {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
   .sm\:rounded-t-full {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -5590,6 +5882,38 @@ code {
 
   .sm\:rounded-bl-lg {
     border-bottom-left-radius: .5rem;
+  }
+
+  .sm\:rounded-tl-xl {
+    border-top-left-radius: .75rem;
+  }
+
+  .sm\:rounded-tr-xl {
+    border-top-right-radius: .75rem;
+  }
+
+  .sm\:rounded-br-xl {
+    border-bottom-right-radius: .75rem;
+  }
+
+  .sm\:rounded-bl-xl {
+    border-bottom-left-radius: .75rem;
+  }
+
+  .sm\:rounded-tl-2xl {
+    border-top-left-radius: 1rem;
+  }
+
+  .sm\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
+  }
+
+  .sm\:rounded-br-2xl {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .sm\:rounded-bl-2xl {
+    border-bottom-left-radius: 1rem;
   }
 
   .sm\:rounded-tl-full {
@@ -5777,6 +6101,10 @@ code {
     width: 32rem;
   }
 
+  .sm\:w-80 {
+    width: 48rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -5937,6 +6265,10 @@ code {
     height: 16rem;
   }
 
+  .sm\:h-68 {
+    height: 25rem;
+  }
+
   .sm\:h-72 {
     height: 32rem;
   }
@@ -6003,6 +6335,10 @@ code {
 
   .sm\:p-8 {
     padding: 2rem;
+  }
+
+  .sm\:p-16 {
+    padding: 4rem;
   }
 
   .sm\:p-px {
@@ -6077,6 +6413,16 @@ code {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sm\:py-px {
@@ -6199,6 +6545,22 @@ code {
 
   .sm\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .sm\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .sm\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pl-16 {
+    padding-left: 4rem;
   }
 
   .sm\:pt-px {
@@ -7531,6 +7893,11 @@ code {
     color: #2c3e4c;
   }
 
+  .md\:text-secondary-light,
+  .md\:hover\:text-secondary-light:hover {
+    color: #465866;
+  }
+
   .md\:text-tertiary,
   .md\:hover\:text-tertiary:hover {
     color: #1d4561;
@@ -8080,6 +8447,11 @@ code {
     background-color: #2c3e4c;
   }
 
+  .md\:bg-secondary-light,
+  .md\:hover\:bg-secondary-light:hover {
+    background-color: #465866;
+  }
+
   .md\:bg-tertiary,
   .md\:hover\:bg-tertiary:hover {
     background-color: #1d4561;
@@ -8614,6 +8986,11 @@ code {
     border-color: #2c3e4c;
   }
 
+  .md\:border-secondary-light,
+  .md\:hover\:border-secondary-light:hover {
+    border-color: #465866;
+  }
+
   .md\:border-tertiary,
   .md\:hover\:border-tertiary:hover {
     border-color: #1d4561;
@@ -8654,6 +9031,14 @@ code {
 
   .md\:rounded-lg {
     border-radius: .5rem;
+  }
+
+  .md\:rounded-xl {
+    border-radius: .75rem;
+  }
+
+  .md\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .md\:rounded-full {
@@ -8740,6 +9125,46 @@ code {
     border-bottom-left-radius: .5rem;
   }
 
+  .md\:rounded-t-xl {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+  }
+
+  .md\:rounded-r-xl {
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+  }
+
+  .md\:rounded-b-xl {
+    border-bottom-right-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .md\:rounded-l-xl {
+    border-top-left-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .md\:rounded-t-2xl {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .md\:rounded-r-2xl {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .md\:rounded-b-2xl {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .md\:rounded-l-2xl {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
   .md\:rounded-t-full {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -8822,6 +9247,38 @@ code {
 
   .md\:rounded-bl-lg {
     border-bottom-left-radius: .5rem;
+  }
+
+  .md\:rounded-tl-xl {
+    border-top-left-radius: .75rem;
+  }
+
+  .md\:rounded-tr-xl {
+    border-top-right-radius: .75rem;
+  }
+
+  .md\:rounded-br-xl {
+    border-bottom-right-radius: .75rem;
+  }
+
+  .md\:rounded-bl-xl {
+    border-bottom-left-radius: .75rem;
+  }
+
+  .md\:rounded-tl-2xl {
+    border-top-left-radius: 1rem;
+  }
+
+  .md\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
+  }
+
+  .md\:rounded-br-2xl {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .md\:rounded-bl-2xl {
+    border-bottom-left-radius: 1rem;
   }
 
   .md\:rounded-tl-full {
@@ -9009,6 +9466,10 @@ code {
     width: 32rem;
   }
 
+  .md\:w-80 {
+    width: 48rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -9169,6 +9630,10 @@ code {
     height: 16rem;
   }
 
+  .md\:h-68 {
+    height: 25rem;
+  }
+
   .md\:h-72 {
     height: 32rem;
   }
@@ -9235,6 +9700,10 @@ code {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:p-16 {
+    padding: 4rem;
   }
 
   .md\:p-px {
@@ -9309,6 +9778,16 @@ code {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .md\:py-px {
@@ -9431,6 +9910,22 @@ code {
 
   .md\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .md\:pl-16 {
+    padding-left: 4rem;
   }
 
   .md\:pt-px {
@@ -10763,6 +11258,11 @@ code {
     color: #2c3e4c;
   }
 
+  .lg\:text-secondary-light,
+  .lg\:hover\:text-secondary-light:hover {
+    color: #465866;
+  }
+
   .lg\:text-tertiary,
   .lg\:hover\:text-tertiary:hover {
     color: #1d4561;
@@ -11312,6 +11812,11 @@ code {
     background-color: #2c3e4c;
   }
 
+  .lg\:bg-secondary-light,
+  .lg\:hover\:bg-secondary-light:hover {
+    background-color: #465866;
+  }
+
   .lg\:bg-tertiary,
   .lg\:hover\:bg-tertiary:hover {
     background-color: #1d4561;
@@ -11846,6 +12351,11 @@ code {
     border-color: #2c3e4c;
   }
 
+  .lg\:border-secondary-light,
+  .lg\:hover\:border-secondary-light:hover {
+    border-color: #465866;
+  }
+
   .lg\:border-tertiary,
   .lg\:hover\:border-tertiary:hover {
     border-color: #1d4561;
@@ -11886,6 +12396,14 @@ code {
 
   .lg\:rounded-lg {
     border-radius: .5rem;
+  }
+
+  .lg\:rounded-xl {
+    border-radius: .75rem;
+  }
+
+  .lg\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .lg\:rounded-full {
@@ -11972,6 +12490,46 @@ code {
     border-bottom-left-radius: .5rem;
   }
 
+  .lg\:rounded-t-xl {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+  }
+
+  .lg\:rounded-r-xl {
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+  }
+
+  .lg\:rounded-b-xl {
+    border-bottom-right-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .lg\:rounded-l-xl {
+    border-top-left-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .lg\:rounded-t-2xl {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .lg\:rounded-r-2xl {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .lg\:rounded-b-2xl {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .lg\:rounded-l-2xl {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
   .lg\:rounded-t-full {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -12054,6 +12612,38 @@ code {
 
   .lg\:rounded-bl-lg {
     border-bottom-left-radius: .5rem;
+  }
+
+  .lg\:rounded-tl-xl {
+    border-top-left-radius: .75rem;
+  }
+
+  .lg\:rounded-tr-xl {
+    border-top-right-radius: .75rem;
+  }
+
+  .lg\:rounded-br-xl {
+    border-bottom-right-radius: .75rem;
+  }
+
+  .lg\:rounded-bl-xl {
+    border-bottom-left-radius: .75rem;
+  }
+
+  .lg\:rounded-tl-2xl {
+    border-top-left-radius: 1rem;
+  }
+
+  .lg\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
+  }
+
+  .lg\:rounded-br-2xl {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .lg\:rounded-bl-2xl {
+    border-bottom-left-radius: 1rem;
   }
 
   .lg\:rounded-tl-full {
@@ -12241,6 +12831,10 @@ code {
     width: 32rem;
   }
 
+  .lg\:w-80 {
+    width: 48rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -12401,6 +12995,10 @@ code {
     height: 16rem;
   }
 
+  .lg\:h-68 {
+    height: 25rem;
+  }
+
   .lg\:h-72 {
     height: 32rem;
   }
@@ -12467,6 +13065,10 @@ code {
 
   .lg\:p-8 {
     padding: 2rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
   }
 
   .lg\:p-px {
@@ -12541,6 +13143,16 @@ code {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:py-px {
@@ -12663,6 +13275,22 @@ code {
 
   .lg\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .lg\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .lg\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
   }
 
   .lg\:pt-px {
@@ -13995,6 +14623,11 @@ code {
     color: #2c3e4c;
   }
 
+  .xl\:text-secondary-light,
+  .xl\:hover\:text-secondary-light:hover {
+    color: #465866;
+  }
+
   .xl\:text-tertiary,
   .xl\:hover\:text-tertiary:hover {
     color: #1d4561;
@@ -14544,6 +15177,11 @@ code {
     background-color: #2c3e4c;
   }
 
+  .xl\:bg-secondary-light,
+  .xl\:hover\:bg-secondary-light:hover {
+    background-color: #465866;
+  }
+
   .xl\:bg-tertiary,
   .xl\:hover\:bg-tertiary:hover {
     background-color: #1d4561;
@@ -15078,6 +15716,11 @@ code {
     border-color: #2c3e4c;
   }
 
+  .xl\:border-secondary-light,
+  .xl\:hover\:border-secondary-light:hover {
+    border-color: #465866;
+  }
+
   .xl\:border-tertiary,
   .xl\:hover\:border-tertiary:hover {
     border-color: #1d4561;
@@ -15118,6 +15761,14 @@ code {
 
   .xl\:rounded-lg {
     border-radius: .5rem;
+  }
+
+  .xl\:rounded-xl {
+    border-radius: .75rem;
+  }
+
+  .xl\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .xl\:rounded-full {
@@ -15204,6 +15855,46 @@ code {
     border-bottom-left-radius: .5rem;
   }
 
+  .xl\:rounded-t-xl {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+  }
+
+  .xl\:rounded-r-xl {
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+  }
+
+  .xl\:rounded-b-xl {
+    border-bottom-right-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .xl\:rounded-l-xl {
+    border-top-left-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+  }
+
+  .xl\:rounded-t-2xl {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .xl\:rounded-r-2xl {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .xl\:rounded-b-2xl {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .xl\:rounded-l-2xl {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
   .xl\:rounded-t-full {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -15286,6 +15977,38 @@ code {
 
   .xl\:rounded-bl-lg {
     border-bottom-left-radius: .5rem;
+  }
+
+  .xl\:rounded-tl-xl {
+    border-top-left-radius: .75rem;
+  }
+
+  .xl\:rounded-tr-xl {
+    border-top-right-radius: .75rem;
+  }
+
+  .xl\:rounded-br-xl {
+    border-bottom-right-radius: .75rem;
+  }
+
+  .xl\:rounded-bl-xl {
+    border-bottom-left-radius: .75rem;
+  }
+
+  .xl\:rounded-tl-2xl {
+    border-top-left-radius: 1rem;
+  }
+
+  .xl\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
+  }
+
+  .xl\:rounded-br-2xl {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .xl\:rounded-bl-2xl {
+    border-bottom-left-radius: 1rem;
   }
 
   .xl\:rounded-tl-full {
@@ -15473,6 +16196,10 @@ code {
     width: 32rem;
   }
 
+  .xl\:w-80 {
+    width: 48rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -15633,6 +16360,10 @@ code {
     height: 16rem;
   }
 
+  .xl\:h-68 {
+    height: 25rem;
+  }
+
   .xl\:h-72 {
     height: 32rem;
   }
@@ -15699,6 +16430,10 @@ code {
 
   .xl\:p-8 {
     padding: 2rem;
+  }
+
+  .xl\:p-16 {
+    padding: 4rem;
   }
 
   .xl\:p-px {
@@ -15773,6 +16508,16 @@ code {
   .xl\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .xl\:py-px {
@@ -15895,6 +16640,22 @@ code {
 
   .xl\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .xl\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .xl\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .xl\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .xl\:pl-16 {
+    padding-left: 4rem;
   }
 
   .xl\:pt-px {
