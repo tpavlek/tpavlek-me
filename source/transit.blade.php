@@ -7,10 +7,10 @@ imgpath: "/img/platform/"
 
 @section('content')
 
-    <h1 class="center">Transit</h1>
+    <h1 class="main-heading">Transit</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
             <p>
                 Our transit system can be woefully inconvenient, and expensive, to use so we cannot be surprised when usage
                 numbers begin to fall. We need to start making strategic, smart, and <em>real</em> investments in transit, starting with
@@ -38,14 +38,15 @@ imgpath: "/img/platform/"
                 Let's invest in transit.
             </p>
 
-            <a href="/platform">
-                <div class="policy-link">Platform</div>
+            <a href="/platform" class="button">
+                Platform
             </a>
 
         </div>
     </article>
 
-    <h1 class="is-centered">What I've written about it:</h1>
+    <h1 class="main-heading my-8 text-3xl">What I've written about it:</h1>
+
     <div class="blog-archive">
         @foreach($page->tagged($posts, 'transit') as $post)
             @include('_partials.posts.archive-post', [ 'post' => $post ])

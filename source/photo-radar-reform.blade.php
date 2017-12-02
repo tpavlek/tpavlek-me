@@ -2,10 +2,10 @@
 @section('title', 'Photo Radar Reform')
 
 @section('content')
-    <h1 style="text-align:center;">Photo Radar Reform</h1>
+    <h1 class="main-heading">Photo Radar Reform</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
 
             Edmonton catches a
             <a href="http://edmontonjournal.com/news/local-news/david-staples-citys-aggressive-photo-radar-enforcement-is-greasy-says-former-insider">lot</a>
@@ -91,14 +91,15 @@
                 Elect Troy Pavlek to Edmonton City Council in Ward 11.
             </p>
 
-            <a href="/platform">
-                <div class="policy-link">Platform</div>
+            <a class="button" href="/platform">
+                Platform
             </a>
         </div>
     </article>
 
 
-    <h1 class="is-centered">What I've written about it:</h1>
+    <h2 class="main-heading my-8 text-3xl">What I've written about it:</h2>
+
     <div class="blog-archive">
         @foreach($page->tagged($posts, 'photo-radar') as $post)
             @include('_partials.posts.archive-post', [ 'post' => $post ])

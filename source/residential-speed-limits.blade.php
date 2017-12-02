@@ -3,10 +3,10 @@
 
 @section('content')
 
-    <h1 class="center">Residential Speed Limits</h1>
+    <h1 class="main-heading">Residential Speed Limits</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
             <p>
                 50 km/h as a speed limit is too high for our neighbourhoods where people walk, live and play. This is an issue
                 I feel very strongly about.
@@ -48,15 +48,15 @@
                 Elect Troy Pavlek to Edmonton City Council in Ward 11.
             </p>
 
-            <a href="/platform">
-                <div class="policy-link">Platform</div>
+            <a href="/platform" class="button">
+                Platform
             </a>
 
         </div>
     </article>
 
+    <h1 class="main-heading my-8 text-3xl">What I've written about it:</h1>
 
-    <h1 class="is-centered">What I've written about it:</h1>
     <div class="blog-archive">
         @foreach($page->tagged($posts, 'speed-limits') as $post)
             @include('_partials.posts.archive-post', [ 'post' => $post ])

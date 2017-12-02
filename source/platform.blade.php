@@ -11,30 +11,25 @@ description: "A blueprint for becoming an unelectable fringe candidate"
 
 @section('content')
 
-    <h1 class="center">{{ $page->title }}</h1>
-
-    <article class="is-centered post">
-        <header class="summary-block" style="background-image: url('{{ $page->imgpath }}{{ "launch.jpg" }}');">
+    <article class="mx-auto bg-white shadow">
+        <header class="w-full mb-8 h-68 relative bg-cover bg-center" style="background-image: url('{{ $page->imgpath }}{{ "launch.jpg" }}');">
 
             <div class="summary-description">
-                <div class="text">
-                    <span class="title">{{ $page->title }}</span>
-                    <span class="date">Troy's Vision for Ward 11</span>
+                <div class="leading-normal z-10 absolute pin-b pin-l pin-r pb-2">
+                    <h2 class="text-white text-5xl">{{ $page->title }}</h2>
+                    <h3 class="text-gold text-2xl">Troy's Vision for Ward 11</h3>
                 </div>
             </div>
 
         </header>
-        <div class="post-content">
-            <div class="blog-archive">
-                <a href="/vision-zero" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/vision-zero.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Vision Zero</span>
-                            <span class="date">End all serious injuries and fatalities in traffic</span>
-                        </div>
-                    </div>
-                </a>
+        <div class="post-content max-w-xl mx-auto text-xl leading-loose p-8">
+            <div class="-mx-8">
+                @include('_partials.page.embed', [ 'embed_page' => (object)[
+                    'url' => '/vision-zero',
+                    'img' => '/img/platform/vision-zero.jpg',
+                    'title' => 'Vision Zero',
+                    'sub_title' => 'End all serious injuries and fatalities in traffic'
+                ]])
             </div>
 
             <p>
@@ -42,16 +37,13 @@ description: "A blueprint for becoming an unelectable fringe candidate"
                 understand and commit to the hard work.
             </p>
 
-            <div class="blog-archive">
-                <a href="/open-city" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/open-city.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Open City</span>
-                            <span class="date">True government openness and transparency, leveraging technology</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="-mx-8">
+                @include("_partials.page.embed", [ 'embed_page' => (object)[
+                    'url' => '/open-city',
+                    'img' => '/img/platform/open-city.jpg',
+                    'title' => 'Open City',
+                    'sub_title' => 'True government openness and transparency, leveraging technology'
+                ]])
             </div>
 
             <p>
@@ -59,16 +51,13 @@ description: "A blueprint for becoming an unelectable fringe candidate"
                 default, without you or a journalist having to ask.
             </p>
 
-            <div class="blog-archive">
-                <a href="/photo-radar-reform" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/photo-radar-reform.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Photo Radar Reform</span>
-                            <span class="date">Rebuilding public trust in the program</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="-mx-8">
+                @include("_partials.page.embed", [ 'embed_page' => (object)[
+                    'url' => '/photo-radar-reform',
+                    'img' => '/img/platform/photo-radar-reform.jpg',
+                    'title' => 'Photo Radar Reform',
+                    'sub_title' => 'Rebuilding public trust in the program'
+                ]])
             </div>
 
             <p>
@@ -76,16 +65,13 @@ description: "A blueprint for becoming an unelectable fringe candidate"
                 allowing <em>anyone</em> to audit the program and see where reforms are truly needed.
             </p>
 
-            <div class="blog-archive">
-                <a href="/missing-middle" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/montreal-row-housing.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Infill</span>
-                            <span class="date">Embracing the missing middle for a more sustainable city</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="-mx-8">
+                @include("_partials.page.embed", [ 'embed_page' => (object)[
+                    'url' => '/missing-middle',
+                    'img' => '/img/platform/infill.jpg',
+                    'title' => 'Infill',
+                    'sub_title' => 'Embracing the missing middle for a more sustainable city'
+                ]])
             </div>
 
             <p>
@@ -93,16 +79,13 @@ description: "A blueprint for becoming an unelectable fringe candidate"
                 can enable us to achieve much more density without compromising human scale characteristics of neighbourhoods.
             </p>
 
-            <div class="blog-archive">
-                <a href="/transit" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/transit.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Transit</span>
-                            <span class="date">Let's make our transit system competitive with the private car.</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="-mx-8">
+                @include("_partials.page.embed", [ 'embed_page' => (object)[
+                   'url' => '/transit',
+                   'img' => '/img/platform/transit.jpg',
+                   'title' => 'Transit',
+                   'sub_title' => "Let's make our transit system competitive with the private car"
+               ]])
             </div>
 
             <p>
@@ -110,16 +93,13 @@ description: "A blueprint for becoming an unelectable fringe candidate"
                 rather than a punitive one.
             </p>
 
-            <div class="blog-archive">
-                <a href="/residential-speed-limits" class="archive-post page-embed">
-                    <div class="img" style="background-image: url('/img/platform/residential-speed-limits.jpg');"></div>
-                    <div class="valign-wrapper text-container">
-                        <div class="text">
-                            <span class="title">Residential Speed Limits</span>
-                            <span class="date">50 km/h is too high for communities where people live</span>
-                        </div>
-                    </div>
-                </a>
+            <div class="-mx-8">
+                @include("_partials.page.embed", [ 'embed_page' => (object)[
+                   'url' => '/residential-speed-limits',
+                   'img' => '/img/platform/residential-speed-limits.jpg',
+                   'title' => 'Residential Speed Limits',
+                   'sub_title' => "50 km/h is too high for communities where people live"
+               ]])
             </div>
 
             <p>

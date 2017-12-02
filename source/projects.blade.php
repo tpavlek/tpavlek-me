@@ -89,7 +89,7 @@
                         built with obfuscated navigation and confusing UX, you can either use the standard shibe-image or upload
                         your own, and apply comic sans text it various sizes and colours before sharing with your friends or on reddit.
                     </p>
-                    <a href="https://sodoge.ca" class="button">Make Your Own <i class="fa fa-arrow-right"></i></a>
+                    <a href="https://github.com/tpavlek/sodoge-v2" class="button">View Code on Github <i class="fa fa-github"></i></a>
                 </div>
             </div>
         </div>

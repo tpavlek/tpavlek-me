@@ -31,23 +31,24 @@ description: "Troy Pavlek is running for a City Council seat in Ward 11. He brin
 
 @section('content')
 
-    <h1 style="text-align:center;">Subscribe to Campaign Updates!</h1>
+    <h1 class="main-heading">Subscribe to Updates!</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
             <p>
-                If you're interested in staying updated with the campaign or helping out in any way, a great first step
-                is subscribing to
-                updates!
+                Subscribe to the mailing list and you'll get updates about things that I'm doing.
             </p>
-            <p class="is-centered">
+            <p>
+                Following on Twitter or Facebook is probably a better strategy, though.
+            </p>
+            <p class="text-center">
                 <a href="http://eepurl.com/ccFea9" class="button button-lg"><i class="fa fa-envelope"></i> Subscribe to
                     the Mailing List</a>
             </p>
         </div>
     </article>
 
-    <div class="center">
+    <div class="text-center">
         @include('_partials.contact')
     </div>
 

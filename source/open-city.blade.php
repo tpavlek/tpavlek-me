@@ -3,10 +3,10 @@
 
 @section('content')
 
-    <h1 class="center">Open City</h1>
+    <h1 class="main-heading">Open City</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
             <p>
                 Have you ever wondered <em>why</em> council is making some decision? Have you questioned why photo radar
                 is
@@ -82,15 +82,15 @@
                 Elect Troy Pavlek to Edmonton City Council in Ward 11.
             </p>
 
-            <a href="/platform">
-                <div class="policy-link">Platform</div>
+            <a href="/platform" class="button">
+                Platform
             </a>
 
         </div>
     </article>
 
+    <h1 class="main-heading text-3xl my-8">What I've written about it:</h1>
 
-    <h1 class="is-centered">What I've written about it:</h1>
     <div class="blog-archive">
         @foreach($page->tagged($posts, 'open-city') as $post)
             @include('_partials.posts.archive-post', [ 'post' => $post ])

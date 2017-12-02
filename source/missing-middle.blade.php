@@ -7,10 +7,10 @@ imgpath: "/img/platform/"
 
 @section('content')
 
-    <h1 class="center">The Missing Middle</h1>
+    <h1 class="main-heading">The Missing Middle</h1>
 
-    <article class="is-centered post">
-        <div class="post-content">
+    <article class="mx-auto bg-white shadow">
+        <div class="post-content post-text">
             <p>
                 Infill is a passionate issue for the residents of Ward 11 -- there are strong perspectives on both sides.
                 Many recognize the need to revitalize our neighbourhoods with new families, others legitimately complain about
@@ -26,7 +26,7 @@ imgpath: "/img/platform/"
                 going forward.
             </p>
 
-            <div class="center">
+            <div class="text-center mx-auto">
                 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">There are &#39;wedge&#39; cities &amp; there are &#39;donut&#39; cities. Thanks to <a href="https://twitter.com/hashtag/MNO?src=hash">#MNO</a>, <a href="https://twitter.com/hashtag/yeg?src=hash">#yeg</a> is choking on that donut. <a href="https://t.co/pjJPrFM3ZU">pic.twitter.com/pjJPrFM3ZU</a></p>&mdash; Louis Pereira (@thirdstone_inc) <a href="https://twitter.com/thirdstone_inc/status/843972464845709313">March 20, 2017</a></blockquote>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
@@ -51,11 +51,18 @@ imgpath: "/img/platform/"
 
             @include('_partials.image', [ 'name' => 'montreal-row-housing.jpg', 'caption' => 'Montreal can achieve incredible density while still retaining beauty and *improving* the urban environment' ])
 
-            <a href="/platform">
-                <div class="policy-link">Platform</div>
+            <a href="/platform" class="button">
+                Platform
             </a>
 
         </div>
     </article>
 
+    <h2 class="main-heading my-8 text-3xl">What I've written about it:</h2>
+
+    <div class="blog-archive">
+        @foreach($page->tagged($posts, 'infill') as $post)
+            @include('_partials.posts.archive-post', [ 'post' => $post ])
+        @endforeach
+    </div>
 @stop

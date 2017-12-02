@@ -46,6 +46,22 @@ code {
   border-radius: 5px;
 }
 
+.button {
+@apply .inline-block .mx-auto .py-4 .px-8 .bg-secondary .no-underline .text-white .shadow .rounded-sm .text-lg .border-b-4 .border-green-darker;
+}
+
+.button:hover {
+@apply .bg-secondary-light;
+}
+
+.main-heading {
+  @apply .text-white .text-center .text-5xl .my-4;
+}
+
+.post-text {
+  @apply .max-w-xl .mx-auto .text-xl .leading-loose .p-8;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -73,26 +89,25 @@ code {
  * @import "utilities/skew-transforms";
  */
 
-.button {
-  @apply .inline-block .mx-auto .py-4 .px-8 .bg-secondary .no-underline .text-white .shadow .rounded-sm .text-lg .border-b-4 .border-green-darker;
+twitterwidget {
+  @apply .mx-auto;
 }
 
-.button:hover {
-  @apply .bg-secondary-light;
-}
+
+
 
 .post-content p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.post-content a {
+.post-content a:not(.button):not(.no-underline) {
   border-bottom: 2px dashed slategrey;
   color: inherit;
   @apply .no-underline .font-bold;
 }
 
-.post-content a:hover {
+.post-content a:hover:not(.button):not(.no-underline) {
   border-bottom: 3px solid slategray;
 }
 
@@ -136,3 +151,5 @@ blockquote p {
 
   h2 { margin: 0; color: white;}
 }
+
+@import "sc2ctl";

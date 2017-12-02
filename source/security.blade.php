@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <h1 class="center">Posts about Council Security</h1>
+    <h1 class="main-heading">Posts about Council Security</h1>
 
     <div class="blog-archive">
         @foreach($page->tagged($posts, 'security') as $post)

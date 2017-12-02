@@ -2,10 +2,10 @@
 @section('title', 'Vision Zero')
 @section('content')
 
-<h1 class="center">Vision Zero</h1>
+<h1 class="main-heading">Vision Zero</h1>
 
-<article class="is-centered post">
-    <div class="post-content">
+<article class="mx-auto bg-white shadow">
+    <div class="post-content post-text">
     
         <p>
             <a href="http://www.visionzeroinitiative.com/">Vision Zero</a> is the swedish approach to traffic safety that
@@ -70,16 +70,17 @@
             Elect Troy Pavlek to Edmonton City Council in Ward 11.
         </p>
 
-        <a href="/platform">
-            <div class="policy-link">Platform</div>
+        <a href="/platform" class="button">
+            Platform
         </a>
 
     </div>
 </article>
 
 
-<h1 class="is-centered">What I've written about it:</h1>
-<div class="blog-archive">
+<h2 class="text-center text-white text-4xl my-8">What I've written about it:</h2>
+
+<div class="">
     @foreach($page->tagged($posts, 'vision-zero') as $post)
         @include('_partials.posts.archive-post', [ 'post' => $post ])
     @endforeach

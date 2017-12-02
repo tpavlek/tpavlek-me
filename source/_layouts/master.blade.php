@@ -62,30 +62,35 @@
         return t;
     }(document, "script", "twitter-wjs"));</script>
 <div class="wrap">
-<!--
-    <nav class="main-nav">
-        <div class="nav-wrapper">
-            <a href="/" class="brand-logo"><img src="/img/campaign-logo/logo-basic-inverted.png" /></a>
-            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook"></i> </a>
-                </li>
-            </ul>
-            <ul id="mobile-nav" class="side-nav">
-                <li>
-                    <a href="{{ $page->twitter_url }}"><i class="fa fa-twitter"></i> Twitter</a>
-                </li>
-                <li>
-                    <a href="{{ $page->facebook_url }}"><i class="fa fa-facebook"></i> Facebook</a>
-                </li>
-            </ul>
+    <nav class="flex items-center justify-between flex-wrap bg-secondary">
+        <div class="flex items-center flex-no-shrink text-white mr-8">
+            <a href="/" class="h-16 w-16 relative p-2">
+                <img src="/img/campaign-logo/logo-basic-inverted.png" class="absolute pin-t pin-b my-auto"/>
+            </a>
+        </div>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <a href="/jeopardy" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
+                Jeopardy
+            </a>
+
+            <div class="text-sm lg:flex-grow">
+                <a href="{{ $page->twitter_url }}" class="text-white text-xl hover:text-gold p-2 mr-2 no-underline">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <a href="{{ $page->facebook_url }}" class="text-white text-xl hover:text-gold p-2 mr-2 no-underline">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+
+            </div>
         </div>
     </nav>
-    -->
 
 
     @yield('body_content')
