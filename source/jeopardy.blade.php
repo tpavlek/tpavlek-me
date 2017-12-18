@@ -9,7 +9,7 @@
     </div>
     <div class="bg-blue-darkest text-white text-center p-8">
         <h1 class="text-4xl my-4">Starcraft Jeopardy is returning!</h1>
-        <iframe class="mx-auto" width="640" height="360" src="https://www.youtube.com/embed/9g3--WYH8SY" frameborder="0" allowfullscreen></iframe>
+        @include('_partials.youtube', [ 'video_id' => "KeLTcA3BZck"])
         <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
             For three months in 2015, Starcraft Jeopardy graced the internet. Hosted by Troy Pavlek, it brought something
             completely unique and new to the table. A gameshow with the people you know and love from the Starcraft community
@@ -26,7 +26,7 @@
             <i class="fa fa-envelope"></i> &nbsp; Apply via Email
         </a>
         <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
-            I'm looking for a total of <strong>fifteen (15)</strong> participants for the season in early 2015. If you've already played
+            I'm looking for a total of <strong>fifteen (15)</strong> participants for the season in early 2018. If you've already played
             Starcraft Jeopardy, feel free to apply again. However, I may prioritize new faces for this limited run.
         </p>
 
@@ -80,7 +80,7 @@
 
         <div class="bg-grey-lightest shadow pt-2 m-4 hover:bg-grey-light inline-block">
             <h3 class="text-gold text-2xl my-4 text-center">{{ $displayEpisode['title'] }}</h3>
-            <iframe class="mx-auto -mb-1" width="640" height="360" src="https://www.youtube.com/embed/{{ explode('?v=', $displayEpisode['link'])[1] }}" frameborder="0" allowfullscreen></iframe>
+            @include('_partials.youtube', [ 'video_id' => explode('?v=', $displayEpisode['link'])[1], 'class' => '-mb-1' ])
         </div>
 
         <div class="flex flex-wrap justify-center">
