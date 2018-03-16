@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-// let defaultConfig = require('tailwindcss/defaultConfig')()
+var defaultConfig = require('tailwindcss/defaultConfig')()
 
 
 /*
@@ -43,30 +43,30 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-let colors = {
+var colors = {
     'transparent': 'transparent',
 
     'black': '#222b2f',
     'black-darkest': '#231f20',
-    'grey-darkest': '#3d4852',
-    'grey-darker': '#606f7b',
-    'grey-dark': '#8795a1',
-    'grey': '#b8c2cc',
-    'grey-light': '#dae1e7',
-    'grey-lighter': '#f1f5f8',
-    'grey-lightest': '#f8fafc',
+    'grey-darkest': '#364349',
+    'grey-darker': '#596a73',
+    'grey-dark': '#70818a',
+    'grey': '#9babb4',
+    'grey-light': '#dae4e9',
+    'grey-lighter': '#f3f7f9',
+    'grey-lightest': '#fafcfc',
     'white': '#ffffff',
 
-    'red-darkest': '#3b0d0c',
-    'red-darker': '#621b18',
+    'red-darkest': '#420806',
+    'red-darker': '#6a1b19',
     'red-dark': '#cc1f1a',
     'red': '#e3342f',
     'red-light': '#ef5753',
     'red-lighter': '#f9acaa',
     'red-lightest': '#fcebea',
 
-    'orange-darkest': '#462a16',
-    'orange-darker': '#613b1f',
+    'orange-darkest': '#542605',
+    'orange-darker': '#7f4012',
     'orange-dark': '#de751f',
     'orange': '#f6993f',
     'orange-light': '#faad63',
@@ -81,8 +81,8 @@ let colors = {
     'yellow-lighter': '#fff9c2',
     'yellow-lightest': '#fcfbeb',
 
-    'green-darkest': '#0f2f21',
-    'green-darker': '#1a4731',
+    'green-darkest': '#032d19',
+    'green-darker': '#0b4228',
     'green-dark': '#1f9d55',
     'green': '#38c172',
     'green-light': '#51d88a',
@@ -90,15 +90,15 @@ let colors = {
     'green-lightest': '#e3fcec',
 
     'teal-darkest': '#0d3331',
-    'teal-darker': '#20504f',
+    'teal-darker': '#174e4b',
     'teal-dark': '#38a89d',
     'teal': '#4dc0b5',
     'teal-light': '#64d5ca',
     'teal-lighter': '#a0f0ed',
     'teal-lightest': '#e8fffe',
 
-    'blue-darkest': '#12283a',
-    'blue-darker': '#1c3d5a',
+    'blue-darkest': '#05233b',
+    'blue-darker': '#103d60',
     'blue-dark': '#2779bd',
     'blue': '#3490dc',
     'blue-light': '#6cb2eb',
@@ -113,16 +113,16 @@ let colors = {
     'indigo-lighter': '#b2b7ff',
     'indigo-lightest': '#e6e8ff',
 
-    'purple-darkest': '#21183c',
-    'purple-darker': '#382b5f',
+    'purple-darkest': '#1f133f',
+    'purple-darker': '#352465',
     'purple-dark': '#794acf',
     'purple': '#9561e2',
     'purple-light': '#a779e9',
     'purple-lighter': '#d6bbfc',
     'purple-lightest': '#f3ebff',
 
-    'pink-darkest': '#451225',
-    'pink-darker': '#6f213f',
+    'pink-darkest': '#45051e',
+    'pink-darker': '#72173a',
     'pink-dark': '#eb5286',
     'pink': '#f66d9b',
     'pink-light': '#fa7ea8',
@@ -133,7 +133,6 @@ let colors = {
     'secondary': '#2c3e4c',
     'secondary-light': '#465866',
     'tertiary': '#1d4561',
-    'tertiary-dark': '#13354c',
     'gold': '#d0aa48'
 }
 
@@ -202,9 +201,8 @@ module.exports = {
 
     fonts: {
         'sans': [
-            'system-ui',
-            'BlinkMacSystemFont',
             '-apple-system',
+            'BlinkMacSystemFont',
             'Segoe UI',
             'Roboto',
             'Oxygen',
@@ -370,26 +368,6 @@ module.exports = {
 
     /*
     |-----------------------------------------------------------------------------
-    | Background sizes               https://tailwindcss.com/docs/background-size
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you define your background sizes. We provide some common
-    | values that are useful in most projects, but feel free to add other sizes
-    | that are specific to your project here as well.
-    |
-    | Class name: .bg-{size}
-    |
-    */
-
-    backgroundSize: {
-        'auto': 'auto',
-        'cover': 'cover',
-        'contain': 'contain',
-    },
-
-
-    /*
-    |-----------------------------------------------------------------------------
     | Border widths                     https://tailwindcss.com/docs/border-width
     |-----------------------------------------------------------------------------
     |
@@ -427,7 +405,7 @@ module.exports = {
     |
     */
 
-    borderColors: global.Object.assign({default: colors['grey-light']}, colors),
+    borderColors: Object.assign({default: colors['grey-light']}, colors),
 
 
     /*
@@ -796,146 +774,17 @@ module.exports = {
 
     /*
     |-----------------------------------------------------------------------------
-    | SVG fill                                   https://tailwindcss.com/docs/svg
+    | Options                  https://tailwindcss.com/docs/configuration#options
     |-----------------------------------------------------------------------------
     |
-    | Here is where you define your SVG fill colors. By default we just provide
-    | `fill-current` which sets the fill to the current text color. This lets you
-    | specify a fill color using existing text color utilities and helps keep the
-    | generated CSS file size down.
-    |
-    | Class name: .fill-{name}
-    |
-    */
-
-    svgFill: {
-        'current': 'currentColor',
-    },
-
-
-    /*
-    |-----------------------------------------------------------------------------
-    | SVG stroke                                 https://tailwindcss.com/docs/svg
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you define your SVG stroke colors. By default we just provide
-    | `stroke-current` which sets the stroke to the current text color. This lets
-    | you specify a stroke color using existing text color utilities and helps
-    | keep the generated CSS file size down.
-    |
-    | Class name: .stroke-{name}
-    |
-    */
-
-    svgStroke: {
-        'current': 'currentColor',
-    },
-
-
-    /*
-    |-----------------------------------------------------------------------------
-    | Modules                  https://tailwindcss.com/docs/configuration#modules
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you control which modules are generated and what variants are
-    | generated for each of those modules.
-    |
-    | Currently supported variants:
-    |   - responsive
-    |   - hover
-    |   - focus
-    |   - active
-    |   - group-hover
-    |
-    | To disable a module completely, use `false` instead of an array.
-    |
-    */
-
-    modules: {
-        appearance: ['responsive'],
-        backgroundAttachment: ['responsive'],
-        backgroundColors: ['responsive', 'hover'],
-        backgroundPosition: ['responsive'],
-        backgroundRepeat: ['responsive'],
-        backgroundSize: ['responsive'],
-        borderColors: ['responsive', 'hover'],
-        borderRadius: ['responsive'],
-        borderStyle: ['responsive'],
-        borderWidths: ['responsive'],
-        cursor: ['responsive'],
-        display: ['responsive'],
-        flexbox: ['responsive'],
-        float: ['responsive'],
-        fonts: ['responsive'],
-        fontWeights: ['responsive', 'hover'],
-        height: ['responsive'],
-        leading: ['responsive'],
-        lists: ['responsive'],
-        margin: ['responsive'],
-        maxHeight: ['responsive'],
-        maxWidth: ['responsive'],
-        minHeight: ['responsive'],
-        minWidth: ['responsive'],
-        negativeMargin: ['responsive'],
-        opacity: ['responsive'],
-        overflow: ['responsive'],
-        padding: ['responsive'],
-        pointerEvents: ['responsive'],
-        position: ['responsive'],
-        resize: ['responsive'],
-        shadows: ['responsive', 'hover'],
-        svgFill: [],
-        svgStroke: [],
-        textAlign: ['responsive'],
-        textColors: ['responsive', 'hover'],
-        textSizes: ['responsive'],
-        textStyle: ['responsive', 'hover'],
-        tracking: ['responsive'],
-        userSelect: ['responsive'],
-        verticalAlign: ['responsive'],
-        visibility: ['responsive'],
-        whitespace: ['responsive'],
-        width: ['responsive'],
-        zIndex: ['responsive'],
-    },
-
-
-    /*
-    |-----------------------------------------------------------------------------
-    | Plugins                                https://tailwindcss.com/docs/plugins
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you can register any plugins you'd like to use in your
-    | project. Tailwind's built-in `container` plugin is enabled by default to
-    | give you a Bootstrap-style responsive container component out of the box.
-    |
-    | Be sure to view the complete plugin documentation to learn more about how
-    | the plugin system works.
-    |
-    */
-
-    plugins: [
-        require('tailwindcss/plugins/container')({
-            // center: true,
-            // padding: '1rem',
-        }),
-    ],
-
-
-    /*
-    |-----------------------------------------------------------------------------
-    | Advanced Options         https://tailwindcss.com/docs/configuration#options
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you can tweak advanced configuration options. We recommend
-    | leaving these options alone unless you absolutely need to change them.
+    | Here is where you can set your Tailwind configuration options. For more
+    | details about these options, visit the configuration options documentation.
     |
     */
 
     options: {
         prefix: '',
         important: false,
-        separator: ':',
     },
 
 }

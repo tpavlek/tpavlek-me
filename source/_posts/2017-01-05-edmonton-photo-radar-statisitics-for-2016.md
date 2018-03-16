@@ -11,6 +11,10 @@ tags:
     - "open-data"
 ---
 
+<script>
+window.location = "/edmonton-photo-radar"
+</script>
+
 *This is an annual update of the [statistics I posted at the end of 2015](/blog/2016/01/25/edmonton-photo-radar-2015-stats/)*.
 
 As is rather typical in conversations with Edmontonians, I am frequently asked about the photo radar program, and my thoughts
@@ -18,7 +22,7 @@ on it. I like to speak from a place of knowledge and facts. Since data about the
 open data catalogue, I make a point of making a request for information annually, and share that data with everyone
 in as public a form as possible. Keep an eye out over the next couple of weeks as more information will be coming out - 
 if you want to hear about it
-you can subscribe on [Facebook]({{ $page->facebook_url }}), [Twitter]({{ $page->twitter_url }}), or [Email](/subscribe/).
+you can subscribe on [Facebook]({{$page->facebook_url}}), [Twitter]({{$page->twitter_url}}), or [Email](/subscribe/).
 
 For now, let's look at the number of tickets issued this year.
 

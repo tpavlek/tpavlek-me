@@ -23,7 +23,13 @@
                 Sometimes I make some memes.
             </p>
 
-            @include('_partials.posts.post-embed', [ 'slug' => 'adding-some-levity'])
+            @include('_partials.page.embed', [ 'embed_page' => (object)[
+                'url' => '/edmonton-memes',
+                'img' => '/img/posts/2017-10-14-adding-some-levity/sweetie-star.jpg',
+                'title' => 'Edmonton Memes',
+                'sub_title' => 'I make political memes on YouTube sometimes',
+                'wrapper_class' => 'h-48 shadow-md -mx-4'
+            ]])
 
             @include('_partials.contact')
         </div>

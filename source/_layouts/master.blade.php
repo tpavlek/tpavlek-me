@@ -82,12 +82,6 @@
                 <a href="{{ $page->twitter_url }}" class="text-white text-xl hover:text-gold p-2 mr-2 no-underline">
                     <i class="fa fa-twitter"></i>
                 </a>
-
-                <a href="{{ $page->facebook_url }}" class="text-white text-xl hover:text-gold p-2 mr-2 no-underline">
-                    <i class="fa fa-facebook"></i>
-                </a>
-
-
             </div>
         </div>
     </nav>

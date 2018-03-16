@@ -9,6 +9,10 @@ tags:
     - "photo-radar"
 ---
 
+<script>
+window.location = '/edmonton-photo-radar';
+</script>
+
 With nomination day for the Ward 12 by-election under way today (you can follow updates and get candidate information for the 
 election over on [YEGVotes.info](https://yegvotes.info/elections/ward12)), we can expect the campaign (and campaign rhetoric)
 to really ramp up over the coming weeks. And when it comes to campaigning, a lot has been said about photo radar and it's

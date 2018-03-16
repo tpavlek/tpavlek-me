@@ -20,8 +20,14 @@ description: ""
         <meta property="og:description" content="Troy Pavlek -- Edmonton City Council Candidate for Ward 11"/>
     @endif
 
-    <meta name="twitter:image" content="{{$page->baseUrl}}/img/splash-banner-bg.jpg"/>
-    <meta property="og:image" content="{{ $page->baseUrl }}/img/splash-banner-bg.jpg"/>
+    @if ($page->imgpath && $page->img)
+        <meta name="twitter:image" content="{{$page->baseUrl}}{{$page->imgpath}}{{$page->img}}"/>
+        <meta property="og:image" content="{{ $page->baseUrl }}{{$page->imgpath}}{{$page->img}}"/>
+    @else
+        <meta name="twitter:image" content="{{$page->baseUrl}}/img/splash-banner-bg.jpg"/>
+        <meta property="og:image" content="{{ $page->baseUrl }}/img/splash-banner-bg.jpg"/>
+    @endif
+
 
     <meta property="og:type" content="article"/>
     <meta property="fb:admins" content="551604144"/>
@@ -29,6 +35,33 @@ description: ""
 @stop
 
 @section('content')
+
+    <div class="w-full flex flex-wrap justify-center">
+
+        @include('_partials.page.embed', [ 'embed_page' => (object)[
+            'url' => '/edmonton-photo-radar',
+            'img' => '/img/posts/2017-08-15-open-photo-radar-locations-audit/spider-photo.jpg',
+            'title' => 'Edmonton Photo Radar: The Stats',
+            'sub_title' => '',
+            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+        ]])
+
+        @include('_partials.page.embed', [ 'embed_page' => (object)[
+            'url' => '/jeopardy',
+            'img' => '/img/posts/2017-12-05-starcraft-jeopardy-is-returning/banner.jpg',
+            'title' => 'Starcraft Jeopardy',
+            'sub_title' => '',
+            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+        ]])
+
+        @include('_partials.page.embed', [ 'embed_page' => (object)[
+            'url' => '/edmonton-memes',
+            'img' => '/img/posts/2017-10-14-adding-some-levity/sweetie-star.jpg',
+            'title' => 'Edmonton Memes',
+            'sub_title' => 'I make political memes on YouTube sometimes',
+            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+        ]])
+    </div>
 
     @include('_partials.blog-page', [ 'posts' => $posts->slice(0,4), 'pagination' => null ])
 

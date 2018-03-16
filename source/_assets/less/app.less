@@ -62,6 +62,23 @@ code {
   @apply .max-w-xl .mx-auto .text-xl .leading-loose .p-8;
 }
 
+table {
+  @apply .w-full .text-left;
+  border-collapse: collapse;
+}
+
+tr {
+  @apply .bg-orange-lightest;
+}
+
+tr:nth-child(2n) {
+  @apply .bg-orange-lighter;
+}
+
+td, th {
+  @apply .p-2;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
