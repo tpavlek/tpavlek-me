@@ -508,7 +508,8 @@ module.exports = {
         '1/6': '16.66667%',
         '5/6': '83.33333%',
         'full': '100%',
-        'screen': '100vw'
+        'screen': '100vw',
+        'yt': "768px",
     },
 
 
@@ -546,7 +547,8 @@ module.exports = {
         '68': '25rem',
         '72': '32rem',
         'full': '100%',
-        'screen': '100vh'
+        'screen': '100vh',
+        'yt': "432px"
     },
 
 

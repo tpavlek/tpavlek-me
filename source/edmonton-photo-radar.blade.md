@@ -51,7 +51,7 @@ revealed that by 2012, the project to transition photo radar operations to the C
 was no impact to the tax levy, however, because the shortfall was made up with additional ticket revenue.
 
 This correlates with the 160% increase in tickets issued in 2013. Whether this increase was designed to make up the shortfall
-or there city was simply more efficient at issuing tickets than the third-party contractor is subject to some debate.       
+or the city was simply more efficient at issuing tickets than the third-party contractor is subject to some debate.       
 
 > Does Edmonton set up photo radar mostly on the Henday?
 

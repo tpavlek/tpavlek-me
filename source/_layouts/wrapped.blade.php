@@ -26,7 +26,7 @@
 @stop
 
 @section('body_content')
-<div class="p-8">
+<div class="p-2 lg:p-8">
     @yield('content')
 </div>
 

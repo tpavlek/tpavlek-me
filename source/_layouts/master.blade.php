@@ -68,12 +68,7 @@
                 <img src="/img/campaign-logo/logo-basic-inverted.png" class="absolute pin-t pin-b my-auto"/>
             </a>
         </div>
-        <div class="block lg:hidden">
-            <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="flex-grow flex items-center justify-end w-auto">
             <a href="/jeopardy" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
                 Jeopardy
             </a>
@@ -90,9 +85,9 @@
     @yield('body_content')
 
 </div>
-<div class="p-8 bg-black-darkest text-center leading-loose">
-    <div class="inline-flex mx-auto">
-        <div class="flex-1 text-left p-8">
+<div class="p-2 lg:p-8 bg-black-darkest text-center leading-loose">
+    <div class="inline-flex flex-col lg:flex-row mx-auto">
+        <div class="flex-1 text-left p-2 lg:p-8">
             <span class="text-lg text-white">Troy Pavlek</span>
             <p class="text-grey-light font-thin whitespace-no-wrap">
                 I make stuff and lose elections
@@ -100,7 +95,7 @@
             <span class="text-grey-light font-thin">&copy; Troy Pavlek</span>
             <br />
         </div>
-        <div class="flex-1 text-left p-8">
+        <div class="flex-1 text-left p-2 lg:p-8">
             <span class="text-lg text-white">Navigation</span>
             <p>
                 <a href="/blog" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Blog</a>
@@ -110,7 +105,7 @@
                 <a href="/media" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">In the Media</a>
             </p>
         </div>
-        <div class="flex-1 text-left p-8">
+        <div class="flex-1 text-left p-2 lg:p-8">
             <span class="text-lg text-white">Contact</span>
             <p class="text-grey-light font-thin no-underline hover:border-b">
                 <a href="{{ $page->twitter_url }}" class="block text-grey-light font-thin no-underline hover:border-grey border-b-2 border-transparent">Twitter</a>
@@ -136,10 +131,6 @@
 
     ga('create', '{{ $page->google_analytics_tracking_id }}', 'auto');
     ga('send', 'pageview');
-</script>
-
-<script>
-    $(".button-collapse").sideNav();
 </script>
 @endif
 </body>

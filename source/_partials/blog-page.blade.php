@@ -1,4 +1,4 @@
-<div class="w-full mx-auto p-8">
+<div class="w-full mx-auto p-2 lg:p-8">
 
     @foreach($posts as $post)
         @if ($loop->index == 0)

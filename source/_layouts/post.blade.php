@@ -3,8 +3,9 @@
 @section('title', $page->title)
 
 @section('content')
-    <div class="mx-auto p-8">
-    @include('_partials.posts.post-body', [ 'img' => $page->imgpath.$page->img, 'title' => $page->title, 'date' => $page->date ])
+<div class="mx-auto p-1 lg:p-8">
+
+    @include('_partials.posts.post-body', [ 'img' => $page->imgpath.$page->img, 'title' => $page->title, 'date' => $page->date, 'photo_credit' => $page->photo_credit ])
 
     <div class="blog-archive">
         @if ($page->getPrevious())

@@ -43,7 +43,7 @@ description: ""
             'img' => '/img/posts/2017-08-15-open-photo-radar-locations-audit/spider-photo.jpg',
             'title' => 'Edmonton Photo Radar: The Stats',
             'sub_title' => '',
-            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+            'wrapper_class' => 'w-full lg:w-2/5 h-48 shadow-md mx-4'
         ]])
 
         @include('_partials.page.embed', [ 'embed_page' => (object)[
@@ -51,7 +51,7 @@ description: ""
             'img' => '/img/posts/2017-12-05-starcraft-jeopardy-is-returning/banner.jpg',
             'title' => 'Starcraft Jeopardy',
             'sub_title' => '',
-            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+            'wrapper_class' => 'w-full lg:w-2/5 h-48 shadow-md mx-4'
         ]])
 
         @include('_partials.page.embed', [ 'embed_page' => (object)[
@@ -59,7 +59,7 @@ description: ""
             'img' => '/img/posts/2017-10-14-adding-some-levity/sweetie-star.jpg',
             'title' => 'Edmonton Memes',
             'sub_title' => 'I make political memes on YouTube sometimes',
-            'wrapper_class' => 'w-2/5 h-48 shadow-md mx-4'
+            'wrapper_class' => 'w-full lg:w-2/5 h-48 shadow-md mx-4'
         ]])
     </div>
 
