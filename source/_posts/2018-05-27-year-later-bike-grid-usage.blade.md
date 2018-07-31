@@ -14,6 +14,8 @@ photo_credit:
     link: "https://twitter.com/Daveography/status/996522491035054080"
 ---
 
+***Update**: When this post was published, May 2, 2018 was the final datapoint. Since, more datapoints have been added, smashing the previous Canada Day record*
+
 Last year after the bike grid opened - only partially - we saw a 92% increase in cyclists (measured on June 30)
 
 @include('_partials.posts.post-embed', [ 'slug' => 'number-cyclists-on-bike-grid-doubles' ])
@@ -95,7 +97,12 @@ new Chart(document.getElementById("bike-grid-usage"), {
             "Mar 20",
             "Apr 4",
             "Apr 18",
-            "May 2"
+            "May 2",
+            "May 16",
+            "Jun 5",
+            "Jun 20",
+            "Jul 1",
+            "Jul 4"
             ],
         datasets: [{
             label: 'Cyclists on Downtown Grid',
@@ -127,7 +134,13 @@ new Chart(document.getElementById("bike-grid-usage"), {
                    1304,
                    1158,
                    2118,
-                   4449],
+                   4449,
+                   5586,
+                   6501,
+                   6753,
+                   3943,
+                   5222
+                   ],
             fill: false,
             backgroundColor: "rgba(117, 201, 76,0.4)",
             borderColor: "rgba(117, 201, 76,1)"

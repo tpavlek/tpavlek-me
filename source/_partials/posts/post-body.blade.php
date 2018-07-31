@@ -11,7 +11,13 @@
     </header>
 
     @if (isset($photo_credit) && $photo_credit)
-        <div class="-mt-6 pl-4 italic text-grey-darker text-sm">Photo Credit: <a href="{{ $photo_credit['link'] }}">{{ $page->photo_credit['name'] }}</a></div>
+        <div class="-mt-6 pl-4 italic text-grey-darker text-sm">Photo Credit:
+            @if(isset($photo_credit['link']))
+                <a href="{{ $photo_credit['link'] }}">{{ $page->photo_credit['name'] }}</a>
+            @else
+                {{ $page->photo_credit['name'] }}
+            @endif
+        </div>
     @endif
 
     <div class="post-content max-w-xl mx-auto text-normal lg:text-xl leading-loose p-2 lg:p-8">

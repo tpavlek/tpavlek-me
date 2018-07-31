@@ -12,6 +12,15 @@ img: "sweetie-star.jpg"
 Sometimes, I make memes on the internet. Typically, they're political in nature and a mashup of [/r/youtubehaiku](https://reddit.com/r/youtubehaiku)
 culture and edmonton politics. [Subscribe on YouTube](https://youtube.com/troypavlek)
 
+@include('_partials.youtube', [ 'video_id' => 'kNJwHqAhaxc' ])
+
+> A GRASSROOTS DEVELOPMENT
+
+Jason Kenney made a "grassroots guarantee", but when the grassroots chose "lake of fire" as official party platform, he
+backpedaled pretty quickly. This is his story.
+
+<hr />
+
 @include('_partials.youtube', [ 'video_id' => '-2fzSDCGN4Y' ])
 
 > Carla Frost, the Shooting Sweetie Star
@@ -19,6 +28,12 @@ culture and edmonton politics. [Subscribe on YouTube](https://youtube.com/troypa
 In the 2017 Mayoral election, Carla Frost uttered the now-infamous "call me sweetie!" call to action. She's a star.
 
 A shooting star.
+
+<hr />
+
+@include('_partials.youtube', [ 'video_id' => 'YyLWzXbG7yo' ])
+
+> Radical bike lobby skews the bike grid numbers
 
 <hr />
 
@@ -43,6 +58,12 @@ Created during my City Council campaign, this is a tongue-in-cheek look at the c
 > Frost, Frost, Sweetie
 
 This one defies explanation.
+
+<hr />
+
+@include('_partials.youtube', [ 'video_id' => '6kgw8D849PM' ])
+
+> It's Always Sunny in the UCP Caucus
 
 <hr />
 
