@@ -61,7 +61,7 @@
 
         return t;
     }(document, "script", "twitter-wjs"));</script>
-<div class="wrap">
+<div class="wrap" id="root">
     <nav class="flex items-center justify-between flex-wrap bg-secondary">
         <div class="flex items-center flex-no-shrink text-white mr-8">
             <a href="/" class="h-16 w-16 relative p-2">
@@ -69,8 +69,8 @@
             </a>
         </div>
         <div class="flex-grow flex items-center justify-end w-auto">
-            <a href="/jeopardy" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
-                Jeopardy
+            <a href="http://speakingmunicipally.taprootedmonton.ca" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
+                Podcast
             </a>
 
             <div class="text-sm lg:flex-grow">
@@ -119,6 +119,7 @@
 
 </div>
 
+<script src="/js/app.js"></script>
 @yield('scripts', '')
 <script src="/js/prism.js"></script>
 

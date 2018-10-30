@@ -6,60 +6,79 @@
     <h1 class="text-white text-center mb-4">My Work</h1>
 
     <div class="projects">
-        <div class="project" style="background-image: url('/img/projects/yegvotes-info.png')">
-            <div class="summary-description">
-                <div class="leading-normal text-white z-10 absolute pin-b pin-l pin-r pb-2">
-                    <h2 class="text-2xl">
-                        YEGVotes.info
-                    </h2>
-                    <p class="text-xl max-w-2xl mx-auto my-4">
-                        Using the Edmonton Open Data Catalogue, YEGVotes.info aggregates council voting and attendance records
-                        to enable citizens to track their councillors in a more user-friendly, efficient manner.
-                    </p>
-                    <a href="https://yegvotes.info" class="inline-block mx-auto py-4 px-8 bg-secondary no-underline text-white hover:bg-secondary-light shadow rounded-sm text-lg border-b-4 border-green-darker">
-                        Visit Site <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <div class="project" style="background-image: url('/img/projects/basketofyegs.png')">
-            <div class="summary-description">
-                <div class="leading-normal text-white z-10 absolute pin-b pin-l pin-r pb-2">
-                    <h2 class="text-2xl">Basket of YEGs Podcast </h2>
-                    <p class="text-xl max-w-2xl mx-auto my-4">
-                        Basket of YEGs is a local podcast focusing on municipal politics in the City of Edmonton. Each episode,
-                        I dig into an interesting or relevant topic to Edmontonians and attempt to break it down in the most
-                        consumable way possible.
-                    </p>
-                    <a href="https://basketofyegs.com" class="button">
-                        Listen <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+        @component('_partials.project')
+            @slot('image', '/img/projects/speaking-municipally.jpg')
 
-        <div class="project jeopardy" style="background-image: url('/img/projects/jeopardy.png')">
-            <div class="summary-description">
-                <div class="leading-normal text-white z-10 absolute pin-b pin-l pin-r pb-2">
-                    <h2 class="text-2xl">Jeopardy</h2>
-                    <p class="text-xl max-w-2xl mx-auto my-4">
-                        Occasionally, in my free time, I host Jeopardy games on the internet. It started with a project called
-                        Starcraft Jeopardy, a weekly show that I wrote and produced which I was then invited to perform live at
-                        a Starcraft tournament called <a href="http://www.eschamp.com/kotn/">Kings of the North</a>. I also hosted <a href="https://vimeo.com/140223663">IST Jeopardy</a> for the University of
-                        Alberta CONNECT conference.
-                    </p>
-                    <p class="text-xl max-w-2xl mx-auto my-4">
-                        This is all enabled through software I wrote, which is <a href="https://github.com/tpavlek/Jeopardy">available on Github</a>, which allows for <a href="/blog/2015/03/13/building-starcraft-jeopardy-online-buzzer/">distributed
-                        games to occur - even realtime buzzing that accounts for network latency</a>!
-                    </p>
+            @slot('title', 'Speaking Municipally Podcast')
 
-                    <a href="/jeopardy" class="button">
-                        Learn More <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+            @slot('action_name', 'Listen')
+            @slot('action_url', 'http://speakingmunicipally.taprootedmonton.ca')
+
+            @slot('description')
+                Together with <a href="https://twitter.com/mastermaq">Mack Male</a> I co-hosted and produced a podcast
+                about municipal politics.
+            @endslot
+        @endcomponent
+
+        @component('_partials.project')
+            @slot('image', '/img/posts/2017-10-14-adding-some-levity/sweetie-star.jpg')
+
+            @slot('title', 'Municipal Memes')
+
+            @slot('action_name', 'Watch')
+            @slot('action_url', '/edmonton-memes')
+
+            @slot('description')
+                I make memes for the very narrow, niche intersection of internet nerd culture and local Edmonton politics.
+                There is varying levels of success.
+            @endslot
+        @endcomponent
+
+        @component('_partials.project')
+            @slot('image', '/img/projects/yegvotes-info.png')
+
+            @slot('title', 'YEGVotes.info')
+
+            @slot('action_name', 'Visit Site')
+            @slot('action_url', 'https://yegvotes.info')
+
+            @slot('description')
+                    Using the Edmonton Open Data Catalogue, YEGVotes.info aggregates council voting and attendance records
+                    to enable citizens to track their councillors in a more user-friendly, efficient manner.
+            @endslot
+        @endcomponent
+
+        @component('_partials.project')
+            @slot('image', '/img/projects/basketofyegs.png')
+
+            @slot('title', 'Basket of YEGs Podcast')
+
+            @slot('action_name', 'Listen')
+            @slot('action_url', 'https://basketofyegs.com')
+
+            @slot('description')
+                Basket of YEGs is a local podcast focusing on municipal politics in the City of Edmonton. Each episode,
+                I dig into an interesting or relevant topic to Edmontonians and attempt to break it down in the most
+                consumable way possible.
+            @endslot
+        @endcomponent
+
+        @component('_partials.project')
+            @slot('image', '/img/projects/jeopardy.png')
+
+            @slot('title', 'Jeopardy')
+
+            @slot('action_name', 'Learn More')
+            @slot('action_url', '/jeopardy')
+
+            @slot('description')
+                    Occasionally, in my free time, I host Jeopardy games on the internet. It started with a project called
+                    Starcraft Jeopardy, a weekly show that I wrote and produced which I was then invited to perform live at
+                    a Starcraft tournament called <a href="http://www.eschamp.com/kotn/">Kings of the North</a>. I also hosted <a href="https://vimeo.com/140223663">IST Jeopardy</a> for the University of
+                    Alberta CONNECT conference.
+            @endslot
+        @endcomponent
 
         <div class="project ladderheroes" style="background-image: url('/img/projects/ladderheroes.png')">
             <div class="summary-description">

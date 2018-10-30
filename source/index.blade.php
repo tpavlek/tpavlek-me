@@ -39,6 +39,14 @@ description: ""
     <div class="w-full flex flex-wrap justify-center">
 
         @include('_partials.page.embed', [ 'embed_page' => (object)[
+            'url' => '/speaking-municipally',
+            'img' => '/img/projects/speaking-municipally.jpg',
+            'title' => 'Speaking Municipally Podcast',
+            'sub_title' => '',
+            'wrapper_class' => 'w-full lg:w-2/5 h-48 shadow-md mx-4'
+        ]])
+
+        @include('_partials.page.embed', [ 'embed_page' => (object)[
             'url' => '/edmonton-photo-radar',
             'img' => '/img/posts/2017-08-15-open-photo-radar-locations-audit/spider-photo.jpg',
             'title' => 'Edmonton Photo Radar: The Stats',

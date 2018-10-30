@@ -7,53 +7,6 @@
             <h1 class="text-white text-5xl absolute pin-b pin-l pin-r pb-16 z-10">Starcraft Jeopardy</h1>
         </div>
     </div>
-    <div class="bg-blue-darkest text-white text-center p-8">
-        <h1 class="text-4xl my-4">Starcraft Jeopardy is returning!</h1>
-        @include('_partials.youtube', [ 'video_id' => "KeLTcA3BZck"])
-        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
-            For three months in 2015, Starcraft Jeopardy graced the internet. Hosted by Troy Pavlek, it brought something
-            completely unique and new to the table. A gameshow with the people you know and love from the Starcraft community
-            with the singular wordplay-focused question and answer style of Jeopardy.
-        </p>
-
-        <h1 class="text-gold text-5xl my-4">
-            And now, in 2018, Starcraft Jeopardy will return
-        </h1>
-    </div>
-    <div class="bg-white text-center p-8">
-        <h2 class="text-3xl my-4">Want to participate in Starcraft Jeopardy?</h2>
-        <a href="mailto:troy@tpavlek.me&subject='I would like to participate in Starcraft Jeopardy'" class="button text-3xl">
-            <i class="fa fa-envelope"></i> &nbsp; Apply via Email
-        </a>
-        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
-            I'm looking for a total of <strong>fifteen (15)</strong> participants for the season in early 2018. If you've already played
-            Starcraft Jeopardy, feel free to apply again. However, I may prioritize new faces for this limited run.
-        </p>
-
-        <h3 class="text-2xl my-4">
-            Have a question idea?
-        </h3>
-        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
-            You don't need to be an expert in wordplay or cleverness - the most helpful type of submission is one that just
-            states a fact. I'm very skilled at turning true statements into interesting questions and categories, so any contribution
-            makes the show much easier to produce.
-        </p>
-        <a href="mailto:troy@tpavlek.me&subject='Starcraft Jeopardy Question Submission'" class="button text-2xl">
-            <i class="fa fa-envelope"></i> &nbsp; Email a suggestion
-        </a>
-    </div>
-
-    <div class="bg-blue-darker p-4 text-white">
-        <h1 class="text-4xl my-4 text-center">What's coming?</h1>
-        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
-            Question writing and production has already begun. In <strong>mid-January, 2018</strong> we will be recording
-            <strong>five (5)</strong> episodes of Starcraft Jeopardy that will premiere in the period of January and February.
-        </p>
-        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto post-content">
-            The episodes will premiere on <a href="https://twitch.tv/troy_pavlek">Troy's Twitch Channel</a> with VODs being posted on
-            <a href="https://youtube.com/troypavlek">YouTube</a> immediately afterward.
-        </p>
-    </div>
 
     @php
         $episodes = collect([
@@ -75,7 +28,7 @@
         $displayEpisode = $episodes->get(5);
     @endphp
 
-    <div class="p-4 text-white text-center">
+    <div class="bg-blue-darkest p-4 text-white text-center">
         <h1 class="text-4xl my-4 text-center">Catch up with previous episodes</h1>
 
         <div class="bg-grey-lightest shadow pt-2 m-4 hover:bg-grey-light inline-block">
@@ -96,6 +49,24 @@
                 </div>
             @endforeach
         </div>
+    </div>
+
+    <div class="text-white text-center p-8">
+        <h1 class="text-4xl my-4">I lied about Starcraft Jeopardy returning!</h1>
+        @include('_partials.youtube', [ 'video_id' => "KeLTcA3BZck"])
+        <p class="text-xl leading-loose max-w-xl text-center py-4 mx-auto">
+            Oh boy, wouldn't it be great if this video was true?
+
+            <br />
+            Unfortunately, the passion is just dead. This video was made in a brief period where I was watching and enjoying
+            Starcraft again. I just couldn't keep it up, and would do the project a huge disservice by writing questions without
+            having expertise. For now, enjoy the immortalized episodes of the people you know and love from the Starcraft Community
+            competing with the singular wordplay-focused question and answer style of Jeopardy.
+        </p>
+
+        <h1 class="text-gold text-5xl my-4">
+            The dream is as dead as ded gaem
+        </h1>
     </div>
 
     <div class="p-4 bg-black text-white text-center">

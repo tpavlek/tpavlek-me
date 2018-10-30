@@ -4994,7 +4994,7 @@ th {
  * @import "utilities/skew-transforms";
  */
 
-twitterwidget {
+.twitter-tweet {
   margin-left: auto;
   margin-right: auto;
 }

@@ -102,7 +102,8 @@ new Chart(document.getElementById("bike-grid-usage"), {
             "Jun 5",
             "Jun 20",
             "Jul 1",
-            "Jul 4"
+            "Jul 4",
+            "Jul 19",
             ],
         datasets: [{
             label: 'Cyclists on Downtown Grid',
@@ -139,7 +140,8 @@ new Chart(document.getElementById("bike-grid-usage"), {
                    6501,
                    6753,
                    3943,
-                   5222
+                   5222,
+                   6400,
                    ],
             fill: false,
             backgroundColor: "rgba(117, 201, 76,0.4)",
