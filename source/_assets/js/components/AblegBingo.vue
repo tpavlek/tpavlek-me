@@ -32,7 +32,7 @@
                     "More than one candidate compares themselves to Lougheed",
                     "Donald Trump comparison",
                     "$100B Debt",
-                    "\"Ralph Klien\"",
+                    "Ralph Klein",
                     "NDP/UCP ignore AB Party/Liberals",
                     "\"Twitter outrage machine\"",
                     "\"only [my party] will do something\"",

@@ -1659,7 +1659,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            words: ["Notley Trudeau Alliance", "Lake of Fire", "Pipelines!", "GSAs", "\"Smear Campaign\"", "NDP offers to spend $1B+ on something", "UCP wants to privatize something", "\"math is hard\"", "Alberta Advantage", "Kamikaze campaign", "\"previous government\"", "More than one candidate compares themselves to Lougheed", "Donald Trump comparison", "$100B Debt", "\"Ralph Klien\"", "NDP/UCP ignore AB Party/Liberals", "\"Twitter outrage machine\"", "\"only [my party] will do something\"", "The only poll that matters", "social license", "someone proposes a referendum", "someone criticizes federal government", "someone accuses someone of doing something for \"their friends\"", "finding efficiencies"],
+            words: ["Notley Trudeau Alliance", "Lake of Fire", "Pipelines!", "GSAs", "\"Smear Campaign\"", "NDP offers to spend $1B+ on something", "UCP wants to privatize something", "\"math is hard\"", "Alberta Advantage", "Kamikaze campaign", "\"previous government\"", "More than one candidate compares themselves to Lougheed", "Donald Trump comparison", "$100B Debt", "Ralph Klein", "NDP/UCP ignore AB Party/Liberals", "\"Twitter outrage machine\"", "\"only [my party] will do something\"", "The only poll that matters", "social license", "someone proposes a referendum", "someone criticizes federal government", "someone accuses someone of doing something for \"their friends\"", "finding efficiencies"],
             markedWords: ["Carbon Tax \n(free space)"]
         };
     },
