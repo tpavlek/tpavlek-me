@@ -42,6 +42,10 @@
                     "someone criticizes federal government",
                     "someone accuses someone of doing something for \"their friends\"",
                     "finding efficiencies",
+                    "job creators",
+                    "equalization",
+                    "Bill 6",
+                    "Racism, homophobia, transphobia, islamophobia (all in the same breath)"
                 ],
                 markedWords: [ "Carbon Tax \n(free space)"],
             }
