@@ -1655,15 +1655,24 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            words: ["Notley Trudeau Alliance", "Lake of Fire", "Pipelines!", "GSAs", "\"Smear Campaign\"", "NDP offers to spend $1B+ on something", "UCP wants to privatize something", "\"math is hard\"", "Alberta Advantage", "Kamikaze campaign", "\"previous government\"", "More than one candidate compares themselves to Lougheed", "Donald Trump comparison", "$100B Debt", "Ralph Klein", "NDP/UCP ignore AB Party/Liberals", "\"Twitter outrage machine\"", "\"only [my party] will do something\"", "The only poll that matters", "social license", "someone proposes a referendum", "someone criticizes federal government", "someone accuses someone of doing something for \"their friends\"", "finding efficiencies"],
+            words: ["Notley Trudeau Alliance", "Lake of Fire", "Pipelines!", "GSAs", "\"Smear Campaign\"", "NDP offers to spend $1B+ on something", "UCP wants to privatize something", "\"math is hard\"", "Alberta Advantage", "Kamikaze campaign", "\"previous government\"", "More than one candidate compares themselves to Lougheed", "Donald Trump comparison", "$100B Debt", "Ralph Klein / Peter Lougheed", "NDP/UCP ignore AB Party/Liberals", "\"Twitter outrage machine\"", "\"only [my party] will do something\"", "The only poll that matters", "social license", "someone proposes a referendum", "someone criticizes federal government", "someone accuses someone of doing something for \"their friends\"", "finding efficiencies", "job creators", "equalization", "Bill 6", "Racism, homophobia, transphobia, islamophobia (all in the same breath)", "Where's fildebrandt?", "Someone asks if Mandel understands how taxes work", "ad hominem attacks (either real or perceived)"],
+            totalWords: 0,
             markedWords: ["Carbon Tax \n(free space)"]
         };
     },
     mounted: function mounted() {
+        this.totalWords = this.words.length + 1;
         this.words = this.words.map(function (a) {
             return [Math.random(), a];
         }).sort(function (a, b) {
@@ -2290,32 +2299,42 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    {
-      staticClass:
-        "flex text-center mx-auto justify-center flex-wrap cursor-pointer"
-    },
-    _vm._l(_vm.words, function(word) {
-      return _c(
-        "div",
-        {
-          staticClass:
-            "flex row-wrap justify-center items-center w-32 max-w-sm h-32 p-4 border text-xl",
-          class: [
-            _vm.markedWords.includes(word) ? "bg-green" : "bg-grey-lightest"
-          ],
-          staticStyle: { "flex-basis": "20%" },
-          on: {
-            click: function($event) {
-              _vm.mark(word)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass:
+          "flex text-center mx-auto justify-center flex-wrap cursor-pointer"
+      },
+      _vm._l(_vm.words, function(word) {
+        return _c(
+          "div",
+          {
+            staticClass:
+              "flex row-wrap justify-center items-center w-32 max-w-sm h-32 p-4 border text-xl",
+            class: [
+              _vm.markedWords.includes(word) ? "bg-green" : "bg-grey-lightest"
+            ],
+            staticStyle: { "flex-basis": "20%" },
+            on: {
+              click: function($event) {
+                _vm.mark(word)
+              }
             }
-          }
-        },
-        [_vm._v("\n        " + _vm._s(word) + "\n    ")]
-      )
-    })
-  )
+          },
+          [_vm._v("\n            " + _vm._s(word) + "\n        ")]
+        )
+      })
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "text-center mx-auto" }, [
+      _c("em", [
+        _vm._v("Generated from "),
+        _c("strong", [_vm._v(_vm._s(_vm.totalWords))]),
+        _vm._v(" possible options")
+      ])
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
