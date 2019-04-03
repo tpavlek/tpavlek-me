@@ -55,7 +55,10 @@
                     "Racism, homophobia, transphobia, islamophobia (all in one breath)",
                     "Where's fildebrandt?",
                     "Someone asks if Mandel understands how taxes work",
-                    "ad hominem attacks (either real or perceived)"
+                    "ad hominem attacks (either real or perceived)",
+                    "\"Job-killing [x]\"",
+                    "bozo eruption",
+                    "accidental government"
                 ],
                 totalWords: 0,
                 markedWords: [ "Carbon Tax \n(free space)"],
