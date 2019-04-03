@@ -6,7 +6,7 @@ description: "Enhance your Alberta Election candidates debate by yelling \"BINGO
 ---
 
 @extends('_layouts.wrapped')
-@section('title', 'Troy in the Media')
+@section('title', '#AbLeg Bingo!')
 
 @section('content')
 
