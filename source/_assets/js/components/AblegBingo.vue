@@ -1,0 +1,67 @@
+<template>
+    <div class="flex text-center mx-auto justify-center flex-wrap cursor-pointer">
+        <div
+                v-for="word in words"
+                :class="[ (markedWords.includes(word)) ? 'bg-green' : 'bg-grey-lightest' ]"
+                class="flex row-wrap justify-center items-center w-32 max-w-sm h-32 p-4 border text-xl"
+                style="flex-basis:20%;"
+                @click="mark(word)"
+        >
+            {{ word }}
+        </div>
+    </div>
+
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                words: [
+                    "Notley Trudeau Alliance",
+                    "Lake of Fire",
+                    "Pipelines!",
+                    "GSAs",
+                    "\"Smear Campaign\"",
+                    "NDP offers to spend $1B+ on something",
+                    "UCP wants to privatize something",
+                    "\"math is hard\"",
+                    "Alberta Advantage",
+                    "Kamikaze campaign",
+                    "\"previous government\"",
+                    "More than one candidate compares themselves to Lougheed",
+                    "Donald Trump comparison",
+                    "$100B Debt",
+                    "\"Ralph Klien\"",
+                    "NDP/UCP ignore AB Party/Liberals",
+                    "\"Twitter outrage machine\"",
+                    "\"only [my party] will do something\"",
+                    "The only poll that matters",
+                    "social license",
+                    "someone proposes a referendum",
+                    "someone criticizes federal government",
+                    "someone accuses someone of doing something for \"their friends\"",
+                    "finding efficiencies",
+                ],
+                markedWords: [ "Carbon Tax \n(free space)"],
+            }
+        },
+        mounted() {
+            this.words = this.words
+                .map(a => [Math.random(), a])
+                .sort((a, b) => a[0] - b[0])
+                .map(a => a[1])
+                .slice(0, 24);
+            this.words.splice(12, 0, "Carbon Tax \n(free space)");
+        },
+        methods: {
+            mark(word) {
+                if (this.markedWords.includes(word)) {
+                    this.markedWords = this.markedWords.filter(marked => marked !== word);
+                } else {
+                    this.markedWords = Array.from(new Set([...this.markedWords, word]));
+                }
+            }
+        }
+    }
+</script>
