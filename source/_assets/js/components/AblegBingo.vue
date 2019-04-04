@@ -58,7 +58,13 @@
                     "ad hominem attacks (either real or perceived)",
                     "\"Job-killing [x]\"",
                     "bozo eruption",
-                    "accidental government"
+                    "accidental government",
+                    "discovery math / tested teaching methods",
+                    "ideological curriculum review",
+                    "San Francisco",
+                    "biggest lie in Alberta's history",
+                    "Albertan values",
+                    "economic engine of Canada"
                 ],
                 totalWords: 0,
                 markedWords: [ "Carbon Tax \n(free space)"],
