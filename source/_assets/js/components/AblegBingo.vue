@@ -65,7 +65,7 @@
                     "biggest lie in Alberta's history",
                     "Albertan values",
                     "economic engine of Canada",
-                    "Grasroots Guarantee™",
+                    "Grassroots Guarantee™",
                     "candidate calls viewers \"my friends\"",
                     "Kenney's donor list",
                     "Sky Palace"
