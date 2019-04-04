@@ -68,6 +68,7 @@
                     "Grasroots Guarantee™",
                     "candidate calls viewers \"my friends\"",
                     "Kenney's donor list",
+                    "Sky Palace"
                 ],
                 totalWords: 0,
                 markedWords: [ "Carbon Tax \n(free space)"],
