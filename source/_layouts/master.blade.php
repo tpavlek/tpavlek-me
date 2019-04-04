@@ -69,7 +69,7 @@
             </a>
         </div>
         <div class="flex-grow flex items-center justify-end w-auto">
-            <a href="http://speakingmunicipally.taprootedmonton.ca" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
+            <a href="/speaking-municipally" class="text-white hover:text-gold text-xl p-2 mr-2 no-underline">
                 Podcast
             </a>
 
