@@ -68,7 +68,9 @@
                     "Grassroots Guarantee™",
                     "candidate calls viewers \"my friends\"",
                     "Kenney's donor list",
-                    "Sky Palace"
+                    "Sky Palace",
+                    "Big Tent",
+                    "Boom & Bust"
                 ],
                 totalWords: 0,
                 markedWords: [ "Carbon Tax \n(free space)"],
