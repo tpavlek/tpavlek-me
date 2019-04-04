@@ -64,7 +64,10 @@
                     "San Francisco",
                     "biggest lie in Alberta's history",
                     "Albertan values",
-                    "economic engine of Canada"
+                    "economic engine of Canada",
+                    "Grasroots Guarantee™",
+                    "candidate calls viewers \"my friends\"",
+                    "Kenney's donor list",
                 ],
                 totalWords: 0,
                 markedWords: [ "Carbon Tax \n(free space)"],
