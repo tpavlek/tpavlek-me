@@ -12,6 +12,27 @@ img: "sweetie-star.jpg"
 Sometimes, I make memes on the internet. Typically, they're political in nature and a mashup of [/r/youtubehaiku](https://reddit.com/r/youtubehaiku)
 culture and edmonton politics. [Subscribe on YouTube](https://youtube.com/troypavlek)
 
+@include('_partials.youtube', [ 'video_id' => 'zjXc0JBjyiM' ])
+
+> The Alberta Politics High School Musical
+
+What would happen if you combined High School Musical's Breaking Free with a message that we should vote for Alberta's NDP
+under Rachel Notley? This is the answer to that.
+
+@include('_partials.youtube', [ 'video_id' => 'HOmQo2Bxt-I' ])
+
+> Edmonton City Council: The Anime Opening
+
+<hr />
+
+@include('_partials.youtube', [ 'video_id' => '0vbcPfi2Yrc' ])
+
+> Sexual Tension at the Alberta Leader's Debate
+
+David Khan knew *exactly* what he was doing #LayingPipe
+
+<hr />
+
 @include('_partials.youtube', [ 'video_id' => 'kNJwHqAhaxc' ])
 
 > A GRASSROOTS DEVELOPMENT

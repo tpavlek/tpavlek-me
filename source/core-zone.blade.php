@@ -26,6 +26,7 @@ description: "The Core Zone will be a place in the densest parts of the city whe
             On April 24, we’ll call on #yegcc to change its recent motion for city-wide 40km/h residential speed limits, which isn’t much safer than 50km/h.
             We’ll call on them to adopt the #YEGCoreZone concept: 30km/h on residential streets within the inner city <strong>but not outside of it</strong>.
         </p>
+
     </div>
 
     <div class="bg-white p-8 text-center">
@@ -67,6 +68,11 @@ description: "The Core Zone will be a place in the densest parts of the city whe
 
             Change can happen when we rally behind a common cause. Let's make #YEGCoreZone a reality on April 24th.
         </p>
+
+        <h2 class="text-xl text-black">Learn more:</h2>
+        <div class="max-w-2xl mx-auto my-4 text-left">
+            @include('_partials.posts.post-embed', [ 'slug' => 'yeg-core-zone' ])
+        </div>
     </div>
 
 @stop
