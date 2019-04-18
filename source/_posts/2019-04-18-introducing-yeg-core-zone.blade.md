@@ -117,9 +117,9 @@ right now collectors, even in the core, are not made equal.
 @include('_partials.image', [ 'name' => 'classifications.jpg', 'caption' => 'Both of these roadways are classified "Residential-Collector"' ])
 
 This is another pragmatic decision of the Core Zone proposal. We need action **now, without delay**. Waiting for roadway
-reclassification would cause too much of a delay in implementation. The Core Zone proposal will suggest lowering speeds
-on neighbourhood-context collectors with only two lanes and homes on both sides once that reclassification work can be
-completed.
+reclassification would cause too much of a delay in implementation. The Core Zone proposal will suggest that once the 
+reclassification work is complete, neighbourhood-context collectors with two lanes of traffic and homes on both sides should
+be lowered to 30km/h as well.
 
 > The Core Zone is arbitrary. It should have included community [x]
 
@@ -156,4 +156,14 @@ bike lanes installed come to mind as fantastic starting points. However, with th
 are tied until the city does roadway reclassification work. In the interim, delaying the Core Zone until that reclassification
 is done doesn't make sense.
 
+## Wrap-up
+
+Yes, the Core Zone is not perfect. But it is leaps and bounds ahead of what we have now. And most importantly, it is
+something that is politically possible to pass, even with suburban councillors.
+
+And that's why I will be supporting it at council on April 24th.
+
+If you want safe, livable streets in Edmonton please contact your councillor and let them know. Speed reduction has
+been delayed or stopped several times because of politics, and the quickest way around political problems is to let the
+politicians know that this is what their constituents want.
 
