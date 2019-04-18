@@ -24,7 +24,8 @@ the **#YEGCoreZone**
 > So what is the #YEGCoreZone?
 
 In a nutshell, the Core Zone will allow us to pragmatically and rapidly implement livable, safe streets in the core
-areas of the city.
+areas of the city. With a focus on quick, efficient implementation, according to research done by the City of Edmonton
+we could see up to 39% reduction in collisions on our local roadways, and reduce the severity of the collisions that do occur.
 
 For a long time, Edmontonians discussed speed limits and speed reductions, often with intense passion or vitriol.
 We saw this with the city's implementation of playground zones. When the city attempted a blanket approach, pushback forced 
@@ -97,10 +98,62 @@ residents.
 
 @include('_partials.image', [ 'name' => 'collision-reductions.jpg', 'caption' => 'Data from the city of Edmonton projecting the reduction in collisions from these speed changes' ])
 
-The Core Zone is not perfect. It doesn't solve everything for everyone. But, critically, it's politically palatable. Suburban
-councillors can vote for it, without losing their seats. It moves us forward.
+Where the current council motion proposes to do nothing with residential collectors and target a 6-9% reduction in collisions
+on local roadways, the Core Zone would take a more ambitious approach, reducing collisions up to 39% on local roadways and 6-9% on collectors.
 
-So let's move forward with the Core Zone. It will be presented to council on April 24th. If you support progress on making
-safer streets for Edmontonians, please write your councillor and let them know.
+If you support the idea of a rapidly-implemented Core Zone, please write your city councillor and let them know.
 
-Let's take back the streets for every Edmontonian, whether they're in a car or not.
+We will be presenting our proposal to Council on April 24th.
+
+## Addressing Criticisms
+
+> The Core Zone is not ambitious enough, collectors should be 30km/h too!
+
+I agree, and I hope there's a path to getting there. However, a year ago City Council directed administration to look 
+at the different types of roadways we have in Edmonton and recommend some maximum speed limits based on how the road looks
+and functions. That work did not get completed and won't be completed until this September *at the earliest*. Unfortunately,
+right now collectors, even in the core, are not made equal.
+
+@include('_partials.image', [ 'name' => 'classifications.jpg', 'caption' => 'Both of these roadways are classified "Residential-Collector"' ])
+
+This is another pragmatic decision of the Core Zone proposal. We need action **now, without delay**. Waiting for roadway
+reclassification would cause too much of a delay in implementation. The Core Zone proposal will suggest lowering speeds
+on neighbourhood-context collectors with only two lanes and homes on both sides once that reclassification work can be
+completed.
+
+> The Core Zone is arbitrary. It should have included community [x]
+
+I'm glad you want safe speeds in other communities as well. This criticism is pretty fair, overall. The boundaries of the
+Core Zone were chosen because:
+
+1. They represent mostly-similar mature areas with similar street types and design
+2. They cover the areas in the city where active and public transportation have the highest proportion of use
+3. They are along major, easily identifiable arterial roads, which make it simple to locate the zone
+4. They represent areas that have shown demand for traffic calming in the past.
+
+Other areas absolutely might be at home in the Core Zone - and I would be ecstatic if it wasn't a zone at all, but simply
+a safe city. Unfortunately, this comes down to politics. Many suburban councillors will not vote for a proposal that applies a
+blanket approach, and many wider community roadways on the edges of the city would require more costly interventions than the
+Core Zone is proposing. That costs money - money which absolutely _should_ be allocated, but money which our current council 
+has made clear _won't_ be allocated to traffic safety in the near future.
+
+I would be happy if council decides to expand the boundaries of the Core Zone. But, because perfect shouldn't be the enemy of
+good, and because we **need** to make forward progress, having a community clamour to be _included_ is preferable to having
+communities clamour to be _excluded_.
+
+> This doesn't do much for safety Downtown
+
+You're absolutely right, and that's a critical and ironic flaw of the *Core Zone*. The downtown core itself is almost all
+arterial roadways with some collectors.
+
+This issue is a longstanding one in Edmonton and addresses a city planning question of who our downtown streets are *for*,
+people living and using them in a variety of active ways, or people driving through. The Core Zone simply can't address
+the scope of that problem, but thankfully some other projects like Imagine Jasper and our LRT construction are improving 
+and increasing the livability around some of those roadways.
+
+The Core Zone would absolutely love to make downtown streets more livable - 102 ave and 100ave which both recently had separated
+bike lanes installed come to mind as fantastic starting points. However, with their arterial classification, our hands
+are tied until the city does roadway reclassification work. In the interim, delaying the Core Zone until that reclassification
+is done doesn't make sense.
+
+
