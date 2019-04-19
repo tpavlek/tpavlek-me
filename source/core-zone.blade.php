@@ -1,6 +1,6 @@
 ---
 imgpath: "/img/core-zone/"
-img: "yeg-core-zone.jpg"
+img: "road-type-map.jpg"
 title: "#YEGCoreZone"
 description: "The Core Zone will be a place in the densest parts of the city where our streets are welcoming, shared, safe and vibrant for people of all ages and abilities."
 ---
