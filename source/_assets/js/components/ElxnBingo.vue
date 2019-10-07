@@ -50,6 +50,12 @@
                     "drinking water advisory",
                     "someone calls someone else racist",
                     "\"not as advertised\"",
+                    "American Citizen",
+                    "Middle Class",
+                    "Trudeau has 5 \"uhs\" in one sentence",
+                    "May says \"years too late\"",
+                    "Everyone ignores Bernier",
+                    "Trudeau defends pipeline for climate change",
 
                 ],
                 totalWords: 0,
