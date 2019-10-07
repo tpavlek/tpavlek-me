@@ -69,6 +69,8 @@ description: "The Core Zone will be a place in the densest parts of the city whe
             Change can happen when we rally behind a common cause. Let's make #YEGCoreZone a reality on April 24th.
         </p>
 
+        <iframe width="400px" height="200px" src="https://chuihinwai.github.io/email-contact/"></iframe>
+
         <h2 class="text-xl text-black">Learn more:</h2>
         <div class="max-w-2xl mx-auto my-4 text-left">
             @include('_partials.posts.post-embed', [ 'slug' => 'yeg-core-zone' ])
