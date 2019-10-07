@@ -1731,9 +1731,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            words: ["[colour]-face", "Carbon Tax", "(There is no) climate emergency", "\"settle for less\"", "\"Canadians are struggling\"", "pharmacare", "Trump", "\"Let me be clear\"", "Pipelines", "Balancing the budget", "[leader name] won't come clean / tell you the truth", "Bill 21", "SNC-Lavalin", "Insurance Broker", "Corruption", "\"Everyday Canadians\"", "Proportional Representation / Electoral Reform", "Sorry", "May is questioned about abortion", "Scheer doesn't apologize for comments", "Stephen Harper", "1%", "drinking water advisory", "someone calls someone else racist", "\"not as advertised\"", "American Citizen", "Middle Class", "Trudeau has 5 \"uhs\" in one sentence", "May says \"years too late\"", "Everyone ignores Bernier", "Trudeau defends pipeline for climate change", "two planes", "home ownership", "9 out of 10 families", "affordable child care", "multiculturalism"],
+            words: ["[colour]-face", "Carbon Tax", "(There is no) climate emergency", "\"settle for less\"", "\"Canadians are struggling\"", "pharmacare", "Trump", "\"Let me be clear\"", "Pipelines", "Balancing the budget", "[leader name] won't come clean / tell you the truth", "Bill 21", "SNC-Lavalin", "Insurance Broker", "Corruption", "Proportional Representation / Electoral Reform", "Sorry", "May is questioned about abortion", "Scheer doesn't apologize for comments", "Stephen Harper", "1%", "drinking water advisory", "someone calls someone else racist", "\"not as advertised\"", "American Citizen", "Middle Class", "Trudeau has 5 \"uhs\" in one sentence", "May says \"years too late\"", "Everyone ignores Bernier", "Trudeau defends pipeline for climate change", "two planes", "home ownership", "9 out of 10 families", "affordable child care", "multiculturalism"],
             totalWords: 0,
-            markedWords: ["My Friends \n(free space)"]
+            markedWords: ["Ordinary Canadians \n(free space)"]
         };
     },
     mounted: function mounted() {
@@ -1745,7 +1745,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
         }).map(function (a) {
             return a[1];
         }).slice(0, 24);
-        this.words.splice(12, 0, "My Friends \n(free space)");
+        this.words.splice(12, 0, "Ordinary Canadians \n(free space)");
     },
 
     methods: {

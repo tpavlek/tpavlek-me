@@ -40,7 +40,6 @@
                     "SNC-Lavalin",
                     "Insurance Broker",
                     "Corruption",
-                    "\"Everyday Canadians\"",
                     "Proportional Representation / Electoral Reform",
                     "Sorry",
                     "May is questioned about abortion",
@@ -64,7 +63,7 @@
 
                 ],
                 totalWords: 0,
-                markedWords: [ "My Friends \n(free space)"],
+                markedWords: [ "Ordinary Canadians \n(free space)"],
             }
         },
         mounted() {
@@ -74,7 +73,7 @@
                 .sort((a, b) => a[0] - b[0])
                 .map(a => a[1])
                 .slice(0, 24);
-            this.words.splice(12, 0, "My Friends \n(free space)");
+            this.words.splice(12, 0, "Ordinary Canadians \n(free space)");
         },
         methods: {
             mark(word) {
