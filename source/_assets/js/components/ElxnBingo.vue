@@ -56,6 +56,11 @@
                     "May says \"years too late\"",
                     "Everyone ignores Bernier",
                     "Trudeau defends pipeline for climate change",
+                    "two planes",
+                    "home ownership",
+                    "9 out of 10 families",
+                    "affordable child care",
+                    "multiculturalism",
 
                 ],
                 totalWords: 0,
