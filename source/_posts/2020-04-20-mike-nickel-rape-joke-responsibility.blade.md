@@ -39,10 +39,8 @@ who is well known in the Edmonton political scene as being very easy to get alon
 It's because when Mike Nickel published a divisive post strewn with misinformation, Andrew Knack sought to correct the record.
 
 <div class="flex">
-
-    @include('_partials.image', [ 'name' => 'nickel-bike-lanes.jpg', 'caption' => '' ])
-    
-    @include('_partials.image', [ 'name' => 'nickel-bike-lanes-text.jpg', 'caption' => '' ])
+    <img src="/img/posts/2020-04-20-mike-nickel-rape-joke-responsibility/nickel-bike-lanes.jpg" style="max-width: 50%" />
+    <img src="/img/posts/2020-04-20-mike-nickel-rape-joke-responsibility/nickel-bike-lanes-text.jpg" style="max-width: 50%" />
 </div>
 
 After Mike Nickel's post was widely shared, his colleague Andrew Knack dispelled some of the myths and lies in [a post titled "Facts Still Matter"](https://www.andrewknack.com/facts-still-matter/). 
