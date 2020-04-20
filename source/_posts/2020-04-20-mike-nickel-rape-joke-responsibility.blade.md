@@ -12,7 +12,7 @@ tags:
 ---
 
 Despite "taking responsibility" and apologizing for disrespectful social media usage, Councillor Mike Nickel and the same
-team that caused him to apologize for laspses in judgement in 2016 appear to be doubling-down on the very same tactics that got them in hot water.
+team that caused him to apologize for lapses in judgement in 2016 appear to be doubling-down on the very same tactics that got them in hot water.
 
 In 2016, Councillor Mike Nickel [apologized for a rape joke posted to his Facebook page](https://www.cbc.ca/news/canada/edmonton/rape-joke-on-facebook-leads-edmonton-group-to-shut-down-online-talk-show-1.3633234).
 
