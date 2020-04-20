@@ -65,7 +65,8 @@ Mike Nickel is incorrectly lambasting the hardworking City of Edmonton staff and
 spending during a pandemic.
 
 I think the councillor needs to address if he believes what he's doing now is leadership, and what he thinks responsibility looks
-like. It seems for Mike Nickel, "taking full responsibility" is avoiding taking any responsibility at all.
+like. It seems for Mike Nickel, "taking full responsibility" is avoiding taking any responsibility at all. It's time
+for the councillor to be held accountable for what he says in public and on social media.
 
 I've reached out to Councillor Nickel with this post for comment. I don't expect to hear back.
 
