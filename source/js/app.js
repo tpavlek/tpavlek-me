@@ -1770,7 +1770,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             header: "I cannot wear a mask or face covering",
-            caption: "Please give me 2 metres of space because that is your responsibility."
+            caption: "Please give me 2 metres of space."
         };
     },
 
@@ -1785,6 +1785,33 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 link.click();
             });
         }
+    },
+
+    mounted: function mounted() {
+        var presets = [{
+            header: 'I cannot properly navigate roundabouts',
+            caption: 'To me, they are the traffic equivalent of a sudoku puzzle'
+        }, {
+            header: 'I cannot use my signal lights',
+            caption: 'Prepare yourself for some unpredictable sh*t'
+        }, {
+            header: "I cannot wear a mask or face covering",
+            caption: "Please give me 2 metres of space."
+        }, {
+            header: "I cannot pay my property taxes or parking tickets",
+            caption: "Please don't bother trying to collect payment"
+        }, {
+            header: "I am going to sneeze in your face",
+            caption: "Here comes the mucus!!!"
+        }, {
+            header: "I cannot chew quietly",
+            caption: "You better hope those Beats By Dre headphones go to 11."
+        }];
+
+        var preset = presets[Math.floor(Math.random() * presets.length)];
+
+        this.header = preset.header;
+        this.caption = preset.caption;
     }
 });
 
