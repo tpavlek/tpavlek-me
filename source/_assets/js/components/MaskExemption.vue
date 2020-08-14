@@ -102,6 +102,14 @@
                     header: "Get out of jail free card",
                     caption: "This card may be kept until needed or sold."
                 },
+                {
+                    header: "My blue lamborghini is not too loud",
+                    caption: "It's accessible so even the hard of hearing can enjoy it."
+                },
+                {
+                    header: "I only vote no",
+                    caption: "Vote yes to be being mayor."
+                },
             ];
 
             let preset = presets[Math.floor(Math.random() * presets.length)];
