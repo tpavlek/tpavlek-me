@@ -20,7 +20,7 @@ description: "Bylaws? More like schmy-laws!"
     <div class="text-center max-w-lg mx-auto mb-4">
         <div class="post-content text-white my-2 text-sm text-center mx-auto">
             Made with ❤ by <a href="https://twitter.com/troypavlek">Troy Pavlek</a> & <a href="https://www.natebryant.ca/">Nate Bryant</a>
-            <br /> <span class="text-xs">Photo credit: <a href="https://twitter.com/davidbloomphoto">@davidbloomphoto</a></span>
+            <br /> <span class="text-xs">Photo credit: <a href="https://twitter.com/davidbloomphoto">@davidbloomphoto</a>, <a href="https://edmontonjournal.com/news/local-news/city-of-edmonton-abruptly-ends-mask-exemption-card-distribution-after-four-days">Edmonton Journal</a></span>
         </div>
     </div>
 
