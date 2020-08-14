@@ -18,6 +18,8 @@ description: "Bylaws? More like schmy-laws!"
     </div>
 
     <div class="text-center max-w-lg mx-auto">
+        <div class="post-content text-white my-2 text-sm text-center mx-auto">Made with ❤ by <a href="https://twitter.com/troypavlek">Troy Pavlek</a> & <a href="https://www.natebryant.ca/">Nate Bryant</a></div>
+
         <p class="text-white text-sm my-2">
             Looking for a weekly podcast all about Edmonton City Council? Check out Speaking Municipally!
         </p>
@@ -30,7 +32,7 @@ description: "Bylaws? More like schmy-laws!"
             'wrapper_class' => 'w-full h-48 shadow-md mx-4'
         ]])
 
-        <div class="post-content text-white mt-2 text-sm text-center mx-auto">Made with ❤ by <a href="https://twitter.com/troypavlek">Troy Pavlek</a> & <a href="https://www.natebryant.ca/">Nate Bryant</a></div>
+
     </div>
 @stop
 
