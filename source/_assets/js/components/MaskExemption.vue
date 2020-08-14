@@ -108,7 +108,7 @@
                 },
                 {
                     header: "I only vote no",
-                    caption: "Vote yes to be being mayor."
+                    caption: "Vote yes to me being mayor."
                 },
             ];
 
