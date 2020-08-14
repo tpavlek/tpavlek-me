@@ -75,8 +75,8 @@
                     caption: "Please give me 2 metres of space."
                 },
                 {
-                    header: "I cannot pay my property taxes or parking tickets",
-                    caption: "Please don't bother trying to collect payment"
+                    header: "I cannot pay taxes or parking tickets",
+                    caption: "Please don't bother trying to collect payment."
                 },
                 {
                     header: "I am going to sneeze in your face",

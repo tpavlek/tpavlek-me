@@ -1798,8 +1798,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             header: "I cannot wear a mask or face covering",
             caption: "Please give me 2 metres of space."
         }, {
-            header: "I cannot pay my property taxes or parking tickets",
-            caption: "Please don't bother trying to collect payment"
+            header: "I cannot pay taxes or parking tickets",
+            caption: "Please don't bother trying to collect payment."
         }, {
             header: "I am going to sneeze in your face",
             caption: "Here comes the mucus!!!"
