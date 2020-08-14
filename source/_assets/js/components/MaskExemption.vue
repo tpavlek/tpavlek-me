@@ -114,6 +114,14 @@
                     header: "I cannot pay for my own MBA",
                     caption: "Please give me $44,000."
                 },
+                {
+                    header: "I am legally entitled to park in a bike lane",
+                    caption: "I pay road tax."
+                },
+                {
+                    header: "Can't pay $3.50 to use transit?",
+                    caption: "What if we enforce a $250 fine?"
+                },
             ];
 
             let preset = presets[Math.floor(Math.random() * presets.length)];
