@@ -110,6 +110,10 @@
                     header: "I only vote no",
                     caption: "Vote yes to me being mayor."
                 },
+                {
+                    header: "I cannot pay for my own MBA",
+                    caption: "Please give me $44,000."
+                },
             ];
 
             let preset = presets[Math.floor(Math.random() * presets.length)];
