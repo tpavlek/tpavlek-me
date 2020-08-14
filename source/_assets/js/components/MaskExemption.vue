@@ -94,6 +94,14 @@
                     header: "Hello.",
                     caption: "My name is Inigo Montoya. You killed my father. Prepare to die."
                 },
+                {
+                    header: "I cannot make the playoffs",
+                    caption: "I think high draft picks are worth more than cups."
+                },
+                {
+                    header: "Get out of jail free card",
+                    caption: "This card may be kept until needed or sold."
+                },
             ];
 
             let preset = presets[Math.floor(Math.random() * presets.length)];
