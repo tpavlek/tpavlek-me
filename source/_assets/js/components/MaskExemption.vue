@@ -86,6 +86,14 @@
                     header: "I cannot chew quietly",
                     caption: "You better hope those Beats By Dre headphones go to 11."
                 },
+                {
+                    header: "I can have more than 6 cats and 3 dogs in my household",
+                    caption: "It won't smell too bad."
+                },
+                {
+                    header: "Hello.",
+                    caption: "My name is Inigo Montoya. You killed my father. Prepare to die."
+                },
             ];
 
             let preset = presets[Math.floor(Math.random() * presets.length)];
