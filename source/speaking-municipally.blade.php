@@ -1,3 +1,10 @@
+---
+imgpath: "/img/projects/"
+img: "speaking-municipally.jpg"
+title: "Speaking Municipally - The podcast about Edmonton politics"
+description: "Every week Troy and Mack run down everything you need to know about Edmonton City Council and why it matters in 30 minutes or less (or it's free!)"
+---
+
 @extends('_layouts.unwrapped')
 @section('title', "Speaking Municipally Podcast")
 
