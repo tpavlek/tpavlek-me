@@ -341,6 +341,23 @@ blockquote p {
   border-bottom-right-radius: 20px;
 }
 
+.gradient-cover {
+  position: relative;
+}
+
+.gradient-cover::before {
+  content  : "";
+  position : absolute;
+  z-index  : 8;
+  top   : 0;
+  left     : 0;
+  pointer-events   : none;
+  background-image : linear-gradient(to top, rgba(0,0,0, 0) 20%, rgba(0,0,0, 0.6) 90%);
+  width    : 100%;
+  height   : 100%;
+  border-bottom-right-radius: 20px;
+}
+
 .summary-description {
   z-index: 1;
   text-align: center;

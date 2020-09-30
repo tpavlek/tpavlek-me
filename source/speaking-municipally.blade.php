@@ -73,7 +73,77 @@ description: "Every week Troy and Mack run down everything you need to know abou
                 </div>
             </div>
         </div>
+
+        <h1 class="text-3xl my-4 ">Where to start?</h1>
+        <p>
+            You can always pick up from the most recent (or first!) episode, but here are some other starting points.
+        </p>
+
+        <div class="flex flex-wrap row-wrap">
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-darkest max-w-md m-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        Council wants to spend hundreds of millions of dollars upgrading Terwillegar Drive to a freeway or an expressway.
+                        But is it worth it? How did we get here? Troy and Mack do a deep dive on the history of Terwillegar Drive.
+                    </p>
+                    <iframe class="mx-auto" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/333aaa00"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-darkest max-w-md m-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        "Complaining is a summer sport in Edmonton" according to Don Iveson. Or is the new library just bad? We break down
+                        what happened, and whose fault it is (spoiler alert: cheap people are at fault)
+                    </p>
+                    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/ba670ab5"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-darkest max-w-md m-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        What does a UCP win in the province, with only a single UCP MLA elected in Edmonton mean for the city?
+                        Thankfully, history is instructive and this is not the first time something like this has happened. Mack
+                        and Troy take a look at history and make some predictions.
+                    </p>
+                    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/c5c03c64"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-darkest max-w-md m-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        Prarie Sky Gondola wants to build a sky-tram through the river valley. Troy and Mack have historically
+                        been very down on the idea. Jeffrey Hansen-Carlson from Prarie Sky comes on to try and convince them, and you!
+                    </p>
+                    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/74c2018e"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-cover bg-right-bottom rounded-lg text-center text-grey-darkest max-w-md m-6" style="background-image: url('/img/projects/jeopardy.png')">
+                <div class="mx-auto h-full w-full gradient-cover">
+                    <p class="relative z-50 leading-loose text-left p-4 text-yellow-dark">
+                        In the first episode of what will become a holiday tradition: Troy hosts a game of Edmonton Jeopardy
+                        featuring Elise Stolte, Chris Chang-Yen Phillips and Mack Male.
+                    </p>
+                    <iframe class="relative z-50" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/12d8709b"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-cover bg-right-bottom rounded-lg text-center text-grey-darkest max-w-md m-6" style="background-image: url('/img/projects/jeopardy.png')">
+                <div class="mx-auto h-full w-full gradient-cover">
+                    <p class="relative z-50 leading-loose text-left p-4 text-yellow-dark">
+                        The second holiday episode of Edmonton Jeopardy, featuring three councillors: Aaron Paquette, Andrew Knack and Sarah Hamilton
+                    </p>
+                    <iframe class="relative z-50" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/8dad084b"></iframe>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+
 
     <div class="bg-white text-center p-8">
         <a class="button" href="http://speakingmunicipally.taprootedmonton.ca/subscribe">
