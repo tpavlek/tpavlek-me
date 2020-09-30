@@ -79,7 +79,7 @@ description: "Every week Troy and Mack run down everything you need to know abou
             You can always pick up from the most recent (or first!) episode, but here are some other starting points.
         </p>
 
-        <div class="flex flex-wrap row-wrap">
+        <div class="flex flex-wrap justify-center row-wrap">
             <div class="shadow-md bg-white rounded-lg text-center text-grey-darkest max-w-md m-6">
                 <div class="mx-auto">
                     <p class="leading-loose text-left p-4">
