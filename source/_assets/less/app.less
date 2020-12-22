@@ -341,6 +341,23 @@ blockquote p {
   border-bottom-right-radius: 20px;
 }
 
+.embedded-quote {
+  font-family: Georgia, serif;
+  position: relative;
+  z-index: 10;
+}
+
+.embedded-quote:before {
+  opacity: .5;
+  font-family: Georgia, serif;
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  color: lightgrey;
+  content: "\201C";
+  z-index: 0;
+}
+
 .gradient-cover {
   position: relative;
 }
