@@ -28,6 +28,7 @@ mix.setPublicPath('source')
 
 mix
     .js('source/_assets/js/app.js', 'source/js/app.js')
+    .vue({ version: 2 })
     .less('source/_assets/less/app.less', 'source/css')
     .options({
         postCss: [
