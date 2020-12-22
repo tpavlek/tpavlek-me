@@ -7,7 +7,6 @@ imgpath: "/img/posts/2016-07-07-ward-12-byelection-disclosures/"
 img: "signs.jpg"
 tags:
     - "city-council"
-slug: "ward-12-election-cost"
 ---
 
 Well, [the campaign disclosures are in](http://www.edmonton.ca/city_government/municipal_elections/71817.aspx) and you can

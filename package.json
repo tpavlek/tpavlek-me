@@ -8,16 +8,14 @@
   },
   "private": true,
   "devDependencies": {
-    "anchor-js": "^4.3.0",
-    "cross-env": "^3.2.3",
-    "escape-html": "^1.0.3",
-    "laravel-mix": "^6.0.0",
-    "less": "^2.7.3",
-    "less-loader": "^4.1.0",
-    "lodash": "^4.17.20",
-    "node-cmd": "^3.0.0",
-    "normalize.css": "^7.0.0",
+    "cross-env": "^7.0.3",
     "on-build-webpack": "^0.1.0",
+    "laravel-mix": "^6.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^7.1.0",
+    "lodash": "^4.17.20",
+    "node-cmd": "^4.0.0",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.2.1",
     "postcss-cssnext": "^3.1.0",
     "prismjs": "^1.22.0",
@@ -25,19 +23,18 @@
     "tailwindcss": "^0.5.3",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.12",
-    "webpack-watch": "^0.2.0",
-    "yargs": "^10.1.2"
+    "yargs": "^16.2.0"
   },
   "browserslist": [
     "> 1%"
   ],
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "dom-to-image": "^2.6.0",
-    "gulp": "^4.0.2",
-    "jsonp": "^0.2.1",
+    "laravel-mix-jigsaw": "^1.4.0",
+    "postcss-import": "^14.0.0",
     "vue": "^2.6.12",
-    "vue-jsonp": "^0.1.8",
-    "vue2-leaflet": "^2.6.0"
+    "webpack": "^5.11.0",
+    "webpack-watch": "^0.2.0"
   }
 }
