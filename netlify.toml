@@ -1,7 +1,7 @@
 [build]
 
 PHP_VERSION=7.4
-NODE_VERSION=14.9.0
+NODE_VERSION=14.9
 
 command = "./vendor/bin/jigsaw build production"
 publish = "build_production"
