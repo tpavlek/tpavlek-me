@@ -34,7 +34,7 @@ the professional cook who authored the book and rated the recipes rated this as 
         My 3.5-cup, got-it-for-free food processor that I've had forever could barely manage the chopping of the pistachios.
         I should have known not to try and do the dough in it, I very quickly had to give up and throw it in the stand mixer.
     </div>
-    <div class="flex px-4 pb-4">
+    <div class="flex items-start px-4 pb-4">
         <img class="w-1/2" src="{{ $page->imgpath }}failed_processor.jpg" /> 
         <img class="w-1/2" src="{{ $page->imgpath }}mixer.jpg" />
     </div>
@@ -62,11 +62,11 @@ pistachios on the base layer, the base will rip and tear and ruin your day.
     <img class="mx-auto text-center mt-4 md:mt-0" src="{{ $page->imgpath}}smear.gif" />
 </div>
 
-<div class="flex flex-col-reverse md:flex-row mt-8">
+<div class="flex flex-col-reverse md:flex-row mt-8 items-start">
     <img src="{{ $page->imgpath}}cats.gif" class="mt-4 md:mt-0 text-center mx-auto" />
     <div class="flex-grow px-4 flex flex-col-reverse md:flex-row items-center">
         <div markdown="1">
-        <div class="flex">
+        <div class="flex items-start">
             <img class="w-1/2" src="{{$page->imgpath}}chop.jpg">
             <img class="w-1/2" src="{{$page->imgpath}}bake.jpg">
         </div>
@@ -89,7 +89,7 @@ After serving, don't forget the most important steps:
 * Share with friends because being Dessert People is contagious 
 
     </div>
-    <div class="flex px-4 pb-4">
+    <div class="flex items-start px-4 pb-4">
         <img class="w-1/3" src="{{ $page->imgpath }}share_scott.png" />
         <img class="w-1/3" src="{{ $page->imgpath }}drama.jpg" /> 
         <img class="w-1/3" src="{{ $page->imgpath }}share_elita.jpg" />
