@@ -59,15 +59,11 @@ pistachios on the base layer, the base will rip and tear and ruin your day.
 @endcomponent
         </div>
     </div>
-    <div class="text-center mt-4 md:mt-0">        
-        <img class="mx-auto" src="{{ $page->imgpath}}smear.gif" />
-    </div>
+    <img class="mx-auto text-center mt-4 md:mt-0" src="{{ $page->imgpath}}smear.gif" />
 </div>
 
 <div class="flex flex-col-reverse md:flex-row mt-8">
-    <div class="mt-4 md:mt-0 text-center">
-        <img src="{{ $page->imgpath}}cats.gif" class="mx-auto" />
-    </div>
+    <img src="{{ $page->imgpath}}cats.gif" class="mt-4 md:mt-0 text-center mx-auto" />
     <div class="flex-grow px-4 flex flex-col-reverse md:flex-row items-center">
         <div markdown="1">
         <div class="flex">
