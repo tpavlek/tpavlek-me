@@ -4,6 +4,7 @@ slug: "pistachio-pinwheels"
 imgpath: "/img/dessert-people/pistachio-pinwheels/"
 img: "sheet.jpg"
 date: "2020-12-30"
+description: "1/89: It's green swirls in a shortbread cookie, how hard can it be?"
 troy_stars: "4"
 troy_verdict: They're not too sweet, have an interesting nutty flavour and look pretty
 rhi_stars: "3"
@@ -43,8 +44,8 @@ the professional cook who authored the book and rated the recipes rated this as 
 Plop!
 @endcomponent
 
-<div class="flex mt-8">
-    <div class="flex-grow flex items-center px-4">
+<div class="flex flex-col md:flex-row mt-8">
+    <div class="flex-grow flex flex-col md:flex-row items-center px-4">
         <div markdown="1">
 This dough gets _sticky_. Don't use a spatula that disconnects from the handle to mix and deal with it, because it 
 will just get embedded in the dough, then pop off the handle then you'll be getting sticky dough all over your hands
@@ -57,13 +58,17 @@ pistachios on the base layer, the base will rip and tear and ruin your day.
     I just watched. It's a lot easier when someone is doing all the work.
 @endcomponent
         </div>
-    </div>        
-    <img src="{{ $page->imgpath}}smear.gif" />
+    </div>
+    <div class="text-center mt-4 md:mt-0">        
+        <img class="mx-auto" src="{{ $page->imgpath}}smear.gif" />
+    </div>
 </div>
 
-<div class="flex mt-8">
-    <img src="{{ $page->imgpath}}cats.gif" />
-    <div class="flex-grow px-4 flex items-center">
+<div class="flex flex-col-reverse md:flex-row mt-8">
+    <div class="mt-4 md:mt-0 text-center">
+        <img src="{{ $page->imgpath}}cats.gif" class="mx-auto" />
+    </div>
+    <div class="flex-grow px-4 flex flex-col-reverse md:flex-row items-center">
         <div markdown="1">
         <div class="flex">
             <img class="w-1/2" src="{{$page->imgpath}}chop.jpg">

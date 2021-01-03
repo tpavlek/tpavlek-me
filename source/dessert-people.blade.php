@@ -36,43 +36,33 @@ pagination:
         </div>
     </div>
 
-    <div class="text-white text-center p-8 bg-red-900">
+    <div class="text-white text-center p-1 md:p-8 bg-red-900">
         <h1 class="text-3xl my-4 text-white">Who we are</h1>
 
         <div class="lg:flex">
 
-            <div class="flex bg-white rounded m-8 shadow-md lg:w-1/2">
-                <div class="w-1/3 flex-none bg-cover bg-center overflow-hidden relative" style="background-image:url('/img/troy-profile.jpg');">
-                    <div class="w-12 absolute bg-white right-0" style="margin-right: -3rem; height: 150%; transform-origin: center top; transform: rotate(9deg);">
+            @component('_partials.profile-card')
+                @slot('img', '/img/troy-profile.jpg')
+                @slot('name', 'Troy Pavlek')
+                @slot('lower_third', 'Head chef, likes to buy kitchen stuff')
+                @slot('description')
+                    Troy has a laundry list of culinary achievements including "watched a lot of BA Test Kitchen videos"
+                    and "pretentiously thinks Kraft Dinner is gross". Under his studious tutelage, the Dessert People
+                    project will judiciously replace meals with treats.
+                @endslot
+            @endcomponent
 
-                    </div>
-                </div>
-                <div class="p-4 text-left text-grey-900">
-                    <h1 class="text-2xl m-0">Troy Pavlek</h1>
-                    <small class="italic">Head chef, likes to buy kitchen stuff</small>
-                    <p class="mt-2 leading-loose">
-                        Troy has a laundry list of culinary achievements including "watched a lot of BA Test Kitchen videos"
-                        and "pretentiously thinks Kraft Dinner is gross". Under his studious tutelage, the Dessert People
-                        project will judiciously replace meals with treats.
-                    </p>
-                </div>
-            </div>
+            @component('_partials.profile-card')
+                @slot('img', '/img/rhianna-profile.jpg')
+                @slot('name', 'Rhianna Toop')
+                @slot('lower_third', 'Sous chef, conscripted into doing dishes')
+                @slot('description')
+                    Rhianna's family likes to make jokes that she "has never cooked in her life" and she strives every
+                    day to prove them wrong. She believes it's pretty clearly outlined in common law that a "dessert"
+                    must be made of chocolate so she's treating this whole book with a wide berth of skepticism.
+                @endslot
+            @endcomponent
 
-            <div class="flex bg-white rounded m-8 shadow-md lg:w-1/2">
-                <div class="w-1/3 flex-none bg-cover bg-center overflow-hidden relative" style="background-image:url('/img/rhianna-profile.jpg');">
-                    <div class="w-12 absolute bg-white right-0" style="margin-right: -3rem; height: 150%; transform-origin: center top; transform: rotate(9deg);">
-                    </div>
-                </div>
-                <div class="p-4 text-left text-grey-900">
-                    <h1 class="text-2xl m-0">Rhianna Toop</h1>
-                    <small class="italic">Sous chef, conscripted into doing dishes</small>
-                    <p class="mt-2 leading-loose">
-                        Rhianna's family likes to make jokes that she "has never cooked in her life" and she strives every
-                        day to prove them wrong. She believes it's pretty clearly outlined in common law that a "dessert"
-                        must be made of chocolate so she's treating this whole book with a wide berth of skepticism.
-                    </p>
-                </div>
-            </div>
         </div>
 
         <h1 class="text-3xl my-4 text-white">What's cooking?</h1>

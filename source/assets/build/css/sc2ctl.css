@@ -1,3 +1,208 @@
-.sc2ctl h2{color:#000}.sc2ctl div.splash{position:relative;min-height:50vh;background-color:#000}.sc2ctl div.splash .content{text-align:center;position:absolute;width:80%;padding-left:10%;height:100%}.sc2ctl div.splash .content h1{display:none}.sc2ctl div.splash .content p{color:#fff;font-size:150%;line-height:1.5em}.sc2ctl div.splash .content .buttons{padding-left:10%;position:absolute;bottom:0;left:0;right:0}.sc2ctl div.splash .content .button{@extend .button.xlarge}.sc2ctl div.splash:before{content:"";position:absolute;left:0;right:0;display:block;background-image:url(/img/projects/sc2ctl-logo.jpg);background-size:cover;opacity:.8;filter:alpha(opacity=40);height:100%;background-color:#000}.sc2ctl .section{padding:2rem}.sc2ctl section.section:first-of-type{text-align:center;background:#98c895}.sc2ctl section.section:first-of-type p{color:#000;font-size:150%;line-height:1.5em;padding-left:10%;padding-right:10%}.sc2ctl section.section:nth-of-type(2){background:#81bfe6;color:#1b5980}.sc2ctl .timeline{position:relative;padding:2em 0;margin-top:2em;margin-bottom:2em}.sc2ctl .timeline .block{margin-bottom:1rem}.sc2ctl .timeline .block .content{position:relative;background:#f5f5f5;padding:1rem;border-radius:3px;box-shadow:#4e8cb3;width:80%}.sc2ctl .timeline .block .content .date{color:#4e8cb3;font-size:120%}.sc2ctl .timeline .block .content p{word-wrap:break-word}.sc2ctl .timeline .block .content:before{content:"";position:absolute;border:7px solid transparent;height:0;width:0}.sc2ctl .timeline .block .img-container{position:absolute;border-radius:50%;width:30px;height:30px;margin-left:-13px;background:#9c41d1;box-shadow:0 0 0 4px #fff,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)}.sc2ctl .timeline .block .img-container img{display:block;width:24px;height:24px;position:relative;left:50%;top:50%;margin-left:-12px;margin-top:-12px}.sc2ctl .timeline .block .img-container.start{background:#98c895}.sc2ctl .timeline .block .img-container.wait{background:#e8e81c}.sc2ctl .timeline .block .img-container.video{background:#d9273c}.sc2ctl .timeline:before{content:"";position:absolute;top:0;left:0;height:100%;width:4px;background:#f5f5f5}@media only screen and (max-width:70rem){.sc2ctl .timeline .block .img-container{margin-top:.5rem}.sc2ctl .timeline .block .content{margin-left:3rem}.sc2ctl .timeline .block .content:before{left:auto;right:100%;border-left:none;border-right:7px solid #fff}}@media only screen and (min-width:70rem){.sc2ctl .timeline .block .content{width:40%}.sc2ctl .timeline .block .content .date{width:100%;position:absolute;left:140%;top:1rem}.sc2ctl .timeline .block .content:before{border-left:7px solid #fff;top:24px;left:100%}.sc2ctl .timeline .block .img-container{left:50%;margin-left:-28px;width:60px;height:60px}.sc2ctl .timeline .block:nth-child(2n) .content{float:right}.sc2ctl .timeline .block:nth-child(2n) .content .date{left:auto;right:140%;text-align:right}.sc2ctl .timeline .block:nth-child(2n) .content:before{left:auto;right:100%;border-left:none;border-right:7px solid #fff}.sc2ctl .timeline:before{left:50%}.sc2ctl .block:after{content:"";display:table;clear:both}}h2.tease{margin-top:6rem;text-align:center;font-size:300%;font-weight:700;line-height:1em}
+.sc2ctl {
+  /* our vertical line */
+}
+.sc2ctl h2 {
+  color: black;
+}
+.sc2ctl div.splash {
+  position: relative;
+  min-height: 50vh;
+  background-color: #000;
+}
+.sc2ctl div.splash .content {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  padding-left: 10%;
+  height: 100%;
+}
+.sc2ctl div.splash .content h1 {
+  display: none;
+}
+.sc2ctl div.splash .content p {
+  color: white;
+  font-size: 150%;
+  line-height: 1.5em;
+}
+.sc2ctl div.splash .content .buttons {
+  padding-left: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sc2ctl div.splash .content .button {
+  @extend .button.xlarge;
+}
+.sc2ctl div.splash:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  background-image: url("/img/projects/sc2ctl-logo.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+  height: 100%;
+  background-color: #000;
+}
+.sc2ctl .section {
+  padding: 2rem;
+}
+.sc2ctl section.section:nth-of-type(1) {
+  text-align: center;
+  background: #98C895;
+}
+.sc2ctl section.section:nth-of-type(1) p {
+  color: black;
+  font-size: 150%;
+  line-height: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sc2ctl section.section:nth-of-type(2) {
+  background: #81BFE6;
+  color: #1B5980;
+}
+.sc2ctl .timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.sc2ctl .timeline .block {
+  margin-bottom: 1rem;
+  /* The small arrow pointer beside each block */
+}
+.sc2ctl .timeline .block .content {
+  position: relative;
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: #4E8CB3;
+  width: 80%;
+}
+.sc2ctl .timeline .block .content .date {
+  color: #4E8CB3;
+  font-size: 120%;
+}
+.sc2ctl .timeline .block .content p {
+  word-wrap: break-word;
+}
+.sc2ctl .timeline .block .content::before {
+  content: '';
+  position: absolute;
+  border: 7px solid transparent;
+  height: 0;
+  width: 0;
+}
+.sc2ctl .timeline .block .img-container {
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -13px;
+  background: #9C41D1;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.sc2ctl .timeline .block .img-container img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.sc2ctl .timeline .block .img-container.start {
+  background: #98C895;
+}
+.sc2ctl .timeline .block .img-container.wait {
+  background: #E8E81C;
+}
+.sc2ctl .timeline .block .img-container.video {
+  background: #D9273C;
+}
+.sc2ctl .timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #f5f5f5;
+}
+@media only screen and (max-width: 70rem) {
+  .sc2ctl .timeline .block {
+    /* so the image lines up with the pointer on responsive site */
+  }
+  .sc2ctl .timeline .block .img-container {
+    margin-top: 0.5rem;
+  }
+  .sc2ctl .timeline .block .content {
+    margin-left: 3rem;
+  }
+  .sc2ctl .timeline .block .content::before {
+    left: auto;
+    right: 100%;
+    border-left: none;
+    border-right: 7px solid white;
+  }
+}
+@media only screen and (min-width: 70rem) {
+  .sc2ctl {
+    /* we clear the floats after each block, so that sizes are proper */
+  }
+  .sc2ctl .timeline .block .content {
+    width: 40%;
+  }
+  .sc2ctl .timeline .block .content .date {
+    width: 100%;
+    position: absolute;
+    left: 140%;
+    top: 1rem;
+  }
+  .sc2ctl .timeline .block .content::before {
+    border-left: 7px solid white;
+    top: 24px;
+    left: 100%;
+  }
+  .sc2ctl .timeline .block .img-container {
+    left: 50%;
+    margin-left: -28px;
+    width: 60px;
+    height: 60px;
+  }
+  .sc2ctl .timeline .block:nth-child(even) .content {
+    float: right;
+  }
+  .sc2ctl .timeline .block:nth-child(even) .content .date {
+    left: auto;
+    right: 140%;
+    text-align: right;
+  }
+  .sc2ctl .timeline .block:nth-child(even) .content::before {
+    left: auto;
+    right: 100%;
+    border-left: none;
+    border-right: 7px solid white;
+  }
+  .sc2ctl .timeline::before {
+    left: 50%;
+  }
+  .sc2ctl .block::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+h2.tease {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 1em;
+}
 
-/*# sourceMappingURL=sc2ctl.css.map*/

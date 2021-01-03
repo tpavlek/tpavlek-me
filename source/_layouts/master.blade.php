@@ -62,8 +62,8 @@
         return t;
     }(document, "script", "twitter-wjs"));</script>
 <div class="wrap" id="root">
-    <nav class="flex items-center justify-between flex-wrap {{ $page->nav_color_class }} h-16">
-        <div class="flex flex-col items-center flex-no-shrink text-white mr-8">
+    <nav class="flex items-center justify-between {{ $page->nav_color_class }} h-16">
+        <div class="flex flex-col items-center flex-no-shrink text-white md:mr-8">
             <a href="/" class="w-24 p-2">
                 <img src="/img/campaign-logo/logo-basic-inverted.png" class="my-auto"/>
             </a>
