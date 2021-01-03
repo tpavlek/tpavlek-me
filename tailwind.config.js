@@ -8,6 +8,7 @@ module.exports = {
             'source/**/*.js',
             'source/**/*.php',
             'source/**/*.vue',
+            'config.php',
         ],
         options: {
             whitelist: [
