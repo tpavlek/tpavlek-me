@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Troy Pavlek]]></title>
+    <link href="{{ $page->baseUrl }}/atom.xml" rel="self"/>
+    <link href="{{ $page->baseUrl }}/"/>
+    <updated>{{ \Carbon\Carbon::now()->format('c') }}</updated>
+    <id>{{ $page->baseUrl }}/</id>
+
+    <author>
+        <name><![CDATA[{{ $page->author }}]]></name>
+        <email><![CDATA[{{ $page->email }}]]></email>
+    </author>
+    <generator uri="http://sculpin.io/">Sculpin</generator>
+    @foreach ($posts->slice(0, 10) as $post)
+        <entry>
+            <title type="html"><![CDATA[{{ $post->title }}]]></title>
+            <link href="{{ $page->baseUrl }}{{ $post->url }}"/>
+            <updated>{{ (new \Carbon\Carbon($post->date))->format('c') }}</updated>
+            <id>{{ $page->baseUrl }}{{ $post->url }}</id>
+            <content type="html"><![CDATA[{{ $post->getContent() }}]]></content>
+        </entry>
+    @endforeach
+</feed>

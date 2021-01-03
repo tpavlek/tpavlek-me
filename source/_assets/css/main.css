@@ -1,0 +1,131 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply leading-tight;
+    @apply my-4;
+    @apply text-gray-900;
+    @apply font-bold;
+}
+
+h1 {
+    @apply font-bold;
+    @apply text-4xl;
+}
+
+p {
+    @apply my-3;
+}
+
+.content-link {
+    @apply border-dashed;
+    @apply border-b-2;
+    @apply border-grey-400;
+    @apply no-underline;
+    @apply text-current;
+    @apply font-bold;
+}
+
+.button {
+    @apply inline-block;
+    @apply mx-auto;
+    @apply py-4;
+    @apply px-8;
+    @apply bg-secondary;
+    @apply no-underline;
+    @apply text-white;
+    @apply shadow;
+    @apply rounded-sm;
+    @apply text-lg;
+    @apply border-b-4;
+    @apply border-green-700;
+}
+
+.button:hover {
+    @apply bg-secondary-light;
+}
+
+ul {
+    @apply list-disc;
+    @apply ml-4 pl-4;
+}
+
+@import 'tailwindcss/utilities';
+
+
+.twitter-tweet {
+    @apply mx-auto;
+}
+
+.post-content {
+    @apply max-w-5xl mx-auto text-base lg:text-xl leading-loose p-2 lg:p-8;
+}
+
+blockquote {
+    @apply text-gold border-l-4 border-gold font-bold;
+}
+
+blockquote p {
+    @apply w-full pl-8 pr-16;
+}
+
+.project {
+    @apply h-72 w-full rounded-tr-2xl shadow relative bg-cover bg-center;
+}
+
+.summary-description {
+    @apply z-10 text-center absolute w-full;
+
+    top: 40%;
+    height: 60%;
+}
+
+.summary-description a, .summary-description a:visited {
+    color: inherit;
+}
+
+.summary-description h2 { margin: 0; color: white;}
+
+.summary-description:after {
+    content  : "";
+    position : absolute;
+    z-index  : 8;
+    top   : 0;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to bottom, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.8) 70%);
+    width    : 100%;
+    height   : 100%;
+    border-bottom-right-radius: 20px;
+}
+
+.gradient-cover {
+    position: relative;
+}
+
+.gradient-cover::before {
+    content  : "";
+    position : absolute;
+    z-index  : 8;
+    top   : 0;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to top, rgba(0,0,0, 0) 20%, rgba(0,0,0, 0.6) 90%);
+    width    : 100%;
+    height   : 100%;
+    border-bottom-right-radius: 20px;
+}
+
+.diagonal-box {
+    transform: skewY(-11deg);
+}
+
+.diagonal-box .content {
+    transform: skewY(11deg);
+}
+
