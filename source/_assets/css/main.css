@@ -50,9 +50,16 @@ p {
     @apply bg-secondary-light;
 }
 
+ul, ol {
+    @apply ml-4 pl-4;
+}
+
 ul {
     @apply list-disc;
-    @apply ml-4 pl-4;
+}
+
+ol {
+    @apply list-decimal;
 }
 
 @import 'tailwindcss/utilities';

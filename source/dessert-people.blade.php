@@ -76,7 +76,21 @@ pagination:
 
     </div>
 
+    <div class="bg-pink-100 text-left p-8">
+        <div class="max-w-5xl text-xl mx-auto">
+            <h1 class="text-3xl my-4 text-black text-center">The Rules</h1>
+            <p>
+                We're only two people, and this book makes a lot of dessert. And isn't the best part of dessert sharing it?
+                So, I've taken to Twitter, Facebook and Instagram to share them with people in Edmonton, with only two
+                simple rules:
+            </p>
 
+            <ol class="font-mono text-3xl">
+                <li>You must aim to make the world a better place, not worse. Do something nice.</li>
+                <li>You must take a picture of the dessert being enjoyed.</li>
+            </ol>
+        </div>
+    </div>
 
     <div class="bg-white text-center p-8">
         <h1 class="text-3xl my-4 text-black">Connect</h1>

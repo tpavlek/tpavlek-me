@@ -645,10 +645,17 @@ p {
   background-color: rgba(70, 88, 102, var(--tw-bg-opacity));
 }
 
-ul {
-  list-style-type: disc;
+ul, ol {
   margin-left: 1rem;
   padding-left: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
