@@ -11,6 +11,14 @@ rhi_stars: "3"
 rhi_verdict: "They're basically grandma-cookies"
 ---
 
+Dessert People started at the end of December 2020 with a simple idea: what if we baked our way through Claire 
+Saffitz's _Dessert Person_ and shared the results with the people around us?
+
+As with everything, there's no point in half-assing it. Now, with project started publicly, in a major way, we have to 
+bake all 89 including, horrifically, the _fruitcake_.
+
+And so, I present to you, Recipe #1: Pistachio Pinwheels.
+
 <h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
 
 @component('_partials.dessert-people.verdict')

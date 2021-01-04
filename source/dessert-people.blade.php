@@ -24,7 +24,7 @@ pagination:
             <h1 class="text-4xl text-white my-4">Two people, one year, one book written by Claire Saffitz</h1>
 
             <p class="text-xl leading-loose">
-                Dessert People started at the end of December 2020 with a simple idea: what if we baked our way through
+                Dessert People started at the end of December 2020 with a simple idea: what if we baked our way
                 through Claire Saffitz's <em>Dessert Person</em> and shared the results with the people around us?
             </p>
 
