@@ -37,16 +37,10 @@ As this marks the first recipe in the Dessert People project, I don't have anyth
 While it seemed easy to make, I can't be sure whether that's because I'm exceptionally talented or if it's because
 the professional cook who authored the book and rated the recipes rated this as not difficult.
 
-<div class="bg-grey-100 shadow-md rounded text-base md:-mx-8">
-    <div class="p-4">
-        My 3.5-cup, got-it-for-free food processor that I've had forever could barely manage the chopping of the pistachios.
-        I should have known not to try and do the dough in it, I very quickly had to give up and throw it in the stand mixer.
-    </div>
-    <div class="flex items-start px-4 pb-4">
-        <img class="w-1/2" src="{{ $page->imgpath }}failed_processor.jpg" /> 
-        <img class="w-1/2" src="{{ $page->imgpath }}mixer.jpg" />
-    </div>
-</div>
+@component('_partials.dessert-people.photos-caption', [ 'photos' => [ $page->imgpath . "failed_processor.jpg", $page->imgpath . "mixer.jpg"]])
+My 3.5-cup, got-it-for-free food processor that I've had forever could barely manage the chopping of the pistachios.
+I should have known not to try and do the dough in it, I very quickly had to give up and throw it in the stand mixer.
+@endcomponent
 
 @component('_partials.bigass-quote')
 Plop!

@@ -1,9 +1,11 @@
 <span>
 @for($i=0; $i < 5; $i++)
-    @if($stars > $i)
-        &#9733;
-    @else
-        &#9734;
-    @endif
-@endfor
+        @if ($stars - 0.5 == $i)
+            <i class="fas fa-star-half-alt"></i>
+        @elseif($stars > $i)
+            <i class="fas fa-star"></i>
+        @else
+            <i class="far fa-star"></i>
+        @endif
+    @endfor
 </span>
