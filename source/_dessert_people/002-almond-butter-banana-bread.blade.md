@@ -93,12 +93,16 @@ Projects like these don't make themselves.
 <div class="mt-8">
 <img src="{{ $page->imgpath }}banner.jpg" class="w-full" />
 <div class="flex">
-    <img src="{{ $page->imgpath}}troy_rhi_enjoy.jpg" class="w-1/2" />
-    <img src="{{ $page->imgpath}}not-appearing.jpg" class="w-1/2" />
+    <img src="{{ $page->imgpath}}troy_rhi_enjoy.jpg" class="w-2/3" />
+    <img src="{{ $page->imgpath}}mike_share.jpg" class="w-1/3" />
 </div>
 </div>
 
-While our guest this time did not get a photo enjoying the dessert, they did mention that they liked it
+@component('_partials.bigass-quote')
+Good to the last drop!
+@endcomponent
+
+The feedback from our guest this time was that they liked it
 more than us, but we should replace the almonds with apples and make apple pie banana bread.
 
 They are not wrong about that.
