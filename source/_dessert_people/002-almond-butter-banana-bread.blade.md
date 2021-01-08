@@ -31,9 +31,9 @@ This recipe, while good, felt like I was eating a frilly cake that I should have
 
 Though it smelled a lot like coconut, the coconut flavour was subtle and enhanced what was there. The texture was very
 light and fluffy and I felt like I could eat a lot of it. And it did taste better the second day once it had time to firm up,
-it was a bit too crumbly to smear butter on after it came out of the oven.
+it was a bit too crumbly to smear butter on after it came out of the oven. Toasting it the day after was a good idea.
 
-But, critically, banana bread is constitutionally protected as a trashy food and this doesn't deliver there.
+But, critically, banana bread is constitutionally protected as a trashy food and this doesn't deliver on that.
 
 @component('_partials.dessert-people.photos-caption', [ 'photos' => [ $page->imgpath . "roast.jpg" ] ])
 Maybe my error was starting by roasting my own almonds which instantly made this 20% more bougie
@@ -98,10 +98,10 @@ Projects like these don't make themselves.
 </div>
 </div>
 
-<small>While our guest this time did not get a photo of enjoying, they did mention that they liked it
-more for us, but we should replace the almonds with apples and make apple pie banana bread.</small>
+While our guest this time did not get a photo enjoying the dessert, they did mention that they liked it
+more than us, but we should replace the almonds with apples and make apple pie banana bread.
 
-<small>They are not wrong about that.</small>
+They are not wrong about that.
 
 <div class="mt-8">
 @include('_partials.dessert-people.progress-bar', [ 'progress' => 2, 'total' => 89 ])
