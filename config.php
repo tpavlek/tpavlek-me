@@ -20,14 +20,14 @@ return [
     'collections' => [
         'posts' => [
             'author' => 'Troy Pavlek', // Default author, if not provided in a post
-            'sort' => 'date',
+            'sort' => '-date',
             'path' => 'blog/{date|Y/m/d}/{-slug}',
             'extends' => '_layouts.post',
             'section' => 'post_content',
         ],
         'dessert_people' => [
             'author' => 'Troy Pavlek', // Default author, if not provided in a post
-            'sort' => '-date',
+            'sort' => 'date',
             'path' => 'dessert-people/{-slug}',
             'extends' => '_layouts.dessert-people-post',
             'section' => 'post_content',

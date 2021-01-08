@@ -8,7 +8,7 @@ description: ""
 troy_stars: "3.5"
 troy_verdict: "Sorry Claire, it's not **BA's Best**."
 rhi_stars: "2.5"
-rhi_verdict: "I didn't go bananas for this bread. Chocolate it up to a lack of."
+rhi_verdict: "I didn't go bananas for this bread. Choc-olate it up to a lack thereof."
 ---
 
 <h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
@@ -94,8 +94,14 @@ Projects like these don't make themselves.
 <img src="{{ $page->imgpath }}banner.jpg" class="w-full" />
 <div class="flex">
     <img src="{{ $page->imgpath}}troy_rhi_enjoy.jpg" class="w-1/2" />
+    <img src="{{ $page->imgpath}}not-appearing.jpg" class="w-1/2" />
 </div>
 </div>
+
+<small>While our guest this time did not get a photo of enjoying, they did mention that they liked it
+more for us, but we should replace the almonds with apples and make apple pie banana bread.</small>
+
+<small>They are not wrong about that.</small>
 
 <div class="mt-8">
 @include('_partials.dessert-people.progress-bar', [ 'progress' => 2, 'total' => 89 ])
