@@ -92,7 +92,7 @@ Projects like these don't make themselves.
 
 <div class="mt-8">
 <img src="{{ $page->imgpath }}banner.jpg" class="w-full" />
-<div class="flex">
+<div class="flex items-start">
     <img src="{{ $page->imgpath}}troy_rhi_enjoy.jpg" class="w-2/3" />
     <img src="{{ $page->imgpath}}mike_share.jpg" class="w-1/3" />
 </div>

@@ -67,7 +67,7 @@ pagination:
 
         <h1 class="text-3xl my-4 text-white">What's cooking?</h1>
 
-        <div class="lg:flex lg:items-center lg:justify-around space-x-8">
+        <div class="lg:flex lg:items-center lg:justify-around lg:space-x-8 space-y-8">
             @foreach ($pagination->items as $post)
                 <a class="block max-w-2xl lg:flex-grow" href="{{ $post->getUrl() }}">
                     @include('_partials.dessert-people.summary-card', [ 'post' => $post ])
