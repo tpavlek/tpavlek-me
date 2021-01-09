@@ -62,6 +62,10 @@ ol {
     @apply list-decimal;
 }
 
+.post-content a {
+    @apply content-link;
+}
+
 @import 'tailwindcss/utilities';
 
 

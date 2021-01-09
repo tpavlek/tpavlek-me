@@ -658,6 +658,16 @@ ol {
   list-style-type: decimal;
 }
 
+.post-content a {
+  border-style: dashed;
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(161, 161, 170, var(--tw-border-opacity));
+  text-decoration: none;
+  color: currentColor;
+  font-weight: 700;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
