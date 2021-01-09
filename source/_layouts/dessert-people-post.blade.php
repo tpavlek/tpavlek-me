@@ -8,13 +8,13 @@
         @include('_partials.posts.post-body', [ 'img' => $page->imgpath.$page->img, 'title' => $page->title, 'date' => $page->date, 'photo_credit' => $page->photo_credit ])
 
         <div class="blog-archive">
-            @if ($page->getPrevious())
-                <h1 class="text-white my-4">Next Post</h1>
-                @include('_partials.posts.archive-post', [ 'post' => $page->getPrevious() ])
-            @endif
             @if($page->getNext())
-                <h1 class="text-white my-4">Previous Post</h1>
+                <h1 class="text-white my-4">Next Post</h1>
                 @include('_partials.posts.archive-post', [ 'post' => $page->getNext() ])
+            @endif
+            @if ($page->getPrevious())
+                <h1 class="text-white my-4">Previous Post</h1>
+                @include('_partials.posts.archive-post', [ 'post' => $page->getPrevious() ])
             @endif
         </div>
     </div>
