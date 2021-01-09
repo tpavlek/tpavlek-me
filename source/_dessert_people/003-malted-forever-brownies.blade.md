@@ -3,7 +3,7 @@ title: "Malted \"Forever\" Brownies"
 slug: "malted-forever-brownies"
 imgpath: "/img/dessert-people/malted-forever-brownies/"
 img: "banner.jpg"
-date: "2021-01-10"
+date: "2021-01-09"
 description: ""
 troy_stars: "4.0"
 troy_verdict: "I want more cake, less fudge."
@@ -63,16 +63,19 @@ one time in your life to get the nagging recipe book off your back.
 
 <img src="{{ $page->imgpath}}mise-en-place.jpg" class="max-w-full" />
 
-<div class="flex items-center justify-around">
+@component('_partials.dessert-people.justify-around-gallery')
 <img src="{{ $page->imgpath}}whisk.gif" /> <img src="{{$page->imgpath}}pour.gif" />
-</div>
+@endcomponent
 
 If you serve warm, with ice cream it tastes a lot like a chocolate lava cake. If you serve at room temperature, you're eating
 fudge. Make of that what you may. Apparently I'm in the minority here.
 
+@component('_partials.dessert-people.justify-around-gallery')
+<img src="{{ $page->imgpath}}share_olivia.jpg" class="w-1/3" /> <img src="{{$page->imgpath}}share_nicola.jpg" class="w-1/3"/>
+@endcomponent
 
-@component("_partials.dessert-people.photo-left-side", [ 'photo' => $page->imgpath . "share_olivia.jpg", 'photo_classes' => 'w-1/3'])
-<img src="{{ $page->imgpath}}final.jpg" />
+
+@component("_partials.dessert-people.photo-left-side", [ 'photo' => $page->imgpath . "final.jpg", 'photo_classes' => 'w-1/3'])
 @component("_partials.dessert-people.pro-tip", [ 'author' => "rhianna", 'variation' => 3 ])
 This recipe contains chocolate, therefore it is advised that you make it.
 @endcomponent
