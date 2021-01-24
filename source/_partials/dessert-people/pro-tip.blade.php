@@ -1,7 +1,7 @@
 <div class="flex bg-grey-100 shadow-md rounded-l">
     <div class="p-4 text-left text-grey-900 flex-grow">
         <span class="my-1 uppercase text-base font-black"><i class="fas fa-exclamation-circle"></i> {{ ucfirst($author) }}'s pro tip</span>
-        <p class="mt-2 leading-loose text-base">
+        <p class="mt-2 leading-loose text-base" markdown="1">
             {{ $slot }}
         </p>
     </div>
