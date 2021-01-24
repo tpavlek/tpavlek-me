@@ -48,7 +48,7 @@ While you're waiting for the dough to rise, The Queen's Gambit is an appropriate
 One of the better investments I've made during this process was a silicone baking mat with measurements printed on it.
 
 Not only does it reduce parchment paper waste, but any time you need to roll something out, the measurements are right there,
-no rule required. Plus, things like shaping rolls into balls can be done very easily with the increased friction on the mat.
+no ruler required. Plus, things like shaping rolls into balls can be done very easily with the increased friction on the mat.
 @endcomponent
 
 @component('_partials.dessert-people.photo-right-side', [ 'photo' => $page->imgpath . "dishes.jpg", 'photo_classes' => 'w-full lg:w-1/2'])
