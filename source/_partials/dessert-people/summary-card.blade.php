@@ -7,13 +7,15 @@
             </div>
         </div>
     </header>
+    @foreach($post->verdicts as $verdict)
     @component('_partials.dessert-people.verdict', ['preserve_margin' => true, 'disable_shadow' => true ])
 
-        @slot('troy_stars', $post->troy_stars)
-        @slot('troy_verdict', $post->troy_verdict)
-        @slot('rhi_stars', $post->rhi_stars)
-        @slot('rhi_verdict', $post->rhi_verdict)
+        @slot('troy_stars', $verdict['troy']['stars'])
+        @slot('troy_verdict', $verdict['troy']['verdict'])
+        @slot('rhi_stars', $verdict['rhi']['stars'])
+        @slot('rhi_verdict', $verdict['rhi']['verdict'])
 
     @endcomponent
+    @endforeach
 </div>
 

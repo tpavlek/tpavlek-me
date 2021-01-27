@@ -5,10 +5,14 @@ imgpath: "/img/dessert-people/pistachio-pinwheels/"
 img: "sheet.jpg"
 date: "2020-12-30"
 description: "1/89: It's green swirls in a shortbread cookie, how hard can it be?"
-troy_stars: "4"
-troy_verdict: They're not too sweet, have an interesting nutty flavour and look pretty
-rhi_stars: "3"
-rhi_verdict: "They're basically grandma-cookies"
+verdicts:
+    "Pistachio Pinwheels":
+        troy:
+            stars: "4"
+            verdict: "They're not too sweet, have an interesting nutty flavour and look pretty"
+        rhi:
+            stars: "3"
+            verdict: "They're basically grandma-cookies"
 ---
 
 Dessert People started at the end of December 2020 with a simple idea: what if we baked our way through Claire 
@@ -19,16 +23,7 @@ bake all 89 including, horrifically, the _fruitcake_.
 
 And so, I present to you, Recipe #1: Pistachio Pinwheels.
 
-<h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
-
-@component('_partials.dessert-people.verdict')
-
-@slot('troy_stars', $page->troy_stars)
-@slot('troy_verdict', $page->troy_verdict)
-@slot('rhi_stars', $page->rhi_stars)
-@slot('rhi_verdict', $page->rhi_verdict)
-
-@endcomponent
+@include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
 
 <hr class="mt-8 mx-auto w-1/2 border-b-1 border-grey-200"/>
 

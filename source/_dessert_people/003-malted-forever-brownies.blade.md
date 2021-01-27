@@ -5,22 +5,17 @@ imgpath: "/img/dessert-people/malted-forever-brownies/"
 img: "banner.jpg"
 date: "2021-01-09"
 description: "Forever is a long time, these brownies lasted a couple days."
-troy_stars: "4.0"
-troy_verdict: "I want more cake, less fudge."
-rhi_stars: "5"
-rhi_verdict: "It contains chocolate"
+verdicts:
+    "Malted \"Forever\" Brownies":
+        troy:
+            stars: "4.0"
+            verdict: "I want more cake, less fudge."
+        rhi:
+            stars: "5"
+            verdict: "It contains chocolate"
 ---
 
-<h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
-
-@component('_partials.dessert-people.verdict')
-
-@slot('troy_stars', $page->troy_stars)
-@slot('troy_verdict', $page->troy_verdict)
-@slot('rhi_stars', $page->rhi_stars)
-@slot('rhi_verdict', $page->rhi_verdict)
-
-@endcomponent
+@include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
 
 I can appreciate how these brownies are a "good recipe". I can appreciate how people enjoy them. I guess I enjoyed them too.
 

@@ -4,7 +4,9 @@
     </div>
     <div class="flex @if(isset($stacked) && $stacked) flex-col @endif items-center justify-center px-4 pb-4">
         @foreach ($photos as $photo)
-            <img class="@if (count($photos) == 2)w-1/2 @endif" src="{{ $photo }}" />
+            <div class="@if (count($photos) == 2)w-1/2 @endif">
+                <img class="" src="{{ $photo }}" />
+            </div>
         @endforeach
     </div>
 </div>

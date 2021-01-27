@@ -32,7 +32,7 @@ pagination:
                 This is that idea. Follow along as we attempt to convert as many people as possible into <strong>Dessert People</strong>
             </p>
 
-            @include('_partials.dessert-people.progress-bar', [ 'progress' => $dessert_people->count(), 'total' => 89 ])
+            @include('_partials.dessert-people.progress-bar', [ 'progress' => $dessert_people->sum(fn($post) => count($post->verdicts)), 'total' => 89 ])
         </div>
     </div>
 

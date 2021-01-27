@@ -5,22 +5,17 @@ imgpath: "/img/dessert-people/sour-cream-and-chive-rolls/"
 img: "banner.jpg"
 date: "2021-01-23"
 description: "It's like sour cream and onion chips except instead of potatoes it's flour and instead of being bad, it's good"
-troy_stars: "5"
-troy_verdict: "I promise I still have a sweet tooth. But these knocked it out of the park."
-rhi_stars: "4"
-rhi_verdict: "Put some cheese in this recipe, give the people what they want"
+verdicts:
+    "Sour Cream and Chive Rolls":
+        troy:
+            stars: "5"
+            verdict: "I promise I still have a sweet tooth. But these knocked it out of the park."
+        rhi:
+            stars: "4"
+            verdict: "Put some cheese in this recipe, give the people what they want"
 ---
 
-<h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
-
-@component('_partials.dessert-people.verdict')
-
-@slot('troy_stars', $page->troy_stars)
-@slot('troy_verdict', $page->troy_verdict)
-@slot('rhi_stars', $page->rhi_stars)
-@slot('rhi_verdict', $page->rhi_verdict)
-
-@endcomponent
+@include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
 
 A point of contention with this book is that savoury breads are included in a "Dessert" book.
 

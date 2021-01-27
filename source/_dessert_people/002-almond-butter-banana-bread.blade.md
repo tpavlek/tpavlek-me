@@ -5,22 +5,17 @@ imgpath: "/img/dessert-people/almond-butter-banana-bread/"
 img: "banner.jpg"
 date: "2021-01-07"
 description: "I didn't go bananas for this bread. Choc-olate it up to a lack thereof."
-troy_stars: "3.5"
-troy_verdict: "Sorry Claire, it's not **BA's Best**."
-rhi_stars: "2.5"
-rhi_verdict: "I didn't go bananas for this bread. Choc-olate it up to a lack thereof."
+verdicts:
+    "Almond Butter Banana Bread":
+        troy: 
+            stars: "3.5"
+            verdict: "Sorry Claire, it's not **BA's Best**."
+        rhi:
+            stars: "2.5"
+            verdict: "I didn't go bananas for this bread. Choc-olate it up to a lack thereof."
 ---
 
-<h3 class="text-center font-black text-2xl text-red-900">The Verdict</h3>
-
-@component('_partials.dessert-people.verdict')
-
-@slot('troy_stars', $page->troy_stars)
-@slot('troy_verdict', $page->troy_verdict)
-@slot('rhi_stars', $page->rhi_stars)
-@slot('rhi_verdict', $page->rhi_verdict)
-
-@endcomponent
+@include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
 
 <hr class="mt-8 mx-auto w-1/2 border-b-1 border-grey-200"/>
 
