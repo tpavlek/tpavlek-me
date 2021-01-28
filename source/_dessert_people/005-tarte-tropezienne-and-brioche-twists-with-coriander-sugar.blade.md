@@ -4,7 +4,7 @@ slug: "tarte-tropezienne-brioche-twists"
 imgpath: "/img/dessert-people/tarte-tropezienne-brioche-twists/"
 img: "banner.jpg"
 date: "2021-01-27"
-description: ""
+description: "Brioche day finds the best recipe in Dessert Person so far!"
 verdicts:
     "Brioche Twists":
         troy:
@@ -63,11 +63,11 @@ Important facts:
 Makin' a wee lil' assembly line. The twist really didn't want to stay wrapped, so I tried making them a bit longer and that definitely
 made it easier to twist, but I also ran out of sugar/coriander mixture and had to stir some more.
 
-Oh no. More sugar. Whatver shall I do?
+Oh no. More sugar. Whatever shall I do?
 @endcomponent
 
 When putting the brioche in the pan you're going to want to roll it as level as possible or you're going to get the
-most lumpy-space-princess version of a Tarte Tropezienne.
+most lumpy-space-princess version of a Tarte Tropézienne.
 
 <div class="lg:-mx-8 shadow-lg">
 <img src="{{ $page->imgpath}}lumpy-loaf.jpg"  class="w-full"/>
