@@ -1,6 +1,6 @@
 <div class="flex flex-col md:flex-row mt-8 items-center">
     <div class="flex-grow flex flex-col md:flex-row items-center px-4">
-        <div markdown="1">
+        <div markdown="1" class="w-full">
 {{ $slot }}
         </div>
     </div>
