@@ -53,6 +53,9 @@ module.exports = {
                 '7xl': '80rem',
                 '8xl': '88rem'
             },
+            minHeight: {
+                '40': '10rem',
+            },
             spacing: {
                 '7': '1.75rem',
                 '9': '2.25rem'

@@ -14622,6 +14622,10 @@ ol {
   min-height: 0px;
 }
 
+.min-h-40 {
+  min-height: 10rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -46498,6 +46502,10 @@ blockquote p {
     min-height: 0px;
   }
 
+  .sm\:min-h-40 {
+    min-height: 10rem;
+  }
+
   .sm\:min-h-full {
     min-height: 100%;
   }
@@ -78185,6 +78193,10 @@ blockquote p {
 
   .md\:min-h-0 {
     min-height: 0px;
+  }
+
+  .md\:min-h-40 {
+    min-height: 10rem;
   }
 
   .md\:min-h-full {
@@ -109876,6 +109888,10 @@ blockquote p {
     min-height: 0px;
   }
 
+  .lg\:min-h-40 {
+    min-height: 10rem;
+  }
+
   .lg\:min-h-full {
     min-height: 100%;
   }
@@ -141565,6 +141581,10 @@ blockquote p {
     min-height: 0px;
   }
 
+  .xl\:min-h-40 {
+    min-height: 10rem;
+  }
+
   .xl\:min-h-full {
     min-height: 100%;
   }
@@ -173252,6 +173272,10 @@ blockquote p {
 
   .\32xl\:min-h-0 {
     min-height: 0px;
+  }
+
+  .\32xl\:min-h-40 {
+    min-height: 10rem;
   }
 
   .\32xl\:min-h-full {
