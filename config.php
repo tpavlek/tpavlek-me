@@ -26,6 +26,7 @@ return [
             'section' => 'post_content',
         ],
         'dessert_people' => [
+            'filter' => fn ($post) => !$post->draft,
             'author' => 'Troy Pavlek', // Default author, if not provided in a post
             'sort' => 'date',
             'path' => 'dessert-people/{-slug}',

@@ -12,7 +12,7 @@ verdicts:
             verdict: "They taste a bit too strongly of coconut for me and feel a bit too oily"
         rhi:
             stars: "4.0"
-            verdict: "These look healthy but still taste good"
+            verdict: "These taste like healthy"
 ---
 
 @include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
