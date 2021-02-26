@@ -121,6 +121,16 @@ description: "Every week Troy and Mack run down everything you need to know abou
                 </div>
             </div>
 
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-900 max-w-2xl">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        Council unanimously rejects a proposed social media policy and Councillor Sarah Hamilton joins to explain why.
+                        Plus, Troy gets a letter in the mail from Mike Nickel threatening legal action unless Troy stops being mean.
+                    </p>
+                    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/28d3a766"></iframe>
+                </div>
+            </div>
+
             <div class="shadow-md bg-cover bg-right-bottom rounded-lg text-center text-grey-900 max-w-2xl" style="background-image: url('/img/projects/jeopardy.png')">
                 <div class="mx-auto h-full w-full gradient-cover">
                     <p class="relative z-50 leading-loose text-left p-4 text-yellow-300">
@@ -137,6 +147,15 @@ description: "Every week Troy and Mack run down everything you need to know abou
                         The second holiday episode of Edmonton Jeopardy, featuring three councillors: Aaron Paquette, Andrew Knack and Sarah Hamilton
                     </p>
                     <iframe class="relative z-50" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/8dad084b"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-cover bg-right-bottom rounded-lg text-center text-grey-900 max-w-2xl" style="background-image: url('/img/projects/jeopardy.png')">
+                <div class="mx-auto h-full w-full gradient-cover">
+                    <p class="relative z-50 leading-loose text-left p-4 text-yellow-300">
+                        Year three of Edmonton Jeopardy with Ryan Jespersen, Stacey Brotzel, and Scott Johnston, now with <a class="font-bold underline" href="https://www.youtube.com/watch?v=4aZtDlgfvSk">video</a>!
+                    </p>
+                    <iframe class="relative z-50" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/227302ad"></iframe>
                 </div>
             </div>
 
