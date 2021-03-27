@@ -53,7 +53,13 @@ I'm scant on trust in that instruction.
 @endcomponent
 
 <img src="{{$page->imgpath}}finished.jpg" class="w-full mt-8" />
-  
+
+When we shared the results of this recipe we got this photo and review in return:
+
+@component('_partials.dessert-people.photo-left-side', [ 'photo' => $page->imgpath . 'share_eldon.png', 'photo_classes' => 'w-full lg:w-1/2' ])
+"10/10 moist hearty & delicious would recommend".
+@endcomponent  
+
 <div class="mt-8">
 @include('_partials.dessert-people.progress-bar', [ 'progress' => 7, 'total' => 89 ])
 </div>
