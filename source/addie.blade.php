@@ -132,8 +132,8 @@ description: "In 2021, Addie, the elected  co-president of the Mill Creek Off Le
         </div>
 
         <h1 class="text-3xl mt-4 mb-0">Total Raised</h1>
-        <h1 class="text-6xl text-green-500 mt-0 mb-0">$1,075</h1>
-        <small class="italic mb-4">from 10 donors</small>
+        <h1 class="text-6xl text-green-500 mt-0 mb-0">$1,250</h1>
+        <small class="italic mb-4">from 13 donors</small>
 
         <hr class="my-4 bg-grey-200">
 
