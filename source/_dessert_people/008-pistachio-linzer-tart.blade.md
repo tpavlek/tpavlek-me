@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 title: "Pistachio Linzer Tart"
 slug: "pistachio-linzer-tart"
 imgpath: "/img/dessert-people/pistachio-linzer-tart/"
 img: "banner.jpg"
 date: "2021-02-07"
-description: ""
+description: "High-effort mediocrity in spades"
 verdicts:
     "Pistachio Linzer Tart":
         troy:
@@ -42,6 +42,12 @@ couldn't clean a bowl for its life. Also half the time the thing I flip grilled 
 
 Get more words, chefs.
 @endcomponent
+
+<hr class="mt-8" />
+
+@include('_partials.image', [ 'name' => 'design.jpg', 'caption' => "If piping doesn't work, then just use a wooden skewer and etch your own design"])
+
+@include('_partials.image', [ 'name' => 'final.jpg' ])
 
 <div class="mt-8">
 @include('_partials.dessert-people.progress-bar', [ 'progress' => 9, 'total' => 89 ])
