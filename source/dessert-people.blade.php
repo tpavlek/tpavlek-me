@@ -5,7 +5,7 @@ title: Dessert People
 description: "A project to bake every recipe in Claire Saffitz's \"Dessert Person\""
 pagination:
     collection: dessert_people
-    perPage: 10
+    perPage: 100
 ---
 
 @extends('_layouts.dessert-people')

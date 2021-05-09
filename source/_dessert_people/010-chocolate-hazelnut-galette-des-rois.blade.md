@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Chocolate Hazelnut Galette des Rois"
 slug: "galette-des-rois"
 imgpath: "/img/dessert-people/galette-des-rois/"
@@ -9,10 +9,10 @@ description: "This is one recipe where the note about being best enjoyed on the 
 verdicts:
     "Galette des Rois":
         troy:
-            stars: "3.5"
+            stars: "3.5000"
             verdict: "It was really great immediately out of the oven, and trash the next day"
         rhi:
-            stars: "2"
+            stars: "2.0"
             verdict: "It was meh"
 ---
 
