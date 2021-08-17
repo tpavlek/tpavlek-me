@@ -1,8 +1,8 @@
 ---
 draft: true
-title: "Loaded Corn Bread"
-slug: "loaded-corn-bread"
-imgpath: "/img/dessert-people/loaded-corn-bread/"
+title: "Speculoos Babka"
+slug: "speculoos-babka"
+imgpath: "/img/dessert-people/speculoos-babka/"
 img: "banner.jpg"
 date: "2021-04-05"
 description: ""
