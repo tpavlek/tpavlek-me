@@ -18,6 +18,14 @@ description: ""
     <div class="w-full flex flex-wrap justify-center">
 
         @include('_partials.page.embed', [ 'embed_page' => (object)[
+            'url' => '/2021-election-pool',
+            'img' => '/img/2021-election-pool/banner.jpg',
+            'title' => '2021 Election Pool',
+            'sub_title' => 'Guess the results of the municipal election!',
+            'wrapper_class' => 'w-full lg:w-2/5 shadow-md mx-4'
+        ]])
+
+        @include('_partials.page.embed', [ 'embed_page' => (object)[
             'url' => '/bylaw-exemption',
             'img' => '/img/exemption-card-demo.png',
             'title' => 'Bylaw Exemption Generator',
