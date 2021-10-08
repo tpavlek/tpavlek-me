@@ -67,7 +67,7 @@ description: "Do you have what it takes to predict EXACTLY who will win the Edmo
                     If you used two different emails to fill out the ballot and send the transfer, then make sure to reach out and let me know that they're connected.
                 </li>
                 <li>
-                    Trash talk the other participants for choosing badly in a group twitter DM.
+                    Trash talk the other participants for choosing badly in a group twitter DM (just ping <a href="https://twitter.com/troypavlek">@troypavlek</a> to get in).
                 </li>
                 <li>
                     Wait in nervous anticipation to see how wrong you were in your predictions.
