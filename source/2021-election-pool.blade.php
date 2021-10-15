@@ -2,7 +2,7 @@
 imgpath: "/img/2021-election-pool/"
 img: "banner.jpg"
 title: "The 2021 Edmonton Election Pool"
-description: "Do you have what it takes to predict EXACTLY who will win the Edmonton municipal election? Put your money where your mouth is and enter the election pool! All winnings will be donated to charity."
+description: "Do you have what it takes to predict EXACTLY who will win the Edmonton municipal election? Guess correctly, and win bragging rights and choose a charity to receive a donation"
 ---
 
 @extends('_layouts.unwrapped')
@@ -30,17 +30,16 @@ description: "Do you have what it takes to predict EXACTLY who will win the Edmo
             <div class="text-xl leading-loose max-w-5xl py-4 mx-auto">
                 <p>
                     What's more fun than participating in the democratic process and electing a new crew of representatives to
-                    govern the city and the region for the next 4 years? Well, betting of course!
+                    govern the city and the region for the next 4 years? Well, betting games of course!
                 </p>
                 <p>
                     The quick deets:
                 </p>
                 <ul class="text-left">
-                    <li>$10 buy-in</li>
+                    <li>Free to participate</li>
                     <li>Guess Mayor, councillors, school board trustees, referndum outcome, and senators</li>
-                    <li>Entire pot donated to charity</li>
-                    <li>Winner chooses which charity receives the pot</li>
-                    <li>Entries close Saturday, October 16th, 9PM Mountain Time.</li>
+                    <li>Winner chooses a charity to receive a $150 donation (provided by organizers)</li>
+                    <li>Entries close Sunday, October 17th, 9PM Mountain Time.</li>
                 </ul>
                 <p>
 
@@ -59,12 +58,6 @@ description: "Do you have what it takes to predict EXACTLY who will win the Edmo
             <ol class="text-left">
                 <li>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKrK5pSk5sYduCgpePM3CRS6Mj8uI_Gb2SYRkiaznSwrAVWg/viewform?usp=sf_link" class="font-bold underline">Fill out an entry</a>.
-                </li>
-                <li>
-                    e-transfer $10 to <strong>troy@tpavlek.me</strong> (if you need to use some other method like sending a bag of pennies just send me an email)
-                </li>
-                <li>
-                    If you used two different emails to fill out the ballot and send the transfer, then make sure to reach out and let me know that they're connected.
                 </li>
                 <li>
                     Trash talk the other participants for choosing badly in a group twitter DM (just ping <a href="https://twitter.com/troypavlek">@troypavlek</a> to get in).
@@ -97,13 +90,8 @@ description: "Do you have what it takes to predict EXACTLY who will win the Edmo
             </p>
 
             <p>
-                In order for an entry to be considered valid, it must be submitted <strong>and the entry fee paid</strong> by <strong>October 16th, 9PM Mountain Time</strong>. You can continue
-                to edit your responses until that time. But don't leave it to the very last minute, please.
-            </p>
-
-            <p>
                 The winner (the person who has the highest number of points at the end) will get to choose a <strong>registered charity</strong>
-                to receive the entire pot. In the case of a tie, the pot will be split equally, and each co-victor may choose a charity for their share of the pot.
+                to receive a <strong>$150 donation</strong>. In the case of a tie, the pot will be split equally, and each co-victor may choose a charity for their share of the pot.
                 The recipient <strong>must be a registered charity</strong>.
             </p>
             <p>
@@ -115,6 +103,9 @@ description: "Do you have what it takes to predict EXACTLY who will win the Edmo
             </p>
             <p>
                 Any questions or concerns can be emailed to <strong>troy@tpavlek.me</strong>
+            </p>
+            <p>
+                Charity pot graciously provided by Troy, Stephen, Mike, Another Mike, Justin, Trent, Jerreck and Jeff.
             </p>
         </div>
 
