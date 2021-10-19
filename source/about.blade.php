@@ -15,8 +15,8 @@
             </p>
 
             <p>
-                I'm currently the president of the Hazeldean Community League. I also host a <a href="https://basketofyegs.com">podcast</a>,
-                maintain a <a href="https://yegvotes.info">site that tracks your city councillors</a> and <a href="/projects">a lot of other things</a>.
+                I currently host a <a href="/speaking-municipally">podcast all about municipal politics</a> in the city
+                of Edmonton and do <a href="/projects">a lot of other things</a>.
             </p>
 
             <p>
