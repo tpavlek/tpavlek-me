@@ -80,6 +80,27 @@ description: "Every week Troy and Mack run down everything you need to know abou
         </p>
 
         <div class="flex flex-wrap justify-center row-wrap space-x-6 space-y-6">
+
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-900 max-w-2xl mt-6 ml-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        Amarjeet Sohi is the new man in the big chair, and we sat down with the Mayor-elect to learn
+                        all about what he plans to accomplish in the upcoming term.
+                    </p>
+                    <iframe class="mx-auto" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/40e9e7c9"></iframe>
+                </div>
+            </div>
+
+            <div class="shadow-md bg-white rounded-lg text-center text-grey-900 max-w-2xl mt-6 ml-6">
+                <div class="mx-auto">
+                    <p class="leading-loose text-left p-4">
+                        This week, the Groat Road bridge is front and centre. We’ll talk with Jason Meliefste about the
+                        successes, failures and why there’s no public art. Turns out it's both everyone's and no one's fault.
+                    </p>
+                    <iframe class="mx-auto" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/d69ffc99"></iframe>
+                </div>
+            </div>
+
             <div class="shadow-md bg-white rounded-lg text-center text-grey-900 max-w-2xl mt-6 ml-6">
                 <div class="mx-auto">
                     <p class="leading-loose text-left p-4">
