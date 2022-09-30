@@ -19,5 +19,5 @@ verdicts:
 @include('_partials.dessert-people.post-verdict', [ 'verdicts' => $page->verdicts ])
 
 <div class="mt-8">
-@include('_partials.dessert-people.progress-bar', [ 'progress' => 16, 'total' => 89 ])
+@include('_partials.dessert-people.progress-bar', [ 'progress' => 13, 'total' => 89 ])
 </div>

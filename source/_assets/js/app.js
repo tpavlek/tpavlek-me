@@ -6,6 +6,7 @@ import AblegBingo from "./components/AblegBingo";
 import MaskExemption from "./components/MaskExemption";
 import hljs from 'highlight.js/lib/core';
 import ElxnBingo from "./components/ElxnBingo";
+import AlbertaCalling from "./components/AlbertaCalling";
 
 window.axios = require('axios');
 window.fuse = require('fuse.js');
@@ -31,6 +32,7 @@ Vue.config.productionTip = false;
 Vue.component('ableg-bingo', AblegBingo);
 Vue.component('elxn-bingo', ElxnBingo);
 Vue.component('mask-exemption', MaskExemption);
+Vue.component('alberta-calling', AlbertaCalling);
 
 new Vue({
 });
