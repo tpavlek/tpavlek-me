@@ -59,6 +59,15 @@
                 },
                 {
                     caption: "we have no rats"
+                },
+                {
+                    caption: "press 1 to accept the charges for this call"
+                },
+                {
+                    caption: "a racial slur"
+                },
+                {
+                    caption: "rachel notley - i mean winter - is coming"
                 }
             ];
 
