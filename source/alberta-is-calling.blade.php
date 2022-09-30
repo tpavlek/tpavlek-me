@@ -1,6 +1,6 @@
 ---
 imgpath: "/img/"
-img: "exemption-card-demo.png"
+img: "alberta-is-calling-demo.png"
 title: "Why is Alberta calling? You decide!"
 description: "This is mature, sophisticated debate"
 ---
