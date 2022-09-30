@@ -55,9 +55,6 @@
         {
             let presets = [
                 {
-                    caption: "but it might be Theo Fleury"
-                },
-                {
                     caption: "thank god for call display"
                 },
                 {
