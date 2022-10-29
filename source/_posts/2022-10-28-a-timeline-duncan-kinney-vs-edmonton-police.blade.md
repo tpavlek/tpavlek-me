@@ -4,7 +4,7 @@ slug: "a-timeline-duncan-kinney-vs-edmonton-police"
 date: "2022-10-28"
 imgpath: "/img/posts/2022-10-28-a-timeline-duncan-kinney-vs-edmonton-police/"
 img: "banner.jpg"
-description: "Charges laid on Duncan Kinney are just another addition to an increasingly interrelated web of events"
+description: "Charges laid on Duncan Kinney are yet another addition to an increasingly interrelated timeline of events"
 tags: [ "edmonton-police-service", "edmonton-police-commission", "duncan-kinney", "anne-stevenson" ]
 ---
 
