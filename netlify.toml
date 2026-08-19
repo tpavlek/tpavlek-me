@@ -7,3 +7,12 @@ publish = "build_production"
 
 PHP_VERSION="8.0"
 NODE_VERSION="14.9"
+
+# Content progressively migrating to troypavlek.ca — one redirect per migrated post.
+# force = true because the old page still exists in the build output, and Netlify
+# won't apply a redirect over an existing static file without it.
+[[redirects]]
+from = "/blog/2022/10/28/a-timeline-duncan-kinney-vs-edmonton-police"
+to = "https://troypavlek.ca/posts/a-timeline-duncan-kinney-vs-edmonton-police"
+status = 301
+force = true
