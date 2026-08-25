@@ -16,3 +16,585 @@ from = "/blog/2022/10/28/a-timeline-duncan-kinney-vs-edmonton-police"
 to = "https://troypavlek.ca/posts/a-timeline-duncan-kinney-vs-edmonton-police"
 status = 301
 force = true
+
+[[redirects]]
+from = "/blog/2011/02/11/system76-lemur-ultrathin-review"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2011/02/19/fringe-avoid-cancellation"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2011/02/21/how-to-get-more-readers"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2011/03/03/wind-mobile-sherwood-park"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2011/10/11/security-by-insecurity"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2011/12/30/first-day-streaming"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2012/01/16/pip-ling-bling-muta-descruction"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2012/01/23/pip-gold-players-are-pretty-good"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/02/07/fgt-open-beta-1"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/02/12/microsoft-phone-interview"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/03/12/widowmines-are-fantastic"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/04/29/fgt-open-beta-1-prizes"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/06/05/tools-shouldnt-get-in-the-way"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2013/09/14/system76-galago-ultrapro-review"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2014/07/10/walkover-league"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2014/10/31/laravel-packages-and-psr4"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2014/11/09/sc2-community-organizer-burnout"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2015/03/13/building-starcraft-jeopardy-online-buzzer"
+to = "https://troypavlek.ca/posts/building-starcraft-jeopardy-online-buzzer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2015/05/04/ded-gaem-alive-community"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2015/05/12/on-the-jeopardy-ruling"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2015/05/12/the-plan-for-scjeopardy"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2015/07/22/edmonton-jury-selection"
+to = "https://troypavlek.ca/posts/edmonton-jury-selection"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/01/25/edmonton-photo-radar-2015-stats"
+to = "https://troypavlek.ca/posts/edmonton-photo-radar"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/02/05/how-much-is-edmonton-city-council-paid"
+to = "https://troypavlek.ca/posts/how-much-is-edmonton-city-council-paid"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/03/07/yegvotes-info-making-city-council-more-accessible"
+to = "https://troypavlek.ca/posts/yegvotes-info-making-city-council-more-accessible"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/03/26/does-city-council-engage-in-filibusters"
+to = "https://troypavlek.ca/posts/does-city-council-engage-in-filibusters"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/04/07/its-past-time-to-grade-separate-metro-line"
+to = "https://troypavlek.ca/posts/its-past-time-to-grade-separate-metro-line"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/07/05/laravel-collection-macro-unique-combinations"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/07/07/ward-12-byelection-disclosures"
+to = "https://troypavlek.ca/posts/ward-12-byelection-disclosures"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/08/10/open-sourcing-edmonton-software"
+to = "https://troypavlek.ca/posts/open-sourcing-edmonton-software"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/08/15/edmonton-city-council-camera-upgraded"
+to = "https://troypavlek.ca/posts/edmonton-city-council-camera-upgraded"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/08/31/metro-line-is-black-box-governance"
+to = "https://troypavlek.ca/posts/metro-line-is-black-box-governance"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/09/13/edmonton-technology-strategy-continues-to-embarass"
+to = "https://troypavlek.ca/posts/edmonton-technology-strategy-continues-to-embarass"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/09/18/whos-to-blame-for-pedestrian-collisions"
+to = "https://troypavlek.ca/posts/whos-to-blame-for-pedestrian-collisions"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/09/28/a-quick-stop-in-idaho"
+to = "https://troypavlek.ca/posts/a-quick-stop-in-idaho"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/10/16/alberta-open-data-summit"
+to = "https://troypavlek.ca/posts/alberta-open-data-summit"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/10/25/edmonton-transit-real-time"
+to = "https://troypavlek.ca/posts/edmonton-transit-real-time"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/10/27/no-to-security-theatre"
+to = "https://troypavlek.ca/posts/no-to-security-theatre"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/11/21/south-campus-arena-project-a-better-p3"
+to = "https://troypavlek.ca/posts/south-campus-arena-project-a-better-p3"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/12/01/active-transportation-to-schools"
+to = "https://troypavlek.ca/posts/active-transportation-to-schools"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2016/12/13/keep-cars-out-of-winter-events"
+to = "https://troypavlek.ca/posts/keep-cars-out-of-winter-events"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/01/04/edmonton-property-assessments-ward-11-2017"
+to = "https://troypavlek.ca/posts/edmonton-property-assessments-ward-11-2017"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/01/05/edmonton-photo-radar-stats-2016"
+to = "https://troypavlek.ca/posts/edmonton-photo-radar"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/01/07/edmonton-journal-photo-radar-coverage"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/01/27/photo-radar-repeat-offenders"
+to = "https://troypavlek.ca/posts/edmonton-photo-radar"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/02/a-better-foip-experience-for-edmonton"
+to = "https://troypavlek.ca/posts/a-better-foip-experience-for-edmonton"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/03/this-week-council-jan-30-feb-3"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/10/this-week-council-feb-6-10"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/16/keep-metal-detectors-bag-searches-out-of-city-hall"
+to = "https://troypavlek.ca/posts/keep-metal-detectors-bag-searches-out-of-city-hall"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/17/this-week-council-feb-13-17"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/02/27/keeping-our-sidewalks-clear"
+to = "https://troypavlek.ca/posts/keeping-our-sidewalks-clear"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/03/07/campaign-launch-speech"
+to = "https://troypavlek.ca/posts/campaign-launch-speech"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/03/20/balance-security-concerns"
+to = "https://troypavlek.ca/posts/balance-security-concerns"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/03/22/city-council-non-taxable-income-eliminated"
+to = "https://troypavlek.ca/posts/city-council-non-taxable-income-eliminated"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/03/24/basket-of-yegs-pass-that-hot-potato"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/04/13/valley-line-grade-separation-bonnie-doon"
+to = "https://troypavlek.ca/posts/valley-line-grade-separation-bonnie-doon"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/06/05/city-dysfunction"
+to = "https://troypavlek.ca/posts/city-dysfunction"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/06/08/edmonton-playground-zones"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/06/14/dandelion-apocalypse"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/06/15/edmonton-bike-grid-partial-opening"
+to = "https://troypavlek.ca/posts/edmonton-bike-grid-partial-opening"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/07/04/brand"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/07/21/idaho-stops-mature-neighbourhoods"
+to = "https://troypavlek.ca/posts/idaho-stops-mature-neighbourhoods"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/07/27/protected-left-turns"
+to = "https://troypavlek.ca/posts/protected-left-turns"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/08/04/where-are-the-ward-12-candidates"
+to = "https://troypavlek.ca/posts/where-are-the-ward-12-candidates"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/08/09/number-cyclists-on-bike-grid-doubles"
+to = "https://troypavlek.ca/posts/number-cyclists-on-bike-grid-doubles"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/08/15/photo-radar-locations-audit"
+to = "https://troypavlek.ca/posts/photo-radar-locations-audit"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/05/council-candidates-must-lead"
+to = "https://troypavlek.ca/posts/council-candidates-must-lead"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/19/get-leaders-feet-on-the-ground"
+to = "https://troypavlek.ca/posts/get-leaders-feet-on-the-ground"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/21/survey-response-local-good"
+to = "https://troypavlek.ca/posts/survey-response-local-good"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/22/self-driving-cars-will-not-solve-transit"
+to = "https://troypavlek.ca/posts/self-driving-cars-will-not-solve-transit"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/22/survey-response-epl"
+to = "https://troypavlek.ca/posts/survey-response-epl"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/24/faq-local-economy"
+to = "https://troypavlek.ca/posts/faq-local-economy"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/25/survey-response-capital-club"
+to = "https://troypavlek.ca/posts/survey-response-capital-club"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/26/survey-response-canadian-taxpayers-federation"
+to = "https://troypavlek.ca/posts/survey-response-canadian-taxpayers-federation"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/27/survey-response-pyriscience"
+to = "https://troypavlek.ca/posts/survey-response-pyriscience"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/28/ritchie-ward-11-debate"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/29/survey-response-professional-arts-coalition"
+to = "https://troypavlek.ca/posts/survey-response-professional-arts-coalition"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/09/30/survey-response-social-planning-council"
+to = "https://troypavlek.ca/posts/survey-response-social-planning-council"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/01/survey-response-literacy-coalition"
+to = "https://troypavlek.ca/posts/survey-response-literacy-coalition"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/04/community-leagues-are-not-public-engagement"
+to = "https://troypavlek.ca/posts/community-leagues-are-not-public-engagement"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/04/two-minutes-to-win-it"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/05/edmonton-infill-heritage-moment"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/09/transit-fares-are-too-high"
+to = "https://troypavlek.ca/posts/transit-fares-are-too-high"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/15/faq-diversity-and-inclusion"
+to = "https://troypavlek.ca/posts/faq-diversity-and-inclusion"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2017/10/17/i-lost-the-election"
+to = "https://troypavlek.ca/posts/i-lost-the-election"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/05/27/year-later-downtown-bike-grid"
+to = "https://troypavlek.ca/posts/year-later-downtown-bike-grid"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/06/06/mike-nickel-ucp-nomination"
+to = "https://troypavlek.ca/posts/mike-nickel-ucp-nomination"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/06/15/radical-bike-lobby-data"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/07/30/point-in-the-direction-you-want-to-go"
+to = "https://troypavlek.ca/posts/point-in-the-direction-you-want-to-go"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/08/09/diy-acoustic-panels"
+to = "https://troypavlek.ca/posts/diy-acoustic-panels"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/08/10/keep-playground-zones"
+to = "https://troypavlek.ca/posts/keep-playground-zones"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2018/08/16/anomalous-playground-zones"
+to = "https://troypavlek.ca/posts/anomalous-playground-zones"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2019/04/18/yeg-core-zone"
+to = "https://troypavlek.ca/posts/yeg-core-zone"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2020/04/20/mike-nickel-rape-joke-responsibility"
+to = "https://troypavlek.ca/posts/mike-nickel-rape-joke-responsibility"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2020/12/22/2021-candidates-look-different"
+to = "https://troypavlek.ca/posts/2021-candidates-look-different"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/2021/02/02/cheryll-watson-slow-start"
+to = "https://troypavlek.ca/posts/cheryll-watson-slow-start"
+status = 301
+force = true
+
+[[redirects]]
+from = "/edmonton-photo-radar"
+to = "https://troypavlek.ca/posts/edmonton-photo-radar"
+status = 301
+force = true
