@@ -598,3 +598,276 @@ from = "/edmonton-photo-radar"
 to = "https://troypavlek.ca/posts/edmonton-photo-radar"
 status = 301
 force = true
+
+# Dessert People, folded into the posts collection.
+[[redirects]]
+from = "/dessert-people"
+to = "https://troypavlek.ca/posts?topic=dessert-people"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/pistachio-pinwheels"
+to = "https://troypavlek.ca/posts/pistachio-pinwheels"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/almond-butter-banana-bread"
+to = "https://troypavlek.ca/posts/almond-butter-banana-bread"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/malted-forever-brownies"
+to = "https://troypavlek.ca/posts/malted-forever-brownies"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/sour-cream-and-chive-rolls"
+to = "https://troypavlek.ca/posts/sour-cream-and-chive-rolls"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/tarte-tropezienne-brioche-twists"
+to = "https://troypavlek.ca/posts/tarte-tropezienne-brioche-twists"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/seedy-maple-breakfast-muffins"
+to = "https://troypavlek.ca/posts/seedy-maple-breakfast-muffins"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/salted-halvah-blondies"
+to = "https://troypavlek.ca/posts/salted-halvah-blondies"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/pistachio-linzer-tart"
+to = "https://troypavlek.ca/posts/pistachio-linzer-tart"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/meyer-lemon-tart"
+to = "https://troypavlek.ca/posts/meyer-lemon-tart"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/galette-des-rois"
+to = "https://troypavlek.ca/posts/galette-des-rois"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/classic-birthday-cake"
+to = "https://troypavlek.ca/posts/classic-birthday-cake"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/loaded-corn-bread"
+to = "https://troypavlek.ca/posts/loaded-corn-bread"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/blueberry-slab-pie"
+to = "https://troypavlek.ca/posts/blueberry-slab-pie"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dessert-people/chewy-molasses-spice-cookies"
+to = "https://troypavlek.ca/posts/chewy-molasses-spice-cookies"
+status = 301
+force = true
+
+# Everything else. Pages that moved keep their path; abandoned sections go to the home
+# page. The /blog splat sits after the per-post rules above so those still win.
+[[redirects]]
+from = "/projects"
+to = "https://troypavlek.ca/projects"
+status = 301
+force = true
+
+[[redirects]]
+from = "/sc2ctl"
+to = "https://troypavlek.ca/sc2ctl"
+status = 301
+force = true
+
+[[redirects]]
+from = "/jeopardy"
+to = "https://troypavlek.ca/jeopardy"
+status = 301
+force = true
+
+[[redirects]]
+from = "/addie"
+to = "https://troypavlek.ca/addie"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bylaw-exemption"
+to = "https://troypavlek.ca/bylaw-exemption"
+status = 301
+force = true
+
+[[redirects]]
+from = "/yegvote-2025"
+to = "https://troypavlek.ca/yegvote-2025"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/*"
+to = "https://troypavlek.ca/posts"
+status = 301
+force = true
+
+[[redirects]]
+from = "/rss"
+to = "https://troypavlek.ca/feed.xml"
+status = 301
+force = true
+
+[[redirects]]
+from = "/atom"
+to = "https://troypavlek.ca/feed.xml"
+status = 301
+force = true
+
+[[redirects]]
+from = "/about"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/platform"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/vision-zero"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/photo-radar-reform"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/open-city"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/transit"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/residential-speed-limits"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/missing-middle"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/security"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/subscribe"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/core-zone"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bike-grid-budget"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/speaking-municipally"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/media"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/edmonton-memes"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2021-election-pool"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/ableg-bingo"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/elxn43-bingo"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/alberta-is-calling"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/*"
+to = "https://troypavlek.ca/"
+status = 301
+force = true
